@@ -8,8 +8,21 @@ const overrides = {
 	}
 };
 
-if (typeof window !== 'undefined') {
-	// Твой код с использованием ReactGA
+const getAPI = () => {
+	if (typeof window !== "undefined") {
+		return window.QAPI || {};
+	}
+
+	if (typeof global !== "undefined") {
+		return global.QAPI || {};
+	}
+
+	return {};
+};
+
+const isProd = getAPI().mode === 'production';
+
+if (isProd) {
 	ReactGA.initialize('UA-6450776-3', {
 		titleCase: false,
 		gaOptions: {
@@ -28,8 +41,8 @@ const GaButton = ({
 		override,
 		rest
 	} = useOverrides(props, overrides);
-	const gaPageview = ReactGA.pageview(pageName);
-	const ga = ReactGA.ga();
+	const gaPageview = isProd ? ReactGA.pageview(pageName) : () => {};
+	const ga = isProd ? ReactGA.ga() : () => {};
 
 	const pageview = () => ga('send', 'event', 'preorder');
 
@@ -42,18 +55,6 @@ const GaButton = ({
 		</Button>
 		    
 	</Box>;
-};
-
-const getAPI = () => {
-	if (typeof window !== "undefined") {
-		return window.QAPI || {};
-	}
-
-	if (typeof global !== "undefined") {
-		return global.QAPI || {};
-	}
-
-	return {};
 };
 
 export default Object.assign(GaButton, {
