@@ -95,7 +95,7 @@ export default (() => {
 						sm-max-height="80px"
 						sm-top="38%"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem
 					width="50%"
@@ -123,7 +123,7 @@ export default (() => {
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Purchase{"\n\n"}
+						Purchase
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -155,7 +155,7 @@ export default (() => {
 							text-overflow="clip"
 							hyphens="manual"
 						>
-							49${"\n\n"}
+							49$
 						</Span>
 					</Text>
 					{"    "}
@@ -180,7 +180,7 @@ export default (() => {
 						sm-padding="16px 20px 16px 20px"
 						md-padding="16px 26px 16px 26px"
 					>
-						Buy now{"\n\n"}
+						Buy now
 					</Link>
 				</StackItem>
 				{"    "}
@@ -203,7 +203,7 @@ export default (() => {
 						lg-font="normal 700 36px/58px Inter, sans-serif"
 						lg-margin="0px 0px 30px 0px"
 					>
-						{"\n"}Reviews{"\n\n"}
+						Reviews
 					</Text>
 					{"    "}
 				</StackItem>
@@ -240,7 +240,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						Very robust software but can be unwieldy{"\n\n"}
+						Very robust software but can be unwieldy
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -249,7 +249,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						Overall: Overall it was a good experience as getting the system running was fairly straight forward if you don't mind referencing the Admin guide. Default options didn't like being changed, but once everything was setup...{"\n\n"}
+						Overall: Overall it was a good experience as getting the system running was fairly straight forward if you don't mind referencing the Admin guide. Default options didn't like being changed, but once everything was setup...
 						<Span
 							color="rgba(255, 255, 255, 0)"
 							overflow-wrap="normal"
@@ -310,7 +310,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						“Good Software, Very Versatile, Very Detailed”{"\n\n"}
+						“Good Software, Very Versatile, Very Detailed”
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -319,11 +319,11 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						Overall: Very Good.{"\n"}
+						Overall: Very Good.
 						<br />
 						Pros: The Software is fairly price effective and very versatile. once setup - its convenient and gives good detailed reports
 						<br />
-						Cons: Its a little tough to set up. Requires more effort to put...{"\n\n"}
+						Cons: Its a little tough to set up. Requires more effort to put...
 					</Text>
 					<Link
 						href="/starter/"
@@ -373,7 +373,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						StaffCop{"\n\n"}
+						StaffCop
 					</Text>
 					<Text
 						font="normal 400 18px/160% --fontFamily-googleInter"
@@ -382,11 +382,11 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						lg-text-align="center"
 					>
-						Overall: very good value software.{"\n"}
+						Overall: very good value software.
 						<br />
-						Pros: Great monitoring software. Good value. Highly recommended.{"\n"}
+						Pros: Great monitoring software. Good value. Highly recommended.
 						<br />
-						Cons: no osx support, unable to wipe remote computer{"\n\n"}
+						Cons: no osx support, unable to wipe remote computer
 					</Text>
 					<Link
 						href="/starter/"
@@ -409,11 +409,7 @@ export default (() => {
 				{"        "}
 			</Stack>
 		</Section>
-		<Components.Form padding="70px 0 70px 0" lg-padding="120px 0 40px 0px" lg-margin="0px 0px 0px 0px" sm-padding="90px 0 40px 0px">
-			<Override slot="text">
-				Contact Us
-			</Override>
-		</Components.Form>
+		<Components.FormGa />
 		<Components.Footer />
 		<Link
 			font={"--capture"}

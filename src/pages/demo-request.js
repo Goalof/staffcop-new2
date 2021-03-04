@@ -148,7 +148,13 @@ export default (() => {
 							hover-border-color="--color-primary"
 						/>
 						<Components.ButtonGoal>
-							<Override slot="Button">
+							<Override
+								slot="Button"
+								font="600 18px/22px --fontFamily-googleInter"
+								box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+								padding="16px 38px 16px 38px"
+								border-radius="40px"
+							>
 								Send
 							</Override>
 						</Components.ButtonGoal>
