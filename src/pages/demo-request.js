@@ -147,11 +147,6 @@ export default (() => {
 							type="tel"
 							hover-border-color="--color-primary"
 						/>
-						<Components.GaButton>
-							<Override slot="Button">
-								Sendы
-							</Override>
-						</Components.GaButton>
 					</Formspree>
 					{"    "}
 				</StackItem>
