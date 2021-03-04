@@ -7,14 +7,18 @@ const overrides = {
 		kind: 'Button'
 	}
 };
-ReactGA.initialize('UA-6450776-3', {
-	titleCase: false,
-	gaOptions: {
-		name: 'myTracker',
-		category: 'preorder',
-		userId: 123
-	}
-});
+
+if (typeof window !== 'undefined') {
+	// Твой код с использованием ReactGA
+	ReactGA.initialize('UA-6450776-3', {
+		titleCase: false,
+		gaOptions: {
+			name: 'myTracker',
+			category: 'preorder',
+			userId: 123
+		}
+	});
+}
 
 const GaButton = ({
 	pageName,
