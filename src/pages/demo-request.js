@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Input, Button, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Input, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Formspree, StackItem, Stack, Section } from "@quarkly/components";
@@ -147,9 +147,11 @@ export default (() => {
 							type="tel"
 							hover-border-color="--color-primary"
 						/>
-						<Button>
-							Button
-						</Button>
+						<Components.ButtonGoal>
+							<Override slot="Button">
+								Send
+							</Override>
+						</Components.ButtonGoal>
 					</Formspree>
 					{"    "}
 				</StackItem>
