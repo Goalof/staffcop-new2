@@ -45,7 +45,6 @@ const GaButton = ({
 	const ga = isProd ? ReactGA.ga() : () => {};
 
 	const pageview = () => {
-		console.log('Clicked on "send event preorder"');
 		ga('send', 'event', 'preorder');
 	};
 
