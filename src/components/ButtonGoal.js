@@ -44,11 +44,14 @@ const GaButton = ({
 	const gaPageview = isProd ? ReactGA.pageview(pageName) : () => {};
 	const ga = isProd ? ReactGA.ga() : () => {};
 
-	const pageview = () => ga('send', 'event', 'preorder');
+	const pageview = () => {
+		console.log('Clicked on "send event preorder"');
+		ga('send', 'event', 'preorder');
+	};
 
 	return <Box {...rest}>
 		      
-		<Button onSubmit={pageview} {...override('Button')}>
+		<Button onClick={pageview} {...override('Button')}>
 			        
 			{override('Button').children || 'Some Text'}
 			      
