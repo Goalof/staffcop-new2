@@ -159,7 +159,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In today’s competitive marketplace, management teams are tasked with improving and optimizing employee productivity. Increasingly, the following are the questions management is faced with:{"\n\n"}
+						As the business space becomes more competitive, the pressure on management teams to improve and optimize employee productivity is intensifying. Often, management is faced with the following questions:
 					</Text>
 					{"    "}
 				</StackItem>
@@ -192,7 +192,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Am I dealing with a few under-performing employees or is the whole organization following suite?{"\n\n"}
+							Do I have a few under-performing employees, or is the whole organization infected?
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -204,7 +204,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Am I properly utilizing my remote resources?{"\n\n"}
+							Are my remote resources properly utilized?
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -216,7 +216,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="--primary">
-							Do my employees fully understand what’s expected of them?{"\n\n"}
+							Do my employees completely understand what’s expected of them?
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -228,7 +228,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							How can I ensure that my team is engaged and motivated?{"\n\n"}
+							How can I make sure that my team is engaged and motivated?
 						</Text>
 					</Box>
 					{"            "}
@@ -272,7 +272,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop takes a data-centric approach to employee productivity. StaffCop captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by StaffCop, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
+						StaffCop employs a data-centric approach to employee productivity. It captures virtually all types of user activity and behavior data and utilizes it to review and evaluate user productivity. StaffCop numerous analytics tools allow for a proper analysis of data collected, thereby enabling management to understand and take steps to improve employee productivity.{" "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -285,7 +285,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Get the ability to have an enterprise-wide oversight with productivity, performance and security KPIs for all uses on a single, intuitive dashboard. Productive, Unproductive, Active and idle time tracking shows you how engaged your employees are. Integrated schedule and task management means there is less administrative headache to deal with. Automated rules enforce company policy and decrease unproductive behavior. Track project costs and eliminate waste for not just regular employees but external consultants, remote employees and freelance contractors.{"\n\n\n\n"}
+						The solution provides an enterprise-wide oversight with productivity, performance, and security KPIs for all uses on a single, intuitive dashboard. And allows you to gauge your employee's engagement with its Productive, Unproductive, Active, and idle time tracking property.{" "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -298,7 +298,20 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
+						The integrated schedule and task management lessen administrative headache while the automated rules enforce company policy and decrease unproductive behavior. StaffCop workforce optimization tools also allow you to easily track project costs and eliminate waste for not just regular employees but external consultants, remote employees, and freelance contractors.{"\n\n"}
+					</Text>
+					<Text
+						font="400 18px/28px --fontFamily-googleInter"
+						margin="1px 0px 30px 0px"
+						display="inline-block"
+						color="#555"
+						width="100%"
+						md-font="400 14px/20px --fontFamily-googleInter"
+						md-width="100%"
+						sm-text-align="center"
+						text-align="justify"
+					>
+						Besides tracking employee productivity, these tools defend your organization from theft, sabotage, and other malicious user activity with built-in insider threat detection and data loss prevention features.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -368,7 +381,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Real-Time Employee Monitoring
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Real-Time Employee Monitoring
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -377,9 +400,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-Time Employee Monitoring
-							<br />
-							Starter lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers
+							StaffCop allows companies to monitor all their employee activity for system objects like websites, applications, social media, IMs. Searches etc., in real-time for Windows, Mac, Virtual PCs, and Terminal Server.
 						</Text>
 					</Box>
 					{"    "}
@@ -453,8 +474,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.
-							<br />
+							StaffCop provides in-depth reports on how employees and departments spend their time and helps executives identify high-performing employees and those who need improvement.
 							<br />
 							<br />
 							{"\n\n"}
@@ -531,11 +551,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Integrated schedule management, timesheet tracks idle time, attendance, breaks, sick leaves, late shifts, absence etc. Monitor work time, sessions and activity level to see when your users are most productive.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							This software solution allows you to monitor work time, sessions, and activity levels to determine when users are most productive.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -609,7 +625,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Let employees manage their own tasks and track as they switch between different tasks. Or, you can set up tasks that get assigned automatically based on the user's application / website usage
+							Task management involves enabling employees to organize their tasks and tracking them as they switch between different tasks. It also entails creating tasks that get tasks that get assigned automatically based on the user's application/website usage
 						</Text>
 					</Box>
 					{"    "}
@@ -683,7 +699,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create monitoring profiles for individual user, group or department. Setup custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time, decreased employee productivity...{"\n\n"}
+							These behavior rules limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time, decreased employee productivity. They are also used to design monitoring profiles for individual users, groups, or departments.
 						</Text>
 					</Box>
 					{"    "}
@@ -757,9 +773,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Integrated schedule management, timesheet tracks idle time, attendance, breaks, sick leaves, late shifts, absence etc. Monitor work time, sessions and activity level to see when your users are most productive.
-							<br />
-							{"\n\n"}
+							StaffCop allows you to manage your employees' schedules, tracks idle time, attendance, breaks, sick leaves, late shifts, absence, etc. And monitor work time, sessions, and activity level to see when your employees are most productive.
 						</Text>
 					</Box>
 					{"    "}
@@ -833,7 +847,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projects, employee engagement rate for overall productivity boost.
+							Fine-tune your organizational workflow through tracking of schedules, projects, the employee engagement rate for overall productivity boost with StaffCop’s continuous feedback platform.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -898,7 +912,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Project Management Integration{"\n\n"}
+							Active Directory Integration
 						</Text>
 						<Text
 							font="--lead"
@@ -907,84 +921,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind has easy integration with all your favorite tools for handling complex projects easier. Sync your users’ tasks and track how much time they spend on each task and the cost of labor for each project. Teramind integrates with: JIRA, Trello, BaseCamp, Redmine and others.{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							9
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Active Directory Integration{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Utilize your existing active directory LDAP to import employees, departments, computer and groups to speedup enrolling into Teramind’s employee monitoring and productivity optimization solution.
-							<br />
-							<br />
-							{"\n\n"}
+							With an active directory LDAP, you can import employees, departments, computers, and groups to accelerate enrolling into StaffCop’s employee monitoring and productivity optimization solution.
 						</Text>
 					</Box>
 					{"    "}
@@ -1048,7 +985,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							The majority of employees waste time at work{"\n\n"}
+							A large amount of employees waste time at work{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1057,7 +994,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Overall, 80.4% of people waste time at the office according to a recent survery of 2063 adults. Source: GetVOIP Survey.{"\n\n"}
+							According to a new survey of 2063 adults conducted by GetVOIP, 80.4% of people waste time at the office.{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1118,7 +1055,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Personal use of web & email cause loss of productivity{"\n\n"}
+							Personal use of the web & email lowers productivity
 						</Text>
 						<Text
 							font="--lead"
@@ -1127,7 +1064,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							64% of employees use non-work related websites and 85% use email for personal reasons every day. Source: FinancesOnline.{" \n\n"}
+							64% of employees use non-work-related websites, and 85% use email for personal reasons daily, says FinancesOnline.
 						</Text>
 						<Text
 							font="--lead"
@@ -1209,7 +1146,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Employee in the u.s. are disengaged at work{"\n\n"}
+							American employees are disengaged at work
 						</Text>
 						<Text
 							font="--lead"
@@ -1218,7 +1155,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Less than one-third, or 31.5%, of employees in the U.S. reported being "engaged" at the office, according to a study. Source: Gallup.{" \n\n"}
+							A study by Gallup revealed that less than one-third, or 31.5%, of employees in the U.S. report being "engaged" at the office.
 						</Text>
 						<Text
 							font="--lead"
@@ -1279,7 +1216,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Many employees spend unproductive time at work
+							Major part of employees spends time at work unproductively
 						</Text>
 						<Text
 							font="--lead"
@@ -1415,7 +1352,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						StaffCop monitor employee activity throughout the day, then collect data to produce detailed metrics, such as:
 					</Text>
 					<Box display="flex" align-items="center">
 						<Icon
@@ -1438,7 +1375,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Minute-to-minute trend graphs showing how much time is spent on specific projects.{"\n\n"}
+							Minute-to-minute trend graphs describing how much time is spent on specific projects.{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -1450,7 +1387,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Prioritize important projects and ensure your team is focused on them.{"\n\n"}
+							Prioritize crucial projects and ensure your team is focused on them.{"\n\n"}
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -1462,7 +1399,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Use the various productivity reports to track progress and adjust tasks to ensure you meet your productivity goals.{"\n\n"}
+							Leverage the various productivity reports to track progress and adjust tasks to make sure you meet your productivity goals.
 						</Text>
 					</Box>
 					{"    "}
@@ -1502,7 +1439,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Improve Security and Prevent Insider Threats{"\n\n"}
+						Enhance Security and Prevent Insider Threats
 					</Text>
 					<Text
 						font="--lead"
@@ -1514,7 +1451,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using Cloud storage to share corporate documents, downloading/opening attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when users violate the rules. Utilize sophisticated anomaly detection to identify user activity outside the normal behavior. Immediately get notified about harmful user activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						StaffCop identifies high-risk behavior, applies advanced behavior-based rules to automatically detect when users violate the rules, employs sophisticated anomaly detection to determine user activity outside the normal behavior, and takes action to prevent escalation of threats.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1592,7 +1529,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop’s built-in features, many of the repetitive yet import administrative tasks can be automated or made efficient. For example, with StaffCop you can:{"\n\n"}
+						StaffCop’s built-in features automate and optimize many repetitive yet essential administrative tasks. For instance, StaffCop allows you to:
 					</Text>
 					<Box display="flex" align-items="center">
 						<Icon
@@ -1603,7 +1540,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Setup schedules and automatically track attendance, breaks, sick hours, late shifts, absence etc.{"\n\n"}
+							Develop schedules and automatically monitor attendance, breaks, sick hours, late shifts, absence, etc.
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -1615,7 +1552,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Track the time, performance and cost for projects with contractors and hourly employees reducing the need for manual invoicing and oversight.{"\n\n"}
+							Track the time, performance, and cost of projects with contractors and hourly employees, decreasing the need for manual invoicing and oversight.
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -1627,7 +1564,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="8px 0px 8px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555">
-							Reduce project supervision by automatically identifying tasks based on employee apps and web usage.{"\n\n"}
+							Cut down project supervision by automatically identifying tasks based on employee apps and web usage.
 						</Text>
 					</Box>
 					{"    "}
@@ -1678,7 +1615,10 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Develop your own KPIs and metrics to measure employee engagement: how many hours are your employees active? Maybe they’re spending too much time on social media because they are not challenged? Getting buried under Emails? You can track employee performance over time and see if they are on a decreasing trend. Identify the cause of disengagement and then systematically address them. For example:{"\n\n"}
+						StaffCop allows you to develop your own KPIs and metrics to measure employee engagement: how many hours are your employees active? Are they spending too much time on social media because they are not challenged? Are they getting buried under email?
+						<br />
+						<br />
+						{" "}You can keep an eye on employee performance over time and see if they are on a decreasing trend. Determine the cause of disengagement and then systematically table them. For instance:{"\n\n"}
 					</Text>
 					<Box display="flex" align-items="center">
 						<Text margin="16px 18px 16px 0px" font="400 18px/160% --fontFamily-googleInter" color="#555" text-align="right">
@@ -1694,7 +1634,7 @@ export default (() => {
 					</Box>
 					<Box display="flex" align-items="center">
 						<Text font="400 18px/160% --fontFamily-googleInter" color="#555" text-align="right" margin="16px 18px 16px 0px">
-							Reduce time spend on developing performance reviews by automatically identifying high performing vs laggards.{"\n\n"}
+							By automatically identifying high performing vs. laggards, you can reduce time spent on developing performance reviews.
 						</Text>
 						<Icon
 							category="bs"
@@ -1706,7 +1646,7 @@ export default (() => {
 					</Box>
 					<Box display="flex" align-items="center">
 						<Text font="400 18px/160% --fontFamily-googleInter" color="#555" text-align="right" margin="16px 18px 16px 0px">
-							Provide a continuous, automated feedback based on user behavior & activity.{"\n\n"}
+							Leveraging user behavior and activity to provide continuous, automated feedback.
 						</Text>
 						<Icon
 							category="bs"
@@ -1792,9 +1732,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. With StaffCop’s advanced OCR and content-based rules, you can automatically analyze the emotional context in email, IM and social media conversations. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.
-						<br />
-						{"\n\n"}
+						Not only can you carry out gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability, etc. With StaffCop’s advanced OCR and content-based rules, you can also automatically analyze the emotional context in email, IM, and social media conversations. As an example, the rules can help you determine if a talented software developer of your team is consistently engaging in poor client communications. If that is the case, you can quickly transfer the person to a position that is less customer-facing, maximizing the developer’s strengths while also protecting the reputation of the company.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1846,7 +1784,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						With StaffCop, you can effectively track your employee's active and idle time and easily send automated notifications to excessively idle employees. The payroll reports and activity category breakdown allows you to have a precise estimate of how much time the completion of each task requires and set your team’s deliverables accordingly, reducing slack times and overtime hours. Using the software’s device monitoring feature, you can enforce policies like setting a limit on printers to reduce paper and ink waste.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1913,7 +1851,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Improve Time Management{"\n\n"}
+						Design Better Management and HR Policies
 					</Text>
 					<Text
 						font="--lead"
@@ -1932,103 +1870,11 @@ export default (() => {
 							text-indent="0"
 							text-overflow="clip"
 							hyphens="manual"
-						>
-							Use Teramind Revealed Agent to let users identify and track what projects/tasks they're working on or use the Hidden Agent to automatically assign tasks to employees based on their apps/web activity
-						</Em>
-						. Use built-in scheduler to track attendance; receive alerts when users deviate from their scheduled work hours.
-						<br />
-						<Link
-							href="#"
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							<br />
-						</Link>
-						<Em
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Additionally, Teramind has integration support for all your favorite project management tools like JIRA, Trello, BaseCamp, Redmine etc.
-						</Em>
+						/>
+						By identifying high-risk behavior, detecting employee violation and user activity outside the normal behavior, and taking appropriate actions, StaffCop helps to develop better management and human resource policies.
 						<br />
 						{"\n\n"}
 					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 20px 0px 60px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-						md-order="1"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Develop Better Management and HR Policies{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using Cloud storage to share corporate documents, downloading/opening attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when users violate the rules. Utilize sophisticated anomaly detection to identify user activity outside the normal behavior. Immediately get notified about harmful user activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%204.png?v=2020-10-19T22:32:34.380Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}

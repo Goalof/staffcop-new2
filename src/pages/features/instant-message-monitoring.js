@@ -176,7 +176,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						Monitor and react to any chat conversation, whether on a web or application-based platform. Teramind captured all chat content, including file transfers, and indexes them for easy access.{"\n\n"}
+						This unique software is also designed to monitor and react to any chat conversation, regardless of the platform being used: web or application-based. And its StaffCop agent captures all chat content, including file transfers, and indexes them for easy access.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -191,8 +191,8 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 							padding="18px 0px 0px 0px"
 						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Block chats that contain inappropriate keywords, and alert the administrator{"\n\n"}
+						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							Alert administrators when users chat with certain people or on certain platforms
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -205,20 +205,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert when users chat with certain people, or on certain platforms{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Application-specific alerts can be set to have Teramind notify administrators of the development of potential security risks
+							You can set application-specific alerts to notify administrators of the development of potential security threats
 						</Text>
 					</Box>
 					{"            "}

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Span, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Box, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -123,13 +123,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						HIPAA is designed to facilitate the efficient flow of healthcare data and to protect patient’s Protected Health Information (PHI). As such, the law necessitates that CSOs, CIOs and security officers be ever vigilant in guarding protected health information in their healthcare delivery organizations (HDOs).
+						HIPAA is designed to ensure the efficient flow of healthcare data and to protect patient’s Protected Health Information (PHI). As such, the law requires that CSOs, CIOs and security officers be ever vigilant in guarding protected health information in their healthcare delivery organizations (HDOs).
 						<br />
-						While there are many ways data breaches occur,{" "}
-						<Span color="--primary">
-							according to Gartner
-						</Span>
-						, the most common cause of PHI breaches is people not following proper procedures when accessing and sharing PHI.
+						According to Gartner, the most common cause of PHI breaches is failure to adhere to proper procedures when accessing and sharing PHI.
 					</Text>
 					<Text
 						font="700 18px/28px --fontFamily-googleInter"
@@ -142,9 +138,8 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind has been helping thousands of organizations in healthcare, financial services, government and other industries protect their PII, PFI, PHI and other sensitive data. Teramind for HIPAA is built on these years of experience and expertise.
-						<br />
-						With a unified data loss prevention, user activity monitoring, reporting and forensics platform, Teramind for HIPAA addresses the complex needs of security, privacy and compliance of today’s healthcare organizations.
+						For years, StaffCop has been helping numerous organizations in healthcare, financial services, government and other industries protect their PII, PFI, PHI and other sensitive data. StaffCop for HIPAA is a product of years of experience and expertise.
+With a unified data loss prevention, user activity monitoring, reporting and forensics platform, StaffCop for HIPAA satisfies the complex needs of security, privacy and compliance of today’s healthcare organizations.{"\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -223,7 +218,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in templates to identify and classify PII and PHI automatically. Real-time staff activity monitoring prevents accidental or malicious data exfiltration.
+							StaffCop has built-in templates to identify and classify PII and PHI automatically and real-time staff activity monitoring to prevent accidental or malicious data exfiltration.
 						</Text>
 					</Box>
 					{"    "}
@@ -297,7 +292,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Identity authentication and segregated access control for both viewing and editing of PHI. Risk assessment and analytics. Protection for data-at-rest and data-in-motion.
+							With identity authentication and segregated access control, StaffCop allows healthcare organizations to view and edit their PHI. Some other technical safeguards include risk assessment and analytics and protection for data-at-rest.
 						</Text>
 					</Box>
 					{"    "}
@@ -371,7 +366,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Enforce behavior-based activity and content security rules for websites, apps, network, emails, files etc. Automatically warn, block or lock-out user if any anomaly is detected.
+							Implements behavior-based activity and content security rules for websites, apps, network, emails, files etc. To prevent threat escalation, StaffCop automatically warns if any anomaly is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -445,8 +440,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intuitive policy editor, pre-built templates and automated rules make reviewing process easy. Built-in reports for data breach and compliance violation incidents.
-							<br />
+							StaffCop makes reviewing the process easy with an intuitive policy editor, pre-built templates and automated rules. And provides reports for data breach and compliance violation incidents.
 						</Text>
 					</Box>
 					{"    "}
@@ -520,82 +514,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							-Teramind tracks all activities that take place on the system. Detailed session recordings, alerts and immutable logs to support HIPAA record keeping and documentation requirements.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							6
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Staff awareness and training
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Use Teramind’s built-in messaging and reporting tools to train staff on proper PHI procedures, provide feedback and follow up.
-							<br />
+							StaffCop can track all activities that take place within the system. It also supports HIPAA record keeping and documentation requirements with its detailed session recordings, alerts and immutable logs.
 						</Text>
 					</Box>
 					{"    "}
@@ -675,7 +594,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, Teramind identifies personal and sensitive data in structured and unstructured information across organization data stores.
+							StaffCop's advanced fingerprinting, OCR and tagging technology identifies personal and sensitive data in structured and unstructured information across organization data stores.
 						</Text>
 					</Box>
 					{"    "}
@@ -731,7 +650,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
+							Leveraging activity monitoring and data loss prevention capabilities, StaffCop defends confidential and private information from unauthorized access, sharing, attack and misuse.
 						</Text>
 					</Box>
 					{"    "}
@@ -787,7 +706,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
+							StaffCop’s powerful behavior-based policy and rules engine can be used to protect the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
 						</Text>
 					</Box>
 					{"    "}
@@ -843,7 +762,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time notification and immediate actions proactively defend against data exfiltration, malicious or accidental insider threats and data breaches. In case of an incident, pinpoint the exact cause and source of the incident with readily available audit and forensic data.
+							StaffCop defends against data exfiltration, malicious or accidental insider threats and data breaches through real-time notifications and immediate actions. With this solution you can identify the exact cause and source of the incident with readily available audit and forensic data.
 						</Text>
 					</Box>
 					{"    "}
@@ -899,551 +818,12 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Meet GDPR record keeping requirements with detailed incident reports, alerts and session recordings. Exportable reports can be shared with the Controller, DPO, auditors and other members of the compliance team.
+							Detailed incident reports, alerts and session recordings allows you to meet HIPAA record keeping requirements. As the Controller, you can share exportable reports with DPO, auditors and other members of the compliance team.
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
 				{"    "}
-			</Stack>
-		</Section>
-		<Section padding="40px 0 70px 0" background="#F8F8F9" lg-padding="30px 0 30px 0" md-padding="30px 0 10px 0">
-			<Override
-				slot="SectionContent"
-				border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-				max-width="1170px"
-				align-items="center"
-				padding="60px 0px 0px 0px"
-				background="#ffffff"
-				border-radius="6px"
-				border-width="1px"
-				border-style="solid"
-				box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-				border-color="#ffffff"
-			/>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Principles relating to processing of personal data (GDPR Article 5)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Teramind for GDPR can ensure data is processed lawfully and not exfiltrated to unauthorized systems and mediums. Data classification can be set to identify personal data and then policies and rules can be created using advanced OCR and fingerprinting features to detect and restrict access to such data automatically.
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 20px 0px 60px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-						md-order="1"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Processing of special categories of personal data (GDPR Article 9)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Article 9 lays out further requirements for special categories of personal data. For example, Member States may maintain or introduce further conditions, including limitations, with regard to the processing of genetic data, biometric data or data concerning health.
-						<br />
-						Teramind for GDPR features built-in classifications for health-related data such as DNA profiles, National Health Services numbers, disease and drug names, and more. Custom data types can be created for your unique needs.
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%204.png?v=2020-10-19T22:32:34.380Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%205.png?v=2020-10-19T22:35:48.644Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Data protection and design by default (GDPR Article 25)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						eramind for GDPR can ensure data is processed only in the context it is required to be processed. Monitoring settings can be configured to only record the necessary information. For example, keystrokes or screen capture can be disabled when a user enters their personal banking site or personal emails.
-						<br />
-						Organizations can implement Teramind for GDPR with specific monitoring features and recording of events only at policy violations, narrowing the scope of user activity recording and ensuring a privacy-friendly implementation. ​ Administrators' privileges can be limited with tiered access to only​ view ​specific sets of data. Custom alerts and prompts can be set up to inform users what data is collected and allow them to acknowledge any action being taken.
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Record of processing activities (GDPR Article 30)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						GDPR requires organizations to maintain an up-to-date record of the locations and usage of personal information and product/demonstrate safeguards used to protect the data. This could be information in files, databases, email, unstructured data, backups, DMS, knowledge bases, or anything else that houses data.
-						<br />
-						Teramind for GDPR can help the Controller and the CDO identify this information and record who’s accessing what data, how the data is flowing through the organization and then create perimeter rules to safeguard their access or usage
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Security of processing (GDPR Article 32)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Part of Article 32 states that the Controller and the Processor shall implement appropriate technical and organizational measures to ensure a level of security appropriate to the risk.
-						<br />
-						Teramind for GDPR is well suited to help implement many of these security requirements. For example: implement access profiles for each staff, restrict or block sharing of encrypted content, limit use of FTP/Cloud sharing sites, prevent the viewing of sensitive data by employees, prevent unauthorized decryption operations on files and more.
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Notification of a data breach (GDPR Article 33)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Teramind for GDPR can provide full forensics with respect to a data incident, and a video recording of the event. Detailed alert reports can be exported including any security incidents and what actions were taken in minutes superseding the 72 hour limit set by GDPR. Session recordings and history playback can be used to provide proof for further forensic investigation.
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Supporting the data protection officer (GDPR Article 38)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Some key responsibilities of the DPO is advising the Controller on various GDPR initiatives and monitor the effectiveness of the compliance measures and identify any risk associated with data processing operations.
-						<br />
-						<br />
-						To help the DPO with their role, Teramind for GDPR has a role-based access management system ensuring that both internal and external users are monitored and audited properly. Additionally, there’s a Risk dashboard that identifies policies, rules, personnel and system objects that are at risk.
-					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Monitoring of approved codes of conduct (GDPR Article 41)
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Teramind for GDPR monitors all employee, contractor and third-party vendor activity including file access, apps and website usage and all other interactions within the local, network or Cloud environments. Business etiquette rules can be created to train the users about nonconformity and influence corrective behavior..
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
 			</Stack>
 		</Section>
 		<Components.BlockNeed>

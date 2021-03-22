@@ -81,7 +81,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View any employee desktop live from your browser{"\n\n"}
+							View any users’ desktop activity live from your browser
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -93,7 +93,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Embedded information about alerts & violations{"\n\n"}
+							Integrated information about alerts & violations
 						</Text>
 					</Box>
 					{"    "}
@@ -167,7 +167,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Live View & History Playback{"\n\n"}
+						Live View & History Playback Features
 					</Text>
 					{"    "}
 				</StackItem>
@@ -195,7 +195,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							All activity, from keystrokes to actions taken within applications, is monitored and recorded{"\n\n"}
+							Monitors and records all activity performed by a user, from keystrokes to actions taken within applications
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -208,7 +208,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Administrative ability to interact and take control of a user's desktop in a potential breach situation{"\n\n"}
+							Enables an administrator to interact and take control of a user's desktop in a potential breach event
 						</Text>
 					</Box>
 					{"            "}
@@ -225,7 +225,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Extensive history logs allow past recordings to be searched and retrieved in seconds{"\n\n"}
+							Extensive history logs allow for the search and retrieval of past recordings in seconds
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -238,7 +238,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Optional audio support for the recording of both sound outputs and inputs, ensuring that all audio coming from speakers and microphones is captured{"\n\n"}
+							Optional audio support records both sound outputs and inputs and ensures that all audio coming from speakers and microphones is captured
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -251,7 +251,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Recorded files can be exported and downloaded as MP4
+							All recorded files can be exported and downloaded as MP4
 						</Text>
 					</Box>
 					{"            "}

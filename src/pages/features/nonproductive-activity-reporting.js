@@ -70,7 +70,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Customizable productivity settings{"\n\n"}
+							This feature allows you to customize the productivity settings
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -82,7 +82,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track time spent on work activities{"\n\n"}
+							Track time employees spend on work activities
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -94,7 +94,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Easy-to-read comparison reports{"\n\n"}
+							It creates easy-to-read comparison reports
 						</Text>
 					</Box>
 					{"    "}
@@ -189,7 +189,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Customized lists of websites, activities, applications that fit into both productive and nonproductive categories{"\n\n"}
+							Customized lists of websites, activities, applications that fit into either productive or nonproductive categories
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -202,7 +202,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Easy to read dashboards that let you understand and compare how many hours your employees are really productive{"\n\n"}
+							Easy to read and understand dashboards that let you know and compare how many hours your employees are really productive
 						</Text>
 					</Box>
 					{"            "}

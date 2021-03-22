@@ -68,7 +68,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Take control of any session at any time
+							Allows administrators to take control of any session at any time
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -80,7 +80,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Control sessions from your browser or table
+							Take control over remote mouse and keyboard
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -92,7 +92,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Instantly block a user's keyboard or mouse
+							Block remote workstation
 						</Text>
 					</Box>
 					{"    "}

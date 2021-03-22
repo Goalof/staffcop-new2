@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Span, Hr, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Icon, Box, Span, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -126,11 +126,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						The retail and e-commerce industry faces a growing risk of cyber security breaches and stolen information.{" "}
-						<Span color="--primary">
-							Target, Wal-Mart, TJX, Home Depot, eBay
-						</Span>
-						{" "}- all have been hit by data breaches.{"\n\n"}
+						The retail and e-commerce industry faces a growing threat of cybersecurity breaches and stolen information. Data breaches do not only cost retailers millions of dollars, they also negatively impact their brand reputation.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -143,23 +139,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Reports suggest that{" "}
-						<Span color="--primary">
-							each breached data record costs retailers on average $116
-						</Span>
-						. PCI can charge hefty penalties if the retailer is found to violate the mandatory PCI DSS compliance requirements. There are other opportunity costs to consider as well; possible civil litigation, customer churn, suspension of account by payment providers etc. and sometimes, a large dent in brand reputation. In fact, a data breach has one of{" "}
-						<Span
-							color="--primary"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							the top three negative effects
-						</Span>
-						{" "}on brand reputation.{"\n\n"}
+						Compounding the issue is the fact that online retailers and e-commerce sites are more susceptible to cyber-attacks due to their exposure on the public internet and the Cloud. They are also increasingly capturing a large amount of personal information and behavioral data to enable personalized experience to their customers. This means, they now have to safeguard volumes of different data types, and when a breach occurs, they are held liable.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -172,28 +152,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Online retailers and e-commerce sites are even more susceptible to cyber-attacks and data breaches due to their exposure on the public internet and the Cloud. They are also increasingly capturing a vast amount of personal information, behavioral and tracking data to enable personalized experience to their customers. This means, they now have to protect volumes of different data types. It also means, when a breach occurs, they are held liable.{" "}
-						<Span color="--primary">
-							PCI standards show
-						</Span>
-						{" "}that the average cost of a breach for a large website is 4 million dollars. It’s not exactly cheap at $86,500 for an SMB/SME either; especially when fallout from such a breach can put their very existence at risk.{"\n\n"}
-					</Text>
-					<Text
-						font="400 18px/28px --fontFamily-googleInter"
-						margin="0px 0px 30px 0px"
-						display="inline-block"
-						color="#555"
-						width="100%"
-						md-font="400 14px/20px --fontFamily-googleInter"
-						md-width="100%"
-						sm-text-align="center"
-						text-align="justify"
-					>
-						Retailers need to implement strict restrictions on data access, monitor employees who work with sensitive information, and have the capability to identify{" "}
-						<Span color="--primary">
-							insiders, often the main cause of cyber security breaches
-						</Span>
-						, whether intentionally or inadvertently.{"\n\n"}
+						All these factors make it imperative for retailers to implement strict restrictions on data access, monitor employees who work with sensitive information, and have the capability to identify insiders, often the main cause of cybersecurity breaches, whether intentionally or inadvertently.
 					</Text>
 					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
 					<Text
@@ -219,7 +178,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop is designed to assist the financial sector address data loss, cybersecurity and insider threats with its user activity monitoring, insider threat detection and data loss prevention solution. With StaffCop, financial services organizations can implement effective endpoint monitoring to ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few examples of what a financial services organization can achieve with StaffCop:{"\n\n"}
+						StaffCop’s user activity monitoring, insider threat detection, and data loss prevention solution can assist the retail sector address data loss, cybersecurity and insider threats With StaffCop, retail companies can implement effective endpoint monitoring to ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few examples of what retailers can achieve with StaffCop:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -231,7 +190,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Real-Time User Activity Monitoring: provides granular visibility across your team, departments and vendors 24/7.{"\n\n"}
+							Real-Time User Activity Monitoring: provides 24/7 visibility across your departments and vendors.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -244,7 +203,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Endpoint Data Loss Prevention: secures sensitive data residing in Point-of-sale (POS) systems, back-office workstations, shared over the network or on the Cloud.{"\n\n"}
+							Endpoint Data Loss Prevention: protects sensitive data in residing in Point-of-sale (POS) systems, back-office workstations, shared over the network or on the Cloud.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -257,7 +216,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Risk-Based Insider Threat Prevention: thwarts any sabotage, collusion or other malicious intent by employees and privileged users.{"\n\n"}
+							Risk-Based Insider Threat Prevention: Prevents any sabotage, collusion or other malicious intent by employees and privileged users.
 						</Text>
 					</Box>
 					{"    "}
@@ -337,7 +296,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in templates for card numbers developed with the implementation of Luhn algorithm. ‘On the fly’ content discovery with advanced OCR and digital fingerprinting.{"\n"}
+							StaffCop’s built-in templates can be used to develop card numbers with the implementation of the Luhn algorithm. And its advanced OCR and digital fingerprinting is effective in content discovery.
 						</Text>
 					</Box>
 					{"    "}
@@ -411,7 +370,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time user activity monitoring prevents accidental or malicious insider threats and data breaches. Enforce classified financial data rules for websites, apps, emails, social media etc.Automatically warn if unauthorized access is detected.
+							Real-time user activity monitoring enforces classified financial data rules for websites, apps, emails, social media and automatically warn if unauthorized access is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -485,12 +444,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Apply Identity authentication and segregated access levels to minimize data compromises. Restrict transfers of cardholder data on local, network, Cloud and external storage. Enforce data encryption at rest and on transit rules.
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop offers identity authentication and segregated access levels to minimize data compromises. It can also be leveraged to limit transfers of cardholder data on local, network, Cloud and external storage.
 						</Text>
 					</Box>
 					{"    "}
@@ -564,12 +518,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Restrict privileged users access to cardholder/transaction servers and databases. Monitor third party vendors, contractors and consultants who have access to your critical systems to prevent sabotage or data theft.
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							Restrict privileged user’s access to cardholder/transaction servers and databases and monitor third parties who have access to your critical systems with StaffCop.
 						</Text>
 					</Box>
 					{"    "}
@@ -643,85 +592,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Report on Compliance (ROC) with Digital Forensics and Audit. Session recording and immutable log keep track of all user activity related to cardholder data. Detailed reports of all data breach incidents, rule violations and what actions were taken. Flexible Policy & Rules Editor allows for creation of new rules for the evolving compliance landscape.
-							<br />
-							{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							6
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Improve Loss Detection and Response Time with Security Orchestration{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Integrate StaffCop with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems. Create a cyber security perimeter across your stores, supply chain network and corporate offices. Share threat intelligence and coordinate response with analysts, CSO, MSSP and security teams.
-							<br />
-							{"\n\n"}
+							The solution also offers reports on Compliance (ROC) with Digital Forensics and Audit. Its session recording and immutable log monitor all user activity related to cardholder data while flexible Policy & Rules Editor allows for creation of new rules for the evolving compliance landscape.
 						</Text>
 					</Box>
 					{"    "}
@@ -742,10 +613,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				<Span color="--primary">
-					Financial Services
-				</Span>
-				{" "}is One of the Most Vulnerable Industries from Both Internal and External Threats{"\n\n"}
+				Financial Services is one of the Most Vulnerable Industries from Both Internal and External Threats
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -784,7 +652,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Retail is a prime cyber crime target, especially in the u.s.{"\n\n"}
+							Retail is a prime cybercrime target, particularly in the u.s.
 						</Text>
 						<Text
 							font="--lead"
@@ -793,7 +661,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A 2018 study found, three quarters (75%) of U.S. retail have been breached at least once in the past, ahead of 60% for Global retail. Source: Thales.{"\n\n"}
+							A 2018 Thales study found, three quarters (75%) of U.S. retail have been breached at least once in the past, ahead of 60% for Global retail.
 						</Text>
 						<Text
 							font="--lead"
@@ -811,10 +679,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								75%
 							</Span>
-							{" "}of U.S. Retail was Breached at Least Once in the Past{"\n\n"}
+							{" "}of U.S. Retail was breached at Least Once in the Past{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -854,7 +723,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Data breaches affect customer loyalty significantly{"\n\n"}
+							Data breaches have a huge impact on customer loyalty
 						</Text>
 						<Text
 							font="--lead"
@@ -863,7 +732,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A global survey of 10,000+ people found, If a company suffered a data breach, 70% of consumers would stop doing business with it. Source: Gemalto.{" \n\n"}
+							According to a report by Gemalto, if a company suffered a data breach, 70% of consumers would stop doing business with it.
 						</Text>
 						<Text
 							font="--lead"
@@ -881,10 +750,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								70%
 							</Span>
-							{"  "}of Consumers Would Abandon a Breached Business{"\n\n"}
+							{"  "}of Consumers Would Abandon a Breached Company{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -924,7 +794,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							E-commerce sites are used by hackers using stolen data{"\n\n"}
+							E-commerce websites are used by hackers using stolen data
 						</Text>
 						<Text
 							font="--lead"
@@ -933,7 +803,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A recent report showed that 80-90% of the people who log in to a retailer's e-commerce site are hackers using stolen data. Source: Shape Security / Business Insider.{" \n\n"}
+							Based on a report by Business Insider, 80-90% of the people who log in to a retailer's e-commerce site are hackers using stolen data.
 						</Text>
 						<Text
 							font="--lead"
@@ -951,10 +821,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								80%+{" "}
 							</Span>
-							{" "}of E-commerce Site Users are Hackers in Disguise
+							{" "}of E-commerce Website Users are Hackers in Disguise
 						</Text>
 					</Box>
 					{"    "}
@@ -994,7 +865,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Card fraud losses will affect banks and merchants{"\n\n"}
+							Card fraud losses will impact banks and merchants
 						</Text>
 						<Text
 							font="--lead"
@@ -1003,7 +874,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a report, card fraud losses by banks and merchants worldwide are expected to rise to $32.82 billion by by the end of 2019. Source: Nilson.{" \n\n"}
+							According to a report by Nilson, card fraud losses by banks and merchants worldwide are expected to rise to $32.82 billion by the end of 2019.
 						</Text>
 						<Text
 							font="--lead"
@@ -1021,10 +892,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								$32B+
 							</Span>
-							{" "}Estimated Global Card Fraud Losses by 2019
+							{" "}Estimated Worldwide Card Fraud Losses by 2019
 						</Text>
 					</Box>
 					{"    "}
@@ -1045,19 +917,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				StaffCop Helps Energy & Utilities Companies{" "}
-				<Span
-					color="--primary"
-					data-q-widget-type="PRIMITIVE"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					Protect Sensitive Data
-				</Span>
+				StaffCop Helps Energy & Utilities Companies Protect Sensitive Data
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -1096,7 +956,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Brick & mortar stores{"\n\n"}
+							Brick and mortar stores
 						</Text>
 						<Text
 							font="--lead"
@@ -1105,9 +965,9 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							– Personally Identifiable Information (PII): name, address, social security number, date of birth, driver's license etc.{" \n"}
+							– Personally Identifiable Information (PII): name, address, date of birth, social security number, driver's license etc.{" \n"}
 							<br />
-							– Payment Card Industry Data Security Standard (PCI DSS) i.e. cardholder data, CC no., debit card no.
+							– Payment Card Industry Data Security Standard (PCI DSS) i.e. cardholder data, debit card no.
 							<br />
 							– Supplier/vendor contracts.
 							<br />
@@ -1168,7 +1028,6 @@ export default (() => {
 							<br />
 							– Session logs, site cookies, customer credentials, support pin, black/white listed IPs, public keys etc.{" \n"}
 							<br />
-							– Saved shopping buckets, promotion, discount and loyalty codes.{" \n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1363,7 +1222,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
+						StaffCop visually records every action that a user makes on your OT and IT systems and cloud, DMZ for 22+ system objects. Each object can be programmed to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1414,7 +1273,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information. Custom data types easily be created using flexible regular expression (RegEx) and natural language definitions. Combine OCR and fingerprinting with multiple logic, file origin, file properties and data content to discover and protect confidential exploration and production data, engineering and technical design, source codes, contract etc.
+						StaffCop has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1481,7 +1340,17 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Powerful Policies and Rules Engine
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Powerful Policies and Rules Engine
+						</Span>
 					</Text>
 					<Text
 						font="--lead"
@@ -1492,7 +1361,17 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						The core of the StaffCop platform is its automation. StaffCop comes with hundreds of pre-defined policies and rules. For example: track e-mails outside the corporate network, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							StaffCop allows you to create your own rules with an intuitive, visual Policy & Rules editor. Discover and group classified and sensitive data to apply exfiltration prevention rules. And leverage identity-based authentication, privileged user monitoring and the principle of least privilege (POLP) to prevent unauthorized access or tampering.
+						</Span>
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1542,7 +1421,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where StaffCop can proactively defend your data from malicious or accidental leaks or misuse
+						StaffCop’s exfiltration and egress controls allow you to monitor and prevent illicit sharing of information. For instance, File Transfer rules to prevent the use of removable media. Clipboard rules stop the sharing of confidential information like customer data outside the CRM.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1620,7 +1499,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, see if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
+						StaffCop allows you to define what constitutes dangerous user behavior, then uses its sophisticated anomaly engine to automatically detect when a user, department, or group deviates from their normal parameters or exceeds acceptable risk levels. Once a threat is detected, it notifies appropriate authorities, locks out the user or takes remote control of the compromised system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1670,7 +1549,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
+						StaffCop allows organizations to create profiles for employees and third parties and define what information and system resources each profile can access. Further rules can be established by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1737,7 +1616,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Risk Assessment and Treatment
+						Digital Forensics and Auditing
 					</Text>
 					<Text
 						font="--lead"
@@ -1748,7 +1627,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred.{" "}
+						Detailed alerts including any security incidents and what actions were taken can be viewed. Warning messages can be programmed to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be leveraged to view user’s desktop for audit and evidence gathering purposes{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1786,7 +1665,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Digital Forensics and Auditing
+						Compliance Management
 					</Text>
 					<Text
 						font="--lead"
@@ -1798,7 +1677,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any security incidents and what actions were taken. Warning messages can be configured to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes
+						Compliance is an increasingly challenging task:  requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to fulfil the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.  Organizations that fail to remain compliant risk severe financial and reputational consequences. Regardless of the industry you are in, you need a solid compliance management solution that can help you attain compliance and then assists you in staying compliant with continuous oversight. Additionally, the solution should provide you with a burden of proof in case of an audit.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1815,69 +1694,6 @@ export default (() => {
 					/>
 					{"        "}
 					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px 0px 1px 0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="20px 60px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="center"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 24px/33px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Compliance Management
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						StaffCop comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.{"\n\n"}
-					</Text>
 					{"    "}
 				</StackItem>
 				{"        "}

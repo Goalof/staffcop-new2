@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Hr, Box, Span } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Hr, Box, Span, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -147,7 +147,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Compliance is an increasingly complex task, requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others. Failing to remain compliant exposes your organization to substantial financial and reputational risk. No matter which industry you are in, you need a solid compliance management solution that can help you achieve compliance and then assists you in staying compliant with continuous oversight. Finally, the solution should be able to provide you with burden of proof in case of an audit{"\n\n"}
+						Compliance is an increasingly challenging task:  requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to fulfil the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.  Organizations that fail to remain compliant risk severe financial and reputational consequences. Regardless of the industry you are in, you need a solid compliance management solution that can help you attain compliance and then assists you in staying compliant with continuous oversight. Additionally, the solution should provide you with a burden of proof in case of an audit.
 					</Text>
 					{"  "}
 					<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
@@ -190,9 +190,10 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						While many solutions are out there to ensure compliance with respect to various systems, the human elements in these data driven transactions remain difficult to oversee, mandate and manage.{"\n"}
+						While there are many solutions available to ensure compliance with respect to various systems, they have been unable to oversee, mandate and manage the human factors embedded in these data driven transactions.
+With its intelligent behavior analysis and user centric activity monitoring,{" "}
 						<br />
-						With its Intelligent behavior analysis and user centric activity monitoring, StaffCop can identify the human factors in compliance like insider threats, errors or accidents allowing you to address critical data protection, security and audit requirements. No matter what your specific compliance requirements are, StaffCop can provide the control and peace of mind with its many features and benefits.{"\n\n"}
+						StaffCop can identify the human elements in compliance such as insider threats, errors or accidents, allowing you to address critical data protection, security and audit requirements. Irrespective of what your specific compliance requirements are, StaffCop provides the needed control and peace of mind with its many features and benefits.{"\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -262,10 +263,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Non-intrusive, rules-driven user activity monitoring, insider threat detection and data loss prevention
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop offers non-intrusive, rules-driven user activity monitoring, insider threat detection and data loss prevention features
 						</Text>
 					</Box>
 					{"    "}
@@ -330,9 +328,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Assists organizations to achieve compliance and remain compliant with regulatory compliance standards
-							<br />
-							{"\n\n"}
+							It enables organizations to achieve compliance and remain compliant with regulatory compliance standards
 						</Text>
 					</Box>
 					{"    "}
@@ -397,7 +393,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Content and activity driven rules ensure compliant behavior with respect to employees, contractors and third party vendors handling data{"\n\n"}
+							Content and activity driven rules facilitate compliant behavior with respect to employees, contractors and third party vendors handling data
 						</Text>
 					</Box>
 					{"    "}
@@ -462,8 +458,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Focus on context with heavy emphasis on user behavior analytics to weed out false positives, and identify anomalous behavior{"\n\n"}
-							<br />
+							StaffCop allows you to focus on context with heavy emphasis on user behavior analytics to eliminate false positives, and identify anomalous behavior
 						</Text>
 					</Box>
 					{"    "}
@@ -528,9 +523,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Immediate action (warn, block action, lock out user, etc.) to ensure data is safe
-							<br />
-							{"\n\n"}
+							It ensures data safety by implementing immediate actions (warn, block action, lock out user, etc.)
 						</Text>
 					</Box>
 					{"    "}
@@ -595,9 +588,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Recording of all violations for forensics, to assist with investigations, and to satisfy audit and breach reporting requirements
-							<br />
-							{"\n\n"}
+							The software contains features that record all violations. These records can be for forensics, assists in investigations, and can be leveraged to satisfy audit and breach reporting requirements.
 						</Text>
 					</Box>
 					{"    "}
@@ -672,23 +663,39 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							GDPR is a great regulatory framework to ensure general privacy and data protection. To achieve GDPR compliance, organizations require a plan to monitor and protect personal data and provide privacy for the residents in European Union and the European Economic Area (EEA). Teramid is perfectly suited for your GDPR requirements in several ways:{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Support for GDPR Articles 25: Data protection and design by default, 30: Record of processing activities, 32: Security of processing, 33: Notification of a data breach and 38: Supporting the data protection officer.
-							<br />
-							{" \n"}
-							<br />
-							– Auto discovery of privacy related information in both structured and unstructured data leveraging fingerprinting and OCR.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Recording of data processing activity, updated in real-time to a granular level for all employees, contractors and third-party vendors.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– StaffCop provides full forensics with respect to a data breaches, and a video recording of the event.{"\n\n"}
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								The General Data Protection Regulation (GDPR) is a regulation in EU law on data protection and privacy for all citizens of the European Union and the European Economic Area. To meet the demands of the regulation, business owners should employ both organizational and software means. StaffCop is a software system which helps you meet these demands, covering a number of important articles.{"\n\n"}
+								<br />
+								{"\n"}
+								<br />
+								– Support for GDPR Articles 25: Data protection and design by default, 30: Record of processing activities, 32: Security of processing, 33: Notification of a data breach and 38: Supporting the data protection officer.
+								<br />
+								{" \n"}
+								<br />
+								– Allows for automatic discovery of privacy related information in both structured and unstructured data leveraging fingerprinting and OCR.{" \n"}
+								<br />
+								{"\n"}
+								<br />
+								<Em>
+									–{" "}
+								</Em>
+								Records data processing activity, updated in real-time to a granular level for all employees, contractors and third-party vendors.{" \n"}
+								<br />
+								{"\n"}
+								<br />
+								<Em>
+									–{" "}
+								</Em>
+								Provides full forensics and video recordings of data breaches.{"\n\n"}
+							</Span>
 						</Text>
 						<Link
 							href="/gdpr-compliance/"
@@ -747,18 +754,18 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							All healthcare organizations need to comply with HIPAA requirements of privacy and safeguards for medical and patient information and protect them from data loss, insider threats, fraud and other misuses. With StaffCop, healthcare organizations can speed up HIPAA compliance implementation and auditing process:{" "}
+							It is necessary for all healthcare organizations to comply with HIPAA requirements of privacy and safeguards for medical and patient information as it protects them from data theft, insider threats, fraud and misuses. With StaffCop, healthcare organizations can accelerate the HIPAA compliance implementation and auditing process. Here’s how:
 							<br />
 							{"\n"}
 							<br />
-							– Guard protected health information (PHI), claim, care and clinical data with ready to use HIPAA policy templates.{" \n"}
+							– StaffCop guards protected health information (PHI), claim, care and clinical data ready to use HIPAA policy templates.
 							<br />
 							<br />
-							– Identify employees and 3rd party vendors who fail to comply with activity monitoring and tracking of communication channels like file transfer, email, IM etc.{" \n"}
+							– Allows organizations identify employees and third party vendors who fail to comply with activity monitoring and tracking of communication channels like file transfer, email, IM etc.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Use built-in session recording and risk reports to conduct compliance reviews, provide burden of proof and develop employee training programs.
+							– Its session recording and risk reports conduct compliance reviews, provide burden of proof and create employee training programs
 							<br />
 							<br />
 							{"\n\n"}
@@ -820,21 +827,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Law firms are constantly faced with the ever evolving challenge of addressing insider threats as it pertains to securing attorney-client privileged information and client/matter data. StaffCop helps you address these threats, protect confidentiality and product/demonstrate effective oversight to compliance initiatives to your clients:{" \n"}
+							Law firms are constantly faced with the ever evolving challenge of addressing insider threats in respect to safeguarding attorney-client privileged information and client/matter data. Here’s how StaffCop can help these firms tackle these threats, protect confidentiality and product/demonstrate effective oversight to compliance initiatives to your clients:
 							<br />
-							– Ensure safety of client/matter data and work-product stored in firm repositories, beyond the traditional access and identity management systems.{" \n"}
+							{" \n"}
 							<br />
-							{"\n"}
-							<br />
-							– Oversight, audit and logs of all actions for all employees (or any subsection of users/departments) as it pertains to firm desktops, laptops and content.{" \n"}
+							– This software goes beyond the traditional access and identity management systems to ensure safety of client/matter data and work-product stored in firm repositories.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Privileged user monitoring, session recording, with searchable logs, videos, and audit trail for forensics.{" \n"}
+							– Provides oversight, audit and logs of all actions taken by employees (or any subsection of users/departments) as it pertains to the firm's desktops, laptops and content.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Demonstrating your firm’s ability to comply with AML/KYC, HIPAA, ISO27001/27002, GDPR and other regulatory standards and laws.
+							– Offers privileged user monitoring, session recording, with searchable logs, videos, and audit trail for forensics.{" \n"}
+							<br />
+							{"\n"}
+							<br />
+							– It also demonstrates a firm’s ability to comply with AML/KYC, HIPAA, ISO 27001/27002, GDPR and other regulatory standards and laws.
 							<br />
 							{"\n\n"}
 						</Text>
@@ -895,23 +904,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Government organizations can address data loss, cybersecurity and insider threats with StaffCop’s insider threat detection and data loss prevention solutions. StaffCop is an effective endpoint monitoring solution to ensure your adherence to regulatory compliance including NIST, FAR/DFARS, FDCC, FedRamp, FISMA and more:{" \n"}
+							StaffCop allows government organizations to address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. As an effective endpoint monitoring platform, StaffCop ensures your adherence to regulatory standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA and more:{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Policies and anomaly rules to catch insider threats. Sophisticated risk algorithm identifies high risk users and system components.{" \n"}
+							– It uses policies and anomaly rules to apprehend insider threats and sophisticated risk algorithms to identify high risk users and system components.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Identity based authentication, privileged user monitoring and segregated access control to prevent unauthorized data access.{" \n"}
+							– StaffCop’s built-in identity based authentication, privileged user monitoring and segregated access control helps to prevent unauthorized data access.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Forensic investigation and incident response with session recording, alerts and immutable logs. Locate the source and threat vectors with pinpoint accuracy.{" \n"}
+							– Session recording, alerts and immutable logs assists forensic investigation and incident response. StaffCop also allows you to locate the source and threat vectors with pinpoint accuracy.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							–Integrate with IDS/IPS and SIEM systems to create a cyber security perimeter, share threat intelligence and coordinate response.{" \n\n"}
+							– Finally, StaffCop integrates with BI and SIEM systems to create a cybersecurity perimeter, share threat intelligence and coordinate response.{" \n\n"}
 						</Text>
 						<Link
 							href="/government-and-public-sector-cyber-security/"
@@ -970,19 +979,19 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							- StaffCop can be used for diversifying access to the cardholders’ data, which means that only authorized users will be able to work with files containing this kind of information.{"\n\n \n"}
+							- StaffCop can be utilized in diversifying access to the cardholders’ data, which means that only authorized users will be able to work with files containing this type of information.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Each user with authorized access to cardholders’ data will have a unique identification represented by its name. This is also true for the users of StaffCop – they can be assigned unique IDs and unique range of permissions.{"\n\n \n"}
+							– These authorized users will have a unique identification represented by their name. This also applies to the users of StaffCop – they can be assigned unique IDs and a unique range of permissions.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– StaffCop can protect cardholder data against leakage by blocking information channels through which it may leak. For example, the PC containing this type of information can have USB and CD drives or e-mail applications blocked.{"\n\n \n"}
+							– StaffCop can prevent cardholder data leakage by blocking information channels through which it may leak. For instance, blocking the USB and CD drives or e-mail applications of PCs that contain this type of information.{"\n\n \n"}
 							<br />
 							{"\n"}
 							<br />
-							– StaffCop keeps track of all information associated with cardholder data and network resources and possesses all the instruments which may be used to prevent this data leakage, including the ability to instantly block the targeted PC. The card numbers are identified with the implementation of Luhn algorithm, so the administrator of the system will be timely notified about the actions with this data which gives him time to take preventive measures.
+							– StaffCop monitors all information related to cardholder data and network resources and possesses all the tools crucial to preventing data leakage, including the ability to instantly block the targeted PC. Each card number is identified with the implementation of Luhn algorithm. That way the administrator of the system will be timely notified about the actions with this data which gives him time to take preventive measures.
 						</Text>
 						<Link
 							href="https://romantic-jang-bba117.netlify.app/retail-and-ecommerce-cyber-security/"
@@ -1041,23 +1050,39 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Many organizations in IT, finance, telecom etc. are beginning to see the value of ISO 27001 in information risk management. However, without access to the right tools, the certification process can be difficult. With Teramind’s help, meet the security and monitoring standards outlined in ISMS guidelines for ISO 27001:{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Monitor and measure user activity and maintain both mandatory and supplemental records. View exceptions, security events and how they were handled.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Define security roles and responsibility, assess control of regular/privileged users and 3rd party vendors.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Assist in developing risk assessment and treatment plans with built-in Risk Management dashboard.{" \n"}
-							<br />
-							{"\n"}
-							<br />
-							– Implement training and awareness programs with session recording and playback features.{"\n\n"}
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								StaffCop Enterprise can significantly help you meet ISO 27001 demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS). PDCA (Plan-Do-Check-Act) cycle lies in the core of the standard, so let’s take it with StaffCop step-by-step.{"\n\n \n"}
+								<br />
+								{"\n"}
+								<br />
+								<Em>
+									–{" "}
+								</Em>
+								Allows you to monitor and measure user activity and maintain mandatory and supplemental records, exceptions, security events and how they were handled.{" \n"}
+								<br />
+								{"\n"}
+								<br />
+								<Em>
+									–{" "}
+								</Em>
+								Helps you define security roles and responsibility, assess control of regular/privileged users and 3rd party vendors.
+								<br />
+								<br />
+								{"\n"}
+								<Em>
+									–{" "}
+								</Em>
+								StaffCop Enterprise can track huge amount of information that can be used to analyze user behavior and estimate. Use pre-set and customized reports to analyze data and visualize the resulting output. There are quite handy embedded tools, such as heat map and anomalies detector that could help you track behavior trends and deviations. With experience gained and data collected the ISMS should be corrected in a corresponding way, which means both organizational means and configuring of StaffCop polices.{"\n\n \n"}
+								<br />
+							</Span>
 						</Text>
 						<Link
 							href="/iso-27001-compliance/"
@@ -1116,23 +1141,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Public companies, investors, public accounting and management firms can meet several provisions of the Sarbanes–Oxley Act of 2002 (SOX) compliance requirements with StaffCop's rigorous fraud prevention, data protection and reporting capabilities:{" \n"}
+							StaffCop's robust fraud prevention, data protection and reporting capabilities empowers public companies, investors, public accounting and management firms to meet several provisions of the Sarbanes–Oxley Act of 2002 (SOX) compliance requirements:{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– User activity monitoring and recording prevents accounting frauds.{" \n"}
+							– StaffCop’s user activity monitoring and recording prevents accounting frauds.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Content rules and access safeguards to prevent document/data tampering.{" \n"}
+							– Prevent document/data tampering with content rules and access safeguards.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Verifiable controls to track data access, disclose data breaches, and export audit reports as CSV/Excel formats for feeding into ERP systems.{" \n"}
+							– Its verifiable controls solution tracks data access, discloses data breaches, and exports audit reports as CSV/Excel formats for feeding into ERP systems.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Historical logs and video records of all user activity to streamline any change management process.{"\n\n"}
+							– StaffCop provides historical logs and video records of all user activity to streamline any change in management process.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1182,23 +1207,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							FFIEC (Federal Financial Institutions Examination Council) compliance is a set of conformance standards for online banking. StaffCop helps banks and financial institutions uncover potential cybersecurity weaknesses and insider threats in their online banking system:{" \n"}
+							FFIEC (Federal Financial Institutions Examination Council) compliance comprises a set of conformance standards for online banking. StaffCop assists banks and financial institutions in uncovering potential cybersecurity vulnerabilities and insider threats in their online banking system:{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Develop threat intelligence with 22+ monitored objects, user activities and content sharing.{" \n"}
+							– Offers threat intelligence with 22+ monitored objects, user activities and content sharing.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Implement ‘always on’ cyber security controls with automated monitoring rules.{" \n"}
+							– Provides ‘always on’ cyber security controls with automated monitoring rules.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– External/third party vendor access and dependency management.{" \n"}
+							– Manages external/third party vendor access and dependency.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Assist with cybersecurity risk assessment and policy development with built-in Risk Analysis Dashboard that can identify vulnerable departments, employees and resources.
+							– Assist with cybersecurity risk assessment and policy development by identifying vulnerable departments, employees and resources with built-in Risk Analysis Dashboard.
 							<br />
 							{"\n\n"}
 						</Text>
@@ -1250,23 +1275,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							With nine standards and forty-five requirements, a single security solution may not be enough to achieve and maintain NERC-CIP security standards. StaffCop can assist registered utilities in meeting the plans several requirements:{" \n"}
+							The NERC-CIP is arguably one of the most rigorous compliance regulation as it contains nine standards and forty-five requirements. StaffCop can assist registered utilities in meeting these requirements:{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Documented trail of user activities within a desktop or terminal server.{" \n"}
+							– StaffCop offers a documented trail of user activities within a desktop or terminal server.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Real-time monitoring of critical systems and user workstations. Receive automated alerts for any system configurations changes.{" \n"}
+							– It provides real-time monitoring of critical systems and user workstations. And receives automated alerts when any system configuration change occurs.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Risk and vulnerability analysis of users, departments, policies or applications.{" \n"}
+							– Offers risk and vulnerability analysis of users, departments, policies or applications.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Develop mock audit programs and training plans with session recording, simulated incident detection and threat response.{"\n\n"}
+							– Uses session recording, simulated incident detection and threat response to develop mock audit programs and training plans.{" \n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1316,23 +1341,23 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Supplement your existing federal security implementation for NIST-FISMA with StaffCop’s comprehensive platform for risk management, information protection and confidentiality:{" \n"}
+							Augment your existing federal security implementation for NIST-FISMA with StaffCop’s comprehensive platform for risk management, information protection and confidentiality. StaffCop provides{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– 24/7 continuous monitoring and real-time visual screen recording.{" \n"}
+							– 24/7 or 'always on' continuous monitoring and real-time visual screen recording.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Risk categorization and configurable risk levels for departments, groups, even individual users.{" \n"}
+							– Risk categorization and configurable risk levels for individual users, groups and departments.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Ensure the integrity, confidentiality and availability of sensitive information through OCR, fingerprinting and content sharing rules.{" \n"}
+							– Ensures the integrity, confidentiality and availability of sensitive data through OCR, fingerprinting and content sharing rules.{" \n"}
 							<br />
 							{"\n"}
 							<br />
-							– Track, document, and report security incidents with built in Session Recording, risk reports and immutable event logs.
+							– Tracks, documents, and reports security incidents with built in Session Recording, risk reports and immutable event logs.
 							<br />
 							{"\n\n"}
 						</Text>

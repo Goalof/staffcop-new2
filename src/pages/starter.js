@@ -149,14 +149,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Utilize powerful StaffCop's functionality for administration of remote workstations.{" \n"}
-						<br />
-						For large companies and startups alike, powerful remote assistance software allows you to provide exceptional customer service and fast problem-solving solutions from any location.
-						<br />
-						Particularly for software vendors or app developers, remote support and monitoring ensures you can easily solve complex customer and client issues from your central office.
-						<br />
-						<br />
-						{"\n\n"}
+						StaffCop is a powerful remote assistance software that enables businesses of all sizes to provide exceptional customer service and fast problem-solving solutions from any location. 
+This remote support and monitoring solution is particularly essential to software vendors or app developers, as it allows them to easily solve complex customer and client issues from their central office. 
+It is feature-rich, affordable, offers annual and perpetual licensing options and tangible business benefits.{" \n"}
 					</Text>
 					{"    "}
 				</StackItem>

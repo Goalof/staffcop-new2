@@ -68,7 +68,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search with simple text, keyword, wildcard or RegEx to find the exact information you need.{"\n\n"}
+							With OCR you can find the exact information you are looking for by searching the database using simple text, keyword, wildcard or RegEx.
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -81,7 +81,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Locate text that appears in any sites or apps including images.{"\n\n"}
+							It allows you to locate text that appears on any sites or apps, including images.
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -94,7 +94,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View a recording of the user’s desktop at the time they were exposed to sensitive data.{"\n\n"}
+							And see a recording of the user’s desktop at the time they were exposed to sensitive data.
 						</Text>
 					</Box>
 					{"    "}

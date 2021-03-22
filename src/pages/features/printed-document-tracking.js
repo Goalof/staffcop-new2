@@ -69,7 +69,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View snapshots of printed documents{"\n\n"}
+							Displays snapshots of printed documents
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -81,7 +81,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Limit users ability to print{"\n\n"}
+							Restricts access to print
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -93,7 +93,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get print statistics{"\n\n"}
+							Provides statistics on printed documents
 						</Text>
 					</Box>
 					{"    "}
@@ -167,7 +167,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Printed Document Tracking{"\n\n"}
+						Printed Document Tracking Features
 					</Text>
 					{"    "}
 				</StackItem>
@@ -183,7 +183,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							{" "}View contents of the entire printed documentd{"\n\n"}
+							Allows you to view the contents of the entire printed document
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -196,7 +196,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track a file's movement through a system, regardless of whether it was opened or altered through a third-party application{"\n\n"}
+							Provides visibility into a file's movement through a system, regardless of whether it was opened or altered through a third-party application
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -209,7 +209,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Find documents printed by user, computer, printer, or file name{"\n\n"}
+							Enables the discovery of documents printed by user, computer, printer, or filename
 						</Text>
 					</Box>
 					{"            "}

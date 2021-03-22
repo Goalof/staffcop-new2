@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Span, Hr, Icon, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Hr, Icon, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -146,23 +146,10 @@ export default (() => {
 						text-align="justify"
 						sm-margin="1px 0px 0px 0px"
 					>
-						Privileged users have access to your core IT systems, network, applications and data. Since such users have access to elevated credentials, it can be incredibly difficult to detect a malicious privileged user before they have caused damage already. These users have a significant advantage over external attackers. In addition to already having access to privileged systems, they are aware of their organization’s policies, procedures, and technology and vulnerabilities. Stolen or hacked privileged accounts are also{" "}
-						<Span
-							color="--primary"
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							the number one choice for many external criminals
-						</Span>
-						{" "}looking for gaining access to otherwise ‘secure’ systems.
+						Most privileged parties have access to core systems and data, making it incredibly difficult to detect a malicious user before they have caused damage. Obviously they have a significant advantage over external attackers. Besides already having access to elevated systems, they are aware of their organization’s policies, procedures, and technology and vulnerabilities. Privileged accounts are also the main targets for many external criminals looking to gain access to otherwise ‘secure’ systems.
 						<br />
 						<br />
-						For all of these reasons and the increasing complexity of IT environment, privileged user monitoring, identity verification and privileged access management are becoming critical components in an organization’s security strategy.
+						For all of these reasons and the increasing complexity of the IT environment, privileged user monitoring, identity verification and privileged access management are becoming critical components in an organization’s security techniques. This is where StaffCop comes in.
 					</Text>
 					{"  "}
 					<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
@@ -188,11 +175,13 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop’s real-time user activity monitoring and data loss prevention solutions help you monitor privileged users to automatically detect anomalous behavior and suspicious activity that signal a compromised or malicious privileged user. For example: creation of back-door accounts, transmission of sensitive data outside the company etc.
+						StaffCop’s real-time user activity monitoring and data loss prevention solutions allow you to monitor privileged users and automatically detect anomalous behavior and suspicious activity that signal a compromised or malicious privileged user. Examples of malicious behavior include: creation of back-door accounts, transmission of sensitive data outside the company etc.
 						<br />
-						StaffCop’s Intelligent Policy & Rules Engine then automatically enforces data protection and access control rules on the compromised privileged user to prevent data exfiltration, IP theft, fraud, industrial espionage, sabotage and other malicious attempts.
 						<br />
-						With StaffCop Privileged User Monitoring, conduct threat analysis, forensic investigation and security auditing using complete session recording and metadata analysis and immutable logging features. Finally, extend your security coverage with built-in integration with security information and event management (SIEM) and threat analytics systems. With StaffCop’s privileged user monitoring you can:
+						Further, StaffCop’s Intelligent Policy & Rules Engine automatically implements data protection and access control rules on the compromised privileged user to prevent data exfiltration, IP theft, fraud, industrial espionage, sabotage and other malicious attempts.
+						<br />
+						<br />
+						Leveraging its complete session recording and metadata analysis and immutable logging features, StaffCop’s Privileged User Monitoring conducts threat analysis, forensic investigation and security auditing. Finally, expand your security coverage to encompass your entire organization with StaffCop’s built-in integration with security information and event management (SIEM) and threat analytics systems.  Essentially, StaffCop’s privileged user monitoring allows you to:
 					</Text>
 					{"    "}
 				</StackItem>
@@ -208,7 +197,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Identify and track all privileged users including system administrators, DBAs, network engineers, system architects, developers, IT auditors, remote users, third-party vendors etc.
+							Identify and monitor all privileged users including system administrators, DBAs, network engineers, system architects, developers, IT auditors, remote users, third-party vendors etc.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -221,9 +210,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Implement a ‘zero-trust’ data loss prevention (DLP) strategy utilizing activity,
-							<br />
-							system-access, schedule and content-based rules.
+							Enforce a ‘zero-trust’ data loss prevention (DLP) strategy utilizing activity, system-access, schedule and content-based rules.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -236,9 +223,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Create monitoring and access profiles based on a user’s role, separation of duties,
-							<br />
-							existing Active Directory Group Policy or on a need to know basis.
+							Create monitoring and access profiles according to a user’s role, separation of duties, existing Active Directory Group Policy or on a need to know basis.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -251,9 +236,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Audit privileged sessions with immutable logs, session recording and real-time alerts
-							<br />
-							and notifications to detect credential sharing and other abuse of root accounts.
+							Use immutable logs, session recording and real-time alerts and notifications to audit privileged sessions, detect credential sharing, and other abuse of root accounts.
 						</Text>
 					</Box>
 					{"            "}
@@ -324,7 +307,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Real-time Monitoring for Visibility & Contro
+							Visibility and Control
 						</Text>
 						<Text
 							font="--lead"
@@ -333,7 +316,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind monitors all user activity over endpoints, servers/terminal servers, network and the Cloud covering 22+ system objects like: web, apps, email, file transfers even on-screen content in real-time.
+							StaffCop monitors all user activity over endpoints, servers/terminal servers, network and the Cloud covering of 22+ system objects including: websites, apps, emails, file transfers and on-screen content in real-time.
 						</Text>
 					</Box>
 					{"    "}
@@ -407,7 +390,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Prevent mishandling of confidential data like sharing over the Cloud or removable media.{" "}
+							StaffCop’s intelligent behavioral engine prevents the mishandling of sensitive data like sharing over the Cloud or removable media.
 						</Text>
 					</Box>
 					{"    "}
@@ -481,7 +464,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Video/audio recording of all user activity, session recording, immutable logs, alerts and optional OCR search are just a few examples of StaffCop’s powerful audit and forensic capabilities. Together they provide a vast collection of investigation data to locate the cause and source of any privileged user related threats with pinpoint accuracy.
+							StaffCop uses video/audio recording of all user activity, session recording, immutable logs, alerts, optional OCR search and similar features to conduct audit and forensic investigations. Combined they provide a wide collection of investigation data to locate the cause and source of any privileged user related threats with pinpoint accuracy.
 						</Text>
 					</Box>
 					{"    "}
@@ -555,10 +538,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Dynamic risk scoring and vulnerabilities scanning identifies top risky users, policy and rules and system components. Trend graphs and severity mapping warns you about any change in threat level before it becomes critical.
-							<br />
-							<br />
-							<br />
+							This software solution can also identify high risk users, policy and rules and system components thanks to its dynamic risk scoring and vulnerabilities scanning feature. It also provides trend graphs and severity mapping that warn administrators about any change in threat level before it becomes critical.
 						</Text>
 					</Box>
 					{"    "}
@@ -632,9 +612,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Schedule employees by shift or workload and easily inform all employees about any updates.
-							<br />
-							<br />
+							Schedule employees by shift or workload and easily inform all employees about any updates.{" "}
 							<br />
 							<br />
 							<br />
@@ -714,7 +692,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Privileged user monitoring and access management is required for most of the major compliance regimens, including HIPAA, PCI-DSS, GDPR, ISO 27001 etc.{" "}
+							With StaffCop you can monitor privileged users and manage their access while also adhering to major compliance regimens, including HIPAA, PCI-DSS, GDPR, ISO 27001 etc.
 						</Text>
 					</Box>
 					{"    "}
@@ -787,7 +765,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a survey of 400,000 member online, user privilege and increased sensitive data are main risk enablers. Source: Cybersecurity Insiders.{" "}
+							According to a report by Cybersecurity Insider, user privilege and increased sensitive data are main risk enablers.
 						</Text>
 						<Text
 							font="--lead"
@@ -869,7 +847,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Majority of enterprise breaches involve privileged accounts
+							Majority of company breaches involve privileged accounts
 						</Text>
 						<Text
 							font="--lead"
@@ -878,7 +856,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A survey of 1,000 IT decision makers in the U.S. and the U.K. confirms that 74% of enterprise breaches involved privileged accounts. Source: Centrify.{" "}
+							A survey of 1,000 of IT decision makers in the U.S. and the U.K. conducted by Centrify revealed that 74% of enterprise breaches involved privileged accounts.
 						</Text>
 						<Text
 							font="--lead"
@@ -887,19 +865,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								74%{" "}
-							</Span>
-							Enterprise Breaches Involved Privileged Credential Abuse
+							74% Enterprise Breaches Involved Privileged Credential Abuse
 						</Text>
 					</Box>
 					{"    "}
@@ -939,7 +905,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Privileged users are one of the biggest security risks
+							Privileged users are one of the greatest security risks
 						</Text>
 						<Text
 							font="--lead"
@@ -948,7 +914,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							In a recent survey, 55% mention that privileged IT users/admins pose the biggest insider security risk to their organization. Source: Crowd Research Partners.{" "}
+							In a recent survey by Crowd Research Partners, 55% mention that privileged IT users/admins pose the greatest insider security risk to their organization.
 						</Text>
 						<Text
 							font="--lead"
@@ -1010,7 +976,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Systems logs and user data are critical for security analytics
+							Systems logs and user data - crucial to security analytics
 						</Text>
 						<Text
 							font="--lead"
@@ -1019,7 +985,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							47% IT pros think login data and 41% think private activities on coproprate devices are most important from a security point of view. Source: Cynet.{" "}
+							IT pros think login data and 41% think private activities on corporate devices are most essential from a security point of view according to a report by Cynet.
 						</Text>
 						<Text
 							font="--lead"
@@ -1803,7 +1769,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a privileged user makes on your IT systems including endpoints, servers/terminal servers, network and the Cloud for 22+ system objects like: web, apps, email, file transfers, etc. Uncover what your users are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
+						Every action that a privileged user makes on your IT systems including endpoints, servers/terminal servers, network and the Cloud for 22+ system objects like: web, apps, email, file transfers, etc is visually recorded by StaffCop. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records, allowing for instant administrative oversight in respect to all user activity while complying with any privacy requirements. Also, monitoring continues even when systems are offline.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1854,7 +1820,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Real-time alerts and trend reports show what rules were broken, when, by whom, what action was taken and the context. Receive instant warning or scheduled notification emails of suspicious user activity. Search for all users or a particular user or group activity.{" "}
+						Real-time alerts and trend reports show what rules were violated, when, by whom, what action was taken and the context. You'll also receive instant warning or scheduled notification emails of suspicious user activity. Plus you can search for all users or a particular user or group activity.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1932,7 +1898,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made:
+						To detect suspicious behavior all you have to do is define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. Identifying anomalies in applications, emails, network, file activities and printing, notifying administrators about harmful user activity, locking out users or taking remote control of the compromised system before any malicious or fraudulent attempts are made, are other functions of StaffCop.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1982,7 +1948,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Identity based authentication and segregated access control prevents unauthorized access or sharing of confidential data. You can setup an access account for each privileged user that is going to need authorized clearance and easily track what each user is doing at any given time. With group profiles, you can create different access levels based on departments, job function or source of access (i.e. remote/third-party etc.) and then define what information and system resources each group can access
+						Another key characteristic of StaffCop is its Identity based authentication and segregated access control. These features prevents unauthorized access or sharing of confidential data by allowing administrators to setup an access account for each privileged user that needs authorized clearance and easily track what each user is doing at any given time. Group profiles allows you  to create different access levels based on departments, job function or source of access (i.e. remote/third-party etc.) and then define what information and system resources each group can access.
 					</Text>
 					{"    "}
 				</StackItem>

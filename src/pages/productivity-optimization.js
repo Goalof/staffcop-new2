@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Icon, Box, Span, Hr } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Icon, Box, Hr, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -141,7 +141,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In today’s competitive marketplace, management teams are tasked with improving and optimizing employee productivity. Increasingly, the following are the questions management is faced with:{"\n\n"}
+						As the business space becomes more competitive, the pressure on management teams to improve and optimize employee productivity is intensifying. Often, management are faced with the following questions:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -166,7 +166,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Am I dealing with a few under-performing employees or is the whole organization following suite?{"\n\n"}
+							Do I have a few under-performing employees or is the whole organization infected?
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -179,24 +179,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							What is '
-							<Span color="--primary">
-								app overload
-							</Span>
-							’? Is it affecting my team’s productivity silently?{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Am I properly utilizing my remote resources?{"\n\n"}
+							Are my remote resources properly utilized?
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -209,7 +192,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="--primary" sm-font="400 16px/22px --fontFamily-googleInter">
-							Do my employees fully understand what’s expected of them?{"\n\n"}
+							Do my employees completely understand what’s expected of them?
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -222,7 +205,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							How can I ensure that my team is engaged and motivated?{"\n\n"}
+							How can I make sure that my team is engaged and motivated?
 						</Text>
 					</Box>
 					{"  "}
@@ -266,7 +249,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop takes a data-centric approach to employee productivity. StaffCop captures virtually all types of user activity and behavior data that can be leveraged to review and analyze user productivity. When properly analyzed through the various analytics tools offered by StaffCop, it allows management to both understand and take steps to increase employee productivity.{"\n\n"}
+						StaffCop employs a data-centric approach to employee productivity. It captures virtually all types of user activity and behavior data and utilizes it to review and evaluate user productivity. StaffCop numerous analytics tools allows for a proper analysis of data collected, thereby enabling management to understand and take steps to improve employee productivity.{"  "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -279,9 +262,13 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Get the ability to have an enterprise-wide oversight with productivity, performance and security KPIs for all uses on a single, intuitive dashboard. Productive, Unproductive, Active and idle time tracking shows you how engaged your employees are. Integrated schedule and task management means there is less administrative headache to deal with. Automated rules enforce company policy and decrease unproductive behavior. Track project costs and eliminate waste for not just regular employees but external consultants, remote employees and freelance contractors.{"\n"}
+						The solution provides an enterprise-wide oversight with productivity, performance and security KPIs for all uses on a single, intuitive dashboard. And allows you to gauge your employees engagement with its Productive, Unproductive, Active and idle time tracking property.
 						<br />
-						StaffCop Workforce Optimization solutions are more than just an employee productivity tool. It also defends your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
+						<br />
+						The integrated schedule and task management lessens administrative headache while the automated rules enforce company policy and decrease unproductive behavior. StaffCop workforce optimization tools also allow you to easily track project costs and eliminate waste for not just regular employees but external consultants, remote employees and freelance contractors.
+						<br />
+						<br />
+						Besides tracking employee productivity, these tools defend your organization from theft, sabotage and other malicious user activity with built-in insider threat detection and data loss prevention features.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -360,9 +347,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
-							<br />
-							{"\n\n"}
+							StaffCop lets you monitor all user activity encompassing 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -436,7 +421,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.{"\n\n"}
+							StaffCop provides in-depth reports on how your employees and departments spend their time, enabling you to determine high performing employees and those who need improvement.
 						</Text>
 					</Box>
 					{"    "}
@@ -510,7 +495,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Integrated schedule management, timesheet tracks idle time, attendance, breaks, sick leaves, late shifts, absence etc. Monitor work time, sessions and activity level to see when your users are most productive.{"\n\n\n"}
+							Integrated schedule management, timesheet tracks, idle time, attendance, and breaks, sick leaves, late shifts, absence are some of the time tracking elements offered by StaffCop. You can also monitor work time, sessions and activity level to see when your users are most productive.
 						</Text>
 					</Box>
 					{"    "}
@@ -584,14 +569,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Let employees manage their own tasks and track as they switch between different tasks. Or, you can set up tasks that get assigned automatically based on the user's application / website usage.
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n"}
-							<br />
-							{"\n\n"}
+							This solution allows employees to manage their own tasks and track as they switch between different tasks. And gives you the option of setting up tasks that get assigned automatically based on the user's application / website usage.
 						</Text>
 					</Box>
 					{"    "}
@@ -665,7 +643,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create monitoring profiles for individual user, group or department. Setup custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time and other anomalies.{"\n\n"}
+							Create monitoring profiles for individual users, groups or departments, and set up custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time and other anomalies with StaffCop.
 						</Text>
 					</Box>
 					{"    "}
@@ -739,11 +717,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							{" "}Track work hours and labor costs for consultants, independent contractors and freelancers eliminating the need for manual invoicing.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							With StaffCop you can keep track of work hours and labor costs for consultants, independent contractors and freelancers, eliminating the need for manual invoicing.
 						</Text>
 					</Box>
 					{"    "}
@@ -817,12 +791,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projects, employee engagement rate for overall productivity boost.
-							<br />
-							<br />
-							{"\n"}
-							<br />
-							{"\n\n"}
+							StaffCop’s platform allows for a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projects, employee engagement rate for overall productivity boost.
 						</Text>
 					</Box>
 					{"    "}
@@ -895,7 +864,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Overall, 80.4% of people waste time at the office according to a recent survery of 2063 adults. Source: GetVOIP Survey.{"\n\n"}
+							A recent survey of 2063 adults revealed that, overall, 80.4% of people waste time at the office. Source: GetVOIP Survey.
 						</Text>
 						<Text
 							font="--lead"
@@ -957,7 +926,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Personal use of web & email cause loss of productivity{"\n\n"}
+							Personal use of web & email leads to loss of productivity
 						</Text>
 						<Text
 							font="--lead"
@@ -966,7 +935,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							64% of employees use non-work related websites and 85% use email for personal reasons every day. Source: FinancesOnline.{" \n\n"}
+							Every work day, 64% of employees use non-work related websites and 85% use email for personal reasons. Source: FinancesOnline.
 						</Text>
 						<Text
 							font="--lead"
@@ -1048,7 +1017,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Employee in the u.s. are disengaged at work{"\n\n"}
+							Employee disengagement at work in common in the US
 						</Text>
 						<Text
 							font="--lead"
@@ -1057,7 +1026,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Less than one-third, or 31.5%, of employees in the U.S. reported being "engaged" at the office, according to a study. Source: Gallup.{" \n\n"}
+							Findings from a study indicate that less than one-third, or 31.5%, of employees in the U.S. are "engaged" at the office. Source: Gallup.
 						</Text>
 						<Text
 							font="--lead"
@@ -1118,7 +1087,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Internet misuse alone costs businesses billions{"\n\n"}
+							Cost of internet misuse at the workplace runs into billions
 						</Text>
 						<Text
 							font="--lead"
@@ -1127,7 +1096,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Employees using the web for personal reasons is setting U.S. companies back $178 billion annually according to a study. Source: Websense.{" \n\n"}
+							Employees using the web for personal reasons costs U.S. companies $178 billion annually according to a study. Source: Websense.
 						</Text>
 						<Text
 							font="--lead"
@@ -1145,6 +1114,7 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								$178B
 							</Span>
@@ -1227,7 +1197,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop, track employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						StaffCop's chief employee productivity strategy includes tracking employee’s activity throughout the day, then aggregating the data to produce detailed metrics, such as:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1239,7 +1209,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							A breakdown of work-related vs. non-work-related tasks.{"\n\n"}
+							An analysis of work-related vs. non-work-related tasks.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1252,7 +1222,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Minute-to-minute trend graphs showing how much time is spent on specific projects.{"\n\n"}
+							Minute-to-minute trend graphs showing how much time is spent on certain projects.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1265,7 +1235,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Prioritize important projects and ensure your team is focused on them{"\n\n"}
+							Prioritize critical projects and ensure your team is focused on them.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1278,7 +1248,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Use the various productivity reports to track progress and adjust tasks to ensure you meet your productivity goals.{"\n\n"}
+							Leverage the various productivity reports to monitor progress and adjust tasks to ensure you meet your productivity goals.
 						</Text>
 					</Box>
 					{"    "}
@@ -1329,7 +1299,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Develop your own KPIs and metrics to measure employee engagement: how many hours are your employees active? Maybe they’re spending too much time on social media because they are not challenged? Getting buried under Emails? You can track employee performance over time and see if they are on a decreasing trend. Identify the cause of disengagement and then systematically address them. For example:{"\n\n"}
+						StaffCop allows you to develop KPIs and metrics to gauge employee engagement: how many hours do your employees spend working? Are they spending too much time on social media because they are not challenged? Or are they getting buried under emails? You can monitor employee performance over a certain period, determine if their productivity is diminishing and identify the cause of disengagement and then systematically address them. For instance:
 					</Text>
 					<Box display="flex" margin="0px 0px 18px 0px">
 						<Text
@@ -1339,7 +1309,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Address communication issues by identifying which methods works best for your employees (i.e. email/phone/IM).{"\n\n"}
+							Address communication challenges by identifying which methods works best for your employees (i.e. email/phone/IM).
 						</Text>
 						<Icon
 							category="bs"
@@ -1358,7 +1328,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Reduce time spend on developing performance reviews by automatically identifying high performing vs laggards.{"\n\n"}
+							Automatically identify high performing workers vs laggards, thereby reducing time spent on developing performance reviews.
 						</Text>
 						<Icon
 							category="bs"
@@ -1377,7 +1347,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Provide a continuous, automated feedback based on user behavior & activity.{"\n\n"}
+							Offer a continuous, automated feedback based on user behavior & activity.
 						</Text>
 						<Icon
 							category="bs"
@@ -1464,7 +1434,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. As an example, using such rules you found out that a talented software developer of your team is consistently engaging in poor client communications. You can transfer the person to a position which is less customer facing, maximizing the developer’s strengths while also protecting the reputation of the company.{"\n\n"}
+						With StaffCop, you can easily conduct gap analysis and process improvement at individual and team levels by identifying skill gaps, overlap in duties and responsibilities, conflicting goals and accountability etc. For example, using such rules you can find out if a skillful software developer in your team is continuously engaging in poor client communications. And transfer him/her to a position which is less customer centric, maximizing the developer’s strengths while also protecting the reputation of the company.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1514,7 +1484,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can track employee active vs idle time and allows you to send automated notifications to employees if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						By enabling you to track employee active vs idle time, StaffCop allows you to send automated notifications to employees if they are idling excessively. Further, with StaffCop’s payroll reports and activity category breakdown, you can build an accurate estimate of which type of work takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. The software’s device monitoring feature allows you to enforce policies like set a limit on printers to reduce paper and ink waste.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1592,7 +1562,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use StaffCop to provide a safe work environment by monitoring internal communication channels for harassment, abuse, resentment etc. HR department can use etiquette rules to govern acceptable usage policy and code of conduct when using information technology
+						StaffCop is very useful to the human resource department as it helps to provide a safe work environment by monitoring internal communication channels for harassment, abuse, resentment etc. HR departments can also use etiquette rules to govern acceptable usage policy and code of conduct when using information technology.
 					</Text>
 					<Text
 						font="--lead"

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Box, Span, Strong, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Span, Box, Strong, Image } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -112,7 +112,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Federal departments and agencies including defense, infrastructure, transportation, utility and intelligence are coveted high value targets. State & local government (SLG) agencies, especially their e-government (E-GOV) services regularly process citizens’ personal information that could be used by malicious parties for identity theft, impersonation, fraud and other crimes. The risk of data exfiltration is compounded by the fact that government data is accessible by a large audience, including government employees, third-party contractors and vendors over multiple channels, making it difficult to control the risk of insider threats, data theft, exfiltration and other crimes.{"\n\n"}
+						Some of the most coveted high value targets include federal departments and agencies such as defense, infrastructure, transportation, utility and intelligence. State & local government (SLG) agencies, particularly their e-government (E-GOV) arm regularly process citizens’ personal information that could be used by malicious actors for identity theft, impersonation, fraud and other crimes. The risk of data theft, exfiltration and similar crimes are compounded by the fact that government data is accessible by a large audience, including government employees, third-party contractors and vendors over multiple channels.
 					</Text>
 					<Text
 						font="700 18px/28px --fontFamily-googleInter"
@@ -125,7 +125,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop is designed to assist the public sector address data loss, cybersecurity and insider threats with its insider threat detection and data loss prevention solutions. With StaffCop, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.{"\n\n"}
+						With StaffCop insider threat detection and data loss prevention solutions, data loss, cybersecurity and insider threats in the public sector can be significantly reduced. Thanks to StaffCop, government entities can implement effective endpoint monitoring to ensure adherence to regulatory compliance and standards including NIST, FAR/DFARS, FDCC, FedRamp, FISMA, Insider Threat Executive Order and more.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -195,7 +195,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Real-time endpoint monitoring{"\n\n"}
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Real-time endpoint monitoring{"\n\n"}
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -204,8 +214,17 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior engine monitors all user activity covering files, apps, websites, network, Cloud and keystrokes.
-							<br />
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								StaffCop not only monitors all user activity over endpoints, network, servers but also the Cloud covering of over 22 system objects, including web, apps, email, files etc., and on-screen content in real-time.{" "}
+							</Span>
 							<br />
 							<br />
 							<br />
@@ -284,13 +303,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create policies and anomaly rules to catch suspicious, accidental or malicious threats. Sophisticated risk algorithm identifies high risk users, vulnerable policies and system components.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop’s insider threat detection strategy includes creating policies and anomaly rules to catch suspicious, accidental or malicious threats. And using sophisticated risk algorithms to identify high risk users, vulnerable policies and system components.
 						</Text>
 					</Box>
 					{"    "}
@@ -364,7 +377,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Find and categorize classified and sensitive data to apply exfiltration prevention rules.{" "}
+							To ensure data security, StaffCop identifies and categorizes classified and sensitive data, then applies exfiltration prevention rules.
 						</Text>
 					</Box>
 					{"    "}
@@ -429,7 +442,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Compliance support{"\n\n"}
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Compliance support{"\n\n"}
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -438,9 +461,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop Enterprise can significantly help you meet ISO 27001 demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS).{" \n\n"}
-							<br />
-							{"\n\n"}
+							Companies can also leverage StaffCop to develop activity and schedule-based rules to support several common compliance requirements like implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, etc.
 						</Text>
 					</Box>
 					{"    "}
@@ -514,9 +535,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Session recording, alert reports and immutable logs provide a vast collection of forensic data to locate the source and threat vectors with pinpoint accuracy.{"\n"}
-							<br />
-							{"\n\n"}
+							Session recording, alert reports and immutable logs provide a wide array of forensic data to locate the source and threat vectors with pinpoint accuracy.
 						</Text>
 					</Box>
 					{"    "}
@@ -590,11 +609,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							User activity, incident and risk reports, alert and session logs are readily available for viewing and exporting from the dashboard.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							User activity, incident and risk reports, alert and session logs are provided for viewing and exporting from the dashboard.
 						</Text>
 					</Box>
 					{"    "}
@@ -668,7 +683,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							target was government agencies in terms of the number of records lost, stolen or compromised in 2017. Source: Gemalto.{"\n\n"}
+							In 2017, government agencies were the number one target in terms of the number of records lost, stolen or compromised in 2017. Source: Gemalto.
 						</Text>
 					</Box>
 					{"    "}
@@ -718,7 +733,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							records were stolen by Edward Snowden, a contract systems administrator assigned to the NSA. Source: Data Breach Today.{"\n\n"}
+							$1.7M records were stolen by Edward Snowden, a contract systems administrator assigned to the NSA according to a report on Data Breach Today.
 						</Text>
 					</Box>
 					{"    "}
@@ -768,7 +783,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							customer records were exposed in 2018 from GovPayNow, a payment gateway used by many government agencies. Source: SC Media.{"\n\n"}
+							Based on a report published on SC Media, 14M customer records were exposed in 2018 from GovPayNow, a payment gateway used by many government agencies.
 						</Text>
 					</Box>
 					{"    "}
@@ -818,7 +833,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							greater propensity for government sector to suffer from malicious insider breaches than other sectors. Source: ICMA.{"\n\n"}
+							ICMA reveals that there is a 48% greater propensity for the government sector to suffer from malicious insider breaches than other sectors.
 						</Text>
 					</Box>
 					{"    "}
@@ -1215,7 +1230,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a user makes including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can control who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to privacy requirements.{"\n\n"}
+						StaffCop visually records every action taken by an employee over 22 system objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into account what needs to be tracked and measured and who has access to the monitored records. With StaffCop, you can determine which employees or third-party vendors to monitor, how much you want to monitor, when and for how long - that way you can have visibility into administrative activities and still respect employee privacy requirements as needed.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1266,7 +1281,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						Another crucial benefit of using StaffCop is that it allows you to identify high risks behaviors by insiders such as copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. In other words, the software automatically detects when employees violate the rules or act outside the normal behavior. It notifies companies of their employee’s activities, locks offending employees out from the system or takes remote control of their computer.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1344,7 +1359,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Write rules that react to any observable user activity like get notified when certain sensitive document gets printed or any specific search query gets input, etc. Tag sensitive files and specify who has acess to them and which applications can be used to work with them. All these features can help minimize information exfiltration and data leaks.{"\n\n"}
+						StaffCop’s rules react to any observable user activity like when certain sensitive document gets printed or any specific search query gets input, etc. It also asked you to tag sensitive files and specify who has access to them and which applications can be used to work with them. All these features are crucial in minimizing information exfiltration and data leaks.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1394,7 +1409,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes. StaffCop is a wayback machine! At any moment, you can go back in time and see what a particular employee was doing in a specified period in the past.{"\n\n"}
+						StaffCop is like a time machine. Thanks to its session recordings and history playback features, you can go back in time and see what a particular employee was doing in a specified period in the past, view breach events and actions that were taken in response to the incidents. Basically, these features help in auditing and evidence gathering.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1472,7 +1487,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy.{"\n\n"}
+						StaffCop enables organizations to stop potential employee-employee or employee-third party collusion attempts:  You can create profiles for remote, privileged, external vendors and define what information and system resources each profile can access using StaffCop.  And use rules to set up by behavior policies so that access to sensitive information is separated by the organization’s security policy.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1522,7 +1537,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						StaffCop determines what behaviors are high risk – using cloud storage to share corporate documents, copying files to external drives, downloading/opening files and attachments from unknown sources etc. Applies advanced behavior-based rules to automatically detect when employees violate the rules. And leverages sophisticated anomaly rules to identify employee activity outside the normal behavior.{" "}
 					</Text>
 					{"    "}
 				</StackItem>

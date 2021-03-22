@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Hr, Box, Span } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Hr, Span, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -144,7 +144,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Third party vendors, partners, consultants and outsourced contractors often have privileged access to a company’s internal systems through root or domain administration rights. As privileged insiders, they can change system configuration, steal company data as well as sabotage critical infrastructure. Even with no malicious intent, an external vendor is a major security liability. There are also strict regulatory requirements for some industries like banking, healthcare etc. where vendor monitoring is mandatory to ensure privacy and protection while data is transferred or processed between two parties.
+						Third party vendors, partners, consultants and outsourced contractors are usually granted privileged access to a company’s internal systems through root or domain administration rights. Due to this access, they can easily change system configuration, steal company data as well as sabotage critical infrastructure. Even with no malicious intent, an external vendor is a major security risk. Industries such as banking and healthcare have strict regulatory requirements - where vendor monitoring is mandatory to ensure privacy and protection while data is transferred or processed between two parties.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -157,7 +157,10 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						For these reasons, an organization should setup a security perimeter when giving access to external vendors and contractors. It then needs a way to continuously monitor all vendor activity to ensure they conform to the company’s security policy and rules. Some compliance regulations also require organizations to keep a detailed record of any security, privacy or data breach incidents caused by a third-party.
+						These factors are reasons enough for organizations to set up a security perimeter when giving access to external vendors and contractors. And find a technique to continuously monitor all vendor activity to ensure they conform to the company’s security policy and rules.
+						<br />
+						<br />
+						Additionally, some compliance regulations require organizations to keep a detailed record of any security, privacy or data breach incidents caused by a third-party.
 					</Text>
 					{"  "}
 					<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
@@ -200,7 +203,10 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						With features like user activity monitoring, privileged user management, advanced authentication and access control, remote user monitoring and support for virtualization services, StaffCop offers an unrivaled platform to monitor, control and protect third party vendors to ensure access is only granted to systems needed, decrease the chances of accidental mistakes that can damage system settings, and help improve IT safety measures. In addition, StaffCop helps you meet many regulatory compliance requirements as it relates to third party vendor management with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.
+						StaffCop provides an unrivaled platform to monitor, control and protect third party vendors to ensure access is only granted to systems needed, decrease the chances of accidental mistakes that can damage system settings, and help improve IT safety measures. These capabilities are made possible by the software's unique features like user activity monitoring, privileged user management, advanced authentication and access control, remote user monitoring and support for virtualization services.
+						<br />
+						<br />
+						What’s more, StaffCop helps you meet many regulatory compliance requirements bordering on third party vendor management with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.{"\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -270,7 +276,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Real-Time Activity Monitoring
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Real-Time Activity Monitoring
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -279,7 +295,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
+							StaffCop let’s you monitor all user activity encompassing 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -353,13 +369,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Identity based authentication and segregated access control prevent unauthorized access and sharing of sensitive systems and data by a third-party.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
+							With StaffCop’s identity based authentication and segregated access control, you can prevent unauthorized access and sharing of sensitive systems and data by a third-party.
 						</Text>
 					</Box>
 					{"    "}
@@ -424,7 +434,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Intelligent Policy and Rules Engine
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Intelligent Policy and Rules Engine
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -433,7 +453,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Create monitoring profiles for individual vendor or groups. Configure rules for dangerous vendor behaviors like abnormal login, privilege escalation etc. with hundreds of pre-built rules or create your own with an intuitive, visual Policy and Rules Editor. Automatically warn or take control on detection of any rule violations or anomalies.
+							Create monitoring profiles for individual users, groups or departments, and set up custom behavior rules to limit the use of unproductive applications and websites or send automated notices to alert you about excessive idle time and other anomalies with StaffCop.
 						</Text>
 					</Box>
 					{"    "}
@@ -498,7 +518,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Audit and Forensics
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Audit and Forensics
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -507,10 +537,18 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Get access to seamless real-time streaming of a vendor’s screen and an extensive visual history of all actions. Immutable logs and reports provide a vast collection of investigation data in case of an incident.
-							<br />
-							<br />
-							<br />
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								StaffCop's audit and forensic functionality allow for video recording of employee activity, session recording, immutable logs, alerts, and much more. Combined, they offer a wide collection of investigation data to identify the source and insider threat with pinpoint accuracy.
+								<br />
+							</Span>
 						</Text>
 					</Box>
 					{"    "}
@@ -662,8 +700,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Built-in productivity tools let you establish a continuous feedback loop with your vendor network. Refine and adjust your organizational workflow through tracking contract schedules, projects, budget and engagement rate to improve vendor SLA and QA.
-							<br />
+							StaffCop has built-in productivity tools that allows administrators to establish a continuous feedback loop with your vendor network. You can also refine and adjust your organizational workflow by monitoring contract schedules, projects, budget and engagement rate to improve vendor SLA and QA.
 						</Text>
 					</Box>
 					{"    "}
@@ -728,7 +765,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Compliance Management
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Compliance Management
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -737,7 +784,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Conform with various compliance requirements in respect to third party monitoring. For example: implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, and more.
+							Companies can also leverage StaffCop to develop activity and schedule-based rules to support several common compliance requirements like implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, etc.
 						</Text>
 					</Box>
 					{"    "}
@@ -801,7 +848,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							3rd-party incidents are a reality for many companies
+							3rd-party incidents – a harsh reality for many companies
 						</Text>
 						<Text
 							font="--lead"
@@ -810,7 +857,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							In a 2016 global survey of 170 companies, Deloitte found that 87% have experienced an incident with a 3rd-party. Source: Deloitte.{" "}
+							In a 2016 global survey of 170 companies, Deloitte researchers discovered that 87% had experienced an incident with a 3rd-party.{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -828,10 +875,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								87%
 							</Span>
-							{" "}Suffered a Disruptive 3rd-Party Incident
+							{" "}Suffered a Disturbing 3rd-Party Incident
 						</Text>
 					</Box>
 					{"    "}
@@ -871,7 +919,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							3rd-party vendors have access to critical systems
+							3rd-party vendors have access to crucial systems and sensitive data
 						</Text>
 						<Text
 							font="--lead"
@@ -880,7 +928,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							3rd-parties have to access many VPNs, networks, and platforms confirmed by 75% of organization leaders. Source: SOHA.{" "}
+							According to a SOHA study, 75% of organizations agree that third-parties have access to many VPNs, networks, and platforms{"  "}
 						</Text>
 						<Text
 							font="--lead"
@@ -898,10 +946,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								75%
 							</Span>
-							{" "}Agree Third-Parties Have Access to Critical Systems
+							{" "}Confirm Third-Parties Have Access to Critical Systems
 						</Text>
 					</Box>
 					{"    "}
@@ -950,7 +999,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							On average, organizations spend $10+ million responding to 3rd-party breaches each year. Source: Riskonnect.{" "}
+							Organizations spend an estimated $10+ million responding to 3rd-party breaches annually, says Riskonnect{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -959,19 +1008,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								Avg. $10M+{" "}
-							</Span>
-							{" "}Spent on 3rd-Party Breaches by Organizations
+							Est. $10M+ Spent on 3rd-Party Breaches by Organizations
 						</Text>
 					</Box>
 					{"    "}
@@ -1011,7 +1048,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Many companies lack 3rd-party security standards
+							A majority of companies lack 3rd-party security standards
 						</Text>
 						<Text
 							font="--lead"
@@ -1020,7 +1057,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							In a global survey of companies, PwC found that only 52% have security standards in place for 3rd-parties. Source: PwC.
+							A global survey of companies conducted by PwC found that only 52% have security standards in place for 3rd-parties.{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1029,19 +1066,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								Only 52%
-							</Span>
-							{" "}of Organizations Consider 3rd-Party Security a Priority
+							Only 52% of Organizations Consider 3rd-Party Security Top Priority.
 						</Text>
 					</Box>
 					{"    "}
@@ -1125,7 +1150,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						Opening an infected email or visiting a website with malware that can spread in an organization's system.{"\n\n"}
+						Third-parties that open infected email or visit a website with malware expose the organization's systems to cyberattacks
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1170,7 +1195,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						Attempting to log in to database servers during off-hours or after the completion of a project.{"\n\n"}
+						Attempting to log in to database servers during off-hours or after the completion of a project can also pose a threat.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1215,7 +1240,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						A vendor attempting to bypass security clearances and gain additional access by exploiting a bug, design flaw or configuration oversight in an operating system or software application.{"\n\n"}
+						This occurs when a vendor attempts to bypass security clearances and gain additional access by exploiting a bug, design flaw or configuration oversight in an operating system or software application.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1281,7 +1306,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						A vendor abusing access within a system to view confidential customer and employee records.{"\n\n"}
+						A vendor can abuse access within a system to view confidential customer and employee records.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1326,7 +1351,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						Any access to cloud-based storage services, which can lead to confidential information being transferred out of the system.{"\n\n"}
+						Any access to cloud-based storage services, which can lead to confidential information being exported from the system is a cloud security threat.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1371,7 +1396,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						text-align="center"
 					>
-						Utilizing screen-capturing software to share confidential files and security information with unauthorized sources outside the organization.{"\n\n"}
+						Leveraging screen-capturing software to share confidential documents and security information with unauthorized sources outside the organization.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1442,7 +1467,8 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						IT services businesses, MSPs and hosting providers often need to monitor vendor activity in the company servers to enforce SLA and process billing. Another aspect of IT services is that, employees of third party professional services can access your organizational databases, configure servers and often setup IT security systems. They should be treated with same vigor as your other privileged employees and scrutinized for all their activity.{"\n\n"}
+						IT services businesses, MSPs and hosting providers need to monitor vendor activity in the company servers to implement SLA and process billing.
+ Also, since employees of third party professional services can access organizational databases, configure servers and often set up IT security systems, they should be treated with the same vigor as other privileged employees and scrutinized for all their activity.{"\n"}
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1460,9 +1486,10 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With StaffCop’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
+						Fortunately for IT services companies StaffCop offers an activity monitoring solution, that allows administrators to quickly view (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
 						<br />
-						In addition, StaffCop supports ISO 27001 compliance that further ensures an organization’s overall IT security measures are covered with a single solution.{"\n\n"}
+						<br />
+						What's more, StaffCop supports ISO 27001 compliance that further ensures an organization’s overall IT security strategies are covered with a single solution.{"\n\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1515,7 +1542,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Banks and other financial institutions often outsource operational functions to contractors or use third parties to offer value added services. An increasing number of banks are also outsourcing core banking operations (i.e. accessing demand deposit accounts through bankcards) to third party vendors. This creates a new avenue of threats for both the banks and their customers. Regulations and laws are enacted to make sure banks held their vendors accountable for their activities. For example, Federal Financial Institutions Examination Council (FFIEC) recently released the Cybersecurity Assessment Tool that states, “Financial institutions must understand the complex nature of arrangements with outside parties and ensure adequate due diligence for the engagement of the relationships and ongoing monitoring.”{"\n\n"}
+						Today, many financial institutions including banks outsource operational functions to contractors or use third parties to offer value added services. In fact a rapidly increasing number of banks are outsourcing core banking operations (i.e. accessing demand deposit accounts through bank cards) to third party service providers. The implications of this: a new avenue of threats for both the banks and their customers. Over the years, regulations and laws have been introduced to ensure banks hold their vendors accountable for their activities. For instance, Federal Financial Institutions Examination Council (FFIEC) recently released the Cybersecurity Assessment Tool that states, “Financial institutions must understand the complex nature of arrangements with outside parties and ensure adequate due diligence for the engagement of the relationships and ongoing monitoring.”
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1533,9 +1560,9 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With StaffCop’s activity monitoring solution, it’s possible to quickly see (and prove) exactly who worked on the servers, when, for how long and what they did to ensure security and process accurate billing and SLAs.{"\n"}
+						To address these challenges, StaffCop provides an activity monitoring tool that allows for instant visibility (and proof) into activities conducted on the servers such as who worked on the systems, when, for how long and what they did.
 						<br />
-						StaffCop helps banks and financial institutions uncover potential cybersecurity weaknesses in their online banking system and develop threat intelligence with behavioral and content-based analysis of secure financial data. With continuous monitoring, a bank can prevent bad practices by its vendors and if necessary, conduct detailed file search to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.
+						StaffCop enables banks and financial institutions to discover potential cybersecurity vulnerabilities in their online banking system and develop threat intelligence with behavioral and content-based analysis of secure financial data. With continuous monitoring, a bank can prevent harmful practices by its vendors and if necessary, conduct detailed file search to ensure vendors are using the right forms, following the agreement and addressing customer requests in a prompt and responsive manner.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1588,7 +1615,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Retails and e-commerce merchants and any business processing payment information must comply with PCI DSS. This entails stringent information security requirements for the merchants and their vendors while processing credit card transactions or dealing with customer data. For example, it’s on you, as a merchant to ensure that third party service providers (TPSPs)/vendors you do business with are also following the compliance protocol. You should be able to list each vendor your company does business with, confirm what services they provide, and make sure that each provider listed is compliant with the PCI DSS on an ongoing basis.{"\n\n"}
+						Retail and e-commerce merchants and any business processing payment information must comply with PCI DSS, which involves stringent information security requirements for the merchants and their vendors while processing credit card transactions or dealing with customer data. For instance, as a merchant you must ensure that third party service providers (TPSPs)/vendors you conduct business with are also following the compliance protocol. You should be able to list each vendor your company does business with, confirm what services they offer, and make sure that each provider listed is compliant with the PCI DSS on an ongoing basis.
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1606,7 +1633,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						The simplest way to ensure PCI DSS compliance and proper auditing is to add third party vendors into your existing  monitoring and auditing system so that you both have a common, transparent, end-to-end auditing system.
+						The simplest approach to ensure PCI DSS compliance and proper auditing is to integrate third party vendors into your existing monitoring and auditing system. That way, you both have a common, transparent, end-to-end auditing system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1628,7 +1655,7 @@ export default (() => {
 						color="rgba(19, 33, 42, 1)"
 						md-text-align="center"
 					>
-						Retail / E-Commerce{"\n\n"}
+						Health and Medicine
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1659,7 +1686,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Health Insurance Portability and Accountability Act (HIPAA) is designed to facilitate efficient flow of the healthcare data and protect patient’s Personally Identifiable Information (PII), Personal Health Information (PHI) and Electronic Health Record (EHR) from fraud, theft or other misuse. HIPAA covered organizations must protect these data not just from their employees but ensure any contractors or Business Associates (BAs) has systems in place to comply with the regulation. There are even specific Administrative, Security and Technical Rules for such addressable implementation specifications.{"\n\n"}
+						The Health Insurance Portability and Accountability Act (HIPAA) is designed to ensure the efficient flow of the healthcare data and protect patient’s Personally Identifiable Information (PII), Personal Health Information (PHI) and Electronic Health Record (EHR) from fraud, theft or misuse. Healthcare organizations covered by HIPAA must protect these data not only from their employees but ensure any contractors or Business Associates (BAs) have systems in place to comply with the regulation. There are even certain Administrative, Security and Technical Rules for such addressable implementation specifications.
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1677,9 +1704,8 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						StaffCop helps healthcare organizations conform with ongoing privacy and security requirements of HIPAA regulated PII, PHI and EHR data from both internal and external users.{"\n"}
-						<br />
-						With StaffCop, you can create security profiles for vendors allowing or restricting access to patient records on a need to know basis. Granular activity monitoring of all system objects like files, networks, websites, apps, emails etc. helps enforce privacy policy. Use instant alerts and audit trail to meet the HIPAA security review and reporting requirements.{"\n\n"}
+						StaffCop enables healthcare institutions to comply with ongoing privacy and security requirements of HIPAA regulated PII, PHI and EHR data from both internal and external users.
+It can be used to create security profiles for vendors allowing or restricting access to patient records on a need to know basis. And it offers granular activity monitoring of all system objects like files, networks, websites, apps, emails etc., thereby helping organizations enforce privacy policy. Further, organizations can leverage StaffCop's instant alerts and audit trail to meet the HIPAA security review and reporting requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1732,7 +1758,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Telecommunications is a fundamental backbone in today’s world. Like utilities and other critical infrastructures, it touches everyone including people, businesses and government. This is why telecom operators and ISPs are often the primary target of cybercriminals. And these criminals are getting desperate. According to a telecom threat intelligent report by Kaspersky, cybercriminals are recruiting insiders including contractors and vendors to gain access to telecommunications networks and subscriber data. They blackmail the targeted insiders forcing them to handover credentials or distribute spear-phishing attacks on the criminal’s behalf.{"\n\n"}
+						Undoubtedly, telecommunications is a crucial sector in today’s world. Like utilities and other critical industries, it impacts everyone: individuals, businesses and governments alike. This is why telecom operators and ISPs are common targets of cybercriminals or malicious actors. Unfortunately, these criminals are becoming more desperate. According to a telecom threat intelligence report by Kaspersky, cybercriminals are enlisting insiders including contractors and vendors to gain access to telecommunications networks and subscriber data. They blackmail the targeted insiders forcing them to give up credentials or distribute spear-phishing attacks on the criminal’s behalf.
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1750,9 +1776,8 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						With StaffCop’s privileged user monitoring and intelligent behavioral analysis, telecom providers can look out for compromised vendors who show abnormal signs, like: attempting to bypass security clearances and gain additional access, attempt to change system component etc.{"\n"}
-						<br />
-						Moreover, StaffCop’s granular activity monitoring and data loss prevention solution is designed for high-grade security standards like NERC-CIP, NIST-FISMA, ISO 27001 for critical infrastructure providers like telecom and utilities.{"\n\n"}
+						With StaffCop’s privileged user monitoring and intelligent behavioral analysis, telecom providers can easily identify compromised vendors who show abnormal signs, like attempting  to change system component or to bypass security clearances and gain additional access.
+Telecom providers can also take advantage of StaffCop’s granular activity monitoring and data loss prevention solution, built for high-grade security standards like NERC-CIP, NIST-FISMA, ISO 27001 and critical systems.{"\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1805,7 +1830,7 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Since May 2018, any organization handling EU citizens’ personal data has to comply with the GDPR law. Known as the Controller, these organizations also have to ensure the GDPR compliance for its Processors. A Processor is someone following instructions from the data controller to collect/process the personal data (PII), in other words a third party vendor. Any controlling organization employing a third party vendor to process EU citizens’ personal data, will be responsible for their GDPR compliance.{"\n\n"}
+						Since May 2018, any organization handling EU citizens’ personal data was mandated to comply with the GDPR law. These organizations also known as Controllers must ensure that its Processors are compliant as well. A Processor is an entity that adheres to the instructions from the data controller to collect/process the personal data (PII), in other words a third party vendor. Thus, any controlling organization using a third party vendor to process EU citizens’ personal data, will be responsible for their GDPR compliance.
 					</Text>
 					<Text
 						font="normal 700 32px/38px --fontFamily-googleInter"
@@ -1823,9 +1848,10 @@ export default (() => {
 						color="rgba(85, 85, 85, 1)"
 						letter-spacing="-1%"
 					>
-						Third-party vendor management, access control and contractual oversight is required to make sure a GDPR Controller has implemented the right accountability procedures for its Processor(s).{"\n"}
+						For a GDPR Controller to enforce the right accountability procedures for its Processor(s), the following must be in place: third-party vendor management, access control and contractual oversight.
+StaffCop is designed to ensure that your third party is processing privacy data only in the context it is required to be processed.{" "}
 						<br />
-						StaffCop can ensure your third party is processing privacy data only in the context it is required to be processed. Additionally, the software can be configured with restricted feature sets allowing for further privacy of EU customers. Extensive reporting and forensic capability help you fulfill GDPR’s record keeping and breach reporting requirements.{"\n\n"}
+						And it can be configured with restricted feature sets to allow for further privacy of EU customers. Leverage StaffCop’s extensive reporting and forensic capability to fulfill GDPR’s record keeping and breach reporting requirements.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1903,7 +1929,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Identity based authentication and segregated access control prevents unauthorized access or sharing of confidential data outside your organization. You can setup an access account for each vendor that is going to need authorized clearance and easily track what each vendor is doing at any given time. Create profiles for regular, privileged and contract/external users and then define what information and system resources each profile can access.{"\n\n"}
+						With StaffCop’s identity based authentication and segregated access control features you can prevent unauthorized access or sharing of confidential data outside your organization. The software allows you to create an access account for each vendor that will need authorized clearance and easily monitor what each vendor is doing at any given time. You can also set up profiles for regular, privileged and contract/external users and determine what information and system resources each profile can access.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1954,7 +1980,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Live view and history playback provide seamless real-time streaming of third party vendor activity through the dashboard as well as an extensive visual history of all actions taken for both on-site and remote vendors. All actions can also be searched via metadata, regular expression and natural language. Recordings can be tagged by time and date highlighting any alerts and notification.{"\n\n"}
+						StaffCop’s live view and history features offer seamless real-time streaming of third party vendor activity through the dashboard and extensive visual history of all actions taken for both on-site and remote vendors. You can search all actions via metadata, regular expression and natural language. And tag recordings by time and date highlighting any alerts and notification.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2032,7 +2058,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop has a dedicated Risk dashboard where the supervisor can conduct organization-wide risk assessment. Risk can be profiled by vendors, departments responsible for the vendor or by system objects accessed by the vendor. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk vendors or policies so that plans can be developed for treating the risks.{"\n\n"}
+						StaffCop has a dedicated Risk dashboard where the supervisor can carry out organization-wide risk evaluation. Risk can be profiled by vendors, system objects accessed by the vendor or departments responsible for the vendor. While reports can be derived by severity of risks or by how many times security violations occur. Organizations can use the software's unique Risk Scores to identify high-risk vendors or policies so that techniques can be developed to address the risks.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2082,7 +2108,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Setup specific monitoring profiles for vendors separate from your regular users. Define what actions and system resources the vendor will be monitored for, when and how. Set schedule for when vendors can log into systems and from which locations. Give access upon manual approval or limit their access within certain applications, networks, websites or by time slots{"\n\n"}
+						To ensure organization-wide monitoring, StaffCop allows you to create specific monitoring profiles for your vendors, define what actions and system resources the vendor will be monitored for, when and how and set a schedule for when vendors can log into systems and from which locations. You can also control their access within certain applications, networks, and websites or by time slots.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2160,7 +2186,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Monitor the interactions between third-party vendors and your data including reports on: who accesses data, when the data is accessed, any changes, abnormal activity or any attempts made to alter the data. The document tracking ability can be configured to fit your policies. Some examples of the possibilities with document tracking are: documents transferred to emails as an attachment, USB, Dropbox, Google Drive, documents printed etc. The goal of document tracking is to supply organizations with a view into what interactions vendors are making with your data.{"\n\n"}
+						The document tracking functionality enables companies to monitor the interactions between third-party vendors and your data including reports on: who accesses data, when the data is accessed, any changes, abnormal activity or any attempts made to alter the data. What’s more, this feature can be configured to fit your policies and used in tracking documents transferred to emails as an attachment, USB, Dropbox, Google Drive, documents printed etc.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2210,7 +2236,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Remote contractors and vendors can enjoy the simplicity of tracking their project and time with StaffCop with the click of a mouse. Once the StaffCop agent is started, all actions and data are recorded. You can take control of an external vendor's desktop control and access at the first sign of malicious activity to eliminate threats of all kinds.
+						Thanks to StaffCop remote contractors and vendors can now enjoy the simplicity of tracking their project and time with the click of a mouse. Once the StaffCop agent is activated, all actions and data are recorded. The software also allows you to take control of an external vendor's desktop and access at the first sign of malicious activity to eliminate threats of all kinds.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2288,7 +2314,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						A user's ability to access a desktop can be instantly taken away by putting StaffCop's remote control feature to use. Manually overriding an account removes the user from the equation, ensuring that activity is contained, and potential threats are eliminated. Remote control can be started by simply clicking on the remote icon on all live sessions. Override all manual inputs by a user to prevent sensitive data from being altered and data breaches from occurring.
+						With StaffCop’s remote control feature, a user's ability to access a desktop can be instantly taken away. By manually overriding an account, you can remove the user from the equation, ensuring that activity is contained, and potential threats are eliminated. To activate the remote control function simply click on the remote icon on all live sessions. Override all manual inputs by a user to prevent sensitive data from being compromised and data breach incidents from occurring.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2338,7 +2364,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Attain full knowledge of which vendors are accessing systems and network resources with in-depth activity reports. Receive real-time alerts for high-risk vendor behavior. Session logs, anomaly and risk analysis, incident reports make your findings and observations tasks easier by identifying where sensitive data is stored, who accessed it and how. Finally, event triggers and logs from StaffCop can be send to SIEM and other analytics tools for a holistic threat management system.
+						Part of StaffCop’s integrated threat management strategy is providing in-depth activity reports that contain information on which vendors are accessing systems and network resources. And sending real-time alerts for high-risk vendor behavior to administrators. Make your findings and observations tasks easier by identifying where sensitive data is stored, who accessed it and how with session logs, anomaly and risk analysis and incident reports. Finally, incident triggers and logs from StaffCop can be sent to SIEM and other analytics tools for a holistic threat management system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2416,7 +2442,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Built-in productivity tools let you establish a continuous feedback loop with your vendor network. Refine and adjust your organizational workflow through tracking contract schedules, projects, budget and engagement rate to improve vendor SLA. If your vendors handle customer care services, you can monitor their performance and quality and if necessary, conduct detailed investigation to make sure vendors are using the right forms, following the agreement and addressing customer request on a prompt and responsive manner.
+						Integrated productivity tools allows you to establish a continuous feedback loop with your vendor network. Refine and fine tune your organizational workflow through monitoring contract schedules, projects, budget and engagement rate to improve vendor SLA. If your vendors handle customer care services, you can track their performance and quality and if necessary, conduct detailed investigation to make sure vendors are using the right forms, following the agreement and addressing customer requests in a prompt and responsive manner.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2466,7 +2492,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Many organizations are required to follow several regulatory, cybersecurity, administrative and privacy standards that includes vendors accountability and liability protection. StaffCop has built-in support for many of these compliance standards including HIPAA, GDPR, PCI DSS, ISO 27001 etc. and can be adapted to support evolving compliance requirements with its powerful Policy & Rules editor and various monitoring and reporting capabilities.
+						Today, most organizations are required to meet several regulatory, cybersecurity, administrative and privacy standards that include vendor’s accountability and liability protection. Not only does StaffCop have built-in support for many of these compliance standards including HIPAA, GDPR, PCI DSS, ISO 27001 etc. but it can also be adapted to support emerging compliance requirements with its powerful Policy & Rules editor and various monitoring and reporting capabilities.
 					</Text>
 					{"    "}
 				</StackItem>

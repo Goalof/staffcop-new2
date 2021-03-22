@@ -79,7 +79,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track all web activity including file uploads{"\n\n"}
+							Monitor all web activity, including file uploads
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -91,7 +91,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track employee internet usage across your departments{"\n\n"}
+							Allows companies to keep track of employee internet usage across departments
 						</Text>
 					</Box>
 					{"    "}

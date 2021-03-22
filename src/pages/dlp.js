@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Strong, Em, Hr, Box, Span } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Strong, Hr, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -119,7 +119,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Effective defense against data breaches, data leaks and IP theft{"\n\n"}
+						Effective defense against data breaches, data leaks, and IP theft
 					</Text>
 					{"    "}
 				</StackItem>
@@ -138,21 +138,10 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						<Strong
-							data-q-widget-type="PRIMITIVE"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							{"\n"}Data Loss Prevention (DLP)
+						<Strong>
+							Data Loss Prevention (DLP)
 						</Strong>
-						{" "}is a strategy for ensuring your employees and vendors do not accidentally or intentionally share sensitive and company confidential data outside your organization. First, Identify what types of data and communication channels are sensitive. Next, create policies and rules for data usage scenarios. The system then monitors user actions; validates them against the{" "}
-						<Em>
-							DLP rules and takes appropriate action if and when a rule condition is triggered. Actions could include stopping the action, blocking the user, alerting an administrator, requesting management override and more.{"\n\n"}
-						</Em>
+						{" "}is an approach used to stop your employees and vendors from accidentally or intentionally sharing sensitive and company confidential data to an outside entity. The program is designed to identify what types of data and communication channels are sensitive, design policies and rules for data usage scenarios. Next, it monitors user actions, validates them against the DLP rules, and takes appropriate action if and when a rule condition is triggered.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -175,7 +164,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						DLP: Data loss prevention, user activity monitoring and insider threats detection in a single platform{"\n\n"}
+						DLP: Data loss prevention, user activity monitoring, and insider threats detection in a single platform
 					</Text>
 					{"    "}
 				</StackItem>
@@ -193,7 +182,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						‘User-centric’, endpoint Data Loss Prevention solution goes beyond traditional DLP approaches by adding intelligent behavioral analysis to identify human factors like malicious intent, errors or accidents allowing you to implement effective protection against data breaches and other exfiltration attempts. DLP provides the best return of investment for organizations of any size. It’s designed to assist SMBs, enterprises and the public sector address data loss, cybersecurity and insider threats. Additionally, StaffCop’s compliance management features help you conform with compliance regulations including GDPR, HIPAA, PCI DSS, and ISO 27001.{"\n\n"}
+						‘User-centric,’ endpoint Data Loss Prevention is an advanced solution that comprises intelligent behavioral analysis that identifies human factors like malicious intent, errors, or accidents, allowing you to implement effective protection against data breaches and other exfiltration attempts. Features foreign to the traditional DLP approaches. 
+By addressing data loss, cybersecurity, and insider threats, StaffCop’s DLP provides the best return of investment for organizations of any size - SMBs, enterprises, and the public sector companies alike. 
+Besides, StaffCop enables you to conform to compliance regulations, including GDPR, HIPAA, PCI DSS, and ISO 27001.{"\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -272,7 +263,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitors all user activity including third-party vendors and privileged users for 22+ system objects like: website, application, keystroke, IM, email, network etc
+							The user activity monitoring feature ensures that all user activity, including third-party vendors and privileged users, for 22+ system objects like website, application, keystroke, IM, email, network, etc., are continuously tracked.{"  "}
 						</Text>
 					</Box>
 					{"    "}
@@ -337,7 +328,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Powerful policy and rules engine{"\n\n"}
+							Policy and Rules Engine{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -346,7 +337,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Comes with hundreds of pre-built rules, templates and data categories. Create your own rules with an intuitive, visual Policy & Rules editor
+							StaffCop offers users hundreds of pre-built rule templates, activity classification lists, and data categories to run the software instantly. Further, you can design your own policies and rules with an intuitive, visual rule editor and use natural English, regular expressions, and sample conditions to easily define your requirements. Creating monitoring profiles for individual employees, groups or departments is also possible with this solution.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -420,9 +411,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Detailed logs capture all web/app activity, duration, IP/URL. Filter the report for individuals, groups or department by productive- unproductive or custom categories. Real-time alerts and trend reports show what rules were broken, when, by whom, what action was taken and the context
-							<br />
-							{"\n\n"}
+							With this feature, you can have visibility into all web/app activity, duration, IP/URL, and know which individuals, groups, or departments are productive and unproductive. It also offers real-time alerts and trend reports that show what rules were broken, when, by whom, what action was taken, and the context.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -496,9 +485,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Discover and identify sensitive information from structured and unstructured sources with the help of customized vocabularies.{" "}
-							<br />
-							{"\n\n"}
+							StaffCop uses customized vocabularies to discover and identify sensitive data from both structured and unstructured sources.
 						</Text>
 					</Box>
 					{"    "}
@@ -572,10 +559,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							‘On the fly’ content discovery with advanced OCR, natural language processing (NLP) and RegEx. Detect sensitive data inside images and applications{" "}
-							<br />
-							<br />
-							{"\n\n"}
+							The advanced OCR feature alongside natural language processing (NLP) and RegEx allows users to discover contents on the go and detect sensitive data inside images and applications.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -649,13 +633,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Clipboard Monitoring and Interception feature allows you to protect sensitive data from being shared through the clipboard copy/paste operations
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							The clipboard Monitoring and Interception component prevents sensitive data from being shared through the clipboard copy/paste operations.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -729,11 +707,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Powerful fingerprinting and tagging features identify important documents and files and then monitors their usage so that you can keep track of your data even when modified or transferred
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop also comes with powerful fingerprinting and tagging features that help companies discover important documents and files and then monitors their usage so that you can keep track of your data even when modified or transferred.
 						</Text>
 					</Box>
 					{"    "}
@@ -798,7 +772,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Compliance Management
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Compliance Management
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -807,8 +791,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop Enterprise can significantly help you meet ISO 27001 demands. The flexibility of settings
-makes it perfect to fit any Information Security Management System (ISMS).{" "}
+							Companies can also leverage StaffCop to develop activity and schedule-based rules to support several common compliance requirements like implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, etc.
 						</Text>
 					</Box>
 					{"    "}
@@ -882,12 +865,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Identify high risk users, policies and system objects on the dedicated Risk Dashboard. Sophisticated risk scoring helps identify and focus on high risk areas
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							Given that risk management is crucial to every company, StaffCop’s DLP solution is designed to identify and focus on high-risk users and areas, policies, and system objects.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -951,7 +929,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Financial loss due to a data breach is huge{"\n\n"}
+							Data breaches lead to huge financial losses
 						</Text>
 						<Text
 							font="--lead"
@@ -960,7 +938,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a 2018 study conducted by the Ponemon Institute, the average cost of a data breach rose by 6.4% with a range of $3.86M - $350M.{" \n\n"}
+							A 2018 study conducted by the Ponemon Institute revealed that a data breach's average cost rose by 6.4% with a range of $3.86M - $350M.
 						</Text>
 						<Text
 							font="--lead"
@@ -999,10 +977,11 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								$350%
 							</Span>
-							{" "}for larger breaches
+							{" "}for elaborate breach
 						</Text>
 					</Box>
 					{"    "}
@@ -1042,7 +1021,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							User privilege puts sensitive data at risk{"\n\n"}
+							Sensitive data at high risk due to user privilege
 						</Text>
 						<Text
 							font="--lead"
@@ -1051,7 +1030,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a survey of 400,000 member online by Cybersecurity Insiders published on The Insider Threat 2018 report.{"\n\n"}
+							According to a Cybersecurity Insiders survey of 400,000 online members published on The Insider Threat 2018 report
 						</Text>
 						<Text
 							font="--lead"
@@ -1069,10 +1048,11 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								37%
 							</Span>
-							{" "}Excess Privilege
+							{" "}of sensitive data leaks are as a result of Excess Privilege
 						</Text>
 						<Text
 							font="--lead"
@@ -1090,10 +1070,11 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								34%
 							</Span>
-							{" "}Increased Amount of Sensitive Data
+							{" "}increased in the amount of sensitive data leaks
 						</Text>
 					</Box>
 					{"    "}
@@ -1133,7 +1114,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Data leak incidents are growing at an alarming rate{"\n\n"}
+							Data leak incidents are rising at an alarming rate
 						</Text>
 						<Text
 							font="--lead"
@@ -1142,29 +1123,23 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							The rate of data breaches in 2018 reported by federal survey respondents is 57%, more than 3x higher than what they measured 2 years ago.{"\n\n"}
+							In 2018, the rate of data breaches reported by federal survey respondents was 57%, more than 3x higher than what they measured 2 years ago.
 						</Text>
 						<Text
 							font="--lead"
 							margin="0px 0px 18px 0px"
 							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
+							color="#555555"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								300%
-							</Span>
-							{" "}increase in data breaches in two years
+							In other words, there was a 
+
+300%
+
+
+
+ increase in data breaches between 2016 and 2018.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -1204,7 +1179,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Ip losses due to cyber crime is hurting companies globally{"\n\n"}
+							Ip losses due to cybercrime are costing companies worldwide
 						</Text>
 						<Text
 							font="--lead"
@@ -1213,29 +1188,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-							sm-margin="0px 0px 0px 0px"
-						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								~$60B
-							</Span>
-							{" "}is the upper range for annual global loss in IP
+							According to the Community Emergency Response Team, $60B is the upper range for annual global loss in IP
 						</Text>
 					</Box>
 					{"    "}
@@ -1493,7 +1446,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Flexible platform and powerful rules engine allows for creation of rules and policies to easily address data loss prevention needs of any organization. The visual Policy and Rules Editor enables administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message and much more. Use black/white listing, define safe or restricted app and websites and do much more.{"\n\n"}
+						StaffCop’s flexible platform and powerful rules engine allow for the creation of rules editor and visual policies to easily address data loss prevention needs of any organization. These tools enable administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message, and much more. Other offerings include: black/white listing, defining safe or restricted apps and websites, etc.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1615,7 +1568,17 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Monitor Privileged Employees and Third-Party Vendors
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Monitor Privileged Employees and Third-Party Vendors
+						</Span>
 					</Text>
 					<Text
 						font="--lead"
@@ -1626,7 +1589,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy.
+						StaffCop functionality also encompasses preventing potential employee-employee or employee-third party collusion attempts. It allows organizations to create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further, rules can be established by behavior policies so that access to sensitive information is determined by the organization's security policy or on a need-to-know basis. Rules can also be set up to notify the authorities of any suspicious privileged employee and third-party vendor activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts, etc.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1664,7 +1627,17 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Reduce Organizational Risk and Protect Yourself with Proof
+						<Span
+							data-q-widget-type="PRIMITIVE"
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+						>
+							Reduce Organizational Risk and Protect Yourself with Proof
+						</Span>
 					</Text>
 					<Text
 						font="--lead"
@@ -1676,7 +1649,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Take action against a malicious employee backed by solid proof. You can view detailed reports for all employees including any security incidents and what steps were taken. Instant snapshots, session recordings and history playback features can be used to view employees desktop for audit and evidence gathering purposes. Video and audio recording can be exported and shared with law enforcement authority.
+						This remote software solution provides components that facilitate the evidence-gathering process, enabling companies to collect solid proof and carry out action against malicious employees. Instant snapshots, session recordings, and history playback features can be used to view employees' desktops and exported or shared with law enforcement authority.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1754,9 +1727,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any breach events and what actions were taken. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes. StaffCop is a wayback machine! At any moment, you can go back in time and see what a particular employee was doing in a specified period in the past.
-						<br />
-						{"\n\n"}
+						StaffCop is like a time machine. Thanks to its session recordings and history playback features, you can go back in time and see what a particular employee was doing in a specified period in the past, view breach events and actions that were taken in response to the incidents. Basically, these features are crucial to auditing and evidence gathering.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1805,7 +1776,7 @@ makes it perfect to fit any Information Security Management System (ISMS).{" "}
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						StaffCop determines what behaviors are high risk – using cloud storage to share corporate documents, copying files to external drives, downloading/opening files and attachments from unknown sources etc. It also applies advanced behavior-based rules to automatically detect when employees violate the rules. And leverages sophisticated anomaly rules to identify employee activity outside the normal behavior.  When an employee's activity becomes a threat, the system is immediately notified and swings into action.{" "}
 					</Text>
 					{"    "}
 				</StackItem>

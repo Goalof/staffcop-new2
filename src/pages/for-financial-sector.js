@@ -123,11 +123,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						The Financial Services industry is a{" "}
-						<Link href="https://foresite.com/financial-sector-must-be-prepared-for-more-sophisticated-threats/">
-							prime target
-						</Link>
-						{" "}for attacks from both internal and external threats. The reasons are obvious: this industry handles what the criminals want most — money, intellectual property, trade secrets and personal information.{"\n\n"}
+						Given that financial firms deal with money, intellectual property, trade secrets and personal information, they are prime targets for attacks from both internal and external actors.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -140,11 +136,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						While outside threats to the financial industry are significant and many,{" "}
-						<Link href="http://branden.biz/wp-content/uploads/2017/06/IBM-X-Force-Threat-Intelligence-Index-20.pdf">
-							the biggest source of threat comes from the inside
-						</Link>
-						. Furthermore, a majority of insider attacks are from “inadvertent actors”, such as employees who succumb to phishing attacks. There are also threats which might seem external but are actually insider threats in disguise. For example, a ’secure’ financial services company may expose itself to dangers when it gives access to its internal system to a fintech startup, who might have a weaker security system. As another example, banks continue to outsource many operations to third-party vendors for efficiency and cost savings. However, this opens up a new avenue of threats for both the banks and their customers.{"\n\n"}
+						While outside threats to the financial industry are significant, the biggest source of threat comes from the inside. Additionally, a majority of insider attacks are carried out by “inadvertent actors”, such as employees who succumb to phishing attacks. There are also threats which might appear external but are actually insider threats in disguise. For instance, a ’secure’ financial services company may expose itself to dangers when it grants access to its internal system to a fintech startup, who might have a weaker security system. Also, when banks outsource many operations to third-party vendors for efficiency and cost savings they open up a new avenue of threats for themselves and their customers.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -157,9 +149,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In order to stay ahead of all these insider threats, financial services organizations need to widen their cybersecurity measures to include insider threat detection and data loss prevention solutions as part of their security toolbox while also enabling them to comply with security and data privacy regulations.
-						<br />
-						{"\n\n"}
+						To stay ahead of all these insider threats, financial services organizations need to widen their cybersecurity measures to include insider threat detection and data loss prevention solutions as part of their security toolbox. This will also enable them to comply with security and data privacy regulations.
 					</Text>
 					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
 					<Text
@@ -185,9 +175,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop is designed to assist the financial sector address data loss, cybersecurity and insider threats with its user activity monitoring, insider threat detection and data loss prevention solution. With StaffCop, financial services organizations can implement effective endpoint monitoring to ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few examples of what a financial services organization can achieve with StaffCop:
-						<br />
-						{"\n\n"}
+						StaffCop is built to help the financial sector address data loss, cybersecurity and insider threats with its user activity monitoring, insider threat detection and data loss prevention solution. With StaffCop, financial services organizations can execute effective endpoint monitoring and ensure adherence to regulatory compliance when it comes to protecting sensitive financial and personal data. Here are a few ways StaffCop can assist financial services organization:{" "}
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -199,7 +187,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Automatically locate important data and detect when it’s at risk.{"\n"}
+							StaffCop allows organizations to automatically locate sensitive data and detect when it’s at risk.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -212,7 +200,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Stop data and IP theft, sabotage, fraud and other insider threats.{"\n"}
+							It prevents data and IP theft, sabotage, fraud and other insider threats.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -225,7 +213,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Detect insider trading by identifying when a user saw privileged information.{"\n"}
+							By identifying when a user saw privileged information, StaffCop detects insider threats.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -238,7 +226,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Restrict third-party access to confidential data.{"\n"}
+							Controls third-party access to confidential data.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -251,7 +239,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Prevent document exfiltration over external drives, Cloud applications like Office 365, social media, email or file sharing sites like Dropbox, Google Drive.{"\n"}
+							StaffCop prevents document exfiltration over external drives, Cloud applications like Office 365, social media, email or file sharing sites like Dropbox, Google Drive.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -264,7 +252,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Block execution of unauthorized applications to minimize scam, ransomware, malware or virus infection.{"\n"}
+							It blocks the implementation of unauthorized applications to minimize scam, ransomware, and malware or virus infection.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -277,7 +265,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Conform with regulatory compliance.{"\n"}
+							Ensures organizations conform to regulatory compliance.
 						</Text>
 					</Box>
 					{"    "}
@@ -357,7 +345,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
+							The real-time monitoring system allows organizations to monitor all user activity covering 22+ system objects like: web pages, apps, email, file transfers, instant messaging, social media and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -431,7 +419,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how your employees and departments spend their time. Identify high performing employees and those who need improvement.{"\n\n"}
+							Once you've set the applications and websites you consider productive, StaffCop will provide you with in-depth reports on how your employees and departments spend their time. Thus, allowing us to identify high performing employees and those who need improvement.
 						</Text>
 					</Box>
 					{"    "}
@@ -505,7 +493,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavior.{"\n"}
+							With StaffCop’s intelligent behavior analysis you can detect malicious activity and anomalies that indicate deviation from normal behavior.
 						</Text>
 					</Box>
 					{"    "}
@@ -582,9 +570,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							In case of a security incident, session recording, alert reports and immutable logs provide a vast collection of forensic data to locate the source and target with pinpoint accuracy. The recordings can be used as evidence for further investigation or legal purposes.
-							<br />
-							{"\n\n"}
+							Session recording, alert reports and immutable logs provide a vast collection of forensic data to locate the source and target with pinpoint accuracy when an incident occurs.  Recordings can be used as evidence for further investigation or legal purposes.
 						</Text>
 					</Box>
 					{"    "}
@@ -668,17 +654,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Span
-								data-q-widget-type="PRIMITIVE"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								Create your own rules with an intuitive, visual Policy & Rules editor. Find and categorize classified and sensitive data to apply exfiltration prevention rules. Use identity-based authentication, privileged user monitoring and applying principle of least privilege (POLP) to prevent unauthorized access or tampering.
-							</Span>
+							StaffCop allows you to create your own rules with an intuitive, visual Policy & Rules editor. Discover and group classified and sensitive data to apply exfiltration prevention rules. And leverage identity-based authentication, privileged user monitoring and the principle of least privilege (POLP) to prevent unauthorized access or tampering.
 						</Text>
 					</Box>
 					{"    "}
@@ -755,7 +731,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor external and privileged users like third party vendors, remote users and IT admins who have access to your critical systems to prevent sabotage or data theft.
+							Prevent sabotage and data theft by monitoring external and privileged users like third party vendors, remote users and IT admins who have access to your critical systems.
 						</Text>
 					</Box>
 					{"    "}
@@ -776,9 +752,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				Financial Services is One of the Most Vulnerable Industries from Both Internal and External Threats:
-				<br />
-				{"\n\n"}
+				Financial Services is one of the Most Vulnerable Industries to Internal and External Threats:
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -818,8 +792,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							Financial Services has the Highest Cost of Cyber Crime
-							<br />
-							{"\n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -828,13 +800,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a 2017 report, cyber crimes in financial services companies have the highest annualized cost. Source:{" "}
-							<Link href="https://www.accenture.com/_acnmedia/PDF-62/Accenture-2017CostCybercrime-US-FINAL.pdf#zoom=50">
-								Accenture
-							</Link>
-							.
-							<br />
-							{"\n\n"}
+							According to Accenture, in 2017 cybercrimes in the financial sector had the highest annualized cost. Source: Accenture
 						</Text>
 						<Text
 							font="--lead"
@@ -883,9 +849,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Majority of Cyber Attacks are Financially Motivated
-							<br />
-							{"\n\n"}
+							A huge number of Cyber Attacks are Financially Motivated
 						</Text>
 						<Text
 							font="--lead"
@@ -894,13 +858,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A 2018 Breach Investigation Report found that 76 percent of cyber attacks are motivated by money. Source:{" "}
-							<Link href="https://enterprise.verizon.com/resources/reports/DBIR_2018_Report_execsummary.pdf">
-								Verizon
-							</Link>
-							.
-							<br />
-							{"\n\n "}
+							Findings from a 2018 Breach Investigation Report showed that 76 percent of cyber-attacks are motivated by money. Source: Verizon.
 						</Text>
 						<Text
 							font="--lead"
@@ -971,11 +929,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A typical U.S. business is attacked 4 million times per year, in contrast, a U.S. financial services firm is attacked 1 bilion times per year. Source:{" "}
-							<Link href="https://www.forbes.com/sites/bhaktimirchandani/2018/08/28/laughing-all-the-way-to-the-bank-cybercriminals-targeting-us-financial-institutions/#41a645806e90">
-								Forbes
-							</Link>
-							.{"\n\n"}
+							Based on a Forbes' report a typical U.S. business is attacked 4 million times per year, whereas a U.S. financial services firm is attacked 1 billion times per year. Source: Forbes.
 						</Text>
 						<Text
 							font="--lead"
@@ -1067,13 +1021,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							53% of insider attacks comes from inadvertent actors. Financial services experienced the highest level of threat from inadvertent actors. Source:{" "}
-							<Link href="http://branden.biz/wp-content/uploads/2017/06/IBM-X-Force-Threat-Intelligence-Index-20.pdf">
-								IBM
-							</Link>
-							.
-							<br />
-							{"\n\n"}
+							According to IBM 53% of insider attacks come from inadvertent actors and financial service firms experience the highest level of threat from these actors. Source: IBM.
 						</Text>
 						<Text
 							font="--lead"
@@ -1082,22 +1030,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
-							>
-								53%{" "}
-							</Span>
-							Insider Attacks Come from Inadvertent Users
-							<br />
-							{"\n\n"}
+							53% Insider Attacks are carried out by Inadvertent Users.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -1205,7 +1138,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								StaffCop helps you keep track of all users, endpoints and data repositories with its Monitoring Agent. Individual user session, files and network resources are tracked with 22+ system object monitoring features.{"\n\n"}
+								With its monitoring agent, StaffCop allows you to keep track of all your employees, endpoint, and data repositories.
 							</Text>
 						</Box>
 					</Box>
@@ -1279,7 +1212,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								StaffCop’s Policy & Rules Editor lets you conduct mock tests and drills for threats like insider attacks, insider trading, sabotage etc. It comes with detailed alerts and reports for data leaks and breach incident investigation. In addition, StaffCop lets you control access to sensitive resources and data by adhering to principle of least privilege (POLP).{"\n\n"}
+								StaffCop’s Policy & Rules Editor lets you conduct mock tests and drills for insider threats and offers detailed alerts and reports for data leaks and breach incident investigation.
 							</Text>
 						</Box>
 					</Box>
@@ -1349,7 +1282,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								Dynamic risk scoring and vulnerabilities scanning identify high risk users, failing policies and applications before they can cause damage.{"\n\n"}
+								Identify high risk users, failing policies and applications before they can wreak havoc with StaffCop’s dynamic risk scoring and vulnerabilities scanning.
 							</Text>
 						</Box>
 					</Box>
@@ -1421,7 +1354,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								StaffCop lets you monitor and enforce security rules for external and privileged users like third party vendors, remote users and IT admins.{"\n\n"}
+								StaffCop lets you track and implement security rules for external and privileged users like third-party vendors, remote users and IT admins.
 							</Text>
 						</Box>
 					</Box>
@@ -1489,7 +1422,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								Video recording of potential threat scenarios and other insights derived from the various reports and etiquette rules can be used to train new employees about information security best practices.{"\n\n"}
+								You can train new employees using insights derived from various reports and etiquette rules.
 							</Text>
 						</Box>
 					</Box>
@@ -1557,7 +1490,7 @@ export default (() => {
 								md-border-width="0px 0px 1px 0px"
 								border-width="0px"
 							>
-								StaffCop’s Enterprise dashboard lets senior management and CSO stay on top of their organization’s security health with real-time threat reports, user activity KPIs and risk trends.{"\n\n"}
+								StaffCop’s Enterprise dashboard enables senior management and CSO to protect their organization’s security health with real-time threat reports, user activity KPIs and risk trends.
 							</Text>
 						</Box>
 					</Box>
@@ -1638,7 +1571,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Visually records every action that an employee makes for over 22 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and measured and who has access to the monitored records. You can control which employees or third-party vendors to monitor, how much you want to monitor, when and for how long. This allows for both instant administrative viewing and respect employee privacy requirements as needed.{"\n\n"}
+						StaffCop has built-in features that allows it to visually record every action that a user makes for over 22 objects including screen, apps, websites, files, emails, etc. All objects can be adjusted to take into consideration what needs to be monitored and who has access to the monitored records. You can also control who you want to monitor, how much you want to monitor, when and for how long, thus you can have instant administrative oversight and still meet privacy requirements.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1688,7 +1621,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where StaffCop can proactively defend your data from malicious or accidental leaks or misuse{"\n\n"}
+						StaffCop’s exfiltration and egress controls allow you to monitor and prevent illicit sharing of information. For instance, File Transfer rules to prevent the use of removable media.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1772,7 +1705,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, get notified if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
+						StaffCop allows you to define what constitutes dangerous user behavior, then uses its sophisticated anomaly engine to automatically detect when a user, department, or group deviates from their normal parameters or exceeds acceptable risk levels. Once a threat is detected, it notifies appropriate authorities, locks out the user or takes remote control of the compromised system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1822,7 +1755,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the administrators of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.
+						StaffCop allows organizations to create profiles for employees and third parties and define what information and system resources each profile can access. Further rules can be established by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1900,7 +1833,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any security incidents and what actions were taken. Warning messages can be configured to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes{"\n\n"}
+						Detailed alerts including any security incidents and what actions were taken can be viewed. Warning messages can be programmed to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be leveraged to view user’s desktop for audit and evidence gathering purposes
 					</Text>
 					{"    "}
 				</StackItem>

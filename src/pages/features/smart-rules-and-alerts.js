@@ -68,7 +68,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search with simple text, keyword, wildcard or RegEx to  find the exact information you need.{"\n\n"}
+							Set up e-mail alert on any policy or filter
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -81,7 +81,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Locate text that appears in any sites or apps including images and videos in real-time.
+							Create custom reports applying any filtration criteria
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -94,20 +94,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							View a recording of the user’s desktop at the time they were exposed to sensitive data.
-						</Text>
-					</Box>
-					<Box display="flex">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Build rules to take automated action when certain text/pattern appears on a user’s screen.
+							Unite filters into custom dashboards
 						</Text>
 					</Box>
 					{"    "}

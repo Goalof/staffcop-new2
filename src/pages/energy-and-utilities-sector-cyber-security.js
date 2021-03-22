@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Span, Hr, Icon, Box, Image } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Icon, Box, Span, Image, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -122,11 +122,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						The energy and utilities industry has historically been inundated with threats from external sources including hackers, environmental activists, and industrial and state espionage.{" "}
-						<Span color="--primary">
-							As a result, the industry has set security as their top priority
-						</Span>
-						. Thanks to their efforts, it has become more difficult for an outside attacker to penetrate critical energy and utilities systems. That’s good news.
+						In the past, the energy and utilities industry was mainly plagued by threats from external actors - a challenge it addressed by adopting better security measures. Now, it is difficult for outsider attackers to penetrate critical energy and utilities systems.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -139,7 +135,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						However, what’s not good is, the criminals have now turned to enlist insiders, ie employees and contractors in these organizations to gain access using various methods like social engineering, id theft/ impersonation, baits or collusion. Being insiders, these users already have access to critical systems, sensitive data and IP, and can cause more damage than an outsider. While the cost of insider-caused incidents varies by industry, energy and utilities remains one of the highest - spending tens of millions in average to contain the damage caused by such threats.
+						Unfortunately, these criminals are adapting and have found a new way to carry out their attacks – they now recruit insiders, employees and contractors in these organizations to gain access. These insider attacks cost the energy industry tens of millions on average.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -152,11 +148,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						The energy & utilities sector is also highly collaborative where larger companies utilize contractors, outsourcing partners and suppliers for offshore operations, exploration, distribution, analysis and legal matters. A third-party can easily expose the company to great financial, IP and other risks either accidentally or intentionally. There are also consulting firms working with multiple oil and gas companies providing design and engineering services who need to share confidential and sensitive information such as reservoir data, seismic reading, future exploration sites etc. These firms are often targeted by competitors,{" "}
-						<Span color="--primary">
-							criminals, and even their customers
-						</Span>
-						{" "}for the invaluable trade secrets.
+						What’s more, large utilities often utilize contractors, outsourcing partners and suppliers for offshore operations, exploration, distribution, analysis and legal matters. These third-parties can easily expose the company to great financial, IP and other risks either accidentally or intentionally.
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -169,7 +161,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In an industry where employees, vendors and contractors have access to critical infrastructures, privileged information or intellectual property on a regular basis, securing the resources and information is crucial for the industry as well as for the safety of the citizens utilizing their products and services.
+						In an industry where employees, vendors, and contractors have access to critical infrastructures and sensitive data on a regular basis, securing the resources and information is crucial for the industry as well as for the safety of the citizens utilizing their products and services.
 					</Text>
 					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
 					<Text
@@ -195,7 +187,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						With StaffCop, energy and utility companies can monitor and protect critical infrastructure from malicious or accidental insider threats, safeguard information of future plans, trade secrets, IP and customer information and meet compliance goals for NERC, FISMA, ISO 27001 with its powerful policy and rules engine, forensic audit and reporting features. Here are a few expels of what an energy or utility company can achieve with StaffCop’s unified User Activity Monitoring, Threat Detection and DLP platform:
+						With StaffCop, energy and utility companies can monitor and protect critical infrastructure from malicious or accidental insider threats and meet compliance goals for NERC, FISMA, ISO 27001 with its powerful policy and rules engine, forensic audit, and reporting features.
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -207,7 +199,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Gain operation-wide visibility into the user activity of critical infrastructure assets for both OT and IT systems including endpoint, servers, terminals, back/front office systems.
+							Offers operation-wide visibility into the user activity of critical infrastructure assets for both OT and IT systems.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -220,7 +212,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Prevent stealing of high value intellectual property like survey and testing data, drilling and logistics information, site plans, bid for drilling rights and more.
+							Prevents stealing of high value intellectual property like survey and testing data, drilling and logistics and so on.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -233,7 +225,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Extend monitoring and control to partners, vendors, consultants and other third-parties for secure collaboration on joint-venture projects.
+							Extends monitoring and control to all third-parties for secure collaboration on joint-venture projects.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -246,7 +238,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Restrict modification of system software, access elevation, malicious code execution and other potential harmful activity by privileged users.
+							Limits the modification of system software, access elevation and other potential harmful activity by privileged users.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -259,7 +251,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Protect customer information, employee privacy and corporate data.
+							Defend customer information, employee privacy and corporate data.
 						</Text>
 					</Box>
 					{"    "}
@@ -339,10 +331,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop monitors all user activity over endpoints, servers/terminal servers, network and cloud for 22+ system objects like: websites, applications, emails, files even on-screen content (OCR) in real-time
-							<br />
-							<br />
-							<br />
+							StaffCop monitors all user activity over IT and OT systems and cloud for 22+ system objects.
 						</Text>
 					</Box>
 					{"    "}
@@ -416,7 +405,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavior. Use the powerful Policy & Rules Editor to create rules to define what constitutes insider threats. StaffCop then takes immediate actions like warn, block, lockout user or take remote control of a system when rule violation is detected.
+							StaffCop detects malicious activities and anomalies and takes immediate actions like warn, lockout user or take remote control of a system when rule violation is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -490,9 +479,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Deep content inspection in both structured and unstructured data accurately identifies classified and confidential information. StaffCop also supports real-time content discovery with advanced OCR, digital fingerprinting and tagging.
-							<br />
-							<br />
+							Deep content inspection in both structured and unstructured data accurately and identifies classified and confidential information.
 						</Text>
 					</Box>
 					{"    "}
@@ -566,10 +553,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Protect confidential design, production and exploration plans, shield private employee and corporate information, trade secrets, IP and other sensitive information from falling into the wrong hands.
-							<br />
-							<br />
-							<br />
+							StaffCop protects confidential design, production and exploration plans, IP and other sensitive information from falling into the wrong hands.
 						</Text>
 					</Box>
 					{"    "}
@@ -643,7 +627,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Use a combination of terminal servers, VMWare or Citrix servers to allow your partners collaborate on projects in a secure sandbox. Record their activates, restrict access or take control of the server in case of an incident keeping rest of your operation immune from disruption.
+							Leverages a combination of terminal servers, VMWare or Citrix servers to allow collaboration with partners in a secure sandbox.
 						</Text>
 					</Box>
 					{"    "}
@@ -717,10 +701,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Dynamic risk scoring and vulnerabilities scanning identifies at risk employees, policies and system resources. Detect, analyze and prioritize security gaps before they can be exploited.
-							<br />
-							<br />
-							<br />
+							With StaffCop’s dynamic risk scoring and vulnerabilities scanning ability, companies can identify at risk employees, policies, and system resources.
 						</Text>
 					</Box>
 					{"    "}
@@ -785,7 +766,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Manage Compliance
+							Coordinate Security Orchestration for Rapid Response
 						</Text>
 						<Text
 							font="--lead"
@@ -794,10 +775,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Conform with security and regulatory standards like NERC, FISMA, FERC, ISO 27001, GDPR etc. Speedup standard implementation with flexible Policy & Rules editor and various monitoring and reporting features.
-							<br />
-							<br />
-							<br />
+							By utilizing StaffCop, you can create a cybersecurity perimeter across your stores, supply chain network and corporate offices and much more.
 						</Text>
 					</Box>
 					{"    "}
@@ -871,11 +849,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor third party vendors, contractors and consultants who have access to your critical systems to prevent sabotage or data theft.
-							<br />
-							<br />
-							<br />
-							<br />
+							Monitor all third party entities who have access to your critical systems to prevent sabotage or data theft.
 						</Text>
 					</Box>
 					{"    "}
@@ -949,86 +923,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Implement training and awareness programs with Session Recording & Playback and customized rule violation messages.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							10
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Coordinate Security Orchestration for Rapid Response
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							Integrate StaffCop with Intrusion Detection/Prevention Systems (IDS/ IPS), Access Control, Threat Analytics and SIEM systems. Create a cyber security perimeter across your stores, supply chain network and corporate offices. Share threat intelligence and coordinate response with analyts, CSO, MSSP and security teams.
+							Enforce training and awareness programs with Session Recording & Playback and customized rule violation messages.
 						</Text>
 					</Box>
 					{"    "}
@@ -1049,11 +944,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				Industry Statistics Show the Need for Privileged User{" "}
-				<Span color="--primary">
-					Activity Monitoring
-				</Span>
-				{"\n\n"}
+				Industry Statistics Show the Need for Privileged User Activity Monitoring
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -1092,7 +983,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Security is a top concern among utilities{"\n\n\n"}
+							Security is top priority for utilities
 						</Text>
 						<Text
 							font="--lead"
@@ -1101,7 +992,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A survey of 600 electric utility executives found that cyber and physical security was the most pressing concerns for them. Source: UtilityDive.{" \n\n"}
+							Cyber and physical security were the most pressing concerns for utility companies, says UtilityDive.{" \n\n"}
 						</Text>
 						<Text
 							font="--lead"
@@ -1119,10 +1010,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								72%
 							</Span>
-							{" "}Agree Cyber & Physical Security is Important or Very Importan
+							{" "}Agree Cyber & Physical Security is imperative
 						</Text>
 					</Box>
 					{"    "}
@@ -1162,7 +1054,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Energy is one of the most targeted critical industry{"\n\n"}
+							Energy is one of the most targeted critical sectors
 						</Text>
 						<Text
 							font="--lead"
@@ -1171,7 +1063,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							The U.S. energy sector, which includes the oil, natural gas, and electricity subsectors, is one of the most highly targeted critical infrastructure sectors. Source: DHS.{" \n\n\n"}
+							According to a report by DHS, the U.S. energy sector, is one of the most highly targeted critical infrastructure sectors.
 						</Text>
 						<Text
 							font="--lead"
@@ -1232,7 +1124,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Insiders are the top threats in the oil & gas industry{"\n\n"}
+							Insiders are the biggest security threat in the oil and gas industry
 						</Text>
 						<Text
 							font="--lead"
@@ -1241,7 +1133,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							In a survey of OT experts, 65% said the top cybersecurity threat was careless insider and 15% said malicious insider. Source: Ponemon & Symantec.{" \n\n"}
+							In a Ponemon & Symantec survey, 65% of OT experts identified careless insiders as the top cybersecurity threat, while 15% said malicious insiders.
 						</Text>
 						<Text
 							font="--lead"
@@ -1323,7 +1215,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Insider threats cost energy & utilities companies millions{"\n\n"}
+							Insider threats cost energy and utilities companies millions
 						</Text>
 						<Text
 							font="--lead"
@@ -1332,7 +1224,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Companies in energy and utilities incurred an average costs of $10.23 million in insider threat related incidents in 2018. Source: Ponemon & ObserveIT.{" \n\n"}
+							Utilities incurred an average cost of $10.23 million due to insider threat related incidents in 2018, according to Ponemon & ObserveIT.
 						</Text>
 						<Text
 							font="--lead"
@@ -1350,10 +1242,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								$10M+
 							</Span>
-							{" "}Cost of Insider Threats for Energy & Utilities
+							{" "}Cost of Insider Threats for Energy & Utilities Companies
 						</Text>
 					</Box>
 					{"    "}
@@ -1374,11 +1267,7 @@ export default (() => {
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 			>
-				Teramind Helps Energy & Utilities Companies{" "}
-				<Span color="--primary">
-					Protect Sensitive Data
-				</Span>
-				{"\n\n"}
+				StaffCop Helps Energy and Utilities Companies Protect Confidential Data
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -1426,9 +1315,11 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							– Exploration, survey, seismic and other research data.{" \n"}
+							– Exploration, seismic, survey and other research data.
 							<br />
-							– Process flow, pipeline flow diagram, engineering designs. – Oil/gas drilling data like prospecting related terms, confidential/CB well list, Coalbed data etc.{" \n"}
+							– Process flow, pipeline flow diagram, engineering designs.
+							<br />
+							– Oil/gas drilling data like prospecting related terms, confidential/CB well list, Coalbed data etc.{" \n"}
 							<br />
 							– Business plans, legal data.
 							<br />
@@ -1482,13 +1373,13 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							– Distribution plans, software design documents, SCADA terms.{" \n"}
+							– Software design documents, SCADA terms, distribution plans{" \n"}
 							<br />
 							– Vendor Contracts.{" \n"}
 							<br />
 							– Business plans, legal data.{" \n"}
 							<br />
-							– Customer Data, Personally identifiable information (PII), Consumer-specific Energy Usage Data (CEUD), Customer proprietary network information (CPNI).{"\n\n"}
+							– Customer Data, Personally identifiable information (PII), Customer proprietary network information (CPNI).{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1537,71 +1428,21 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							– Business processes and strategic plans.{" \n"}
+							– Strategic plans and business processes.{" \n"}
 							<br />
-							– Price/cost/supplier/customer lists.Source code, formulas, patents and other type of IPs.{" \n"}
+							– Price/cost/supplier/customer lists.{" \n"}
 							<br />
-							– Acquisition plans, M&A announcements, legal documents and other confidential matters.{" \n"}
+							– Source code, formulas, and other type of IPs.
 							<br />
-							– Payroll, accounting and financial data.{" "}
+							{" \n"}- Consumer-specific Energy Usage Data (CEUD).
+							<br />
+							- Acquisition plans, M&A announcements, legal documents and other sensitive matters.
+							<br />
+							– Payroll, accounting and financial data.
+							<br />
 							<br />
 							<br />
 							{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 16px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							And more...{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							– Billing/invoice, tax/VAT, GST/HST, enrollment and payment related data.{" \n"}
-							<br />
-							– GDPR special data categories (trade union data, biometric, geo location).{" \n"}
-							<br />
-							– For Official Use Only (FOUO), Confidential and Protected file tags.Federal{" \n"}
-							<br />
-							– Tax Information (FTI), Covered Financial Information (GLBA) etc.{"\n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -1680,7 +1521,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a user makes on your Operation Technology (OT) and IT systems including endpoints, servers/terminal servers, network and cloud, DMZ for 22+ system objects like: web, apps, email, file transfers, etc. Uncover what your employees are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.{"\n\n"}
+						StaffCop visually records every action that a user makes on your OT and IT systems and cloud, DMZ for 22+ system objects. Each object can be programmed to take into consideration what needs to be monitored and who has access to the monitored records. You can specify who you want to monitor, how much you want to monitor, when and for how long.
 					</Text>
 					{"  "}{"  "}
 				</StackItem>
@@ -1731,7 +1572,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information. Custom data types easily be created using flexible regular expression (RegEx) and natural language definitions. Combine OCR and fingerprinting with multiple logic, file origin, file properties and data content to discover and protect confidential exploration and production data, engineering and technical design, source codes, contract etc.{"\n\n"}
+						StaffCop has built-in templates for many classified and unclassified data types to protect your customer data, IP and other sensitive information.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1798,7 +1639,9 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Powerful Policies and Rules Engine{"\n\n"}
+						<Em>
+							Powerful Policies and Rules Engine{"\n\n"}
+						</Em>
 					</Text>
 					<Text
 						font="--lead"
@@ -1809,7 +1652,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						The core of the StaffCop platform is its automation. StaffCop comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.{"\n\n"}
+						<Em>
+							The core of the StaffCop platform is its automation. StaffCop comes with hundreds of pre-defined policies and rules. For example: block email containing sensitive keywords, stop uploading of a confidential document, detect screen capture, prevent the use of external drives etc. The templates cover virtually every use case of data loss prevention, insider threat detection and compliance requirements. Just pick a policy or rule template and all the data definition, content source, condition will be set automatically for you to edit.{"\n\n"}
+						</Em>
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1859,7 +1704,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop helps you put exfiltration and egress controls in place to monitor and prevent illicit sharing of information. For example, File Transfer rules to block use of removable media. Clipboard rules to prevent sharing of confidential information like customer data outside the CRM. Network rules to restrict download/upload operations in the Cloud for certain file types or all files (no need for separate Cloud Access Security Brokers). Or use dedicated Application rules to limit or completely disable social media and IMs to prevent potential data leak by social engineering. There are hundreds of use cases where StaffCop can proactively defend your data from malicious or accidental leaks or misuse{"\n\n"}
+						StaffCop’s exfiltration and egress controls allow you to monitor and prevent illicit sharing of information. For instance, File Transfer rules to prevent the use of removable media.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1937,7 +1782,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop's sophisticated anomaly engine will automatically detect when a user, department or group deviates from their normal parameters or exceeds acceptable risk levels. For example, get notified if a user sends too many attachments or prints more pages than normal. StaffCop can detect anomalies in applications, emails, network, file activities, printing and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.{"\n\n"}
+						StaffCop allows you to define what constitutes dangerous user behavior, then uses its sophisticated anomaly engine to automatically detect when a user, department, or group deviates from their normal parameters or exceeds acceptable risk levels. Once a threat is detected, it notifies appropriate authorities, locks out the user or takes remote control of the compromised system.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1987,7 +1832,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows organizations to create profiles for privileged users, contractors and other third-parties and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unauthorized changes to system configuration, creation of backdoor accounts, unscheduled logins, a contractor trying to access restricted databases etc.{"\n\n"}
+						StaffCop allows organizations to create profiles for employees and third parties and define what information and system resources each profile can access. Further rules can be established by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2054,7 +1899,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Security Sandbox{"\n\n"}
+						Digital Forensics and Auditing
 					</Text>
 					<Text
 						font="--lead"
@@ -2065,7 +1910,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows you to create virtual servers on Windows, VMware Horizon etc. Utilizing this capability, you can for example, setup a Terminal Server for your partners, contractors or vendors . These external users can then login to the server using RDP keeping out of your internal network and repositories. At the same time, you can record their activates separately, restrict access or take control of the server in case of an incident keeping rest of your business immune to disruption.{"\n\n"}
+						Detailed alerts including any security incidents and what actions were taken can be viewed. Warning messages can be programmed to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be leveraged to view user’s desktop for audit and evidence gathering purposes
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2103,7 +1948,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Digital Forensics and Auditing{"\n\n"}
+						Risk Assessment and Treatment
 					</Text>
 					<Text
 						font="--lead"
@@ -2115,7 +1960,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Detailed alerts for all users can be viewed including any security incidents and what actions were taken. Warning messages can be configured to inform the users about nonconformity and influence corrective behavior. Session recordings and history playback can be used to view user’s desktop for audit and evidence gathering purposes{"\n\n"}
+						CSO and security analysts can conduct organization-wide risk assessment using StaffCop dedicated Risk dashboard. Risk can be profiled by users, departments, or by system objects, reports can be derived by severity of risks or by how many times security violations occurred, and Unique Risk Scores helps you identify high-risk users or policies so that plans can be created for treating the risks.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2182,7 +2027,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Risk Assessment and Treatment{"\n\n"}
+						Compliance Management
 					</Text>
 					<Text
 						font="--lead"
@@ -2193,73 +2038,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop has a dedicated Risk dashboard where the CSO and security analysts can conduct organization-wide risk assessment. Risk can be profiled by users, departments or by system objects. Reports can be derived by severity of risks or by how many times security violations occurred. Unique Risk Scores helps you identify high-risk users or policies so that plans can be developed for treating the risks.{"\n\n"}
+						Compliance is an increasingly challenging task:  requiring organizations to manage multiple risk factors across an evolving technology landscape, while also ensuring appropriate user behavior to fulfil the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.  Organizations that fail to remain compliant risk severe financial and reputational consequences. Regardless of the industry you are in, you need a solid compliance management solution that can help you attain compliance and then assists you in staying compliant with continuous oversight. Additionally, the solution should provide you with a burden of proof in case of an audit.
 					</Text>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Compliance Management{"\n\n"}
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						StaffCop comes with support for implementing compliance and standards like NERC CIP Standards for Electric Utilities, FISMA, FERC, ISO 27001, GDPR etc. Our flexible Policy and Rules Editor and powerful analytics and reporting features can help you develop your own organization-specific security and privacy, etiquette and acceptable use policies or conform with any regional data privacy and notification laws applicable to your organization.{"\n\n"}
-					</Text>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}

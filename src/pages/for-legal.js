@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Hr, Box, Span, Strong, Image, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Hr, Box, Strong, Image, Icon, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -108,9 +108,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In today’s highly regulated business landscape, law firms are faced with the ever evolving challenge of addressing their insider risk issues as it pertains to securing attorney-client privileged information and client/matter data, ensuring the security of the work product offshored, and securing access to critical systems by privileged users and third party vendors/contractors.
+						In today’s highly regulated business landscape, law firms are faced with the ever-evolving challenge of tackling their insider risk problems as it relates to protecting attorney-client privileged information and client/matter data, ensuring the security of the work product offshored, and securing access to critical systems by privileged users and third-party vendors/contractors.
 						<br />
-						StaffCop for Legal is designed to assist law firms to address these requirements to deliver peace of mind and product/demonstrate effective oversight to compliance initiatives to your clients.
+						StaffCop for Legal is designed to assist law firms to address these challenges and demonstrate effective oversight to compliance initiatives to clients.
 					</Text>
 					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
 					<Text
@@ -136,7 +136,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In addition, the rapidly expanding regulatory landscape, your clients are demanding for your firm to adhere to the same standards as you are granted access to and store their sensitive data. This means product/demonstrating your firm’s ability to comply with AML/KYC, HIPAA, ISO27001/27002, GDPR to name a few.
+						Since clients now require law firms to adhere to regulatory standards such as AML/KYC, HIPAA, ISO27001/27002, GDPR that secure their sensitive data, it is crucial for legal organizations to adopt solutions that ensure compliance.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -206,7 +206,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Controls to ensure safety of client/matter data and work-product stored in firm systems and repositories
+							Controls to enforce safety of client/matter data and work-product stored in firm systems and repositories
 						</Text>
 					</Box>
 					{"    "}
@@ -271,11 +271,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Oversight, audit and logs of all actions for all employees (or any subsection of users/departments) at the firm
-							<br />
-							<br />
-							<br />
-							<br />
+							Oversight, audit and logs of all actions for all employees at the firm
 						</Text>
 					</Box>
 					{"    "}
@@ -340,12 +336,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Privileged user monitoring, session recording, with searchable logs, videos, and audit trail for forensics
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
+							Privileged user monitoring, session recording, with videos, searchable logs, and audit trail for forensics
 						</Text>
 					</Box>
 					{"    "}
@@ -410,8 +401,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Focus on context with heavy emphasis on user behavior analytics to weed out false positives, and identify anomalous behavior
-							<br />
+							User behavior analytics to eliminate false positives, and identify anomalous behavior
 						</Text>
 					</Box>
 					{"    "}
@@ -476,8 +466,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							An immutable log of actions that clearly product/demonstrate all activity as it pertains to firm desktops, laptops and content
-							<br />
+							An immutable log of actions that vividly product/demonstrate all activity as it relates to firm desktops, laptops and content
 						</Text>
 					</Box>
 					{"    "}
@@ -542,10 +531,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Ability to set up real-time alerts to monitor suspect actions
-							<br />
-							<br />
-							<br />
+							Ability to set up real-time alerts to track suspect activities
 						</Text>
 					</Box>
 					{"    "}
@@ -567,10 +553,7 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				width="75%"
 			>
-				Data breach is a{" "}
-				<Span color="--primary">
-					costly challenge facing privacy
-				</Span>
+				Data breach is a costly challenge confronting privacy
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -618,7 +601,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							of all attacks resulted in financial damage of more than US $500,000, including, but not limited to, lost revenue, customers, opportunities, and out-of-pocket costs.
+							of all attacks resulted in a financial loss of more than US $500,000, including, but not limited to, lost revenue, customers, opportunities, and out-of-pocket costs.
 						</Text>
 					</Box>
 					{"    "}
@@ -667,7 +650,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							was paid in ransom in the first quarter of 2016, compared to just $24 million in ransom payments in all of 2015 the FBI reported.{" "}
+							The FBI reported that $209M was paid in ransom in the first quarter of 2016, while just $24 million in ransom payments was made in all of 2015.
 						</Text>
 					</Box>
 					{"    "}
@@ -716,8 +699,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							of business identified privileged users as a top cloud security concern.
-							<br />
+							of businesses identified privileged users as a top cloud security concern.
 						</Text>
 					</Box>
 					{"    "}
@@ -766,8 +748,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Estimated annual losses for the US from cyber crime targeting IP and perhaps $50 billion to $60 billion globally.
-							<br />
+							estimated annual losses for the US from cybercrime targeting IP and roughly $50 billion to $60 billion globally
 						</Text>
 					</Box>
 					{"    "}
@@ -1120,7 +1101,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop’s Session Recording feature captures all user activity and screen content. User session recordings can be viewed live or for past dates and exported as a video file. With the session recording feature, you can:.
+						StaffCop’s Session Recording feature captures all user activity and screen content. With this function, you can:
 					</Text>
 					{"  "}
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1133,7 +1114,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Find out, and have forensic evidence, if your users are engaged in unproductive or harmful activities while at work.
+							Know and have forensic evidence, if your users are engaged in unproductive or harmful activities while at work.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1146,7 +1127,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Take control of a user's desktop in a potential breach situation.
+							Take control of a user's desktop in a potential breach event.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1159,7 +1140,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With the help of immutable logs, alert reports and audit trails, the recording can serve as forensic evidence for investigation.
+							With the components such as immutable logs, alert reports and audit trails, the recording can serve as forensic evidence for investigation.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1172,7 +1153,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							The insight derived from the reports and recordings can be used to train employees about security best practices..
+							The insight derived from the reports and recordings can be leveraged to train employees about security best practices.
 						</Text>
 					</Box>
 					{"  "}
@@ -1224,7 +1205,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Privileged insiders such as system administrators, network administrators, conflicts department and other personnel have access to otherwise restricted critical information systems containing client/matter data. As such, a malicious privileged user can cause serious damage to a law firm by accessing, leaking or potentially destroying client/matter data and work product. To prevent these insider threats, StaffCop can:
+						Because of their access to critical information systems containing client/matter data, privileged users can cause severe damage to a law firm, if they have malicious intent. They can leak, steal or potentially destroying client/matter data and work product. To prevent these insider threats, StaffCop offers:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1234,7 +1215,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Set up power-user rules to check for backdoor account creation, attempt to gain additional system privileges, editing configuration files etc.
+							Power-user rules to check for backdoor account creation, attempt to gain additional system privileges etc.
 						</Text>
 						<Icon
 							category="bs"
@@ -1253,7 +1234,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Receive real-time alerts when a privileged user tries to tamper with sensitive systems, databases or content.
+							Real-time alerts when a privileged user tries to tamper with sensitive systems, databases or content.
 						</Text>
 						<Icon
 							category="bs"
@@ -1272,7 +1253,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Immutable session log keeps a permanent record of all privileged user actions.
+							Immutable session log that keep a permanent record of all privileged user actions.
 						</Text>
 						<Icon
 							category="bs"
@@ -1359,7 +1340,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can capture all data on a computer screen, including text in images and apply OCR technology to provide the firm with the ability to:
+						StaffCop can collects all data on a computer screen, including text in images and apply OCR technology to provide the firm with the ability to:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -1371,7 +1352,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search for certain keywords using regular expressions or natural language to find any relevant content that was visible to the user.
+							Search for certain keywords and find any relevant content that was visible to the user, using regular expressions or natural language.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1384,7 +1365,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Discover which users have seen relevant information as it pertains to a particular client/matter to ensure ethical walls remained in place and report any violations.
+							Find out which users have seen relevant information to ensure ethical walls remain in place and report any violations.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1397,7 +1378,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Build rules that sends an alert when certain text appears on screen.
+							Develop rules that send an alert when certain text appears on screen.
 						</Text>
 					</Box>
 					{"    "}
@@ -1448,7 +1429,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With work product offshored and contracted out on a regular basis, it’s important to be able to monitor and improve the process and productivity of the extended legal workforce. StaffCop can assist by providing a framework within which your law firm can:
+						With work product offshored and contracted out on a regular basis, it’s essential to be able to monitor and improve the process and productivity of the extended legal workforce. StaffCop can assist by offering a framework within which your law firm can:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1458,7 +1439,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Classify apps and websites you consider productive then get in-depth reports on their usage.
+							Classify apps and websites you consider productive and provide in-depth reports on their usage.
 						</Text>
 						<Icon
 							category="bs"
@@ -1477,7 +1458,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Detailed reports for departments and teams for productivity KPIs like session, active, productive, unproductive and idle time..
+							Detailed reports for productivity KPIs like session, active, productive, unproductive and idle time.
 						</Text>
 						<Icon
 							category="bs"
@@ -1496,7 +1477,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Set up automated alerts to discourage excessive idling.
+							Sends automated alerts to discourage excessive idling.
 						</Text>
 						<Icon
 							category="bs"
@@ -1595,7 +1576,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Rules and policies to monitor and protect client/matter and other sensitive data from insider threats, breaches and exfiltration.
+							Rules and policies to monitor and secure client/matter and other sensitive data from insider threats and breaches.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1608,7 +1589,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							The visual Policy and Rules Editor enables administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, instant message and much more.{"\n\n"}
+							The visual Policy and Rules Editor allows administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, and much more.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1621,7 +1602,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Use black/white listing, define safe or restricted app and websites and do much more.{"\n\n"}
+							Utilize black/whitelisting, define safe or restricted apps and websites, and do much more.
 						</Text>
 					</Box>
 					{"    "}
@@ -1672,7 +1653,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop, your firm is in complete control on when, who and how much to monitor, when to record and when not to. StaffCop is flexible to accommodate all use cases:
+						StaffCop allows firms to have complete control over when, who and how much to monitor, when to record and when not to. StaffCop is flexible to accommodate all use cases:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1682,7 +1663,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Monitor activity and alert only, with no user session recording
+							Track activity and alert only, with no user-session recording
 						</Text>
 						<Icon
 							category="bs"
@@ -1701,7 +1682,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Monitor only during the specified working hours.
+							Specified working hours monitoring
 						</Text>
 						<Icon
 							category="bs"
@@ -1720,7 +1701,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Specify which types of data are monitored for specific users or department. E.g, monitor only printing documents for accountant, only e-mail and messengers for sales department, or monitor all type of activities with desktop video recording for an employee in the risk group.
+							Define which types of data are monitored for specific users or departments. E.g, monitor only printing documents for the accountant, only email and messengers for the sales department, and so on.
 						</Text>
 						<Icon
 							category="bs"
@@ -1807,7 +1788,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can be deployed with a revealed desktop agent, whereby users are aware of the Teramind system and its monitoring functions. Alternatively, the desktop agent can be deployed in stealth mode with no visible controls to the end users being monitored.
+						You can either deploy StaffCop with a revealed desktop agent, whereby users are aware of the StaffCop system and its monitoring functions. Or, launch the desktop agent in stealth mode with no visible controls to the end-users being monitored.
 					</Text>
 					<Text
 						font="normal 600 18px/160% --fontFamily-googleInter"
@@ -1830,7 +1811,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users can see the StaffCop icon in the taskbar with the address of the StaffCop Server collecting the data from this agent.
+							Users can see the StaffCop icon in the taskbar with the address of the StaffCop Server aggregating the data from this agent.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1843,7 +1824,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users can be asked for the reason of absence if there is no activity registered for a specified period of time.
+							Users will be required to provide reasons for absence, if there is no activity registered for a specified period of time.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -1856,7 +1837,7 @@ export default (() => {
 							margin="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Control mouse and keyboard of a remote desktop in real time{" "}
+							Allows you to control mouse and keyboard of a remote desktop in real-time
 						</Text>
 					</Box>
 					{"    "}
@@ -1907,7 +1888,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Compliance, competition and customer trust means law firms have to ensure the safety of client/matter information and work product. To ensure data safety and integrity, StaffCop has a robust, four-step data loss prevention process:
+						Compliance, competition and customer trust means law firms have to safeguard client/matter information and work product. To ensure data safety and integrity, StaffCop provides a robust, four-step data loss prevention process:
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Text
@@ -1917,7 +1898,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Defining what constitutes sensitive or classified data.
+							First, it allows you to define what constitutes sensitive or classified data.
 						</Text>
 						<Icon
 							category="bs"
@@ -1936,7 +1917,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Set security perimeter by setting rules for how the data should be handled.
+							Creates a security perimeter by setting rules for how the data should be handled.
 						</Text>
 						<Icon
 							category="bs"
@@ -1955,7 +1936,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							Automatically prevent any rule violation incident with actions that block, notify, or warn.
+							Automatically thwart any rule violation incident with actions that block, notify, or warn.
 						</Text>
 						<Icon
 							category="bs"

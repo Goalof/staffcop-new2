@@ -181,9 +181,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						StaffCop tracks user activity in applications including time and duration. This collected data is then used for building time tracking reports for evaluation of employee productivity. Applications can graded according to their level of their usefullness for performing working tasks. They are divided into thematical resource lists, such as "Office applcations", "E-mail applications", "Graphic editors", "Games", etc. Each list of applications has a corresponding productivity category, for example "Office applications" are productive, "Games" - unproductive, "Graphic editors" - neutral. StaffCop can also block launching of prohibited applications.
-						<br />
-						{"\n\n"}
+						StaffCop monitors user activity in applications, including time and duration. This aggregated data is then utilized in building time tracking reports for evaluation of employee productivity. StaffCop grades applications according to their level of usefulness for performing working tasks and further divided into thematical resource lists, such as "Office applications," "Email applications," "Graphic editors," "Games," etc. Each list of applications has a corresponding productivity group; for instance, "Office applications'' are productive, "Games" - unproductive, "Graphic editors" - neutral. StaffCop can also stop the launching of prohibited applications.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -199,7 +197,7 @@ export default (() => {
 							padding="19px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Records include time spent within an application, individual keystrokes, files accessed, and content viewed, among a plethora of other data
+							Records compress time spent within an application, individual keystrokes, files accessed, and content viewed, among a plethora of other data.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -212,7 +210,7 @@ export default (() => {
 							padding="19px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Application-specific alerts can be set to have StaffCop notify administrators of the development of potential security risks
+							Application-specific alerts can be set to have StaffCop notify administrators of potential security risks.
 						</Text>
 					</Box>
 					{"            "}
@@ -229,7 +227,7 @@ export default (() => {
 							padding="19px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor application usage across an organization to determine needed upgrades and security protocol updates
+							StaffCop’s application monitoring feature allows it to track usage across an organization and determine needed upgrades and security protocol updates.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -242,7 +240,7 @@ export default (() => {
 							padding="19px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Applications can be separated based on usages to provide a clear picture of general and individual employee productivity levels{"\n\n"}
+							Applications can be categorized based on usages to provide a clear picture of general and individual employee productivity levels.
 						</Text>
 					</Box>
 					{"            "}

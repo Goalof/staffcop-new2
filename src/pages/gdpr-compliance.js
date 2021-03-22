@@ -122,7 +122,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Teramind for GDPR helps organizations conform with ongoing compliance requirements with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.
+						StaffCop for GDPR helps organizations conform with ongoing compliance requirements with its extensive user activity monitoring, data exfiltration protection, audit, reporting and forensics capabilities.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -994,7 +994,7 @@ export default (() => {
 				text-align="center"
 				width="75%"
 			>
-				Teramind for GDPR provides user activity and data exfiltration monitoring capabilities to help organizations detect, investigate, and report on data breaches.
+				StaffCop for GDPR provides user activity and data exfiltration monitoring capabilities to help organizations detect, investigate, and report on data breaches.
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -1049,7 +1049,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, Teramind identifies personal and sensitive data in structured and unstructured information across organization data stores.
+							Leveraging advanced fingerprinting, OCR and tagging technology, StaffCop identifies personal and sensitive data in structured and unstructured information across organization data stores.
 						</Text>
 					</Box>
 					{"    "}
@@ -1105,7 +1105,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
+							StaffCop leverages its activity monitoring and data loss prevention capabilities to defend confidential and private information from unauthorized access, sharing, attack and misuse.
 						</Text>
 					</Box>
 					{"    "}
@@ -1161,7 +1161,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
+							StaffCop’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
 						</Text>
 					</Box>
 					{"    "}

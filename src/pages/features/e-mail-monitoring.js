@@ -67,7 +67,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Configure rules to alert or block emails{"\n\n"}
+							Create rules to alert or block emails
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -79,7 +79,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Download and see files received by email
+							Download and view files received by email
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -91,7 +91,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor incoming and outgoing employee email{"\n\n"}
+							Track incoming and outgoing employee email
 						</Text>
 					</Box>
 					{"    "}
@@ -181,7 +181,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							All events associated with incoming and outgoing emails, from typing and attaching content when sending, to reading and accessing attachments when receiving, is recorded for visual playback{"\n\n"}
+							StaffCop’s email monitor feature records all events associated with incoming and outgoing emails, from typing and attaching content when sending to reading and accessing attachments for the purpose of visual playback
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -194,23 +194,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Covers all email platforms, such as Outlook (web & desktop), Gmail, Yahoo, Yandex, and more{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="15px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Email attachments are monitored and optionally saved{"\n\n"}
-							<br />
-							<br />
-							{"\n"}Alerts can be set based on any email property, such as content, recipient, subject, and more{"\n\n"}
+							It can be used to monitor emails on all email platforms, including Outlook (web & desktop), Gmail, Yahoo, Yandex, track and save email attachments.{" "}
 						</Text>
 					</Box>
 					<Box display="flex">
@@ -223,7 +207,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Ensure company policy and procedures are being adhered to in all employee e-mails{"\n\n"}
+							It ensures company policy and procedures are being adhered to in all employee e-mail
 						</Text>
 					</Box>
 					{"            "}
@@ -240,7 +224,7 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor networking and collaboration emails to fine tune messages and optimize return on investment from outreach campaigns{"\n\n"}
+							It tracks networking and collaboration emails to refine messages and optimize return on investment from outreach campaigns
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -253,7 +237,20 @@ export default (() => {
 							padding="15px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get automatic alerts when emails are send to non-corporate accounts or suspicious hosts{"\n\n"}
+							It sends automatic alerts when non-corporate accounts or suspicious hosts receive emails{" "}
+						</Text>
+					</Box>
+					<Box display="flex" margin="0px 0px 18 0px">
+						<Icon
+							category="bs"
+							icon={BsFillCircleFill}
+							size="10px"
+							color="rgba(20, 101, 255, 1)"
+							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+							padding="15px 0px 0px 0px"
+						/>
+						<Text margin="9px 0px 9px 18px" font="400 18px/22px --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
+							You can set alerts based on email content, recipient, subject, or any other property.
 						</Text>
 					</Box>
 					{"            "}

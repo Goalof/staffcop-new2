@@ -165,7 +165,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Employee Email Tracking Features
+						Keylogging Features
 					</Text>
 					{"    "}
 				</StackItem>

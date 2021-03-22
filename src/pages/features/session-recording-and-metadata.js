@@ -68,7 +68,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Record & index all user activity{"\n\n"}
+							Records and indexes all user activity
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -80,7 +80,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search through user activity data{"\n\n\n"}
+							Search through user activity data
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -92,7 +92,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Visual screen recording & playback{"\n\n"}
+							Visual screen recording & playback
 						</Text>
 					</Box>
 					{"    "}
@@ -181,7 +181,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						In addition to recording desktops as a video stream, StaffCop records and indexes applications used, websites visited, file activity, keystrokes, e-mails, and more.{"\n\n"}
+						Besides recording desktops as a video stream, StaffCop records and indexes applications used, websites visited, file activity, keystrokes, emails, and more.
 					</Text>
 					<Text
 						font="400 18px/160% --fontFamily-googleInter"
@@ -191,7 +191,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						Instantly search through mountains of user activity metadata by simply entering a keyword, and then drill down into the users, computers, or video recordings that you're looking for.{"\n\n"}
+						With this solution, you can easily and instantly search through massive user activity metadata by simply inputting a keyword and then drill down into the users, computers, or video recordings that you're looking for.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -206,7 +206,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search through keystrokes or e-mails for specific keywords/li&gt;{"\n\n"}
+							Search through keystrokes or e-mails for specific keywords
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 18 0px">
@@ -218,7 +218,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get statistics on website or application usage{"\n\n"}
+							Get statistics on usage of applications and web-sites
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 18 0px">
@@ -230,19 +230,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Find all users that use a specific application or website{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Get statistics on website or application usage{"\n\n"}
+							See which users visit a specific website{"\n\n"}
 						</Text>
 					</Box>
 					{"            "}

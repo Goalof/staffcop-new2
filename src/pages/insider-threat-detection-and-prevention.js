@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Span, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -125,7 +125,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Insider Threats: A Major Security Risk for Many Organizations{"\n\n"}
+						Insider Threats: A Significant Security Risk for Many Organizations
 					</Text>
 					{"    "}
 				</StackItem>
@@ -144,15 +144,14 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Employees, vendors, contractors, and suppliers who have access to your organization’s internal systems are considered Insiders and any potential harm caused by them are referred to as Insider Threats. Being insiders, these users have access to the sensitive data and proprietary information including IP, trade secrets, customer and employee data, and more.{"\n"}
+						Who are insiders? Everyone who has access to an organization's internal systems ( e sensitive data and proprietary information including IP, trade secrets, customer and employee data) is an insider, including employees, vendors, contractors, and suppliers.  The harm caused by any of these groups is referred to as an insider threat.
 						<br />
-						No organization is fully immune to insider threats. According to{" "}
-						<Span color="--primary">
-							a report published by Ernst & Young and IBM
-						</Span>
-						, there’s a 74% perceived risk of cyber breach and insider misuse in the financial services industry; followed by 64% in consumer, retail and wholesale; 55% in tech and entertainment, and 56% in power and utilities.One of the main reasons why insider threat is so prevalent is because it’s hard to detect.{"\n"}
+						Unfortunately, no organization is immune to insider threats.{" "}
 						<br />
-						Dealing with insider threats requires a different strategy from other cybersecurity challenges because their inherent nature is different. Insiders have a significant advantage over external attackers. In addition to already having access to privileged systems, they are not only aware of their organization’s policies, procedures, and technology; they are also aware of the vulnerabilities.{"\n\n"}
+						According to an Ernst & Young and IBM report, there's a 74% perceived risk of a cyber-breach and insider misuse in the financial services industry; followed by 64% in consumer, retail and wholesale; 55% in tech and entertainment, and 56% in power and utilities. Experts have discovered that one of the main reasons why insider threat is so prevalent is because it's difficult to detect.{" "}
+						<br />
+						Insider threats are inherently different from other cybersecurity risks; thus, addressing this challenge using traditional measures or strategies is often ineffective. 
+ Insiders have a significant advantage over external attackers - they have access to privileged systems, they are aware of their organization's policies, procedures, and technology and its security vulnerabilities.{"\n\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -193,9 +192,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop’s insider threat detection and data loss prevention solution uses real-time user activity monitoring to detect early signs of insider threats. While Its behavior-based rules engine provides active defense from all kinds of malicious insider activity like data leak and exfiltration, IP theft, fraud, industrial espionage, sabotage and other risks.{"\n"}
+						StaffCop's insider threat detection and data loss prevention solution leverages real-time user activity monitoring to detect early signs of insider threats. And Its behavior-based rules engine offers active defense from all kinds of malicious insider activity like data leak and exfiltration, IP theft, fraud, industrial espionage, sabotage, etc.{" "}
 						<br />
-						Conduct threat analysis, forensic investigation and auditing utilizing StaffCop’s unique Intelligent Session Mining with video and audio recording, complete metadata alerts, keylogging and other powerful features. Finally, extend your security coverage with built-in integration with security information and event management (SIEM) and threat analytics system if your enterprise needs it.{"\n\n"}
+						You can also conduct threat analysis, forensic investigation, and auditing utilizing StaffCop's unique Intelligent Session Mining with video and audio recording, complete metadata alerts, keylogging, and other powerful features. Lastly, the software comes with built-in integration with security information and event management (SIEM) and a threat analytics system that allows you to extend your security coverage.{" \n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -274,7 +273,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Teramind monitors all user activity covering 22+ system objects like: web, apps, email, file transfers, etc. and even on-screen content (OCR) in real-time.
+							With StaffCop you can view all user activity in real-time encompassing 22+ system objects like web, apps, email, file transfers, etc., and on-screen content (OCR).
 						</Text>
 					</Box>
 					{"    "}
@@ -348,13 +347,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Discover and identify sensitive information and StaffCop will protect them from falling into the wrong hands.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop not only allows you to discover and identify sensitive data but also protects the information from falling into the wrong hands.
 						</Text>
 					</Box>
 					{"    "}
@@ -428,13 +421,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavior.{"\n"}
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop can detect malicious activity and anomalies that indicate a deviation from normal behavior using intelligent behavior analysis.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -508,8 +495,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Use the powerful Policy & Rules Editor to create rules to define what constitutes insider threats. StaffCop then takes immediate actions like warn when rule violation is detected.
-							<br />
+							The rules engine is a powerful tool that allows you to create rules to define what constitutes insider threats and takes immediate action when rule violation is detected.
 							<br />
 							<br />
 							{"\n\n"}
@@ -586,7 +572,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Video recording of all user activity, audio recording, session recording, immutable logs, alerts and optional OCR search are just a few examples of StaffCop’s powerful audit and forensic capabilities. Together they provide a vast collection of investigation data to locate the source and insider threat with pinpoint accuracy.{"\n\n"}
+							Video recording of all user activity, audio recording, session recording, immutable logs, alerts, and optional OCR search are just a few functions of StaffCop's powerful audit and forensic component. Together they provide a wide array of investigation data to locate the source and insider threat with pinpoint accuracy.
 						</Text>
 					</Box>
 					{"    "}
@@ -660,7 +646,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop’s insider threat detection is built on cybersecurity frameworks like NIST, ISO 27001, FISMA etc. to give you complete peace of mind knowing you are using a solution that conforms with world-class security standards. Implement GDPR, PCI-DSS, HIPAA and other compliance standards to protect sensitive data from insider threats.
+							StaffCop's insider threat detection is built on cybersecurity systems like NIST, ISO 27001, FISMA, etc., to give you absolute peace of mind knowing you are using a solution that conforms with world-class security standards. Your sensitive data is also protected by  GDPR, PCI-DSS, HIPAA, and other compliance standards.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -734,13 +720,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitor external and privileged users like third party vendors, remote users and IT admins who have access to your critical systems to prevent sabotage or data theft.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							For further security and to prevent data theft or sabotage, StaffCop allows you to monitor external and privileged users like third-party vendors, remote users, and IT admins who have access to your critical systems.
 						</Text>
 					</Box>
 					{"    "}
@@ -805,7 +785,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Сolluding employees are the sources of insider threats{"\n\n"}
+							Conspiring or colluding employees are the sources of insider threats
 						</Text>
 						<Text
 							font="--lead"
@@ -814,7 +794,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.{"\n\n"}
+							According to the Community Emergency Response Team, collusion from employees and third parties is the number one reason for insider-caused incidents.
 						</Text>
 						<Text
 							font="--lead"
@@ -897,7 +877,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Employee privilege puts sensitive data at risk{"\n\n"}
+							Sensitive data at high risk due to employee privilege{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -906,7 +886,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a survey of 400,000 member online by Cybersecurity Insiders published on The Insider Threat 2018 report.{"\n\n"}
+							Findings from a survey of 400,000 members online by Cybersecurity Insiders published on The Insider Threat 2018 report indicate
 						</Text>
 						<Text
 							font="--lead"
@@ -988,7 +968,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							It security pros are worried about insider threats{"\n\n\n"}
+							Security experts are worried about insider threats
 						</Text>
 						<Text
 							font="--lead"
@@ -997,7 +977,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							When asked to assess their organization’s vulnerability to insider threats, 90% of cybersecurity professionals said they felt vulnerable. Source: Cybersecurity Insiders.{" \n\n"}
+							When asked to evaluate their organization’s vulnerability to insider threats, 90% of cybersecurity professionals said they felt vulnerable. Source: Cybersecurity Insiders.
 						</Text>
 						<Text
 							font="--lead"
@@ -1016,10 +996,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								90%
 							</Span>
-							{" "}Feel Vulnerable to Insider Threats
+							{" "}report feeling Vulnerable to Insider Threats
 						</Text>
 					</Box>
 					{"    "}
@@ -1059,7 +1040,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							The average cost of insider threats is in millions{"\n\n\n"}
+							The average cost of insider threats runs into millions
 						</Text>
 						<Text
 							font="--lead"
@@ -1068,7 +1049,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A 12-month benchmark of 159 companies found the average cost of insider threats to be $8.76 million. Source: Ponemon Institute.{" \n\n"}
+							A study by Ponemon Institute, which observed 159 companies over a 12 month period, found the average cost of insider threats to be $8 .76 million
 						</Text>
 						<Text
 							font="--lead"
@@ -1142,7 +1123,7 @@ export default (() => {
 					sm-text-align="center"
 					text-align="justify"
 				>
-					StaffCop utilizes the National Institute of Standards and Technology (NIST) cybersecurity framework to Identify, Protect, Detect, Respond and Recover on data breaches. Combining its powerful user activity monitoring and data loss prevention (DLP) capabilities, StaffCop is able to help organizations prevent insider threats and data breach incidents with ease.{"\n\n\n\n"}
+					StaffCop utilizes the National Institute of Standards and Technology (NIST) cybersecurity framework to carry out its numerous functions: Identify, Protect, Detect, Respond and Recover. Its powerful user activity monitoring, combined with its data loss prevention (DLP) capabilities, allows StaffCop to help organizations prevent insider threats and data breach incidents with ease.{" "}
 				</Text>
 				<StackItem
 					width="33.3333%"
@@ -1213,7 +1194,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Leveraging advanced fingerprinting, OCR and tagging technology, StaffCop identifies sensitive data in structured and unstructured information across organization data stores.
+							StaffCop leverages advanced fingerprinting, OCR, and tagging technology to identify sensitive data in structured and unstructured information across organization data stores.
 						</Text>
 					</Box>
 					{"    "}
@@ -1287,10 +1268,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop leverages its activity monitoring and data loss prevention capabilities to defend confidential information from unauthorized access, sharing, attack and misuse.
-							<br />
-							<br />
-							{"\n\n"}
+							Leveraging its activity monitoring and data loss prevention capabilities, StaffCop defends confidential information from unauthorized access, sharing, attack, and misuse.
 						</Text>
 					</Box>
 					{"    "}
@@ -1364,9 +1342,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop’s powerful behavior-based policy and rules engine casts a strong detection net over the entire organization, allowing for quick detection of insider threats and data breach incidents before it happens.
-							<br />
-							{"\n\n"}
+							StaffCop’s powerful behavior-based policy and rules engine cast a solid detection net over the entire organization, facilitating the quick detection of insider threats and data breach incidents before it happens.
 						</Text>
 					</Box>
 					{"    "}
@@ -1440,10 +1416,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-time notification and immediate actions proactively defend against data exfiltration, malicious or accidental insider threats and data breaches. In case of an incident, pinpoint the exact cause and source of the incident with readily available forensic data.
-							<br />
-							<br />
-							{"\n\n"}
+							This solution has built-in real-time notification and immediate action features to defend against data exfiltration proactively, malicious or accidental insider threats, and data breaches. And it can pinpoint the exact cause and source of the incident with readily available forensic data.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -1517,11 +1490,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Conduct forensic investigation with incident reports, alerts and session recordings. Identify the source and cause of a security breach so that recovery plan can be formulated fast while preventing similar future incidents.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							Lastly, StaffCop can identify the source and cause of a security breach so that a recovery plan can be formulated fast while preventing similar future incidents.
 						</Text>
 					</Box>
 					{"    "}
@@ -1628,7 +1597,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that a user makes for over 22 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. You can control who you want to monitor, how much you want to monitor, when and for how long. This allows for instant administrative oversight in respect to privacy requirements.{"\n\n"}
+						StaffCop has built-in features that allows it to visually record every action that a user makes for over 22 objects including screen, apps, websites, files, emails, etc. All objects can be adjusted to take into consideration what needs to be monitored and who has access to the monitored records. You can also control who you want to monitor, how much you want to monitor, when and for how long, thus you can have instant administrative oversight and still meet privacy requirements.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1679,7 +1648,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when users violate the rules. Utilize sophisticated anomaly rules to identify user activity outside the normal behavior. Immediately get notified about harmful user activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						Copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources are often regarded as high risk behavior. StaffCop not only identifies this type of risky behavior but also applies advanced behavior-based rules to automatically detect when users violate the rules. Further, it utilizes the sophisticated anomaly rules to identify user activity outside the normal behavior and immediately alert administrators of errant employees. The solution also has the ability to   lock such users out from the system or take remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1757,7 +1726,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Teramind allows organizations to create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged user activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts etc.{"\n\n"}
+						With StaffCop you have the capability to create profiles for remote, privileged, external vendors, define what information and system resources each profile can access and use rules to set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be developed to notify the authorities of any suspicious privileged user activity, including unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts etc.
 					</Text>
 					{"    "}
 				</StackItem>

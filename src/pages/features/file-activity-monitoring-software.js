@@ -67,7 +67,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Alert or block any upload to the cloud{"\n\n"}
+							Alert or prevent any upload to the cloud
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -79,7 +79,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track files on local drive or network shares{"\n\n"}
+							Monitor files on a local drive or network shares
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center">
@@ -91,7 +91,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/22px --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce removable storage policy{"\n\n"}
+							Implement removable storage policy
 						</Text>
 					</Box>
 					{"    "}

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Span, Hr, Icon, Box } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Hr, Icon, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
@@ -145,66 +145,14 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Remote work in all sectors have been steadily rising over the years. According to a{" "}
-						<Span
-							color="--primary"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							Gallup report
-						</Span>
-						, American employees working remotely rose to 43 percent in 2016 from 39 percent in 2012. And it’s a global phenomenon too.
-						<Span
-							color="--primary"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							A study released by IWG
-						</Span>
-						{" "}found that 70 percent of professionals around the world work away from the office at least once a week, and 53 percent at least half of the week. Remote work is not favorable to employees only, more and more companies embracing a ‘remote-first’ and ‘agile team’ philosophy – including Teramind! According to a{" "}
-						<Span
-							color="--primary"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							2019 study by Owl
-						</Span>
-						{" "}Labs found, 16 percent of global companies are fully remote and 40 percent are hybrid (companies who offer both remote and in-office option).
+						Remote work in all sectors has been steadily increasing over the years. According to a Gallup report, between 2012 and 2016, the number of American employees working remotely had grown by 10 percent. This rise is not restricted to the US; other studies show it is a global phenomenon - an IWG study found that 70 percent of professionals around the world work away from the office at least once a week, and 53 percent at least half of the week.
 						<br />
 						<br />
-						There are many ideal factors to this setup. For instance, remote work can{" "}
-						<Span
-							color="--primary"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							boost productivity
-						</Span>
-						{" "}while significantly{" "}
-						<Span color="--primary">
-							reducing the costs of office space and other accouterments
-						</Span>
-						. As a result, many companies are embracing this culture.
+						Gone are the days when remote work was only appealing to employees alone. Today many companies have discovered the benefits of this work model and are now integrating ‘remote-first and ‘agile team’ philosophies into their business operations – including StaffCop. In fact, according to a 2019 study by Owl Labs, 16 percent of global companies are fully remote, and 40 percent are hybrid (companies that offer both remote and in-office options).
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
-						margin="1px 0px 0px 0px"
+						margin="1px 0px 30px 0px"
 						display="inline-block"
 						color="#555"
 						width="100%"
@@ -213,11 +161,23 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						But that’s not to say that remote work is without its own set of problems. Communication challenge, loss of productivity due to lack of supervision, feelings of alienation, difficulty of managing accountability, high turnover, difficulty of tracking project, timeline and payroll, security concerns - all can add up to diminish the benefits of remote work. Fortunately, with the right strategy and tools you can{" "}
-						<Span color="--primary">
-							effectively monitor your remote workers
-						</Span>
-						{" "}to identify and address these issues to fully reap the benefits of a distributed team.
+						Some of the factors driving the adoption of remote working models include: remote work boosts productivity while significantly reducing the costs of office space and other accouterments.{" "}
+						<br />
+						<br />
+						However, like any other system, remote work is not without its challenges: communication issues, loss of productivity due to lack of supervision, feelings of alienation, the difficulty of managing accountability, high turnover, the difficulty of tracking project, timeline and payroll, security concerns - all of which diminish the benefits of remote work.{" "}
+					</Text>
+					<Text
+						font="400 18px/28px --fontFamily-googleInter"
+						margin="1px 0px 30px 0px"
+						display="inline-block"
+						color="#555"
+						width="100%"
+						md-font="400 14px/20px --fontFamily-googleInter"
+						md-width="100%"
+						sm-text-align="center"
+						text-align="justify"
+					>
+						Fortunately, with the right strategy and tools, you can effectively monitor your remote workers to identify and tackle these issues to fully reap the benefits of a distributed team.
 					</Text>
 					{"  "}
 					<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
@@ -260,7 +220,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Organizations can use StaffCop’s all-inclusive remote employee monitoring solution to track time and engagement, manage projects, reduce expenses and ensure overall productivity of a remote team. Additionally, StaffCop’s automated Policy & Rules Engine enforces security best practices to defend your organization from theft, sabotage and other threats either intentional or accidental. With StaffCop’s remote user monitoring you can:
+						Track time and engagement, manage projects, reduce costs and ensure the overall productivity of your remote team with StaffCop’s all-inclusive remote employee monitoring solution. Additionally, with StaffCop’s automated Policy & Rules Engine you can better defend your organization from theft, sabotage, and other threats, either intentional or accidental.  StaffCop’s remote user monitoring allows you to:{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -276,7 +236,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Monitor virtually all remote user activity and behavior.
+							Monitor virtually all remote employee activity and behavior.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -289,7 +249,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Manage schedule, track time, projects, tasks and expenses.
+							Manage schedule, track time, projects, tasks, and costs.{" "}
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -302,9 +262,8 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track employee engagement with comparative metrics like active vs.
-							<br />
-							{" "}idle time, productive vs. unproductive time, session vs. work time etc.
+							Use comparative metrics like active vs.
+idle time, productive vs. unproductive time, session vs. work time to track employee engagement.
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -317,7 +276,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Remotely view and control user desktop.
+							Remotely view and control employee desktop.{" "}
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -330,7 +289,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Enforce security policy and rules even when the user is offline.
+							Implement security policy and rules even when the employee is offline.{" "}
 						</Text>
 					</Box>
 					{"            "}
@@ -401,7 +360,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Complete Activity Monitoring
+							All-round Activity Monitoring
 						</Text>
 						<Text
 							font="--lead"
@@ -410,7 +369,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop monitors all user activity over endpoints, servers/terminal servers, network and the Cloud covering 22+ system objects like: web, apps, email, files etc. even on-screen content in real-time.
+							StaffCop not only monitors all user activity over endpoints, network, servers but also the Cloud covering of over 22 system objects, including web, apps, email, files etc., and on-screen content in real-time.
 						</Text>
 					</Box>
 					{"    "}
@@ -484,10 +443,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop Agent monitors activity and enforces admin policies and rules even when the user is offline.
-							<br />
-							<br />
-							<br />
+							StaffCop Agent continues to monitor activity and enforce admin policies and rules even when the user is offline.
 						</Text>
 					</Box>
 					{"    "}
@@ -561,8 +517,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Tell StaffCop which applications and websites you consider productive then get in-depth reports on how the employee spends their time. Discourage unproductive activity and too idle time by setting up automated alerts.
-							<br />
+							StaffCop enables you to choose which applications and sites you consider productive and offers administrators thorough reports on how employees spend their time. It also allows you to set up automated alerts to discourage unproductive activity and excessive idleness among your employees.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -636,12 +591,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Provide on-time feedback on employee behavior with real-time alerts and notifications.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
+							In an effort to improve communications, StaffCop offers on-time feedback on employee behavior with real-time alerts and notifications.
 						</Text>
 					</Box>
 					{"    "}
@@ -715,7 +665,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Specify different schedules in case your employees working in several shifts to get more precise reports. Set holidays or sick leaves in the calendar
+							StaffCop helps organizations manage their employee's schedules by creating precise reports for employees working several shifts and placing holidays or sick leaves on the calendar.
 						</Text>
 					</Box>
 					{"    "}
@@ -780,7 +730,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Security Policy and Rules Enforcement
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Security Policy and Rules Enforcement
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -789,7 +749,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Use the powerful Policy & Rules Editor to create rules to define what constitutes dangerous activities and set actions to automatically warn when rule violations are detected
+							The rules engine is a powerful tool that allows you to create rules to define what constitutes insider threats and takes immediate action when rule violation is detected.
 						</Text>
 					</Box>
 					{"    "}
@@ -863,7 +823,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop lets you view the live desktop of a connected user and if needed, allow you take complete remote control of the system to prevent malicious activity. With history playback, view past activity and collect evidence for forensic and investigation purposes.
+							The live view feature allows you to see your employees’ desktops in real-time and, if needed, take full remote control of their systems to prevent malicious activities. With history playback, you can view the past activity and collate evidence for forensic and investigation purposes.
 						</Text>
 					</Box>
 					{"    "}
@@ -928,7 +888,17 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Expenses Tracking
+							<Span
+								data-q-widget-type="PRIMITIVE"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								Expenses Tracking
+							</Span>
 						</Text>
 						<Text
 							font="--lead"
@@ -937,14 +907,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Track work hours and labor cost for remote employees, consultants, independent contractors and freelancers eliminating the need for manual invoicing and oversight.
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
-							<br />
+							StaffCop allows you to manage your employees' schedules, tracks idle time, attendance, breaks, sick leaves, late shifts, absence, etc. And monitor work time, sessions, and activity level to see when your employees are most productive.
 						</Text>
 					</Box>
 					{"    "}
@@ -1008,7 +971,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Remote work is popular among companies globally
+							Remote work is commonplace among companies globally
 						</Text>
 						<Text
 							font="--lead"
@@ -1017,7 +980,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							A 2019 report shows, 70% professional globally work remote at least once a week, while 53% work remotely for at least half of the week. Source: IWG.{" "}
+							A 2019 global study reveals 70% of professionals work remotely at least once a week, while 53% work remotely for at least half of the week—source: IWG.
 						</Text>
 						<Text
 							font="--lead"
@@ -1027,19 +990,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								70%{" "}
-							</Span>
-							People Globally Work Remotely At Least Once a Week
+							Globally, 70% of People Work Remotely At least One Day in a Week.
 						</Text>
 					</Box>
 					{"    "}
@@ -1079,7 +1030,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Yet, many companies lack tools & policy for remote work
+							Yet, many organizations lack tools and policy for remote work
 						</Text>
 						<Text
 							font="--lead"
@@ -1088,7 +1039,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							While remote work is becoming more commonplace on an individual level, companies still have work to do to support distributed teams. Source: Upwork{" "}
+							While remote work is becoming more prevalent on an individual level, organizations still have much work to do to support distributed teams. Source: Upwork
 						</Text>
 						<Text
 							font="--lead"
@@ -1150,7 +1101,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Engagement is critical for remote worker productivity
+							Remote worker productivity is hinged on engagement
 						</Text>
 						<Text
 							font="--lead"
@@ -1159,7 +1110,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							70% of remote employees feel left out of the workplace.due to lack of knowledge sharing and communication practices. Source: Igloo.{" "}
+							According to a study by igloo, a significant number (70%) of remote employees feel left out of the workplace due to a lack of knowledge sharing and communication practices.
 						</Text>
 						<Text
 							font="--lead"
@@ -1169,19 +1120,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								70%
-							</Span>
-							{" "}Remote Employees Feel Left Out of the Workplace
+							70% Remote Employees Feel Neglected in Workplace
 						</Text>
 					</Box>
 					{"    "}
@@ -1221,7 +1160,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Unattended remote employees cause security & privacy risks
+							Further, studies show that unattended remote employees can cause security and privacy risks.
 						</Text>
 						<Text
 							font="--lead"
@@ -1230,7 +1169,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a report, more than 75% of employees don’t bother with privacy measures when working remotely in a public place. Source: Cisco.{" "}
+							A Cisco report found that more than 75% of employees don’t bother with privacy measures when working remotely in a public place.{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1240,19 +1179,7 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 							sm-margin="0px 0px 0px 0px"
 						>
-							<Span
-								font="700 18px/28.8px Inter, sans-serif"
-								color="--primary"
-								overflow-wrap="normal"
-								word-break="normal"
-								white-space="normal"
-								text-indent="0"
-								text-overflow="clip"
-								hyphens="manual"
-							>
-								75%
-							</Span>
-							{" "}of Remote Employees are not Careful About Privacy
+							75% of Remote Employees are not Concerned About Privacy Risks
 						</Text>
 					</Box>
 					{"    "}
@@ -1995,7 +1922,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop visually records every action that all remote users make not just your remote employees but also third-party vendors and external contractors. They can be on a local machine, remote domain, servers or terminal servers. StaffCop tracks virtually all system objects like: web, apps, email, file transfers, etc. Uncover what your users are up to both online and offline. Each object can be configured to take into consideration what needs to be monitored and who has access to the monitored records. This allows for instant administrative oversight in respect to all user activity while complying with any privacy requirements.{"\n\n"}
+						StaffCop is the right solution for you if you want to have complete visibility into the activities of all parties connected to your systems. It visually records every action that all remote users – employees, third-party vendors, and external contractors – make, regardless of the platform they are using - local machine, remote domain, servers, or terminal servers. All system objects like: web, apps, email, file transfers can be tracked in real-time by StaffCop whether they are online or offline.  Each object can be structured to take into consideration what needs to be monitored and who has access to the monitored records, allowing for instant administrative oversight in respect to all user activity while complying with any privacy requirements.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2046,7 +1973,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop, track both in-office and remote employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:{"\n\n"}
+						Besides tracking on-premise, StaffCop also monitors remote employee activity throughout the day, then aggregate that data to produce detailed metrics, such as:
 					</Text>
 					<Box display="flex" margin="0px 0px 18px 0px">
 						<Text
@@ -2056,7 +1983,7 @@ export default (() => {
 							sm-font="400 16px/22px --fontFamily-googleInter"
 							text-align="right"
 						>
-							A breakdown of work-related vs. non-work-related tasks{"\n\n"}
+							An analysis of work-related vs. non-work-related tasks
 						</Text>
 						<Icon
 							category="bs"
@@ -2075,7 +2002,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Minute-to-minute trend graphs showing how much time is spent on specific projects.{"\n\n"}
+							Minute-to-minute trend graphs displaying how much time is spent on individual projects.
 						</Text>
 						<Icon
 							category="bs"
@@ -2094,7 +2021,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Prioritize important projects and ensure your team is focused on them.{"\n\n"}
+							Prioritize critical projects and ensure your team is focused on them.
 						</Text>
 						<Icon
 							category="bs"
@@ -2113,7 +2040,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Use the various productivity reports to track progress and adjust tasks to ensure they meet their productivity goals.{"\n\n"}
+							Utilize various productivity reports to monitor progress and fine-tune tasks to ensure they meet their productivity goals.
 						</Text>
 						<Icon
 							category="bs"
@@ -2200,7 +2127,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop’s built-in administrative features, many of the repetitive yet import clerical tasks can be automated or made efficient. For example, with StaffCop you can:{"\n\n"}
+						StaffCop's embedded administrative features automate many repetitive but essential tasks like setting up schedules and tracking attendance, breaks, sick hours, late shifts, absence, etc.
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon
@@ -2212,7 +2139,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Setup schedules and automatically track attendance, breaks, sick hours, late shifts, absence etc.{"\n\n"}
+							It also allows you to track the time, performance, and expenses of projects handled by remote employees and contractors, reducing the need for manual invoicing and oversight.{" "}
 						</Text>
 					</Box>
 					<Box display="flex" margin="0px 0px 18 0px">
@@ -2225,20 +2152,7 @@ export default (() => {
 							padding="18px 0px 0px 0px"
 						/>
 						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Track the time, performance and cost for projects with remote contractors and hourly remote employees reducing the need for manual invoicing and oversight.{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							padding="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Reduce project supervision by automatically identifying tasks based on employee apps and web usage.{"\n\n"}
+							By automatically identifying tasks based on employee apps and web usage, you can reduce project supervision.{" \n\n"}
 						</Text>
 					</Box>
 					{"    "}
@@ -2289,7 +2203,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Develop your own KPIs and metrics to measure remote employee engagement: how many hours are your home-based workers active? Maybe they’re spending too much time on social media because you are not there to see them? Getting buried under Emails? You can track employee performance over time and see if they are on a decreasing trend. Identify the cause of disengagement and then systematically address them. For example:{"\n\n"}
+						StaffCop helps you build your own KPIs and metrics to determine remote employee engagement: hours home-based workers are active, time spent on social media, and volume of emails received. It also enables you to track employee performance over a period of time and see if their engagement is decreasing, identify the cause of disengagement and then systematically address them. For example:
 					</Text>
 					<Box display="flex" margin="0px 0px 18px 0px">
 						<Text
@@ -2299,7 +2213,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Address communication issues by identifying which methods works best for your remote team (i.e. email/phone/IM){"\n\n"}
+							You can swiftly address communication issues by identifying which methods work best for your remote team (i.e., email/phone/IM){" "}
 						</Text>
 						<Icon
 							category="bs"
@@ -2318,7 +2232,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Reduce time spend on developing performance reviews by automatically identifying high performing vs laggards.{"\n\n\n\n"}
+							Identify high-performing employees vs. laggards automatically to reduce time spent on developing performance reviews.
 						</Text>
 						<Icon
 							category="bs"
@@ -2337,7 +2251,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Prioritize important projects and ensure your team is focused on them.{"\n\n"}
+							Prioritize essential projects and ensure your team is focused on them.
 						</Text>
 						<Icon
 							category="bs"
@@ -2356,7 +2270,7 @@ export default (() => {
 							text-align="right"
 							margin="0px 18px 0px 0px"
 						>
-							Provide a continuous, automated feedback based on their behavior & activity.{"\n\n"}
+							Also, the system provides continuous, automated feedback based on employee behavior and activity.
 						</Text>
 						<Icon
 							category="bs"
@@ -2443,7 +2357,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can track employee active vs idle time and allows you to send automated notifications to remote workers if they are idling excessively. With payroll reports and activity category breakdown, you can build an accurate estimate of which type of works takes how much time and then set your team’s deliverables accordingly reducing slack times and overtime hours. Using the software’s device monitoring feature, you can implement policies like set a limit on printer to reduce paper and ink waste.{"\n\n"}
+						StaffCop allows you to track employee active vs. idle time and send unproductive remote workers automated notifications. With payroll reports and activity category breakdown, you can develop a precise estimate of how much time each type of work takes and configure your team's deliverables accordingly, reducing idle times and overtime hours. Using the software's device monitoring feature, you can set a limit on a printer to reduce paper, ink waste and implement similar policies.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2493,7 +2407,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Define what constitutes dangerous or harmful user behavior and StaffCop’s sophisticated anomaly engine will automatically detect when an employee deviates from their normal parameters or exceeds acceptable risk levels. StaffCop can detect anomalies in applications, emails, network, file activities and more. Immediately get notified about harmful user activity, lock out user or take remote control of the compromised system before any malicious or fraudulent attempts are made.
+						Once you've determined what constitutes dangerous or harmful user behavior, StaffCop's sophisticated anomaly engine will automatically detect when an employee deviates from their normal parameters or exceeds acceptable risk levels. The solution can detect anomalies in applications, emails, and networks, file activities and immediately notify administrators of harmful user activity. It can also lock out users or take remote control of the compromised system before any malicious or fraudulent attempts are made.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2560,7 +2474,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Monitor and Audit Remote Logins and Network Activity{"\n\n"}
+						Track and Audit Remote Logins and Network Activity{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -2571,7 +2485,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop's network monitoring tools allow administrators to monitor network traffic for all remote users connected to your business network, their identity, location, time and exact IP ports utilized for the connection. Additionally, automated networking rules can alert administrator when suspicious remote user activity is detected. For example, repeated connection attempts, initiation of specific root processes, use of suspicious connection protocols, login sessions at abnormal hours etc. Network monitoring allows administrators to block connections or data transmissions from a remote user for individual IP addresses or computers.{"\n\n"}
+						StaffCop offers network monitoring tools that facilitate the monitoring of network traffic for all remote users connected to your business network, their identity, location, time, and exact IP ports utilized for the connection. Alerting administrators when suspicious remote user activity is detected is another function of these automated rules. For instance, repeated connection attempts, use of suspicious connection protocols, initiation of specific root processes, login sessions at abnormal hours, etc. Network monitoring allows administrators to block connections or data transmissions from a remote user for individual IP addresses or computers.
 					</Text>
 					{"    "}
 				</StackItem>

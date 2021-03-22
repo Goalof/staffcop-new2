@@ -138,7 +138,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Most organizations have cybersecurity measures in place including antivirus, firewall, intrusion detection to protect infrastructure and IT assets. While these are generally good at defending the organization from external threats, they leave a security hole when it comes to employees and other internal users, third party vendors, contractors and privileged administrators who already have access to an organization’s valuable assets and sensitive data.{"\n\n"}
+						With cybersecurity attacks on the rise, many organizations have adopted certain measures to protect their data and systems, including antivirus, firewall, intrusion detection to protect infrastructure and IT assets. While these are generally effective in defending the organization from external threats, they fail to shield businesses from internal threat actors such as employees and other internal users, third-party vendors, contractors, and privileged administrators who already have access to an organization's valuable assets and sensitive data.{" "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -151,7 +151,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Whether it is a company’s intellectual property, financial records, customer data, PII, PHI or other sensitive material, it only takes one insider to engage in unwanted behavior and expose an organization to risks. In fact, the majority of the data breaches in recent years involved weak or exploited employee credentials either by malicious or accidental incident (source). This is where StaffCop can help fill the gaps which already includes features like Employee Monitoring, Privileged User Monitoring, Third-Party Monitoring, User and Entity Behavior Analytics (UEBA), Endpoint Security etc. crucial for a holistic insider threat prevention solution.{"\n\n"}
+						One insider's unguided behavior can expose an organization's intellectual property, financial records, customer data, PII, PHI, or other critical material. In fact, research shows that a  majority of the data breaches in recent years involved weak or exploited employee credentials either by a malicious or accidental incident (source). StaffCop aims to help fill these gaps and provide a holistic insider threat prevention solution with features like Employee Monitoring, Privileged User Monitoring, Third-Party Monitoring, User and Entity Behavior Analytics (UEBA), Endpoint Security, etc.{" "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
@@ -164,7 +164,7 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						User activity monitoring is the process of tracking all user activity and behavior, while they are logged into a computer (endpoint). With an employee monitoring solution in place, businesses have the necessary means to keep an eye on their sensitive data, employees and third-party entities so that they can identify and stop the misuse of company data and resources.{"\n\n"}
+						User activity monitoring involves the process of tracking all user activity and behavior while they are logged into a computer (endpoint). By integrating a user monitoring solution into their operations, companies can keep an eye on their sensitive data, employees, and third-party entities such as contractors, remote and special/privileged users, identifying and preventing the misuse of company data and resources.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -189,9 +189,9 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						User activity monitoring goes beyond the basic employee monitoring and tracking functionality and adds intelligent behavior-based analysis to provide actionable insight and automated responses to employee generated threats. It can monitor employees, third-party vendors, contractors, remote and special/privileged users. With its rules and policies, StaffCop captures violation incidents as forensic evidence and take action to alert.{"\n"}
+						Besides the basic user monitoring and tracking functionality, StaffCop also covers intelligent behavior-based analysis to provide actionable insight and automated responses to employee-generated threats. It can capture violation incidents as forensic evidence and take action to alert appropriate authorities, thanks to its rules and policies.{" \n"}
 						<br />
-						StaffCop can also measures employee productivity, conduct risk analysis, prevent unauthorized data exfiltration and keep track of how employees and third-party vendors access company resources while logged in at work. Finally, in case of a data breach or security incident, we provide comprehensive forensic data and session recordings to identify the employees and vendors who have triggered a rule violation along with their activity footprint with pinpoint accuracy.{"\n\n"}
+						Employee productivity measurement, risk analysis, and the prevention of unauthorized data exfiltration are other benefits of StaffCop's solution. Lastly, in the event of a data breach, we offer comprehensive forensic data and session recordings to identify the employees or vendors who have triggered a rule violation along with their activity footprint with pinpoint accuracy.{" \n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -270,9 +270,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Real-Time Employee Monitoring
-							<br />
-							lets you monitor all employee activity for system objects like website, applications, social media, IMs. Searches etc. in real-time for Windows, Mac, Virtual PCs and Terminal Servers
+							StaffCop allows companies to monitor all their employee activity for system objects like websites, applications, social media, IMs. Searches etc., in real-time for Windows, Mac, Virtual PCs, and Terminal Server.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -346,11 +344,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Intelligent behavior analysis can detect malicious activity and anomalies that indicate deviation from normal behavioral baseline.
-							<br />
-							<br />
-							<br />
-							{"\n\n"}
+							Organizations can leverage StaffCop's intelligent behavior analysis to detect malicious activity and anomalies that suggest deviation from normal behavioral baseline.
 						</Text>
 					</Box>
 					{"    "}
@@ -424,7 +418,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Get started right away with hundreds of pre-built rule templates, activity classification lists and data categories. Create your own policies and rules with an intuitive, visual rule editor. Use natural English, regular expressions and sample conditions to easily define your requirements. Create monitoring profiles for individual employees, groups or departments.{"\n\n"}
+							StaffCop offers users hundreds of pre-built rule templates, activity classification lists, and data categories to run the software instantly. Further, you can design your own policies and rules with an intuitive, visual rule editor and use natural English, regular expressions, and sample conditions to easily define your requirements. Creating monitoring profiles for individual employees, groups or departments is also possible with this solution.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -498,7 +492,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Define which apps and websites you consider productive and get in-depth reports on how your employees utilize them. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projeсts and more.
+							With these features, you can determine which apps and websites are productive and get in-depth reports on how your employees utilize them. Identify the laggards or high performers with active vs. idle time analysis and create a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projeсts, and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -572,10 +566,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Video recording of employee activity, session recording, immutable logs, alerts are just few examples of powerful audit and forensic capabilities. Together they provide a vast collection of investigation data to locate the source and insider threat with pinpoint accuracy.{"\n"}
-							<br />
-							<br />
-							{"\n\n"}
+							StaffCop's audit and forensic functionality allow for video recording of employee activity, session recording, immutable logs, alerts, and much more. Combined, they offer a wide collection of investigation data to identify the source and insider threat with pinpoint accuracy.
 						</Text>
 					</Box>
 					{"    "}
@@ -640,7 +631,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Third Party Vendor Management{"\n\n"}
+							Compliance Management
 						</Text>
 						<Text
 							font="--lead"
@@ -649,81 +640,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Define which apps and websites you consider productive and get in-depth reports on how your employees spend their day. Identify the laggards or high performers with active vs. idle time analysis. Establish a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projects and more{"\n\n"}
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="42px 37px 42px 37px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							margin="0px 0px 0px 0px"
-							font="700 18px/22px --fontFamily-googleInter"
-							color="#ffffff"
-							background="--color-primary"
-							padding="13px 0px 13px 0px"
-							border-radius="40px"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							border-width="1px"
-							border-style="solid"
-							border-color="rgba(255, 255, 255, 0.05)"
-							align-items="center"
-							display="block"
-							justify-content="center"
-							text-align="center"
-							width="48px"
-						>
-							7
-						</Text>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
-							display="inline-block"
-							color="rgba(19, 33, 42, 1)"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							Compliance Management{"\n\n"}
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							StaffCop can be used to create activity and schedule based rules to support several common compliance requirements like: implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, and more.{"\n\n"}
+							Companies can also leverage StaffCop to develop activity and schedule-based rules to support several common compliance requirements like implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, etc.
 						</Text>
 					</Box>
 					{"    "}
@@ -748,7 +665,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						StaffCop: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features{"\n\n\n\n"}
+						StaffCop: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features – How it works
 					</Text>
 					{"    "}
 				</StackItem>
@@ -767,14 +684,14 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						StaffCop features user and entity behavior analytics (UEBA) capabilities to identify and alert the organization to a wide-range of anomalous behavior and potential threats by either a malicious, inadvertent or compromised employee, user or third-party entity.
+						User and entity behavior analytics (UEBA) is a crucial feature of StaffCop. UEBA's primary function is to identify and alert the organization to a wide range of unusual behavior and potential threats by either a malicious, inadvertent, or compromised employee, user, or third-party entity.
 						<br />
 						{"\n"}
 						<br />
-						Automatically creates a behavioral baseline taking into account a user’s activity (i.e. how many times a user accessed a file), data pattern (file type, source, category etc.), entity role (application, access level, domain etc.) and other attributes (i.e. time of day, schedule, assigned project). Any anomaly or deviation from the normal baseline can then trigger real-time alerts and notification.
+						It performs this function by automatically creating a behavioral baseline factoring in a user's activity (i.e., how many times a user accessed a file), data pattern (file type, source, category, etc.), entity role (application, access level, domain, etc.) and other attributes (i.e., time of day, schedule, assigned project). Any anomaly or deviation from the normal baseline can prompt real-time alerts and notifications.
 						<br />
 						<br />
-						Intelligent Policy & Rules Engine then combines this UEBA capability to proactively prevent insider threats while providing the organizations with a clear and complete picture of all user & entity activity, context and forensic evidence in a single solution.{"\n\n"}
+						This UEBA capability is then combined with the Intelligent Policy & Rules Engine to proactively avert insider threats and at the same time provide the organizations with a clear and complete picture of all user and entity activity, context, and forensic evidence in a single solution.{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -845,7 +762,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.
+							According to a report by the Community Emergency Response Team, the primary causes of insider incidents are collusion from employees and third-parties.
 						</Text>
 						<Text
 							font="--lead"
@@ -925,7 +842,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							According to a survey of 400,000 member online by Cybersecurity Insiders published on The Insider Threat 2018 report.
+							A survey of 400,000 members online by Cybersecurity Insiders published on The Insider Threat 2018 report reveals:
 						</Text>
 						<Text
 							font="--lead"
@@ -1007,7 +924,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Employees are a major security concern
+							Employees - a major security concern{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1016,7 +933,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Businesses agree employees are their biggest weakness in IT security - according to Kaspersky Lab and B2B International study of over 5,000 businesses
+							Findings from Kaspersky Lab and B2B International study of over 5,000 businesses show that employees are the biggest weakness in IT security.{" "}
 						</Text>
 						<Text
 							font="--lead"
@@ -1077,16 +994,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Many employees spend unproductive time at work
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							According to the Community Emergency Response Team, the main reasons for insider caused incidents are collusion from employees and third-parties.
+							Many employees are unproductive while at work
 						</Text>
 						<Text
 							font="--lead"
@@ -1104,10 +1012,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								64%
 							</Span>
-							{" "}Browse Unproductive Sites
+							{" "}Visit Unproductive Sites
 						</Text>
 						<Text
 							font="--lead"
@@ -1125,10 +1034,11 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
+								data-q-widget-type="PRIMITIVE"
 							>
 								85%
 							</Span>
-							{" "}Use Email for Personal Tasks
+							{" "}Use Email for Personal Interests
 						</Text>
 					</Box>
 					{"    "}
@@ -1163,21 +1073,7 @@ export default (() => {
 				lg-font="normal 700 36px/40px Inter, sans-serif"
 				sm-margin="0px 0px 0px 0px"
 			>
-				StaffCop Delivers Immediate
-				<br />
-				<Span
-					color="--primary"
-					data-q-widget-type="PRIMITIVE"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					Business Benefits
-				</Span>
-				{"\n\n"}
+				StaffCop Delivers Immediate Business Benefits
 			</Text>
 			<Stack
 				margin="0px 0px 0px 0px"
@@ -1225,9 +1121,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Establish Organization-
-						<br />
-						Wide Visibility and Control{"\n\n"}
+						Wide Visibility and Control
 					</Text>
 					<Text
 						font="--lead"
@@ -1238,7 +1132,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Visually records every action that an employee makes for over 22 objects including screen, apps, websites, files, emails, etc. Each object can be configured to take into consideration what needs to be monitored and measured and who has access to the monitored records. You can control which employees or third-party vendors to monitor, how much you want to monitor, when and for how long. This allows for both instant administrative viewing and respect employee privacy requirements as needed.{"\n\n"}
+						StaffCop visually records every action taken by an employee over 22 system objects, including screen, apps, websites, files, emails, etc. Each object can be configured to take into account what needs to be tracked and measured and who has access to the monitored records. With StaffCop, you can determine which employees or third-party vendors to monitor, how much you want to monitor, when and for how long - that way, you can have visibility into administrative activities and still respect employee privacy requirements as needed.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1289,7 +1183,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.{"\n\n"}
+						Another crucial benefit of using StaffCop is that it allows you to identify high risks behaviors by insiders such as copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources, etc. In other words, the software automatically detects when employees violate the rules or act outside the normal behavior. It notifies companies of their employee's activities, locks offending employees out from the system, or takes remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1356,7 +1250,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Protect Your Sensitive Data and Resources{"\n\n"}
+						Ensures Your Sensitive Data and Resources are Protected{" "}
 					</Text>
 					<Text
 						font="--lead"
@@ -1367,7 +1261,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Prevent external drive usage, detect unusual or unauthorized network login or files transfers. Or, write rules that react to any observable employee activity like notifying about e-mails sent outside the company domain, receive instant notification when certain sensitive document gets printed etc. All these features can help minimize information exfiltration and data leaks by malicious or ignorant employees.{"\n\n"}
+						This software solution minimizes information exfiltration and data compromise by malicious or ignorant employees with its numerous protective features. For instance, it prevents external drive usage, detects unusual or unauthorized network login or file transfers. And write rules that instantly respond to any observable employee activity like emails sent outside the company domain, printing certain sensitive documents, etc.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1417,8 +1311,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Use the workforce productivity tools to track active vs inactive time, late shifts, long breaks etc. Design etiquette rules to limit unproductive behavior. For example, set a time limit on social media usage or restrict access to gambling sites.{"\n"}
-						<br />
+						With StaffCop's workforce productivity tools, organizations can track active vs. inactive time, late shifts, long breaks, etc. These tools also allow you to create etiquette rules to limit unproductive behavior. For instance, you can set a time limit on your employees' social media usage or restrict their access to gambling sites.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1496,7 +1389,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Allows organizations to stop potential employee-employee or employee-third party collusion attempts. Create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further rules can be set up by behavior policies so that access to sensitive information is segregated by the organization’s security policy, or on a need-to-know basis. Rules can also be created to notify the authorities of any suspicious privileged employee and third-party vendor activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts etc.{"\n\n"}
+						StaffCop functionality also encompasses preventing potential employee-employee or employee-third party collusion attempts. It allows organizations to create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further, rules can be established by behavior policies so that access to sensitive information is determined by the organization's security policy or on a need-to-know basis. Rules can also be set up to notify the authorities of any suspicious privileged employee and third-party vendor activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts, etc.{" "}
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1546,7 +1439,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Take action against a malicious employee backed by solid proof. You can view detailed reports for all employees including any security incidents and what steps were taken. Instant snapshots, session recordings and history playback features can be used to view employees desktop for audit and evidence gathering purposes. Video and audio recording can be exported and shared with law enforcement authority.{"\n\n"}
+						This remote software solution provides components that facilitate the evidence-gathering process, enabling companies to collect solid proof and carry out action against malicious employees. Instant snapshots, session recordings, and history playback features can be used to view employees' desktops and exported or shared with law enforcement authority.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1624,7 +1517,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						First, determine what behaviors are high risk i.e. copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources etc. Then, apply advanced behavior-based rules to automatically detect when employees violate the rules. Utilize sophisticated anomaly rules to identify employee activity outside the normal behavior. Immediately get notified about harmful employee activity, lock them out from the system or take remote control of their computer before any malicious or fraudulent attempt.
+						By identifying high-risk behaviors such as copying files to external drives, using cloud storage to share corporate files, and apply advanced behavior-based rules to automatically detect when employees violate the rules, StaffCop greatly benefits the HR department. The platform also identifies employee activity outside the normal behavior and instantly notifies authorities of such behavior. What's more, it locks these employees out from the system or takes remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
 					{"    "}
 				</StackItem>
