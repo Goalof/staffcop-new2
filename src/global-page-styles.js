@@ -60,7 +60,8 @@ const pageStyles = {
     "features/voice-communication-recording": {},
     "features/file-scanner": {},
     "features/software-and-hardware-inventory": {},
-    "demo-request": {}
+    "demo-request": {},
+    "test": {}
 };
 
 const PageStyles = createGlobalStyle`

@@ -1,7 +1,7 @@
 import React from "react";
-import { useOverrides, Override, Formspree, StackItem, Stack, Section } from "@quarkly/components";
-import { Text, Input, Image } from "@quarkly/widgets";
-import ButtonGoal from "./ButtonGoal";
+import { useOverrides, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { Text, Image } from "@quarkly/widgets";
+import FormBitrix from "./FormBitrix";
 const defaultProps = {
 	"padding": "70px 0 70px 0",
 	"lg-padding": "120px 0 40px 0px",
@@ -66,106 +66,101 @@ const overrides = {
 			"children": "Contact Us"
 		}
 	},
-	"formspree": {
-		"kind": "Formspree",
+	"formBitrix": {
+		"kind": "FormBitrix",
 		"props": {
-			"errorMessage": "Something went wrong",
-			"completeText": "Success",
-			"endpoint": "https://formspree.io/f/xeqpgrlv",
-			"display": "flex",
-			"flex-direction": "column",
-			"sm-width": "90%"
+			"test": "none",
+			"width": "100%"
 		}
 	},
-	"input": {
-		"kind": "Input",
+	"formBitrixOverride": {
+		"kind": "Override",
 		"props": {
-			"name": "Name",
-			"placeholder": "Name",
-			"margin-right": "4px",
-			"width": "100%",
-			"padding": "11px 18px 11px 18px",
-			"border-width": "1px",
-			"border-color": "#E4E4E4",
-			"border-radius": "6px",
-			"margin": "0px 4px 18px 0px",
+			"slot": "Input First Name",
+			"name": " Name",
 			"type": "text",
-			"hover-border-color": "--color-primary"
+			"placeholder": " Name"
 		}
 	},
-	"input1": {
-		"kind": "Input",
+	"formBitrixOverride1": {
+		"kind": "Override",
 		"props": {
-			"name": "email",
-			"placeholder": "Email",
-			"width": "100%",
-			"padding": "11px 18px 11px 18px",
-			"border-width": "1px",
-			"border-color": "#E4E4E4",
-			"border-radius": "6px",
-			"margin": "0px 4px 18px 0px",
-			"type": "email",
-			"hover-border-color": "--color-primary"
+			"slot": "Input Last Name",
+			"defaultValue": "Петров"
 		}
 	},
-	"input2": {
-		"kind": "Input",
+	"formBitrixOverride2": {
+		"kind": "Override",
 		"props": {
-			"name": "Company",
-			"placeholder": "Company",
-			"width": "100%",
-			"padding": "11px 18px 11px 18px",
-			"border-width": "1px",
-			"border-color": "#E4E4E4",
-			"border-radius": "6px",
-			"margin": "0px 4px 18px 0px",
-			"type": "text",
-			"hover-border-color": "--color-primary"
+			"slot": "Input Email Value",
+			"defaultValue": "mail@example.com"
 		}
 	},
-	"input3": {
-		"kind": "Input",
+	"formBitrixOverride3": {
+		"kind": "Override",
 		"props": {
-			"name": "Number of users",
-			"placeholder": "Number of users",
-			"width": "100%",
-			"padding": "11px 18px 11px 18px",
-			"border-width": "1px",
-			"border-color": "#E4E4E4",
-			"border-radius": "6px",
-			"margin": "0px 4px 18px 0px",
-			"type": "number",
-			"hover-border-color": "--color-primary"
+			"slot": "Input Email Type",
+			"defaultValue": "WORK"
 		}
 	},
-	"input4": {
-		"kind": "Input",
+	"formBitrixOverride4": {
+		"kind": "Override",
 		"props": {
-			"name": "tel",
-			"placeholder": "+1",
-			"width": "100%",
-			"padding": "11px 18px 11px 18px",
-			"border-width": "1px",
-			"border-color": "#E4E4E4",
-			"border-radius": "6px",
-			"margin": "0px 4px 36px 0px",
-			"type": "tel",
-			"hover-border-color": "--color-primary"
+			"slot": "Input Phone Value",
+			"defaultValue": "555888"
 		}
 	},
-	"buttonGoal": {
-		"kind": "ButtonGoal",
-		"props": {}
+	"formBitrixOverride5": {
+		"kind": "Override",
+		"props": {
+			"slot": "Input Phone Type",
+			"defaultValue": "WORK"
+		}
 	},
-	"buttonGoalOverride": {
+	"formBitrixOverride6": {
+		"kind": "Override",
+		"props": {
+			"slot": "Input Title",
+			"defaultValue": "Новый лид"
+		}
+	},
+	"formBitrixOverride7": {
+		"kind": "Override",
+		"props": {
+			"slot": "Title",
+			"display": "none"
+		}
+	},
+	"formBitrixOverride8": {
+		"kind": "Override",
+		"props": {
+			"slot": "Input",
+			"width": "100%",
+			"padding": "10px 16px 10px 16px",
+			"margin": "0px 0px 18px 0px",
+			"border-width": "1px",
+			"border-color": "#e4e4e4",
+			"border-radius": "6px"
+		}
+	},
+	"formBitrixOverride9": {
+		"kind": "Override",
+		"props": {
+			"slot": "ButtonGoal"
+		}
+	},
+	"overrideOverride": {
 		"kind": "Override",
 		"props": {
 			"slot": "Button",
-			"font": "600 18px/22px --fontFamily-googleInter",
+			"font": "normal 600 18px/22px --fontFamily-googleInter",
 			"box-shadow": "inset 0px 5px 17px rgba(255, 255, 255, 0.23)",
 			"padding": "16px 38px 16px 38px",
 			"border-radius": "40px",
-			"children": "Send"
+			"margin": "18px 0px 0px 0px",
+			"children": <>
+				Send{"\n\n"}
+			</>
 		}
 	},
 	"stackItem1": {
@@ -221,7 +216,7 @@ const overrides = {
 	}
 };
 
-const FormGa = props => {
+const BitrixFormGa = props => {
 	const {
 		override,
 		children,
@@ -235,16 +230,20 @@ const FormGa = props => {
 				<Override {...override("stackItemOverride")} />
 				{"        "}
 				<Text {...override("text")} />
-				<Formspree {...override("formspree")}>
-					<Input {...override("input")} />
-					<Input {...override("input1")} />
-					<Input {...override("input2")} />
-					<Input {...override("input3")} />
-					<Input {...override("input4")} />
-					<ButtonGoal {...override("buttonGoal")}>
-						<Override {...override("buttonGoalOverride")} />
-					</ButtonGoal>
-				</Formspree>
+				<FormBitrix {...override("formBitrix")}>
+					<Override {...override("formBitrixOverride")} />
+					<Override {...override("formBitrixOverride1")} />
+					<Override {...override("formBitrixOverride2")} />
+					<Override {...override("formBitrixOverride3")} />
+					<Override {...override("formBitrixOverride4")} />
+					<Override {...override("formBitrixOverride5")} />
+					<Override {...override("formBitrixOverride6")} />
+					<Override {...override("formBitrixOverride7")} />
+					<Override {...override("formBitrixOverride8")} />
+					<Override {...override("formBitrixOverride9")}>
+						<Override {...override("overrideOverride")} />
+					</Override>
+				</FormBitrix>
 				{"    "}
 			</StackItem>
 			<StackItem {...override("stackItem1")}>
@@ -259,8 +258,8 @@ const FormGa = props => {
 	</Section>;
 };
 
-Object.assign(FormGa, { ...Section,
+Object.assign(BitrixFormGa, { ...Section,
 	defaultProps,
 	overrides
 });
-export default FormGa;
+export default BitrixFormGa;
