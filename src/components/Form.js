@@ -70,7 +70,8 @@ const overrides = {
 		"kind": "FormBitrix",
 		"props": {
 			"test": "none",
-			"width": "100%"
+			"width": "100%",
+			"sm-width": "80%"
 		}
 	},
 	"formBitrixOverride": {
@@ -86,7 +87,6 @@ const overrides = {
 		"kind": "Override",
 		"props": {
 			"slot": "Input Last Name",
-			"defaultValue": "Last name",
 			"name": "Last name",
 			"placeholder": "Last name",
 			"type": "text",
@@ -159,7 +159,8 @@ const overrides = {
 	"formBitrixOverride9": {
 		"kind": "Override",
 		"props": {
-			"slot": "ButtonGoal"
+			"slot": "ButtonGoal",
+			"sm-text-align": "center"
 		}
 	},
 	"overrideOverride": {
@@ -229,7 +230,7 @@ const overrides = {
 	}
 };
 
-const Asdsadasdasdas = props => {
+const Frorrrrrrr = props => {
 	const {
 		override,
 		children,
@@ -271,8 +272,8 @@ const Asdsadasdasdas = props => {
 	</Section>;
 };
 
-Object.assign(Asdsadasdasdas, { ...Section,
+Object.assign(Frorrrrrrr, { ...Section,
 	defaultProps,
 	overrides
 });
-export default Asdsadasdasdas;
+export default Frorrrrrrr;

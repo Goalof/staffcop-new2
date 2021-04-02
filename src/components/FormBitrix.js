@@ -79,6 +79,7 @@ const inputs = [{
 	propname: '[PHONE][0][VALUE_TYPE]',
 	override: 'Phone Type'
 }];
+const urlProps = 'TRACE=$trace&SOURCE_ID=WEB&ASSIGNED_BY_ID=101';
 
 const FormBitrix = ({
 	url,
@@ -92,7 +93,7 @@ const FormBitrix = ({
 	const [status, setStatus] = useState('none');
 	const onFormSubmit = useCallback(e => {
 		const form = new FormData(e.target);
-		const fullUrl = inputs.reduce((prevUrl, input) => `${prevUrl}FIELDS${input.propname}=${form.get(input.name)}&`, url).slice(0, -1);
+		const fullUrl = inputs.reduce((prevUrl, input) => `&${prevUrl}FIELDS${input.propname}=${form.get(input.name)}`, url + urlProps);
 		fetch(fullUrl).then(() => setStatus('success')).catch(() => setStatus('error'));
 		e.preventDefault();
 	}, [url]);
