@@ -23,7 +23,7 @@ export default (() => {
 		</Helmet>
 		<Components.EmbedHTML />
 		<Components.Header />
-		<Components.Form padding="140px 0 70px 0" />
+		<Components.NewForm padding="140px 0 70px 0" />
 		<Components.Footer>
 			<Override slot="image" />
 		</Components.Footer>

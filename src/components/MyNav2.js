@@ -26,7 +26,13 @@ const MyNav = props => {
 		            
 		<a href="#" className="menu-trigger">
 			Company 
-			<Icon size="24px" category="md" icon={MdKeyboardArrowDown} color="#000" />
+			<Icon
+				className="arrow-menu"
+				size="24px"
+				category="md"
+				icon={MdKeyboardArrowDown}
+				color="#000"
+			/>
 		</a>
 		            
 		<div className="munecontainer">

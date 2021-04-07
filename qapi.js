@@ -556,7 +556,17 @@ export default {
 		"60642dce36274f001fc8fea3": {
 			"id": "60642dce36274f001fc8fea3",
 			"pageUrl": "test",
-			"name": "Test"
+			"name": "Test",
+			"customCode": {
+				"606b01d8eaad287b684319f3": {
+					"name": "style",
+					"place": "endOfHead",
+					"tag": "style",
+					"data": {
+						"content": ".arrow-menu {\ncolor: #fff !important;\n}\n.menu-trigger {\ncolor: #fff !important;\n}"
+					}
+				}
+			}
 		}
 	},
 	"mode": "production",

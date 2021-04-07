@@ -410,7 +410,9 @@ export default (() => {
 			</Stack>
 		</Section>
 		<Components.FormGa />
-		<Components.Footer />
+		<Components.Footer>
+			<Override slot="image" />
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
