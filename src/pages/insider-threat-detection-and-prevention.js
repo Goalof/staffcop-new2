@@ -996,7 +996,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								90%
 							</Span>
@@ -1098,7 +1097,6 @@ export default (() => {
 				<br />
 				<Span
 					color="--primary"
-					data-q-widget-type="PRIMITIVE"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -1527,7 +1525,6 @@ export default (() => {
 			>
 				<Span
 					color="--primary"
-					data-q-widget-type="PRIMITIVE"
 					overflow-wrap="normal"
 					word-break="normal"
 					white-space="normal"
@@ -1648,7 +1645,7 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources are often regarded as high risk behavior. StaffCop not only identifies this type of risky behavior but also applies advanced behavior-based rules to automatically detect when users violate the rules. Further, it utilizes the sophisticated anomaly rules to identify user activity outside the normal behavior and immediately alert administrators of errant employees. The solution also has the ability to   lock such users out from the system or take remote control of their computer before any malicious or fraudulent attempt.
+						Copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources are often regarded as high risk behavior. StaffCop not only identifies this type of risky behavior but also applies advanced behavior-based rules to automatically detect when users violate the rules. Further, it utilizes the sophisticated anomaly rules to identify user activity outside the normal behavior and immediately alert administrators of errant employees. The solution also allows to   lock such users out from the system or take remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1826,18 +1823,7 @@ export default (() => {
 				Employee Monitoring
 			</Override>
 			<Override slot="text7">
-				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results. ..
-				<Span
-					color="rgba(255, 255, 255, 0)"
-					overflow-wrap="normal"
-					word-break="normal"
-					white-space="normal"
-					text-indent="0"
-					text-overflow="clip"
-					hyphens="manual"
-				>
-					.
-				</Span>
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
 			</Override>
 		</Components.BlockNeed>
 		<Section

@@ -173,7 +173,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						When you are watching remote desktop in real time you can take control over the remote workstation and control it's mouse and keyboard. It can be used in case by system administrators for fixing issues without the necessity of physical presence at the workstation).
+						When you are watching a remote desktop in real time you can take control over the remote workstation and control its mouse and keyboard. It can be used by system administrators for fixing issues without the necessity of physical presence at the workstation.
 						<br />
 						{"\n\n"}
 					</Text>

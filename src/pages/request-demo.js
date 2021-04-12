@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml } from "@quarkly/components";
+import { RawHtml, Override } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
@@ -23,8 +23,16 @@ export default (() => {
 		</Helmet>
 		<Components.EmbedHTML />
 		<Components.Header />
-		<Components.Form padding="140px 0 70px 0" lg-padding="120px 0 40px 0px" lg-margin="0px 0px 0px 0px" sm-padding="90px 0 40px 0px" />
-		<Components.Footer />
+		<Components.Form padding="140px 0 70px 0" lg-padding="120px 0 40px 0px" lg-margin="0px 0px 0px 0px" sm-padding="90px 0 40px 0px">
+			<Override slot="text">
+				Request demo
+			</Override>
+		</Components.Form>
+		<Components.Footer>
+			<Override slot="link2">
+				Leadership Team
+			</Override>
+		</Components.Footer>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

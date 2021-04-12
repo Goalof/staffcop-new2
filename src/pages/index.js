@@ -1,11 +1,10 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Image, Box, Span, Hr, Icon } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Box, Span, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, Section, StackItem, Stack, SocialMedia } from "@quarkly/components";
 import * as Components from "components";
-import { FaRegLifeRing } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -843,7 +842,7 @@ by keywords and regular expressions. Record sound from microphones to hear what 
 						</Text>
 					</Box>
 					<Link
-						href="/starter/"
+						href="/security/"
 						padding="13px 29px 13px 29px"
 						border-color="--color-primary"
 						border-radius="40px"
@@ -855,7 +854,7 @@ by keywords and regular expressions. Record sound from microphones to hear what 
 						hover-background="--color-primary"
 						transition="-webkit-transition: all .3s;  transition: all .3s"
 					>
-						Try for free
+						Learn more
 					</Link>
 					{"    "}
 				</StackItem>
@@ -888,10 +887,10 @@ by keywords and regular expressions. Record sound from microphones to hear what 
 						View remote desktop without being notices. Take control over
 a workstation. 
 Full picture of software and hardware usage. Intensity of usage
-and registry of states.{"\n\n"}
+and registry of states.
 					</Text>
 					<Link
-						href="/uam/"
+						href="/administration/"
 						padding="13px 29px 13px 29px"
 						border-radius="40px"
 						border-color="--color-primary"
@@ -903,7 +902,7 @@ and registry of states.{"\n\n"}
 						hover-background="--color-primary"
 						transition="-webkit-transition: all .3s;  transition: all .3s"
 					>
-						Try for free
+						Learn more
 					</Link>
 					{"    "}
 				</StackItem>
@@ -948,10 +947,10 @@ and registry of states.{"\n\n"}
 					<Text font="--lead" margin="0px 0px 36px 0px" display="inline-block" color="rgba(255, 255, 255, 0.6)">
 						Categorize applications and web-sites into productive
 and unproductive. Set up different configurations for particular
-users, groups and departments. Compare results.{"\n\n\n\n"}
+users, groups and departments. Compare results.
 					</Text>
 					<Link
-						href="/dlp/"
+						href="/monitoring/"
 						padding="13px 29px 13px 29px"
 						border-radius="40px"
 						border-color="#ffffff"
@@ -966,7 +965,7 @@ users, groups and departments. Compare results.{"\n\n\n\n"}
 						hover-border-color="#0D0D0D"
 						hover-color="#ffffff"
 					>
-						Try for free
+						Learn more
 					</Link>
 					{"    "}
 				</StackItem>
@@ -1065,10 +1064,9 @@ users, groups and departments. Compare results.{"\n\n\n\n"}
 					>
 						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Link
-						href="/starter/"
+						href="/security/"
 						font="--menu"
 						color="--primary"
 						text-decoration-line="initial"
@@ -1124,10 +1122,9 @@ users, groups and departments. Compare results.{"\n\n\n\n"}
 					>
 						StaffCop Enterprise logs the beginning and the end of each employee’s workday, including lunch and coffee breaks, etc. It enables executives and employees, themselves, to improve discipline at the workplace and reduce idle periods.
 						<br />
-						{"\n\n"}
 					</Text>
 					<Link
-						href="/uam/"
+						href="/monitoring/"
 						font="--menu"
 						color="--primary"
 						text-decoration-line="initial"
@@ -1220,7 +1217,7 @@ users, groups and departments. Compare results.{"\n\n\n\n"}
 and remote desktop connection makes StaffCop a must-have tool for an IT specialist. Monitor and analyze user actions on workstations with X-Windows window nanager as well as in terminal mode.
 					</Text>
 					<Link
-						href="/dlp/"
+						href="/administration/"
 						font="--menu"
 						color="--primary"
 						text-decoration-line="initial"
@@ -1638,7 +1635,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 				{"    "}
 			</Stack>
 			<Link
-				href="/third-party-vendor-management/"
+				href="/cases/"
 				padding="13px 29px 13px 29px"
 				border-radius="40px"
 				border-color="--color-primary"
@@ -1962,7 +1959,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 								Request demo
 							</Link>
 							<Link
-								href="/pricing/"
+								href="/purchase/"
 								padding="16px 68px 16px 68px"
 								border-radius="40px"
 								border-color="--color-primary"
@@ -1994,7 +1991,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 				<Stack width="100%" margin="0px 0px 0px 0px">
 					{"    "}
 					<StackItem
-						width="36%"
+						width="35%"
 						display="flex"
 						lg-width="100%"
 						lg-align-items="center"
@@ -2037,7 +2034,55 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 						</SocialMedia>
 						{"    "}
 					</StackItem>
-					<StackItem width="21.3%" display="flex" lg-width="33.333%" md-width="100%">
+					<StackItem width="20%" display="flex" lg-width="33.333%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" lg-align-items="center" />
+						{"        "}
+						<Text font="normal 700 18px/160% --fontFamily-googleInter" margin="0px 0px 27px 0px" display="inline-block" color="rgba(255, 255, 255,1)">
+							SOLUTIONS
+						</Text>
+						<Link
+							href="/administration/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Remote Administration
+						</Link>
+						<Link
+							href="/monitoring/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Employee Monitoring
+						</Link>
+						<Link
+							href="/security/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+							md-text-align="center"
+						>
+							Information Security
+						</Link>
+						{"    "}
+					</StackItem>
+					<StackItem
+						width="15%"
+						display="flex"
+						lg-width="33.333%"
+						md-width="50%"
+						sm-width="100%"
+					>
 						<Override slot="StackItemContent" flex-direction="column" lg-align-items="center" />
 						{"        "}
 						<Text font="normal 700 18px/160% --fontFamily-googleInter" margin="0px 0px 27px 0px" display="inline-block" color="rgba(255, 255, 255,1)">
@@ -2048,63 +2093,29 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 							color="rgba(255, 255, 255, 0.6)"
 							text-decoration-line="initial"
 							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
+							margin="0px 0px 10px 0px"
 							hover-color="#ffffff"
 							transition="all 1s ease 0s"
 						>
 							Company
 						</Link>
 						<Link
-							href="/pricing/"
-							color="rgba(255, 255, 255, 0.6)"
-							text-decoration-line="initial"
-							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
-							hover-color="#ffffff"
-							transition="all 1s ease 0s"
-						>
-							Pricing
-						</Link>
-						<Link
-							href="/"
-							color="rgba(255, 255, 255, 0.6)"
-							text-decoration-line="initial"
-							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
-							hover-color="#ffffff"
-							transition="all 1s ease 0s"
-							md-text-align="center"
-						>
-							Leadership Team
-						</Link>
-						<Link
 							href="/why-us/"
 							color="rgba(255, 255, 255, 0.6)"
 							text-decoration-line="initial"
 							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
+							margin="0px 0px 10px 0px"
 							hover-color="#ffffff"
 							transition="all 1s ease 0s"
 						>
-							Why Staffcop?
-						</Link>
-						<Link
-							href="/partners/"
-							color="rgba(255, 255, 255, 0.6)"
-							text-decoration-line="initial"
-							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
-							hover-color="#ffffff"
-							transition="all 1s ease 0s"
-						>
-							Our Partners
+							Why StaffCop?
 						</Link>
 						<Link
 							href="/white-papers/"
 							color="rgba(255, 255, 255, 0.6)"
 							text-decoration-line="initial"
 							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
+							margin="0px 0px 10px 0px"
 							hover-color="#ffffff"
 							transition="all 1s ease 0s"
 						>
@@ -2113,7 +2124,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 						{"    "}
 					</StackItem>
 					<StackItem
-						width="21.3%"
+						width="15%"
 						display="flex"
 						lg-width="33.333%"
 						md-width="50%"
@@ -2125,20 +2136,42 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 							LEARN
 						</Text>
 						<Link
-							href="https://docs.staffcop.ru/en/"
+							href="https://docs.staffcop.com/"
 							color="rgba(255, 255, 255, 0.6)"
 							text-decoration-line="initial"
 							font="normal 300 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 21px 0px"
+							margin="0px 0px 10px 0px"
 							hover-color="#ffffff"
 							transition="all 1s ease 0s"
 						>
 							Documentation
 						</Link>
+						<Link
+							href="/cases/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Use cases
+						</Link>
+						<Link
+							href="/features/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Features
+						</Link>
 						{"    "}
 					</StackItem>
 					<StackItem
-						width="21.3%"
+						width="15%"
 						display="flex"
 						lg-width="33.333%"
 						md-width="50%"
@@ -2147,22 +2180,41 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 						<Override slot="StackItemContent" flex-direction="column" lg-align-items="center" />
 						{"        "}
 						<Text font="normal 700 18px/160% --fontFamily-googleInter" margin="0px 0px 27px 0px" display="inline-block" color="rgba(255, 255, 255,1)">
-							SUPPORT
+							CONTACT
 						</Text>
-						<Box display="flex" align-items="center">
-							<Icon category="fa" icon={FaRegLifeRing} color="rgba(255, 255, 255, 0.6)" margin="0px 10px 0px 0px" />
-							<Link
-								href="/support/"
-								color="rgba(255, 255, 255, 0.6)"
-								text-decoration-line="initial"
-								font="normal 300 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								hover-color="#ffffff"
-								transition="all 1s ease 0s"
-							>
-								Support Center
-							</Link>
-						</Box>
+						<Link
+							href="/purchase/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Purchase
+						</Link>
+						<Link
+							href="/support/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Support
+						</Link>
+						<Link
+							href="/partners/"
+							color="rgba(255, 255, 255, 0.6)"
+							text-decoration-line="initial"
+							font="normal 300 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 10px 0px"
+							hover-color="#ffffff"
+							transition="all 1s ease 0s"
+						>
+							Distributors
+						</Link>
 						{"    "}
 					</StackItem>
 					{"    "}

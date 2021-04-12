@@ -679,7 +679,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								75%
 							</Span>
@@ -750,7 +749,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								70%
 							</Span>
@@ -821,7 +819,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								80%+{" "}
 							</Span>
@@ -892,7 +889,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								$32B+
 							</Span>
@@ -1341,7 +1337,6 @@ export default (() => {
 						sm-text-align="center"
 					>
 						<Span
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -1362,7 +1357,6 @@ export default (() => {
 						sm-text-align="center"
 					>
 						<Span
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"

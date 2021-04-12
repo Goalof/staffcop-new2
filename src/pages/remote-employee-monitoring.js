@@ -731,7 +731,6 @@ idle time, productive vs. unproductive time, session vs. work time to track empl
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -889,7 +888,6 @@ idle time, productive vs. unproductive time, session vs. work time to track empl
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -2127,7 +2125,7 @@ idle time, productive vs. unproductive time, session vs. work time to track empl
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop's embedded administrative features automate many repetitive but essential tasks like setting up schedules and tracking attendance, breaks, sick hours, late shifts, absence, etc.
+						StaffCop's embedded administrative features automate many repetitive but essential tasks like setting up schedules and tracking attendance, breaks, sick leaves, late shifts, absence, etc.
 					</Text>
 					<Box display="flex" margin="0px 0px 18 0px">
 						<Icon

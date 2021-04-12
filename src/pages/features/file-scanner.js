@@ -58,7 +58,6 @@ export default (() => {
 						lg-text-align="center"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -67,7 +66,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -75,7 +73,7 @@ export default (() => {
 								text-overflow="clip"
 								hyphens="manual"
 							>
-								Scan file system or workstations
+								Scan file system on workstations
 								<br />
 								{"\n\n"}
 								<br />
@@ -92,7 +90,7 @@ export default (() => {
 							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						/>
 						<Text margin="9px 0px 9px 18px" color="#555" font="400 18px/160% --fontFamily-googleInter" sm-font="400 16px/22px --fontFamily-googleInter">
-							Microsoft Office documnents
+							Microsoft Office documents
 							<br />
 							{"\n\n"}
 						</Text>
@@ -211,7 +209,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -220,7 +217,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -229,7 +225,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -239,7 +234,6 @@ export default (() => {
 								>
 									{"\n"}
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -249,7 +243,6 @@ export default (() => {
 									>
 										{"\n"}
 										<Strong
-											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
 											word-break="normal"
 											white-space="normal"
@@ -276,7 +269,7 @@ export default (() => {
 						letter-spacing="-1%"
 						sm-text-align="center"
 					>
-						Starting from the version 4.8, StaffCop Enterprise provides users with new capabilities of controlling files on workstations. This function is called File Scanner (file crawler). File scanner scans files on the endpoints and shows the list of the found files as the hierarchy. If we click a file that is of interest we wil get the list of recorded events related to this file that can be used for further analysis.
+						Starting from the version 4.8, StaffCop Enterprise provides users with new capabilities of controlling files on workstations. This function is called File Scanner (file crawler). File scanner scans files on endpoints and shows the list of the found files as the hierarchy. If we click a file we will get the list of recorded events related to this file that can be used for further analysis.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -306,7 +299,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -315,7 +307,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -324,7 +315,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -334,7 +324,6 @@ export default (() => {
 								>
 									{"\n"}
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -344,7 +333,6 @@ export default (() => {
 									>
 										{"\n"}
 										<Strong
-											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
 											word-break="normal"
 											white-space="normal"
@@ -405,7 +393,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -414,7 +401,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -423,7 +409,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -433,7 +418,6 @@ export default (() => {
 								>
 									{"\n"}
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -443,7 +427,6 @@ export default (() => {
 									>
 										{"\n"}
 										<Strong
-											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
 											word-break="normal"
 											white-space="normal"

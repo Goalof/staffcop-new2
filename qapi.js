@@ -59,7 +59,7 @@ export default {
 		},
 		"5f8c35772e3a2a001faf7788": {
 			"id": "5f8c35772e3a2a001faf7788",
-			"pageUrl": "starter",
+			"pageUrl": "administration",
 			"name": "Remote Administration",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -68,7 +68,7 @@ export default {
 		},
 		"5f90cf52b40b56001e9517aa": {
 			"id": "5f90cf52b40b56001e9517aa",
-			"pageUrl": "uam",
+			"pageUrl": "monitoring",
 			"name": "Employee Monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
@@ -77,7 +77,7 @@ export default {
 		},
 		"5f9198c5e5a236001eeb5abf": {
 			"id": "5f9198c5e5a236001eeb5abf",
-			"pageUrl": "dlp",
+			"pageUrl": "security",
 			"name": "Information Security",
 			"seo": {
 				"title": "DLP",
@@ -474,8 +474,8 @@ export default {
 		},
 		"5fa2155f7b805a001eaa4571": {
 			"id": "5fa2155f7b805a001eaa4571",
-			"pageUrl": "pricing",
-			"name": "Pricing",
+			"pageUrl": "purchase",
+			"name": "Purchase",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Pricing"
@@ -501,8 +501,8 @@ export default {
 		},
 		"5fc0a8d279530b001fd2cf0d": {
 			"id": "5fc0a8d279530b001fd2cf0d",
-			"pageUrl": "purchase",
-			"name": "Purchase",
+			"pageUrl": "pur2",
+			"name": "Purchase (old)",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
 				"title": "Purchase"

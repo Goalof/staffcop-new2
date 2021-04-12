@@ -664,7 +664,6 @@ With its intelligent behavior analysis and user centric activity monitoring,{" "
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -1051,7 +1050,6 @@ With its intelligent behavior analysis and user centric activity monitoring,{" "
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -1374,7 +1372,11 @@ With its intelligent behavior analysis and user centric activity monitoring,{" "
 					Feature-rich, affordable with annual and perpetual licensing options
 				</Override>
 			</Components.Feature>
-			<Components.Footer />
+			<Components.Footer>
+				<Override slot="link">
+					Company
+				</Override>
+			</Components.Footer>
 		</Section>
 		<Section
 			background="#ffffff"

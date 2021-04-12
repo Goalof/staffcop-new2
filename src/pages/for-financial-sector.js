@@ -636,7 +636,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -876,7 +875,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								76%{"\n"}
 							</Span>
@@ -947,7 +945,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								1B/Yr{" "}
 							</Span>

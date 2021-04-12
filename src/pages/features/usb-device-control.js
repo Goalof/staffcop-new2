@@ -58,7 +58,6 @@ export default (() => {
 						lg-text-align="center"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -68,7 +67,6 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -222,7 +220,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -231,7 +228,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -287,7 +283,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -296,7 +291,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -305,7 +299,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -364,7 +357,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -373,7 +365,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -382,7 +373,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -391,7 +381,6 @@ export default (() => {
 									hyphens="manual"
 								>
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -449,7 +438,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -458,7 +446,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -467,7 +454,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -476,7 +462,6 @@ export default (() => {
 									hyphens="manual"
 								>
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -485,7 +470,6 @@ export default (() => {
 										hyphens="manual"
 									>
 										<Strong
-											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
 											word-break="normal"
 											white-space="normal"
@@ -494,7 +478,6 @@ export default (() => {
 											hyphens="manual"
 										>
 											<Strong
-												data-q-widget-type="PRIMITIVE"
 												overflow-wrap="normal"
 												word-break="normal"
 												white-space="normal"
@@ -553,7 +536,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -562,7 +544,6 @@ export default (() => {
 							hyphens="manual"
 						>
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -571,7 +552,6 @@ export default (() => {
 								hyphens="manual"
 							>
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -580,7 +560,6 @@ export default (() => {
 									hyphens="manual"
 								>
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"
@@ -589,7 +568,6 @@ export default (() => {
 										hyphens="manual"
 									>
 										<Strong
-											data-q-widget-type="PRIMITIVE"
 											overflow-wrap="normal"
 											word-break="normal"
 											white-space="normal"
@@ -598,7 +576,6 @@ export default (() => {
 											hyphens="manual"
 										>
 											<Strong
-												data-q-widget-type="PRIMITIVE"
 												overflow-wrap="normal"
 												word-break="normal"
 												white-space="normal"

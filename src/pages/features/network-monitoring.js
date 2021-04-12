@@ -221,7 +221,7 @@ export default (() => {
 						sm-text-align="center"
 						sm-margin="30px 0px 0px 0px"
 					>
-						For example, we need to understand which ports are used by which applications and check if all of them are allowed by the corporate policy. The piechart presented in screenshot below will show us the share of each applications in total amount of usage of ports.
+						For example, we need to understand which ports are used by which applications and check if all of them are allowed by the corporate policy. The piechart presented on screenshot below will show us the share of each applications in total amount of usage of ports.
 						<br />
 						{"\n\n"}
 					</Text>
@@ -249,7 +249,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -302,7 +301,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -312,7 +310,6 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -367,7 +364,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -377,7 +373,6 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -387,7 +382,6 @@ export default (() => {
 							>
 								{"\n"}
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -444,7 +438,6 @@ export default (() => {
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
 						<Strong
-							data-q-widget-type="PRIMITIVE"
 							overflow-wrap="normal"
 							word-break="normal"
 							white-space="normal"
@@ -454,7 +447,6 @@ export default (() => {
 						>
 							{"\n"}
 							<Strong
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -464,7 +456,6 @@ export default (() => {
 							>
 								{"\n"}
 								<Strong
-									data-q-widget-type="PRIMITIVE"
 									overflow-wrap="normal"
 									word-break="normal"
 									white-space="normal"
@@ -474,7 +465,6 @@ export default (() => {
 								>
 									{"\n"}
 									<Strong
-										data-q-widget-type="PRIMITIVE"
 										overflow-wrap="normal"
 										word-break="normal"
 										white-space="normal"

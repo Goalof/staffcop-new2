@@ -1114,7 +1114,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								$178B
 							</Span>

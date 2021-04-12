@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Image, Text, Icon, Span, Hr } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, Text, Icon, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Section, SocialMedia } from "@quarkly/components";
@@ -1132,7 +1132,7 @@ analysis{"\n\n"}
 						flex-direction="column"
 						align-items="flex-start"
 						justify-content="space-between"
-						padding="20px 42px 42px 42px"
+						padding="0px 0px 0px 0px"
 						lg-align-items="center"
 						position="relative"
 					/>
@@ -1142,11 +1142,18 @@ analysis{"\n\n"}
 						position="absolute"
 						top="0px"
 						left="auto"
-						right="auto"
 						bottom="auto"
 						background="linear-gradient(278.48deg,#000000 22.4%,rgba(0, 0, 0, 0.75) 41.4%,rgba(196, 196, 196, 0) 86.67%,rgba(126, 126, 126, 0.08) 116.62%)"
+						right="auto"
 					/>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z" />
+					<Image
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z"
+						width="100%"
+						height="auto"
+						margin="0px 0px 0px -2px"
+						padding="0px 0px 0px 0px"
+						max-height="592px"
+					/>
 					{"        "}{"    "}
 				</StackItem>
 				{"        "}
@@ -1276,7 +1283,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1289,34 +1296,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Early detection of information security threats{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								Early detection of information security threats{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Server,%20Databases,%20Connect.1%201.svg?v=2021-04-07T14:18:05.786Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Postal protocols{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							IMAP, SMTP, MAPI, POP3 and their encrypted analogues. Control the sending of messages and transferring of files through web-based e-mail services.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1325,7 +1331,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1338,36 +1344,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Investigation of incidents{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								StaffCop is a me machine! At any me, you can go back and see what this or that employee was doing in the specified period
-								<br />
-								of me{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Skype%201.svg?v=2021-04-07T14:21:17.624Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Messengers{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1376,7 +1379,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1389,34 +1392,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Work time tracking Monitoring user activity on a PC{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/monitor-camera%201.svg?v=2021-04-07T15:13:35.532Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Applications{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Facts about installing and launching applicaons, duraon of use, screenshots of the screen when changing the window focus. Blocking the launch of processes and applicaons{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1425,7 +1427,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1438,35 +1440,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								User behavior analysis Automatic
-analysis{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Folder,%20Eye%201.svg?v=2021-04-07T15:14:44.811Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Files{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Registraon of all operaons with files and folders, including network files. Creaon of shadow copies of files sent outside the organizaon.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1475,7 +1475,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1488,38 +1488,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Remote administration with or without{"\n"}
-								<br />
-								notice to the user Remote PC control{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								StaffCop is a me machine! At any me, you can go back and see what this or that employee was doing in the specified period
-								<br />
-								of me{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/usb-cable%201.svg?v=2021-04-07T20:46:03.028Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							USB ports{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Monitoring of operaons with removable media. Blocking USB devices by class and Hardware ID. Restricng recording on USB and CD.{"\n\n\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1528,7 +1523,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1541,34 +1536,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/search-radar-location.2%203.svg?v=2021-04-05T16:16:38.983Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Assessment of employee productivity{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/document-printer%201.svg?v=2021-04-07T15:14:34.584Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Printing{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Registraon of print facts: user, me, computer, number of pages, etc. Creaon of shadow copies of printed files.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1577,7 +1571,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1590,34 +1584,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/input-password-protection%201.svg?v=2021-04-05T16:39:40.231Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Keylogger and registering bash commands{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Servers,%20Databases,%20Network%201.svg?v=2021-04-07T20:55:21.807Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Network acvity{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Registraon of network connecons and control of encrypted traffic, website visits, and user searches.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1626,7 +1619,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1639,34 +1632,33 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/business-chart-search%201.svg?v=2021-04-05T16:39:53.468Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Monitoring configurable log files usage{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Phone,%20Call.3%201.svg?v=2021-04-07T20:55:43.837Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							SIP telephony{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
@@ -1675,7 +1667,7 @@ analysis{"\n\n"}
 					{"        "}
 					<Box
 						border-radius="24px"
-						padding="0px 0px 0px 0px"
+						padding="42px 42px 60px 42px"
 						border-width="1px"
 						border-style="solid"
 						background="#030303"
@@ -1688,286 +1680,459 @@ analysis{"\n\n"}
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
+						align-items="flex-start"
 					>
-						<Link href="/features/productivity-monitoring" padding="42px 42px 42px 42px" height="100%">
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mic-rec%201.svg?v=2021-04-05T16:40:07.054Z"
-								object-position="0% 0%"
-								margin="10px 0px 30px -9px"
-								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
-							/>
-							<Text
-								font="normal 700 24px/140% --fontFamily-googleInter"
-								margin="0px 0px 18px 0px"
-								display="inline-block"
-								color="#ffffff"
-								sm-font="normal 600 20px/140% Inter, sans-serif"
-							>
-								Microphone recording{"\n\n"}
-							</Text>
-							<Text
-								font="normal 400 18px/160% --fontFamily-googleInter"
-								margin="0px 0px 0px 0px"
-								display="inline-block"
-								color="rgba(255, 255, 255, 0.6)"
-								sm-font="normal 400 16px/140% Inter, sans-serif"
-							>
-								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
-							</Text>
-						</Link>
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Webcam%201.svg?v=2021-04-07T20:56:08.549Z"
+							object-position="0% 0%"
+							margin="10px 0px 30px -9px"
+							filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+						/>
+						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="#ffffff"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Audio and video registraon{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
+						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
 		</Section>
+		<Section background="#000000" padding="36px 0 68px 0">
+			<Override slot="SectionContent" align-items="center" />
+			<Text
+				font="normal 700 72px/73px --fontFamily-googleInter"
+				margin="0px 0px 0px 0px"
+				display="inline-block"
+				color="#ffffff"
+				letter-spacing="-2%"
+				text-align="center"
+				md-font="normal 700 30px/40px Inter, sans-serif"
+				sm-font="normal 700 24px/30px Inter, sans-serif"
+				width="50%"
+			>
+				Investigation of incidents{"\n\n"}
+			</Text>
+		</Section>
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
+			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="center"
+						padding="20px 42px 42px 42px"
+						lg-align-items="center"
+					/>
+					{"        "}
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						StaffCop is a me machine!{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						The mullevel report designer allows you to get the required data set “on the go”. Searching for keywords and regular phrases will reduce the invesgaon me from the computer microphone to a minimum and will also allow you to hear what was happening at the right moment.{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="space-between"
+						padding="0px 0px 0px 0px"
+						lg-align-items="center"
+						position="relative"
+					/>
+					<Box
+						width="100%"
+						position="absolute"
+						top="0px"
+						left="auto"
+						bottom="auto"
+						background="linear-gradient(278.48deg,#000000 22.4%,rgba(0, 0, 0, 0.75) 41.4%,rgba(196, 196, 196, 0) 86.67%,rgba(126, 126, 126, 0.08) 116.62%)"
+						right="auto"
+						height="100%"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staticphoto.png?v=2021-04-07T21:21:27.554Z"
+						width="100%"
+						height="auto"
+						margin="0px 0px 0px -2px"
+						padding="0px 0px 0px 0px"
+						max-height="592px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				{"        "}
+			</Stack>
+		</Section>
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right no-repeat,#000000" md-padding="30px 0 30px 0">
+			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-end"
+						justify-content="flex-end"
+						padding="0px 0px 0px 0px"
+						lg-align-items="center"
+						position="relative"
+					/>
+					<Box
+						width="100%"
+						position="absolute"
+						top="0px"
+						left="0px"
+						bottom="auto"
+						background="linear-gradient(278.46deg,rgba(126, 126, 126, 0) 0%,rgba(196, 196, 196, 0) 47.1%,rgba(0, 0, 0, 0.75) 69.5%,#000000 85.2%)"
+						right="auto"
+						height="100%"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/quisc.png?v=2021-04-07T15:50:33.599Z"
+						width="100%"
+						height="auto"
+						margin="0px -2px 0px 0px"
+						padding="0px 0px 0px 0px"
+						max-height="592px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="center"
+						padding="20px 42px 42px 42px"
+						lg-align-items="center"
+					/>
+					{"        "}
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Quick! Even with big data{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						The unique combinaon of PostgreSQL and ClickHouse provides tremendous data processing speed. You don’t need to set the report generaon overnight, only to find out that there was nothing you need – invesgate here and now!{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"        "}
+			</Stack>
+		</Section>
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
+			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="center"
+						padding="20px 42px 42px 42px"
+						lg-align-items="center"
+					/>
+					{"        "}
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Relaonship graphs{"\n\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 42px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						A clear view of the communicaons between employees and their nature. A scheme for migrang files within an organizaon and transferring them outside.{"\n\n"}
+					</Text>
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Anomaly detecon{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						Linear, pie, histograms and analycal tables, to help present the data in a convenient form.{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="space-between"
+						padding="0px 0px 0px 0px"
+						lg-align-items="center"
+						position="relative"
+					/>
+					<Box
+						width="100%"
+						position="absolute"
+						top="0px"
+						left="auto"
+						bottom="auto"
+						background="linear-gradient(278.48deg,#000000 22.4%,rgba(0, 0, 0, 0.75) 41.4%,rgba(196, 196, 196, 0) 86.67%,rgba(126, 126, 126, 0.08) 116.62%)"
+						right="auto"
+						height="100%"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z"
+						width="100%"
+						height="auto"
+						margin="0px 0px 0px -2px"
+						padding="0px 0px 0px 0px"
+						max-height="592px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				{"        "}
+			</Stack>
+		</Section>
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right no-repeat,#000000" md-padding="30px 0 30px 0">
+			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-end"
+						justify-content="flex-end"
+						padding="0px 0px 0px 0px"
+						lg-align-items="center"
+						position="relative"
+					/>
+					<Box
+						width="100%"
+						position="absolute"
+						top="0px"
+						left="0px"
+						bottom="auto"
+						background="linear-gradient(278.46deg,rgba(126, 126, 126, 0) 0%,rgba(196, 196, 196, 0) 47.1%,rgba(0, 0, 0, 0.75) 69.5%,#000000 85.2%)"
+						right="auto"
+						height="100%"
+					/>
+					<Image
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/diagrama.png?v=2021-04-07T21:29:57.645Z"
+						width="100%"
+						height="auto"
+						margin="0px -2px 0px 0px"
+						padding="0px 0px 0px 0px"
+						max-height="592px"
+					/>
+					{"        "}{"    "}
+				</StackItem>
+				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+					<Override
+						slot="StackItemContent"
+						border-radius="8px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="center"
+						padding="20px 42px 42px 42px"
+						lg-align-items="center"
+					/>
+					{"        "}
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Thermal diagrams{"\n\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 47px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						Convenient for determining the intensity of acvity and events concerning employees.{"\n\n"}
+					</Text>
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Dimension cards{"\n\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 42px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc{"\n\n"}
+					</Text>
+					<Text
+						font="normal 600 36px/45px --fontFamily-googleInter"
+						margin="0px 0px 24px 0px"
+						display="inline-block"
+						color="#ffffff"
+						lg-text-align="center"
+					>
+						Data export and prinng{"\n\n"}
+					</Text>
+					<Text
+						font="--lead"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(255, 255, 255, 0.6)"
+						lg-text-align="center"
+					>
+						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+				{"        "}
+			</Stack>
+		</Section>
+		<Section padding="70px 0 52px 0" background="#000000" md-padding="30px 0 30px 0">
+			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Text
+				font="normal 700 72px/72px --fontFamily-googleInter"
+				margin="0px 0px 18px 0px"
+				display="inline-block"
+				color="#ffffff"
+				letter-spacing="-2%"
+				text-align="center"
+				md-font="normal 700 30px/40px Inter, sans-serif"
+				sm-font="normal 700 24px/30px Inter, sans-serif"
+				width="65%"
+			>
+				Remote administration and it audit{"\n\n"}
+			</Text>
+			<Text
+				font="normal 400 18px/160% --fontFamily-googleInter"
+				color="#9B9FAA"
+				letter-spacing="-0.01em"
+				margin="8px 0px 0px 0px"
+				text-align="center"
+				width="50%"
+				md-width="80%"
+				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+			>
+				Monitoring processes and applicaons, system events and connecng to a remote desktop make StaffCopEnterprise an indispensable assistant for an IT specialist.{"\n\n"}
+			</Text>
+		</Section>
 		<Section padding="0px 0 0px 0" background="#020202">
 			<Override slot="SectionContent" max-width="none" width="100%" />
-			<Section padding="70px 0 40px 0" lg-padding="70px 0 50px 0">
-				<Override slot="SectionContent" max-width="1200px" align-items="center" />
-				<Text
-					font="--headline2"
-					margin="0px 0px 50px 0px"
-					display="inline-block"
-					color="#ffffff"
-					letter-spacing="-2%"
-					text-align="center"
-					md-font="normal 700 30px/40px Inter, sans-serif"
-					sm-font="normal 700 24px/30px Inter, sans-serif"
-				>
-					How can I get{" "}
-					<Span color="--primary">
-						started
-					</Span>
-					?
-				</Text>
-				<Stack width="100%" margin="0px 0px 0px 0px" position="relative" justify-content="center">
-					{"    "}
-					<Hr
-						width="70%"
-						opacity="0.08"
-						position="absolute"
-						bottom="auto"
-						left="auto"
-						right="auto"
-						top="82px"
-						z-index="1"
-						border-width="2px 0 0 0"
-						lg-display="none"
-						nout-display="none"
-					/>
-					<StackItem width="25%" display="flex" lg-width="50%" sm-width="100%">
-						<Override
-							slot="StackItemContent"
-							align-items="center"
-							justify-content="flex-start"
-							flex-direction="column"
-							padding="10px 10px 10px 10px"
-						/>
-						{"        "}
-						<Box
-							width="120px"
-							height="120px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							position="relative"
-							z-index="2"
-							background="#020202"
-						>
-							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Laptop%201.svg?v=2020-11-16T15:16:18.655Z" object-fit="contain" margin="20px 0px 0px 0px" />
-						</Box>
-						<Text
-							font="--headline3"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 1)"
-							text-align="center"
-						>
-							Install StaffCop{" "}
-						</Text>
-						<Text
-							font="--lead"
-							margin="12px 0px 24px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 0.6)"
-							text-align="center"
-						>
-							Install StaffCop on-premises or on private cloud (AWS, Google Cloud)
-						</Text>
-						{"    "}
-					</StackItem>
-					<StackItem width="25%" display="flex" lg-width="50%" sm-width="100%">
-						<Override
-							slot="StackItemContent"
-							align-items="center"
-							justify-content="flex-start"
-							flex-direction="column"
-							padding="10px 10px 10px 10px"
-						/>
-						{"        "}
-						<Box
-							width="120px"
-							height="120px"
-							display="flex"
-							align-items="flex-start"
-							justify-content="center"
-							position="relative"
-							z-index="2"
-							background="#020202"
-						>
-							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Server,%20Databases,%20Download%201.svg?v=2020-11-16T15:16:18.649Z" object-fit="contain" margin="0px 0px 0px 0px" />
-						</Box>
-						<Text
-							font="--headline3"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 1)"
-							text-align="center"
-						>
-							Install Agents
-						</Text>
-						<Text
-							font="--lead"
-							margin="12px 0px 24px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 0.6)"
-							text-align="center"
-						>
-							Install the agents on the machines you wish to monitor.
-						</Text>
-						{"    "}
-					</StackItem>
-					<StackItem width="25%" display="flex" lg-width="50%" sm-width="100%">
-						<Override
-							slot="StackItemContent"
-							align-items="center"
-							justify-content="flex-start"
-							flex-direction="column"
-							padding="10px 10px 10px 10px"
-						/>
-						{"        "}
-						<Box
-							width="120px"
-							height="120px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							position="relative"
-							z-index="2"
-						>
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%201.svg?v=2020-11-16T15:16:18.648Z"
-								object-fit="contain"
-								background="#020202"
-								margin="25px 0px 0px 0px"
-							/>
-						</Box>
-						<Text
-							font="--headline3"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 1)"
-							text-align="center"
-						>
-							Customize Settings
-						</Text>
-						<Text
-							font="--lead"
-							margin="12px 0px 24px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 0.6)"
-							text-align="center"
-						>
-							Customize our pre-defined rules for your use-case
-						</Text>
-						{"    "}
-					</StackItem>
-					<StackItem width="25%" display="flex" lg-width="50%" sm-width="100%">
-						<Override
-							slot="StackItemContent"
-							align-items="center"
-							justify-content="flex-start"
-							flex-direction="column"
-							padding="10px 10px 10px 10px"
-						/>
-						{"        "}
-						<Box
-							width="120px"
-							height="120px"
-							display="flex"
-							align-items="center"
-							justify-content="center"
-							background="#020202"
-							position="relative"
-							z-index="2"
-						>
-							<Image
-								loading="lazy"
-								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings.4%202.svg?v=2020-11-16T15:16:18.649Z"
-								object-fit="contain"
-								margin="10px 0px 0px 0px"
-								background="#020202"
-							/>
-						</Box>
-						<Text
-							font="--headline3"
-							margin="0px 0px 0px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 1)"
-							text-align="center"
-						>
-							Take Control!
-						</Text>
-						<Text
-							font="--lead"
-							margin="12px 0px 24px 0px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 0.6)"
-							text-align="center"
-						>
-							Start using the dashboard to secure your domain and gain insight into users' activities.
-						</Text>
-						{"    "}
-					</StackItem>
-					{"    "}
-				</Stack>
-			</Section>
-			<Section padding="50px 0 112px 0" lg-padding="70px 0 70px 0">
+			<Section padding="30px 0 90px 0" lg-padding="70px 0 70px 0">
 				<Override slot="SectionContent" max-width="1200px" align-items="center" />
 				<Stack
 					width="100%"
 					margin="0px 0px 0px 0px"
-					background="rgba(6, 6, 6, 1)"
+					background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/greenfonm.png?v=2021-04-07T22:04:23.134Z) center/cover no-repeat,#030303"
 					position="relative"
 					align-items="center"
 					justify-content="center"
 					overflow-y="hidden"
 					gap="0px"
-					border-radius="6px"
-					border-color="#161616"
+					border-radius="30px"
+					border-color="rgba(255, 255, 255, 0.05"
 					border-width="1px"
 					border-style="solid"
 				>
 					{"    "}
 					<Box
-						width="70%"
-						height="100%"
-						background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Groupoba.svg?v=2020-10-17T19:56:21.221Z) center center/cover no-repeat scroll padding-box"
+						width="100%"
 						position="absolute"
-						bottom="auto"
+						bottom="0px"
+						top="auto"
+						height="100%"
+						background="linear-gradient(20deg,#000000 0%,rgba(0, 0, 0, 0.75) 43.8%,rgba(196, 196, 196, 0) 79.1%,rgba(126, 126, 126, 0) 111.17%)"
 						left="auto"
 						right="auto"
-						top="-170px"
-						z-index="1"
-						lg-width="80%"
-						md-top="-115px"
-						sm-width="70%"
-						sm-height="300px"
-						sm-top="-70px"
-						sm-display="none"
+						z-index="5"
+						max-height="285px"
+						max-width="768px"
+						border-radius="15px 0px 0px 0px"
 					/>
 					<StackItem width="100%" display="flex" padding="16px 16px 16px 16px">
 						<Override
@@ -1987,8 +2152,8 @@ analysis{"\n\n"}
 						/>
 						{"        "}
 						<Text
-							font="--headline2"
-							margin="0px 0px 0px 0px"
+							font="normal 700 45px/56px --fontFamily-googleInter"
+							margin="0px 0px 54px 0px"
 							display="inline-block"
 							color="#ffffff"
 							text-align="center"
@@ -1997,10 +2162,10 @@ analysis{"\n\n"}
 							md-font="normal 700 30px/40px Inter, sans-serif"
 							sm-font="normal 700 20px/30px Inter, sans-serif"
 						>
-							Cutting-edge technologies for cybersecurity, threat detection and alerting
+							All data is consolidated in one place, no more wasted me with logs and proxies{"\n\n\n\n\n\n"}
 						</Text>
 						<Box
-							margin="42px 0px 67px 0px"
+							margin="0px 0px 67px 0px"
 							display="flex"
 							sm-flex-direction="column"
 							sm-align-items="center"
@@ -2052,7 +2217,1119 @@ analysis{"\n\n"}
 								Pricing
 							</Link>
 						</Box>
-						<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/rezhevmasdas.png?v=2020-10-21T15:09:40.369Z" width="736px" nout-width="70%" />
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							color="#ffffff"
+							letter-spacing="-0.01em"
+							margin="8px 0px 55px 0px"
+							text-align="center"
+							width="50%"
+							md-width="80%"
+							sm-font="normal 300 16px/140% --fontFamily-googleInter"
+						>
+							Register and block the connecon of USB devices by device class. Control of fil  operaons and shadow copies of files copied to USB, read-only mode for removable{"\n\n\n"}
+						</Text>
+						<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/bottomimg.png?v=2021-04-07T22:06:29.089Z" nout-width="70%" />
+						{"    "}
+					</StackItem>
+					{"    "}
+				</Stack>
+			</Section>
+			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikgren.png?v=2021-04-07T23:17:18.914Z) center center/cover no-repeat" border-color="#161616" padding="48px 0 90px 0">
+				<Override slot="SectionContent" max-width="1200px" position="relative" />
+				<Text
+					font="normal 700 72px/73px --fontFamily-googleInter"
+					margin="0px 0px 60px 0px"
+					display="inline-block"
+					color="#ffffff"
+					letter-spacing="-2%"
+					text-align="center"
+					md-font="normal 700 30px/40px Inter, sans-serif"
+					sm-font="normal 700 24px/30px Inter, sans-serif"
+				>
+					Controllingemployees on GNY/Linux{"\n\n"}
+				</Text>
+				<Stack margin="0px 0px 0px 0px" justify-content="center">
+					{"    "}
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/arrow-circle-login%201.svg?v=2021-04-07T23:15:44.596Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Login registration{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/usb-flash-drive-1%201.svg?v=2021-04-07T23:17:03.245Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Registering USB Devices{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Flash drives, printers and any other peripheral devices are registered into the log. The administrator can analyze where and when the media was connected and track which computers the devices of interest were connected to.{"\n\n\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Panorama,%20Photo,%20Image%201.svg?v=2021-04-07T23:17:38.631Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Screenshots{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Chrome%201.svg?v=2021-04-07T23:24:47.950Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								History and mes of website visits{"\n\n\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								The system registers website visits in tabs of Chrome, Firefox and browsers based on them. In addion, the system calculates the me spent on websites.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/programming-code-folder%201.svg?v=2021-04-07T23:25:03.065Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								File operaons{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								StaffCop registers file operaons: read, write, delete, create and rename. Creaon of shadow copies.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/clock-time%201.svg?v=2021-04-07T23:25:16.779Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Applicaon Acvity Time{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								The system records the user’s upme in applicaons. From the collected data, a report on the producvity of employees is generated according to the specified criteria. The report data is compared with screenshots by me stamps...{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/input-password-protectionnnn.svg?v=2021-04-07T23:27:24.867Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Keylogger and registering bash commands{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/business-chart-searchhhh.svg?v=2021-04-07T23:27:48.920Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Monitoring configurable log files usage{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mic-recccccc.svg?v=2021-04-07T23:27:35.842Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Microphone recording{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<Link
+						href="/third-party-vendor-management/"
+						padding="24px 36px 24px 36px"
+						border-radius="40px"
+						border-color="rgba(255, 255, 255, 0.1)"
+						border-width="2px"
+						border-style="solid"
+						text-decoration-line="initial"
+						color="#ffffff"
+						font="--menu"
+						hover-background="--color-primary"
+						transition="-webkit-transition: all .3s;  transition: all .3s"
+						position="relative"
+						z-index="4"
+						margin="-30px 0px 0px 0px"
+					>
+						Show more advantages{"\n\n\n\n"}
+					</Link>
+					{"    "}
+				</Stack>
+				<Box
+					position="absolute"
+					bottom="0px"
+					left="auto"
+					background="linear-gradient(180deg,rgba(0, 0, 0, 0) 1.09%,rgba(0, 0, 0, 0) 16.2%,#000000 60.5%)"
+					width="100%"
+					height="750px"
+					z-index="3"
+					top="auto"
+					right="auto"
+				/>
+			</Section>
+			<Section padding="70px 0 70px 0">
+				<Override slot="SectionContent" max-width="1200px" background="#FAFCFF" border-radius="30px" />
+				<Stack margin="0px 0px 0px 0px" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/backborder.png?v=2021-04-07T23:35:33.024Z) right/auto no-repeat scroll padding-box">
+					{"    "}
+					<StackItem width="56%" display="flex">
+						<Override slot="StackItemContent" align-items="center" padding="0px 0px 0px 90px" />
+						{"        "}
+						<Text font="normal 700 24px/28px --fontFamily-googleInter" margin="0px 0px 0px 0px" display="inline-block">
+							<Span color="#E87F1F">
+								Astra Linux Special Editon
+							</Span>
+							{" "}special purpose operang system compability cerficate Included in The Unified Register of Russian Soware under No. 3337{"\n\n"}
+						</Text>
+						{"    "}
+					</StackItem>
+					{"    "}
+					<StackItem width="44%" display="flex">
+						<Override slot="StackItemContent" justify-content="center" />
+						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/lunix.svg?v=2021-04-07T23:50:08.727Z" margin="0px 0px 0px -10px" />
+						{"        "}{"    "}
+					</StackItem>
+				</Stack>
+			</Section>
+			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/redbakcground.png?v=2021-04-08T00:06:55.367Z) center center/cover no-repeat" border-color="#161616" padding="70px 0 70px 0">
+				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
+				<Text
+					font="normal 700 72px/73px --fontFamily-googleInter"
+					margin="0px 0px 21px 0px"
+					display="inline-block"
+					color="#ffffff"
+					letter-spacing="-2%"
+					text-align="center"
+					md-font="normal 700 30px/40px Inter, sans-serif"
+					sm-font="normal 700 24px/30px Inter, sans-serif"
+				>
+					9 important reasons{"\n"}
+					<br />
+					to choose staffcop{"\n\n\n"}
+				</Text>
+				<Text
+					font="normal 400 18px/160% --fontFamily-googleInter"
+					color="#9B9FAA"
+					letter-spacing="-0.01em"
+					margin="8px 0px 70px 0px"
+					text-align="center"
+					width="50%"
+					md-width="80%"
+					sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				>
+					To ensure integrity of business flows and informaon{"\n"}
+					<br />
+					security for banks and financial organizaons{"\n\n"}
+				</Text>
+				<Stack margin="0px 0px 0px 0px" justify-content="center">
+					{"    "}
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/media-library-folder%203.svg?v=2021-04-08T00:08:36.544Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Speedometer%202.svg?v=2021-04-08T00:08:44.977Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Fast work on large amounts of data using modern ClickHouse and PostgreSQL databases based on OLAP cubes technology{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/monitor-list-hand-select%201.svg?v=2021-04-08T00:08:53.758Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Monitoring and managing workplaces from a single web interface, the ability to simply and safely organize access from anywhere on the Internet.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/headphones-support%201.svg?v=2021-04-08T00:19:43.953Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Detailed documentaon, prompt and competent technical support. The project team provides full support from the inial tesng phase.{"\n\n\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Servers,%20Databases,%20Computer%201.svg?v=2021-04-08T00:19:55.231Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/settings-select%201.svg?v=2021-04-08T00:20:04.915Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Possibility of customizaon to specific requirements, integraon with other systems and customer’s business processes.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/linux%201.svg?v=2021-04-08T00:24:59.937Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Unique monitoring funcons of workstaons and terminals of servers running MacOS, GNU/Linux systems – expands the control capabilies.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Servers,%20Databases,%20Computer%201.svg?v=2021-04-08T00:19:55.231Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.{"\n\n\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image
+								loading="lazy"
+								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/money-bag-percent%201.svg?v=2021-04-08T00:25:13.688Z"
+								object-position="0% 0%"
+								margin="10px 0px 30px -9px"
+								filter="drop-shadow(0px 5px 17px rgba(28, 102, 244, 0.69))"
+							/>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Minimal hardware requirements, reasonable cost, and perpetual licenses, resulng in low acquision, implementaon and operang costs.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					{"    "}
+				</Stack>
+			</Section>
+			<Section border-color="#161616" padding="70px 0 70px 0" background="#000000">
+				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
+				<Text
+					font="normal 700 72px/73px --fontFamily-googleInter"
+					margin="0px 0px 70px 0px"
+					display="inline-block"
+					color="#ffffff"
+					letter-spacing="-2%"
+					text-align="center"
+					md-font="normal 700 30px/40px Inter, sans-serif"
+					sm-font="normal 700 24px/30px Inter, sans-serif"
+				>
+					Pilot project{"\n\n\n\n\n\n\n"}
+				</Text>
+				<Stack margin="0px 0px 0px 0px" justify-content="center">
+					{"    "}
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Speedometer%202.svg?v=2021-04-08T00:08:44.977Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Fast{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Users are registered by the system each me they log in{"\n"}
+								<br />
+								and log out. The log includes users who log in locally and{"\n"}
+								<br />
+								remotely, including SSH connecons.{"\n\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Cursor,%20Select,%20Hand,%20Double%20Click%201.svg?v=2021-04-08T00:30:56.465Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Easy{"\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="33.3333%" display="flex" lg-width="50%" md-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="flex-start" />
+						{"        "}
+						<Box
+							border-radius="24px"
+							padding="42px 42px 42px 42px"
+							border-width="1px"
+							border-style="solid"
+							background="#030303"
+							height="100%"
+							transition=" -webkit-transition: all .6s;  transition: all .6s"
+							hover-transform="translateY(-10px)"
+							md-display="flex"
+							md-flex-direction="column"
+							sm-padding="10px 20px 20px 20px"
+							border-color="rgba(255, 255, 255, 0.05)"
+							display="flex"
+							flex-direction="column"
+							align-items="flex-start"
+						>
+							<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/group-elements-ticket%201.svg?v=2021-04-08T00:31:05.109Z" object-position="0% 0%" margin="10px 0px 30px -9px" />
+							<Text
+								font="normal 700 24px/140% --fontFamily-googleInter"
+								margin="0px 0px 18px 0px"
+								display="inline-block"
+								color="#ffffff"
+								sm-font="normal 600 20px/140% Inter, sans-serif"
+							>
+								Empowering{"\n\n\n"}
+							</Text>
+							<Text
+								font="normal 400 18px/160% --fontFamily-googleInter"
+								margin="0px 0px 0px 0px"
+								display="inline-block"
+								color="rgba(255, 255, 255, 0.6)"
+								sm-font="normal 400 16px/140% Inter, sans-serif"
+							>
+								You will be able to immediately evaluate the whole range of tasks to be solved and make the right decision.{"\n\n"}
+							</Text>
+						</Box>
+						{"    "}
+					</StackItem>
+					{"    "}
+				</Stack>
+			</Section>
+			<Section padding="30px 0 112px 0" lg-padding="70px 0 70px 0">
+				<Override slot="SectionContent" max-width="1200px" align-items="center" />
+				<Stack
+					width="100%"
+					margin="0px 0px 0px 0px"
+					position="relative"
+					overflow-y="hidden"
+					gap="0px"
+					border-radius="30px"
+					border-color="rgba(255, 255, 255, 0.05"
+					border-width="1px"
+					border-style="solid"
+					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow.png?v=2021-04-08T00:47:41.208Z) 0% 0% /auto repeat scroll padding-box"
+				>
+					{"    "}
+					<StackItem width="50%" display="flex" padding="16px 16px 16px 16px">
+						<Override
+							slot="StackItemContent"
+							align-items="flex-start"
+							justify-content="center"
+							position="relative"
+							z-index="2"
+							flex-direction="column"
+							padding="108px 0px 108px 78px"
+							lg-padding="80px 0px 0px 0px"
+							sm-padding="50px 0px 0px 0px"
+							md-padding="50px 0px 0px 0px"
+							lg-width="100%"
+							border-radius="6px"
+							border-width="0px"
+						/>
+						{"        "}
+						<Text
+							font="normal 700 45px/56px --fontFamily-googleInter"
+							margin="0px 0px 24px 0px"
+							display="inline-block"
+							color="#ffffff"
+							lg-width="90%"
+							md-font="normal 700 30px/40px Inter, sans-serif"
+							sm-font="normal 700 20px/30px Inter, sans-serif"
+						>
+							Test for free for up to 3 months on any number of stations{"\n\n"}
+						</Text>
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							color="#9B9FAA"
+							letter-spacing="-0.01em"
+							margin="8px 0px 48px 0px"
+							md-width="80%"
+							sm-font="normal 300 16px/140% --fontFamily-googleInter"
+						>
+							Fully funconal version. Technical support throughout the full project duraon{"\n\n"}
+						</Text>
+						<Box
+							margin="0px 0px 0px 0px"
+							display="flex"
+							sm-flex-direction="column"
+							sm-align-items="center"
+							sm-justify-content="center"
+						>
+							<Link
+								href="/request-demo/"
+								padding="16px 38px 16px 38px"
+								border-radius="40px"
+								text-decoration-line="initial"
+								color="#111111"
+								font="600 18px/22px --fontFamily-googleInter"
+								hover-background="#409EEB"
+								transition="-webkit-transition: all .3s;  transition: all .3s"
+								margin="0px 18px 0px 0px"
+								position="relative"
+								z-index="4"
+								md-padding="16px 20px 16px 20px"
+								sm-padding="16px 12px 16px 12px"
+								sm-font="500 15px/22px Inter, sans-serif"
+								sm-margin="0px 0px 18px 0px"
+								background="#ffffff"
+							>
+								Request demo
+							</Link>
+							<Link
+								href="/pricing/"
+								padding="16px 68px 16px 68px"
+								border-radius="40px"
+								border-color="#ffffff"
+								border-width="2px"
+								border-style="solid"
+								text-decoration-line="initial"
+								color="#ffffff"
+								font="600 18px/22px --fontFamily-googleInter"
+								hover-background="--color-primary"
+								transition="-webkit-transition: all .3s;  transition: all .3s"
+								text-align="center"
+								position="relative"
+								z-index="4"
+								md-padding="16px 40px 16px 40px"
+								sm-padding="16px 34px 16px 34px"
+								sm-font="500 15px/22px Inter, sans-serif"
+							>
+								Pricing
+							</Link>
+						</Box>
+						{"    "}
+					</StackItem>
+					<StackItem width="50%" display="flex" padding="16px 16px 16px 16px">
+						<Override
+							slot="StackItemContent"
+							align-items="flex-end"
+							justify-content="flex-end"
+							position="relative"
+							z-index="2"
+							flex-direction="column"
+							padding="0px 0px 0px 0px"
+							lg-padding="80px 0px 0px 0px"
+							sm-padding="50px 0px 0px 0px"
+							md-padding="50px 0px 0px 0px"
+							lg-width="100%"
+							border-radius="6px"
+							border-width="0px"
+							height="100%"
+						/>
+						{"        "}
+						<Image
+							loading="lazy"
+							src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/lastimg.png?v=2021-04-08T00:44:51.033Z"
+							width="100%"
+							nout-width="70%"
+							margin="0px 7px 0px 0px"
+						/>
 						{"    "}
 					</StackItem>
 					{"    "}

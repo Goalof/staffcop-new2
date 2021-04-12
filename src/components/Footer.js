@@ -1,7 +1,6 @@
 import React from "react";
 import { useOverrides, Override, SocialMedia, StackItem, Stack, Section } from "@quarkly/components";
 import { Image, Text, Link, Icon, Box, Hr } from "@quarkly/widgets";
-import { FaRegLifeRing } from "react-icons/fa";
 const defaultProps = {
 	"padding": "50px 0 0px 0",
 	"lg-padding": "50px 0 20px 0"
@@ -17,7 +16,7 @@ const overrides = {
 	"stackItem": {
 		"kind": "StackItem",
 		"props": {
-			"width": "40%",
+			"width": "35%",
 			"display": "flex",
 			"lg-width": "100%",
 			"lg-align-items": "center",
@@ -55,11 +54,11 @@ const overrides = {
 	"socialMedia": {
 		"kind": "SocialMedia",
 		"props": {
-			"facebook": "https://www.facebook.com/quarklyapp/",
-			"twitter": "https://twitter.com/quarklyapp",
-			"youtube": "https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw",
+			"facebook": "https://www.facebook.com/StaffCopRUS/",
+			"twitter": "https://twitter.com/AtomSecurity_ru",
+			"youtube": "https://www.youtube.com/channel/UCJR8gMEyy0_pSmO745HTkRQ",
 			"vkontakte": "https://vk.com/quarklyapp",
-			"telegram": "https://t.me/joinchat/DqSYDhS0R9nMRvOtFbIxrQ",
+			"telegram": "https://teleg.one/StaffCop",
 			"align-items": "center",
 			"justify-content": "flex-start",
 			"background": "rgba(0, 0, 0, 0)",
@@ -100,7 +99,7 @@ const overrides = {
 	"stackItem1": {
 		"kind": "StackItem",
 		"props": {
-			"width": "20%",
+			"width": "15%",
 			"display": "flex",
 			"lg-width": "33.333%",
 			"md-width": "100%"
@@ -131,7 +130,7 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
@@ -145,29 +144,13 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
 			"href": "/pricing/",
 			"hover-opacity": "1",
-			"children": "Pricing"
-		}
-	},
-	"link2": {
-		"kind": "Link",
-		"props": {
-			"href": "/leadership/",
-			"color": "#13212A",
-			"text-decoration-line": "initial",
-			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
-			"hover-color": "--primary",
-			"transition": "all 1s ease 0s",
-			"md-text-align": "center",
-			"opacity": "0.5",
-			"hover-opacity": "1",
-			"children": "Leadership Team"
+			"children": "Purchase"
 		}
 	},
 	"link3": {
@@ -177,7 +160,7 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
@@ -192,12 +175,12 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
 			"hover-opacity": "1",
-			"children": "Our Partners"
+			"children": "Distributors"
 		}
 	},
 	"link5": {
@@ -207,7 +190,7 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
@@ -218,7 +201,7 @@ const overrides = {
 	"stackItem2": {
 		"kind": "StackItem",
 		"props": {
-			"width": "20%",
+			"width": "15%",
 			"display": "flex",
 			"lg-width": "33.333%",
 			"md-width": "50%",
@@ -246,11 +229,11 @@ const overrides = {
 	"link6": {
 		"kind": "Link",
 		"props": {
-			"href": "https://docs.staffcop.ru/en/",
+			"href": "https://docs.staffcop.com/",
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 21px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
@@ -261,7 +244,7 @@ const overrides = {
 	"stackItem3": {
 		"kind": "StackItem",
 		"props": {
-			"width": "20%",
+			"width": "15%",
 			"display": "flex",
 			"lg-width": "33.333%",
 			"md-width": "50%",
@@ -283,7 +266,7 @@ const overrides = {
 			"margin": "0px 0px 27px 0px",
 			"display": "inline-block",
 			"color": "#13212A",
-			"children": "SUPPORT"
+			"children": "CONTACT"
 		}
 	},
 	"box": {
@@ -293,16 +276,6 @@ const overrides = {
 			"align-items": "center"
 		}
 	},
-	"icon": {
-		"kind": "Icon",
-		"props": {
-			"category": "fa",
-			"icon": FaRegLifeRing,
-			"color": "#13212A",
-			"margin": "0px 10px 0px 0px",
-			"opacity": "0.5"
-		}
-	},
 	"link7": {
 		"kind": "Link",
 		"props": {
@@ -310,12 +283,115 @@ const overrides = {
 			"color": "#13212A",
 			"text-decoration-line": "initial",
 			"font": "normal 400 18px/160% --fontFamily-googleInter",
-			"margin": "0px 0px 0px 0px",
+			"margin": "0px 0px 10px 0px",
 			"hover-color": "--primary",
 			"transition": "all 1s ease 0s",
 			"opacity": "0.5",
 			"hover-opacity": "1",
-			"children": "Support Center"
+			"children": "Support"
+		}
+	},
+	"link8": {
+		"kind": "Link",
+		"props": {
+			"href": "/cases/",
+			"color": "#13212A",
+			"text-decoration-line": "initial",
+			"font": "normal 400 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 10px 0px",
+			"hover-color": "--primary",
+			"transition": "all 1s ease 0s",
+			"opacity": "0.5",
+			"hover-opacity": "1",
+			"children": "Use cases"
+		}
+	},
+	"link9": {
+		"kind": "Link",
+		"props": {
+			"href": "/features/",
+			"color": "#13212A",
+			"text-decoration-line": "initial",
+			"font": "normal 400 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 10px 0px",
+			"hover-color": "--primary",
+			"transition": "all 1s ease 0s",
+			"opacity": "0.5",
+			"hover-opacity": "1",
+			"children": "Features"
+		}
+	},
+	"stackItem4": {
+		"kind": "StackItem",
+		"props": {
+			"width": "20%",
+			"display": "flex",
+			"lg-width": "33.333%",
+			"md-width": "50%",
+			"sm-width": "100%"
+		}
+	},
+	"stackItemOverride4": {
+		"kind": "Override",
+		"props": {
+			"slot": "StackItemContent",
+			"flex-direction": "column",
+			"lg-align-items": "center"
+		}
+	},
+	"text4": {
+		"kind": "Text",
+		"props": {
+			"font": "normal 700 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 27px 0px",
+			"display": "inline-block",
+			"color": "#13212A",
+			"children": "SOLUTIONS"
+		}
+	},
+	"link10": {
+		"kind": "Link",
+		"props": {
+			"href": "/administration/",
+			"color": "#13212A",
+			"text-decoration-line": "initial",
+			"font": "normal 400 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 10px 0px",
+			"hover-color": "--primary",
+			"transition": "all 1s ease 0s",
+			"opacity": "0.5",
+			"hover-opacity": "1",
+			"children": "Remote Administration"
+		}
+	},
+	"link11": {
+		"kind": "Link",
+		"props": {
+			"href": "/monitoring/",
+			"color": "#13212A",
+			"text-decoration-line": "initial",
+			"font": "normal 400 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 10px 0px",
+			"hover-color": "--primary",
+			"transition": "all 1s ease 0s",
+			"opacity": "0.5",
+			"hover-opacity": "1",
+			"children": "Employee Monitoring"
+		}
+	},
+	"link12": {
+		"kind": "Link",
+		"props": {
+			"href": "/security/",
+			"color": "#13212A",
+			"text-decoration-line": "initial",
+			"font": "normal 400 18px/160% --fontFamily-googleInter",
+			"margin": "0px 0px 10px 0px",
+			"hover-color": "--primary",
+			"transition": "all 1s ease 0s",
+			"opacity": "0.5",
+			"hover-opacity": "1",
+			"children": "Information Security"
 		}
 	},
 	"hr": {
@@ -351,15 +427,21 @@ const Foooter = props => {
 				</SocialMedia>
 				{"    "}
 			</StackItem>
+			<StackItem {...override("stackItem4")}>
+				<Override {...override("stackItemOverride4")} />
+				{"        "}
+				<Text {...override("text4")} />
+				<Link {...override("link10")} />
+				<Link {...override("link11")} />
+				<Link {...override("link12")} />
+				{"    "}
+			</StackItem>
 			<StackItem {...override("stackItem1")}>
 				<Override {...override("stackItemOverride1")} />
 				{"        "}
 				<Text {...override("text1")} />
 				<Link {...override("link")} />
-				<Link {...override("link1")} />
-				<Link {...override("link2")} />
 				<Link {...override("link3")} />
-				<Link {...override("link4")} />
 				<Link {...override("link5")} />
 				{"    "}
 			</StackItem>
@@ -368,16 +450,19 @@ const Foooter = props => {
 				{"        "}
 				<Text {...override("text2")} />
 				<Link {...override("link6")} />
+				  
+				<Link {...override("link8")} />
+				  
+				<Link {...override("link9")} />
 				{"    "}
 			</StackItem>
 			<StackItem {...override("stackItem3")}>
 				<Override {...override("stackItemOverride3")} />
 				{"        "}
 				<Text {...override("text3")} />
-				<Box {...override("box")}>
-					<Icon {...override("icon")} />
-					<Link {...override("link7")} />
-				</Box>
+				<Link {...override("link1")} />
+				<Link {...override("link7")} />
+				<Link {...override("link4")} />
 				{"    "}
 			</StackItem>
 			{"    "}

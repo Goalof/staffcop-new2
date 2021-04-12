@@ -42,19 +42,19 @@ const MyNav = props => {
 				<ul ref={clickItemRef}>
 					                    
 					<li>
-						<a href="/starter">
+						<a href="/administration">
 							Remote Administration
 						</a>
 					</li>
 					                    
 					<li>
-						<a href="/UAM">
+						<a href="/monitoring">
 							Employee Monitoring
 						</a>
 					</li>
 					                    
 					<li>
-						<a href="/DLP">
+						<a href="/security">
 							Information Security
 						</a>
 					</li>

@@ -277,7 +277,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -435,7 +434,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -519,7 +517,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -538,7 +535,6 @@ export default (() => {
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -766,7 +762,6 @@ export default (() => {
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
 							<Span
-								data-q-widget-type="PRIMITIVE"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -875,7 +870,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								87%
 							</Span>
@@ -946,7 +940,6 @@ export default (() => {
 								text-indent="0"
 								text-overflow="clip"
 								hyphens="manual"
-								data-q-widget-type="PRIMITIVE"
 							>
 								75%
 							</Span>

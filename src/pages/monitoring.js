@@ -1,17 +1,16 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Hr, Box, Strong, Image, Icon, Span } from "@quarkly/widgets";
+import { Theme, Link, Text, Image, Hr, Box, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
-import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
 	return <Theme theme={theme}>
-		<GlobalQuarklyPageStyles pageUrl={"for-legal"} />
+		<GlobalQuarklyPageStyles pageUrl={"monitoring"} />
 		<Helmet>
 			<title>
-				For Legal
+				UAM
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
@@ -23,29 +22,31 @@ export default (() => {
 			<meta name={"msapplication-TileColor"} content={"#1465FF"} />
 		</Helmet>
 		<Components.Header />
-		<Section padding="103px 0 18px 0" lg-padding="100px 0 20px 0" sm-padding="80px 0 20px 0">
-			<Override slot="SectionContent" max-width="1170px" background="linear-gradient(0deg, rgba(0, 9, 27, 0.5), rgba(0, 9, 27, 0.5)),rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Rectangle%D1%84%D1%8B%D0%B2%D1%84%D1%8B%D0%B2%D1%84%D1%8B.png?v=2020-11-01T21:09:31.273Z) 0% 0% /auto repeat scroll padding-box" border-radius="6px" />
+		<Section padding="190px 0 150px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" lg-padding="120px 0 50px 0" md-padding="90px 0 20px 0">
+			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
-				<StackItem width="100%" display="flex" sm-align-items="center" sm-width="100%">
+				<StackItem width="50%" display="flex" sm-align-items="center" sm-width="100%">
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
 						justify-content="center"
 						align-items="flex-start"
 						sm-align-items="center"
-						padding="96px 0px 96px 80px"
-						sm-padding="50px 20px 50px 20px"
 					/>
 					{"        "}
+					<Text font="--headline2" margin="0px 0px 16px 0px" display="inline-block" md-font="normal 700 30px/40px Inter, sans-serif">
+						Employee Monitoring
+					</Text>
 					<Text
-						font="--headline2"
-						margin="0px 0px 16px 0px"
+						font="normal 400 18px/160% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
 						display="inline-block"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						color="#ffffff"
+						color="#555"
+						md-font="normal 400 16px/140% --fontFamily-googleInter"
+						sm-text-align="center"
 					>
-						For Legal
+						Activity Monitoring, User Behavior Analytics, Productivity Optimization & Insider Threat Detection in a Single Platform{"\n\n"}
 					</Text>
 					{"    "}
 					<Link
@@ -59,6 +60,9 @@ export default (() => {
 						box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
 						border-radius="40px"
 						background="--color-primary"
+						border-width="1px"
+						border-style="solid"
+						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
 						margin="36px 0px 0px 0px"
 						hover-background="#409EEB"
 						transition="-webkit-transition: all .3s;  transition: all .3s"
@@ -70,10 +74,36 @@ export default (() => {
 					</Link>
 				</StackItem>
 				{"    "}
+				<StackItem width="50%" display="flex" sm-width="100%">
+					<Override slot="StackItemContent" position="relative" sm-align-items="center" sm-justify-content="center" />
+					{"        "}
+					<Image
+						width="803px"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/aasdsadasdasd.png?v=2020-10-19T15:07:09.010Z"
+						md-width="400px"
+						position="absolute"
+						right="-115px"
+						left="auto"
+						top="-115px"
+						bottom="auto"
+						lg-width="500px"
+						lg-position="absolute"
+						lg-top="-35px"
+						lg-right="-50px"
+						md-top="0px"
+						md-right="-70px"
+						sm-position="relative"
+						sm-top="0px"
+						sm-bottom="auto"
+						sm-left="auto"
+						sm-right="auto"
+					/>
+					{"    "}
+				</StackItem>
 			</Stack>
 		</Section>
 		<Components.EmbedHTML />
-		<Section background="#FFFFFF" padding="24px 0 0px 0">
+		<Section background="#FFFFFF">
 			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				{"    "}
@@ -89,17 +119,17 @@ export default (() => {
 						sm-text-align="center"
 						sm-font="normal 700 24px/30px Inter, sans-serif"
 					>
-						Law firm insider threat management
+						Prevent Insider Threats with User Activity Monitoring and Behavioral Analytics{"\n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
 				<StackItem width="70%" display="flex" sm-width="100%" nout-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" />
+					<Override slot="StackItemContent" align-items="center" flex-direction="column" />
 					{"        "}
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
-						margin="0px 0px 30px 0px"
+						margin="1px 0px 30px 0px"
 						display="inline-block"
 						color="#555"
 						width="100%"
@@ -108,26 +138,11 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						In today’s highly regulated business landscape, law firms are faced with the ever-evolving challenge of tackling their insider risk problems as it relates to protecting attorney-client privileged information and client/matter data, ensuring the security of the work product offshored, and securing access to critical systems by privileged users and third-party vendors/contractors.
-						<br />
-						StaffCop for Legal is designed to assist law firms to address these challenges and demonstrate effective oversight to compliance initiatives to clients.
-					</Text>
-					<Hr width="98%" margin="40px 0px 40px 0px" border-color="rgba(237, 237, 237, 1)" />
-					<Text
-						font="normal 700 32px/140% --fontFamily-googleInter"
-						margin="30px 0px 0px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						letter-spacing="-1%"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-text-align="center"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-					>
-						Complience management
+						With cybersecurity attacks on the rise, many organizations have adopted certain measures to protect their data and systems, including antivirus, firewall, intrusion detection to protect infrastructure and IT assets. While these are generally effective in defending the organization from external threats, they fail to shield businesses from internal threat actors such as employees and other internal users, third-party vendors, contractors, and privileged administrators who already have access to an organization's valuable assets and sensitive data.{" "}
 					</Text>
 					<Text
 						font="400 18px/28px --fontFamily-googleInter"
-						margin="30px 0px 30px 0px"
+						margin="1px 0px 30px 0px"
 						display="inline-block"
 						color="#555"
 						width="100%"
@@ -136,13 +151,53 @@ export default (() => {
 						sm-text-align="center"
 						text-align="justify"
 					>
-						Since clients now require law firms to adhere to regulatory standards such as AML/KYC, HIPAA, ISO27001/27002, GDPR that secure their sensitive data, it is crucial for legal organizations to adopt solutions that ensure compliance.
+						One insider's unguided behavior can expose an organization's intellectual property, financial records, customer data, PII, PHI, or other critical material. In fact, research shows that a  majority of the data breaches in recent years involved weak or exploited employee credentials either by a malicious or accidental incident (source). StaffCop aims to help fill these gaps and provide a holistic insider threat prevention solution with features like Employee Monitoring, Privileged User Monitoring, Third-Party Monitoring, User and Entity Behavior Analytics (UEBA), Endpoint Security, etc.{" "}
+					</Text>
+					<Text
+						font="400 18px/28px --fontFamily-googleInter"
+						margin="1px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						width="100%"
+						md-font="400 14px/20px --fontFamily-googleInter"
+						md-width="100%"
+						sm-text-align="center"
+						text-align="justify"
+					>
+						User activity monitoring involves the process of tracking all user activity and behavior while they are logged into a computer (endpoint). By integrating a user monitoring solution into their operations, companies can keep an eye on their sensitive data, employees, and third-party entities such as contractors, remote and special/privileged users, identifying and preventing the misuse of company data and resources.
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+			<Hr width="98%" margin="50px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
+		</Section>
+		<Section background="#FFFFFF" padding="24px 0 12px 0">
+			<Override slot="SectionContent" max-width="1200px" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				{"    "}{"    "}
+				<StackItem width="70%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" align-items="center" />
+					{"        "}
+					<Text
+						font="400 18px/28px --fontFamily-googleInter"
+						margin="1px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						width="100%"
+						md-font="400 14px/20px --fontFamily-googleInter"
+						md-width="100%"
+						sm-text-align="center"
+						text-align="justify"
+					>
+						Besides the basic user monitoring and tracking functionality, StaffCop also covers intelligent behavior-based analysis to provide actionable insight and automated responses to employee-generated threats. It can capture violation incidents as forensic evidence and take action to alert appropriate authorities, thanks to its rules and policies.{" \n"}
+						<br />
+						Employee productivity measurement, risk analysis, and the prevention of unauthorized data exfiltration are other benefits of StaffCop's solution. Lastly, in the event of a data breach, we offer comprehensive forensic data and session recordings to identify the employees or vendors who have triggered a rule violation along with their activity footprint with pinpoint accuracy.{" \n\n"}
 					</Text>
 					{"    "}
 				</StackItem>
 			</Stack>
 		</Section>
-		<Section background="#FFFFFF" padding="24px 0 70px 0" sm-padding="24px 0 50px 0">
+		<Section background="#FFFFFF" padding="24px 0 50px 0" sm-padding="24px 0 50px 0">
 			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
@@ -172,7 +227,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -200,13 +255,22 @@ export default (() => {
 							1
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Real-Time Employee Monitoring
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Controls to enforce safety of client/matter data and work-product stored in firm systems and repositories
+							StaffCop allows companies to monitor all their employee activity for system objects like websites, applications, social media, IMs. Searches etc., in real-time for Windows, Mac, Virtual PCs, and Terminal Server.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -237,7 +301,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -265,13 +329,22 @@ export default (() => {
 							2
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							User Behavior Analytics{"\n\n"}
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Oversight, audit and logs of all actions for all employees at the firm
+							Organizations can leverage StaffCop's intelligent behavior analysis to detect malicious activity and anomalies that suggest deviation from normal behavioral baseline.
 						</Text>
 					</Box>
 					{"    "}
@@ -302,7 +375,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -330,13 +403,22 @@ export default (() => {
 							3
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Policy and Rules Engine{"\n\n"}
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Privileged user monitoring, session recording, with videos, searchable logs, and audit trail for forensics
+							StaffCop offers users hundreds of pre-built rule templates, activity classification lists, and data categories to run the software instantly. Further, you can design your own policies and rules with an intuitive, visual rule editor and use natural English, regular expressions, and sample conditions to easily define your requirements. Creating monitoring profiles for individual employees, groups or departments is also possible with this solution.{" "}
 						</Text>
 					</Box>
 					{"    "}
@@ -367,7 +449,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -395,13 +477,22 @@ export default (() => {
 							4
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Built-In Productivity Optimization{"\n\n"}
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							User behavior analytics to eliminate false positives, and identify anomalous behavior
+							With these features, you can determine which apps and websites are productive and get in-depth reports on how your employees utilize them. Identify the laggards or high performers with active vs. idle time analysis and create a continuous feedback loop to refine and adjust your organizational workflow through tracking of schedules, projeсts, and more.
 						</Text>
 					</Box>
 					{"    "}
@@ -432,7 +523,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -460,13 +551,22 @@ export default (() => {
 							5
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Audit and Forensics{"\n\n"}
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							An immutable log of actions that vividly product/demonstrate all activity as it relates to firm desktops, laptops and content
+							StaffCop's audit and forensic functionality allow for video recording of employee activity, session recording, immutable logs, alerts, and much more. Combined, they offer a wide collection of investigation data to identify the source and insider threat with pinpoint accuracy.
 						</Text>
 					</Box>
 					{"    "}
@@ -497,7 +597,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -525,21 +625,79 @@ export default (() => {
 							6
 						</Text>
 						<Text
+							font="normal 700 24px/140% --fontFamily-googleInter"
+							margin="30px 0px 12px 0px"
+							display="inline-block"
+							color="rgba(19, 33, 42, 1)"
+							sm-font="normal 600 20px/140% Inter, sans-serif"
+						>
+							Compliance Management
+						</Text>
+						<Text
 							font="--lead"
-							margin="30px 0px 0px 0px"
+							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Ability to set up real-time alerts to track suspect activities
+							Companies can also leverage StaffCop to develop activity and schedule-based rules to support several common compliance requirements like implementing audit trails (GDPR), limiting unauthorized login (ISO 27001), prevent unencrypted file transfers (PCI DSS), reporting, etc.
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
+			<Hr width="98%" margin="90px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" />
 		</Section>
-		<Section background="#F8F8F9" padding="100px 0 70px 0" sm-padding="50px 0 30px 0">
+		<Section background="#FFFFFF" padding="24px 0 112PX 0">
+			<Override slot="SectionContent" max-width="1200px" />
+			<Stack margin="0px 0px 0px 0px" width="100%">
+				{"    "}
+				<StackItem width="70%" display="flex" sm-width="100%" nout-width="100%">
+					{"        "}
+					<Text
+						font="normal 700 32px/140% --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-text-align="center"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+					>
+						StaffCop: Employee Monitoring Software with Powerful Insider Threat Detection and Productivity Analysis Features – How it works
+					</Text>
+					{"    "}
+				</StackItem>
+				{"    "}
+				<StackItem width="70%" display="flex" sm-width="100%" nout-width="100%">
+					<Override slot="StackItemContent" align-items="center" flex-direction="column" />
+					{"        "}
+					<Text
+						font="400 18px/28px --fontFamily-googleInter"
+						margin="1px 0px 0px 0px"
+						display="inline-block"
+						color="#555"
+						width="100%"
+						md-font="400 14px/20px --fontFamily-googleInter"
+						md-width="100%"
+						sm-text-align="center"
+						text-align="justify"
+					>
+						User and entity behavior analytics (UEBA) is a crucial feature of StaffCop. UEBA's primary function is to identify and alert the organization to a wide range of unusual behavior and potential threats by either a malicious, inadvertent, or compromised employee, user, or third-party entity.
+						<br />
+						{"\n"}
+						<br />
+						It performs this function by automatically creating a behavioral baseline factoring in a user's activity (i.e., how many times a user accessed a file), data pattern (file type, source, category, etc.), entity role (application, access level, domain, etc.) and other attributes (i.e., time of day, schedule, assigned project). Any anomaly or deviation from the normal baseline can prompt real-time alerts and notifications.
+						<br />
+						<br />
+						This UEBA capability is then combined with the Intelligent Policy & Rules Engine to proactively avert insider threats and at the same time provide the organizations with a clear and complete picture of all user and entity activity, context, and forensic evidence in a single solution.{"\n\n"}
+					</Text>
+					{"    "}
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section background="#F8F8F9" padding="100px 0 30px 0" sm-padding="50px 0 30px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
 			<Text
 				font="--headline2"
@@ -551,253 +709,16 @@ export default (() => {
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				lg-font="normal 700 36px/40px Inter, sans-serif"
-				width="75%"
 			>
-				Data breach is a costly challenge confronting privacy
-			</Text>
-			<Stack margin="0px 0px 0px 0px">
-				{"    "}
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="--primary"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							53 %
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							of all attacks resulted in a financial loss of more than US $500,000, including, but not limited to, lost revenue, customers, opportunities, and out-of-pocket costs.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="--primary"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							$209M
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							The FBI reported that $209M was paid in ransom in the first quarter of 2016, while just $24 million in ransom payments was made in all of 2015.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="--primary"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							67%
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							of businesses identified privileged users as a top cloud security concern.
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					/>
-					{"        "}
-					<Box
-						border-radius="6px"
-						padding="36px 36px 36px 36px"
-						border-width="1px"
-						border-style="solid"
-						background="#FFFFFF"
-						height="100%"
-						transition=" -webkit-transition: all .6s;  transition: all .6s"
-						hover-transform="translateY(-10px)"
-						md-display="flex"
-						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
-						border-color="rgba(255, 255, 255, 0.05)"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-						display="flex"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="flex-start"
-					>
-						<Text
-							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="--primary"
-							sm-font="normal 600 20px/140% Inter, sans-serif"
-						>
-							~$12B
-						</Text>
-						<Text
-							font="--lead"
-							margin="0px 0px 18px 0px"
-							display="inline-block"
-							color="rgba(85, 85, 85, 1)"
-							sm-font="normal 400 16px/140% Inter, sans-serif"
-						>
-							estimated annual losses for the US from cybercrime targeting IP and roughly $50 billion to $60 billion globally
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				{"    "}
-			</Stack>
-		</Section>
-		<Section background="#F8F8F9" padding="24px 0 70px 0" sm-padding="24px 0 50px 0">
-			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Text
-				font="--headline2"
-				margin="0px 0px 30px 0px"
-				display="inline-block"
-				color="#13212A"
-				letter-spacing="-2%"
-				text-align="center"
-				md-font="normal 700 30px/40px Inter, sans-serif"
-				sm-font="normal 700 24px/30px Inter, sans-serif"
-				lg-font="normal 700 36px/40px Inter, sans-serif"
-				width="75%"
-			>
-				StaffCop helps to comply with
+				Industry Statistics Prove the{" "}
 				<br />
-				ISO 27001{"\n\n"}
-			</Text>
-			<Text
-				font="normal 400 18px/160% --fontFamily-googleInter"
-				margin="0px 0px 45px 0px"
-				display="inline-block"
-				color="rgba(85, 85, 85, 1)"
-				letter-spacing="-2%"
-				text-align="center"
-				width="75%"
-			>
-				StaffCop Enterprise can significantly help you meet{" "}
-				<Strong>
-					ISO 27001
-				</Strong>
-				{" "}demands. The flexibility of settings makes it perfect to fit any Information Security Management System (ISMS). PDCA (Plan-Do-Check-Act) cycle lies in the core of the standard, so let’s take it with StaffCop step-by-step.{"\n\n"}
+				<Span color="--primary">
+					Need for Employee Monitoring
+				</Span>
 			</Text>
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
+				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
@@ -808,7 +729,7 @@ export default (() => {
 					{"        "}
 					<Box
 						border-radius="6px"
-						padding="30px 37px 42px 37px"
+						padding="36px 36px 36px 36px"
 						border-width="1px"
 						border-style="solid"
 						background="#FFFFFF"
@@ -825,38 +746,61 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/lockasdsadsavcxv.svg?v=2020-10-30T01:47:13.604Z" />
 						<Text
 							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
+							margin="0px 0px 18px 0px"
 							display="inline-block"
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							<Strong>
-								Plan
-							</Strong>
-							{"\n\n"}
+							Сolluding employees are the sources of insider threats
 						</Text>
 						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							According to a report by the Community Emergency Response Team, the primary causes of insider incidents are collusion from employees and third-parties.
+						</Text>
+						<Text
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							<Span font="700 18px/28.8px Inter, sans-serif" color="--primary">
+								48.3%
+							</Span>
+							{" "}Insider-Insider Collusion
+						</Text>
+						<Text
+							font="--lead"
 							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							At this stage you should establish the internal policy of the company regulating creation and distribution of information (ISMS) within and beyond the company. The corporate information and access to it should be classified and divided with different access rights for different groups of employees. For example, your employees should work only with a limited number of web-sites and applications, the PC of the secretary is the only one which can print documents and the sales department is the only department with access to the customers’ database.{"\n\n"}
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								16.75%
+							</Span>
+							{" "}Insider-Outsider Collusion
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
+				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
@@ -867,7 +811,7 @@ export default (() => {
 					{"        "}
 					<Box
 						border-radius="6px"
-						padding="30px 37px 42px 37px"
+						padding="36px 36px 36px 36px"
 						border-width="1px"
 						border-style="solid"
 						background="#FFFFFF"
@@ -884,38 +828,68 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/shield-protected-circle%201.svg?v=2020-10-30T01:49:23.222Z" />
 						<Text
 							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
+							margin="0px 0px 18px 0px"
 							display="inline-block"
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
+						/>
+						<Text
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							<Strong>
-								Do
-							</Strong>
-							{"\n\n"}
+							A survey of 400,000 members online by Cybersecurity Insiders published on The Insider Threat 2018 report reveals:
 						</Text>
 						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								37%
+							</Span>
+							{" "}Insider-Insider Collusion
+						</Text>
+						<Text
+							font="--lead"
 							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							The implementation is done through creating a number of fully customized filters and policies. It’s all carried out in the administrative interface of StaffCop to be applied on the workstations. The policies and filters can be easily modified at any moment. StaffCop is deployed in your corporate network and it doesn’t send any data outside providing high level of information security. It can work in closed networks, the ones that don’t have internet connection.{"\n\n"}
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								34%
+							</Span>
+							{" "}Increased Amount of Sensitive Data
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
+				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
@@ -926,7 +900,7 @@ export default (() => {
 					{"        "}
 					<Box
 						border-radius="6px"
-						padding="30px 37px 42px 37px"
+						padding="36px 36px 36px 36px"
 						border-width="1px"
 						border-style="solid"
 						background="#FFFFFF"
@@ -943,38 +917,49 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/detectore.svg?v=2020-10-30T02:12:10.433Z" />
 						<Text
 							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
+							margin="0px 0px 18px 0px"
 							display="inline-block"
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							<Strong>
-								Check
-							</Strong>
-							{"\n\n"}
+							Employees - a major security concern{" "}
 						</Text>
 						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
-							margin="0px 0px 0px 0px"
+							font="--lead"
+							margin="0px 0px 18px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							The monitoring is carried out in the same administrative interface. A number of administrators can be assigned access right corresponding to the level of the responsibility they carry. For example, each head of a department can monitor information on PCs belonging to his or her department. The alerts on violations of ISMS will be sent to the specified e-mail addresses, be it a security officer or the company owner. Documents can be easily searched for classified information, and if it’s contained in images or PDF, the text will be recognized.{"\n\n"}
+							Findings from Kaspersky Lab and B2B International study of over 5,000 businesses show that employees are the biggest weakness in IT security.{" "}
+						</Text>
+						<Text
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								52%
+							</Span>
+							{" "}of Businesses Agree Employees are Biggest Risk
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem
-					width="100%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
+				<StackItem width="50%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
@@ -985,7 +970,7 @@ export default (() => {
 					{"        "}
 					<Box
 						border-radius="6px"
-						padding="30px 37px 42px 37px"
+						padding="36px 36px 36px 36px"
 						border-width="1px"
 						border-style="solid"
 						background="#FFFFFF"
@@ -1002,27 +987,56 @@ export default (() => {
 						align-items="flex-start"
 						justify-content="flex-start"
 					>
-						<Image width="64px" height="64px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/bell-notification-circle%202.svg?v=2020-10-30T02:15:27.985Z" />
 						<Text
 							font="normal 700 24px/140% --fontFamily-googleInter"
-							margin="30px 0px 12px 0px"
+							margin="0px 0px 18px 0px"
 							display="inline-block"
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							<Strong>
-								Act
-							</Strong>
-							{"\n\n"}
+							Many employees are unproductive while at work
 						</Text>
 						<Text
-							font="normal 400 18px/160% --fontFamily-googleInter"
+							font="--lead"
+							margin="0px 0px 18px 0px"
+							display="inline-block"
+							color="rgba(85, 85, 85, 1)"
+							sm-font="normal 400 16px/140% Inter, sans-serif"
+						>
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								64%
+							</Span>
+							{" "}Visit Unproductive Sites
+						</Text>
+						<Text
+							font="--lead"
 							margin="0px 0px 0px 0px"
 							display="inline-block"
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							StaffCop Enterprise can track huge amount of information that can be used to analyze user behavior and estimate. Use pre-set and customized reports to analyze data and visualize the resulting output. There are quite handy embedded tools, such as heat map and anomalies detector that could help you track behavior trends and deviations. With experience gained and data collected the ISMS should be corrected in a corresponding way, which means both organizational means and configuring of StaffCop polices.{"\n\n"}
+							<Span
+								font="700 18px/28.8px Inter, sans-serif"
+								color="--primary"
+								overflow-wrap="normal"
+								word-break="normal"
+								white-space="normal"
+								text-indent="0"
+								text-overflow="clip"
+								hyphens="manual"
+							>
+								85%
+							</Span>
+							{" "}Use Email for Personal Interests
 						</Text>
 					</Box>
 					{"    "}
@@ -1036,7 +1050,7 @@ export default (() => {
 				border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
 				max-width="1170px"
 				align-items="center"
-				padding="60px 0px 0px 0px"
+				padding="76px 0px 0px 0px"
 				background="#ffffff"
 				border-radius="6px"
 				border-width="1px"
@@ -1044,6 +1058,21 @@ export default (() => {
 				box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 				border-color="#ffffff"
 			/>
+			<Text
+				font="--headline2"
+				margin="0px 0px 50px 0px"
+				display="inline-block"
+				color="#13212A"
+				letter-spacing="-2%"
+				text-align="center"
+				md-font="normal 700 30px/40px Inter, sans-serif"
+				sm-font="normal 700 24px/30px Inter, sans-serif"
+				width="80%"
+				lg-font="normal 700 36px/40px Inter, sans-serif"
+				sm-margin="0px 0px 0px 0px"
+			>
+				StaffCop Delivers Immediate Business Benefits
+			</Text>
 			<Stack
 				margin="0px 0px 0px 0px"
 				width="100%"
@@ -1090,7 +1119,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						User session recording, live view and playback
+						Wide Visibility and Control
 					</Text>
 					<Text
 						font="--lead"
@@ -1101,62 +1130,9 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop’s Session Recording feature captures all user activity and screen content. With this function, you can:
+						StaffCop visually records every action taken by an employee over 22 system objects, including screen, apps, websites, files, emails, etc. Each object can be configured to take into account what needs to be tracked and measured and who has access to the monitored records. With StaffCop, you can determine which employees or third-party vendors to monitor, how much you want to monitor, when and for how long - that way, you can have visibility into administrative activities and still respect employee privacy requirements as needed.
 					</Text>
-					{"  "}
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Know and have forensic evidence, if your users are engaged in unproductive or harmful activities while at work.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Take control of a user's desktop in a potential breach event.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							With the components such as immutable logs, alert reports and audit trails, the recording can serve as forensic evidence for investigation.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							The insight derived from the reports and recordings can be leveraged to train employees about security best practices.
-						</Text>
-					</Box>
-					{"  "}
+					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
@@ -1193,7 +1169,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Privileged user monitoring
+						Detect Insider Threats and Vulnerabilities{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1205,65 +1181,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						Because of their access to critical information systems containing client/matter data, privileged users can cause severe damage to a law firm, if they have malicious intent. They can leak, steal or potentially destroying client/matter data and work product. To prevent these insider threats, StaffCop offers:
+						Another crucial benefit of using StaffCop is that it allows you to identify high risks behaviors by insiders such as copying files to external drives, using cloud storage to share corporate files, downloading/opening files and attachments from unknown sources, etc. In other words, the software automatically detects when employees violate the rules or act outside the normal behavior. It notifies companies of their employee's activities, locks offending employees out from the system, or takes remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Power-user rules to check for backdoor account creation, attempt to gain additional system privileges etc.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Real-time alerts when a privileged user tries to tamper with sensitive systems, databases or content.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Immutable session log that keep a permanent record of all privileged user actions.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1278,7 +1197,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%204.png?v=2020-10-19T22:32:34.380Z" md-width="80%" object-fit="contain" />
+					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1304,7 +1223,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%205.png?v=2020-10-19T22:35:48.644Z" md-width="80%" />
+					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1329,7 +1248,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Intelligent session mining with OCR
+						Ensures Your Sensitive Data and Resources are Protected{" "}
 					</Text>
 					<Text
 						font="--lead"
@@ -1340,47 +1259,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop can collects all data on a computer screen, including text in images and apply OCR technology to provide the firm with the ability to:
+						This software solution minimizes information exfiltration and data compromise by malicious or ignorant employees with its numerous protective features. For instance, it prevents external drive usage, detects unusual or unauthorized network login or file transfers. And write rules that instantly respond to any observable employee activity like emails sent outside the company domain, printing certain sensitive documents, etc.{" "}
 					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Search for certain keywords and find any relevant content that was visible to the user, using regular expressions or natural language.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Find out which users have seen relevant information to ensure ethical walls remain in place and report any violations.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Develop rules that send an alert when certain text appears on screen.
-						</Text>
-					</Box>
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1397,7 +1277,7 @@ export default (() => {
 				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
 					<Override
 						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
+						padding="0px 00px 0px 65px"
 						border-radius="0px"
 						border-width="0px"
 						flex-direction="column"
@@ -1417,7 +1297,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Process and productivity optimization
+						Boost Employee Productivity and Performance{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1429,65 +1309,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With work product offshored and contracted out on a regular basis, it’s essential to be able to monitor and improve the process and productivity of the extended legal workforce. StaffCop can assist by offering a framework within which your law firm can:
+						With StaffCop's workforce productivity tools, organizations can track active vs. inactive time, late shifts, long breaks, etc. These tools also allow you to create etiquette rules to limit unproductive behavior. For instance, you can set a time limit on your employees' social media usage or restrict their access to gambling sites.
 					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Classify apps and websites you consider productive and provide in-depth reports on their usage.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Detailed reports for productivity KPIs like session, active, productive, unproductive and idle time.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Sends automated alerts to discourage excessive idling.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1528,7 +1351,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
+					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1553,7 +1376,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Policy and rules engine
+						Monitor Privileged Employees and Third-Party Vendors{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1564,47 +1387,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						With StaffCop’s visual Policy and Rules creation engine, law firms can establish:
+						StaffCop functionality also encompasses preventing potential employee-employee or employee-third party collusion attempts. It allows organizations to create profiles for remote, privileged, external vendors and then define what information and system resources each profile can access. Further, rules can be established by behavior policies so that access to sensitive information is determined by the organization's security policy or on a need-to-know basis. Rules can also be set up to notify the authorities of any suspicious privileged employee and third-party vendor activity, such as unscheduled and/or unauthorized changes to system configuration, creation of backdoor accounts, etc.{" "}
 					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Rules and policies to monitor and secure client/matter and other sensitive data from insider threats and breaches.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							The visual Policy and Rules Editor allows administrators to define highly complex rules for very specific use cases with oversight on all internal and external disk activity, keystrokes, application usage, and much more.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Utilize black/whitelisting, define safe or restricted apps and websites, and do much more.
-						</Text>
-					</Box>
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1625,7 +1409,7 @@ export default (() => {
 						border-radius="0px"
 						border-width="0px"
 						flex-direction="column"
-						align-items="flex-end"
+						align-items="flex-start"
 						lg-padding="0px 30px 0px 50px"
 						sm-margin="20px 0px 0px 0px"
 						justify-content="center"
@@ -1641,7 +1425,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Privacy-aware recording and monitoring
+						Reduce Organizational Risk and Protect Yourself with Proof{"\n\n"}
 					</Text>
 					<Text
 						font="--lead"
@@ -1653,65 +1437,8 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						StaffCop allows firms to have complete control over when, who and how much to monitor, when to record and when not to. StaffCop is flexible to accommodate all use cases:
+						This remote software solution provides components that facilitate the evidence-gathering process, enabling companies to collect solid proof and carry out action against malicious employees. Instant snapshots, session recordings, and history playback features can be used to view employees' desktops and exported or shared with law enforcement authority.
 					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Track activity and alert only, with no user-session recording
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Specified working hours monitoring
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Define which types of data are monitored for specific users or departments. E.g, monitor only printing documents for the accountant, only email and messengers for the sales department, and so on.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1726,7 +1453,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
+					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%206.png?v=2020-10-19T22:39:56.097Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
@@ -1752,7 +1479,7 @@ export default (() => {
 						md-align-items="center"
 					/>
 					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%207.png?v=2020-10-19T22:40:56.844Z" md-width="80%" />
+					<Image width="82%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%201.png?v=2020-10-19T22:24:26.269Z" md-width="80%" />
 					{"    "}
 				</StackItem>
 				<StackItem width="50%" display="flex" md-width="100%">
@@ -1777,7 +1504,7 @@ export default (() => {
 						nout-font="normal 700 30px/43px --fontFamily-googleInter"
 						sm-text-align="center"
 					>
-						Revealed or stealth desktop agent
+						HR Management Benefits
 					</Text>
 					<Text
 						font="--lead"
@@ -1788,222 +1515,62 @@ export default (() => {
 						nout-font="normal 400 16px/160% Inter, sans-serif"
 						sm-text-align="center"
 					>
-						You can either deploy StaffCop with a revealed desktop agent, whereby users are aware of the StaffCop system and its monitoring functions. Or, launch the desktop agent in stealth mode with no visible controls to the end-users being monitored.
+						By identifying high-risk behaviors such as copying files to external drives, using cloud storage to share corporate files, and apply advanced behavior-based rules to automatically detect when employees violate the rules, StaffCop greatly benefits the HR department. The platform also identifies employee activity outside the normal behavior and instantly notifies authorities of such behavior. What's more, it locks these employees out from the system or takes remote control of their computer before any malicious or fraudulent attempt.
 					</Text>
-					<Text
-						font="normal 600 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						With the revealed agent you can:
-					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users can see the StaffCop icon in the taskbar with the address of the StaffCop Server aggregating the data from this agent.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Users will be required to provide reasons for absence, if there is no activity registered for a specified period of time.
-						</Text>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-						<Text margin="9px 0px 9px 18px" font="400 18px/160% --fontFamily-googleInter" color="#555" sm-font="400 16px/22px --fontFamily-googleInter">
-							Allows you to control mouse and keyboard of a remote desktop in real-time
-						</Text>
-					</Box>
-					{"    "}
-				</StackItem>
-				{"        "}
-			</Stack>
-			<Stack
-				margin="0px 0px 0px 0px"
-				width="100%"
-				gap="--cmp-stack-gap-default"
-				border-width="0px"
-				border-style="solid"
-				lg-margin="50px 0px 0px 0px"
-				border-color="rgba(19, 33, 42, 0.05)"
-			>
-				<StackItem width="50%" display="flex" md-width="100%" md-order="1">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 50px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="flex-end"
-						lg-padding="0px 30px 0px 50px"
-						sm-margin="20px 0px 0px 0px"
-						justify-content="center"
-					/>
-					{"        "}
-					<Text
-						font="normal 700 36px/43px --fontFamily-googleInter"
-						color="Monitor Employee Activity in Real-Time"
-						margin="0px 0px 18px 0px"
-						lg-font="normal 700 30px/43px --fontFamily-googleInter"
-						md-margin="0px 0px 24px 0px"
-						text-align="right"
-						nout-font="normal 700 30px/43px --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						Data loss prevention
-					</Text>
-					<Text
-						font="--lead"
-						margin="0px 0px 24px 0px"
-						display="inline-block"
-						color="#555"
-						lg-font="normal 400 15px/160% Inter, sans-serif"
-						text-align="right"
-						nout-font="normal 400 16px/160% Inter, sans-serif"
-						sm-text-align="center"
-					>
-						Compliance, competition and customer trust means law firms have to safeguard client/matter information and work product. To ensure data safety and integrity, StaffCop provides a robust, four-step data loss prevention process:
-					</Text>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							First, it allows you to define what constitutes sensitive or classified data.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Creates a security perimeter by setting rules for how the data should be handled.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							Automatically thwart any rule violation incident with actions that block, notify, or warn.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					<Box display="flex" margin="0px 0px 18 0px">
-						<Text
-							margin="9px 18px 9px 0"
-							font="400 18px/160% --fontFamily-googleInter"
-							color="#555"
-							sm-font="400 16px/22px --fontFamily-googleInter"
-							text-align="right"
-						>
-							In case of a data breach, pinpoint the exact cause and source of the incident with audit and forensic data available in the StaffCop system.
-						</Text>
-						<Icon
-							category="bs"
-							icon={BsFillCircleFill}
-							size="10px"
-							color="rgba(20, 101, 255, 1)"
-							box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-							margin="18px 0px 0px 0px"
-						/>
-					</Box>
-					{"    "}
-				</StackItem>
-				<StackItem width="50%" display="flex" md-width="100%">
-					<Override
-						slot="StackItemContent"
-						padding="0px 0px 0px 20px"
-						border-radius="0px"
-						border-width="0px"
-						flex-direction="column"
-						align-items="center"
-						justify-content="center"
-						md-align-items="center"
-					/>
-					{"        "}
-					<Image width="90%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/00%D1%8B%D1%84%D1%8B%D1%84%D1%8B1%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%D1%8B%208.png?v=2020-10-19T22:41:42.492Z" md-width="80%" object-fit="contain" />
 					{"    "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
 		<Components.BlockNeed>
+			<Override slot="text">
+				{"\n"}The Right Employee Monitoring{" "}
+				<br />
+				and DLP Solution{" "}
+				<Span color="--primary">
+					for Every Need
+				</Span>
+				{"  \n\n"}
+			</Override>
 			<Override slot="text1">
 				Information Security{"\n\n"}
 			</Override>
 			<Override slot="text2">
 				Receive the required data “on the fly”. Search by keywords and regular expressions. Record sound from microphones to hear what was happening at the moment of interest.
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
 			</Override>
 			<Override slot="text3">
 				Remote Administration{"\n\n"}
 			</Override>
 			<Override slot="text4">
-				View remote desktop without being notices. Take control over a workstation.  Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+				View remote desktop without being notices. Take control over a workstation. Full picture of software and hardware usage. Intensity of usage and registry of states.{"\n\n"}
+				<Span
+					color="rgba(255, 255, 255, 0)"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					.
+				</Span>
 			</Override>
 			<Override slot="text6">
-				Employee Monitoring{"\n\n\n\n"}
+				Employee Monitoring{"\n\n"}
 			</Override>
 			<Override slot="text7">
-				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.{"  "}
+				Categorize applications and web-sites into productive and unproductive. Set up different configurations for particular users, groups and departments. Compare results.
 				<Span
 					color="rgba(255, 255, 255, 0)"
 					overflow-wrap="normal"
@@ -2073,7 +1640,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -2123,7 +1690,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -2148,7 +1715,7 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.{"\n\n"}
+							Install on any OS as a virtual machine from our ISO image, use Virtual Box, VMWare, Hyper-V or any other virtualization system. Easy administrating without risking the host machine.
 						</Text>
 					</Box>
 					{"    "}
@@ -2173,7 +1740,7 @@ export default (() => {
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="20px 20px 20px 20px"
+						sm-padding="10px 20px 20px 20px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
 						display="flex"
@@ -2189,7 +1756,7 @@ export default (() => {
 							color="rgba(19, 33, 42, 1)"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Private Cloud{"\n\n"}
+							Private Cloud
 						</Text>
 						<Text
 							font="--lead"
@@ -2198,20 +1765,122 @@ export default (() => {
 							color="rgba(85, 85, 85, 1)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more{"\n\n"}
+							Use your own secure, scalable private cloud implementation including AWS, Google Cloud, Azure and more
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
 				{"    "}
 			</Stack>
-			<Components.Company />
+			<Stack
+				margin="70px 0px 60px 0px"
+				width="97.3%"
+				gap="--cmp-stack-gap-default"
+				border-width="0px"
+				border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
+				background="--color-primary"
+				border-radius="6px"
+				padding="60px 0px 60px 0px"
+			>
+				<StackItem width="45%" display="flex" lg-width="100%">
+					<Override
+						slot="StackItemContent"
+						padding="0px 0px 0px 50px"
+						border-radius="0px"
+						border-width="0px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="center"
+						lg-align-items="center"
+						sm-padding="0px 10px 0px 10px"
+					/>
+					{"        "}
+					<Text
+						font="normal 700 36px/45.57px --fontFamily-googleInter"
+						margin="0px 0px 0px 0px"
+						display="inline-block"
+						color="#ffffff"
+						letter-spacing="-2%"
+						lg-margin="0px 0px 20px 0px"
+						lg-text-align="center"
+						md-font="normal 700 30px/40px Inter, sans-serif"
+						sm-font="normal 700 24px/30px Inter, sans-serif"
+						sm-width="100%"
+					>
+						92% of companies detect serious violations when testing StaffCop
+					</Text>
+					{"    "}
+				</StackItem>
+				<StackItem width="55%" display="flex" lg-width="100%">
+					<Override
+						slot="StackItemContent"
+						padding="0px 0px 0px 0px"
+						border-radius="0px"
+						border-width="0px"
+						flex-direction="column"
+						align-items="flex-start"
+						justify-content="flex-start"
+						lg-align-items="center"
+					/>
+					<Stack
+						width="90%"
+						margin="0px 0px 0px 0px"
+						gap="0px"
+						sm-align-items="center"
+						sm-justify-content="center"
+					>
+						{"    "}
+						<StackItem width="33.3333%" display="flex" sm-width="100%">
+							<Override
+								slot="StackItemContent"
+								border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
+								border-radius="8px"
+								flex-direction="column"
+								justify-content="center"
+								padding="0px 0px 0px 0px"
+								align-items="center"
+							/>
+							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Group12311111111.svg?v=2020-10-21T21:21:17.189Z" />
+							{"            "}
+						</StackItem>
+						<StackItem width="33.3333%" display="flex" sm-width="100%">
+							<Override
+								slot="StackItemContent"
+								border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
+								border-radius="8px"
+								flex-direction="column"
+								justify-content="center"
+								padding="0px 0px 0px 0px"
+								align-items="center"
+							/>
+							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Group222666.svg?v=2020-10-21T21:22:08.743Z" />
+							{"            "}
+						</StackItem>
+						<StackItem width="33.3333%" display="flex" sm-width="100%">
+							<Override
+								slot="StackItemContent"
+								border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
+								border-radius="8px"
+								flex-direction="column"
+								justify-content="center"
+								padding="0px 0px 0px 0px"
+								align-items="center"
+							/>
+							<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Grou333385.svg?v=2020-10-21T21:22:37.813Z" />
+							{"            "}
+						</StackItem>
+						{"    "}
+					</Stack>
+					{"            "}
+				</StackItem>
+				{"        "}
+			</Stack>
 		</Section>
 		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Components.Feature>
 				<Override slot="text">
-					Feature-rich, affordable with annual and perpetual licensing options{"\n\n"}
+					Feature-rich, affordable with annual and perpetual licensing options
 				</Override>
 			</Components.Feature>
 			<Components.Footer />

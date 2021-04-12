@@ -1,16 +1,16 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Text, Span } from "@quarkly/widgets";
+import { Theme, Link, Image, Text, Box, Hr } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Menu, Stack, Section } from "@quarkly/components";
 import * as Components from "components";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"purchase"} />
 		<Helmet>
 			<title>
-				Purchase
+				Pricing
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"} type={"image/x-icon"} />
@@ -21,398 +21,986 @@ export default (() => {
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<meta name={"msapplication-TileColor"} content={"#1465FF"} />
 		</Helmet>
-		<Components.EmbedHTML />
-		<Components.Header />
-		<Section padding="100px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" md-padding="110px 0 30px 0" lg-padding="140px 0 70px 0">
+		<Section
+			id="shapka"
+			background="#ffffff"
+			padding="0px 0 0px 0"
+			sm-padding="10px 0 10px 0"
+			lg-padding="15px 0 15px 0"
+			border-width="0px 0px 1px 0px"
+			border-style="solid"
+			border-color="#EDEDED"
+			position="fixed"
+			z-index="9"
+		>
+			<Override slot="SectionContent" max-width="1170px" />
+			<Stack gap="0px" width="100%">
+				{"    "}
+				<StackItem
+					width="20%"
+					display="flex"
+					nout-width="18%"
+					lg-width="40%"
+					sm-width="50%"
+				>
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					<Link href="/">
+						<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staffcop_logo%20(2)%201.svg?v=2020-10-15T10:37:02.579Z" padding="2px 0px 0px 0px" />
+						{"     "}
+					</Link>
+					{"       "}
+				</StackItem>
+				{"    "}
+				<StackItem width="60%" display="flex" nout-width="64%" lg-display="none">
+					<Override slot="StackItemContent" align-items="center" justify-content="center" />
+					{"        "}
+					<Components.MyNav />
+					<Link
+						href="/features/"
+						text-decoration-line="initial"
+						font="--menu"
+						color="#020202"
+						padding="30px 15px 30px 15px"
+						hover-color="#000000"
+					>
+						Features
+					</Link>
+					<Link
+						href="/solutions/"
+						text-decoration-line="initial"
+						font="--menu"
+						color="#020202"
+						padding="30px 15px 30px 15px"
+						hover-color="#000000"
+					>
+						Solutions
+					</Link>
+					<Link
+						text-decoration-line="initial"
+						font="--menu"
+						color="#020202"
+						padding="30px 15px 30px 15px"
+						hover-color="#000000"
+						href="/pricing/"
+					>
+						Pricing
+					</Link>
+					<Components.MyNav2 />
+					{"    "}
+				</StackItem>
+				<StackItem
+					width="20%"
+					display="flex"
+					nout-width="18%"
+					lg-width="50%"
+					sm-width="50%"
+					sm-display="none"
+				>
+					<Override slot="StackItemContent" justify-content="flex-end" align-items="center" />
+					<Link
+						href="/request-demo/"
+						font="600 18px/22px --fontFamily-googleInter"
+						color="--primary"
+						text-decoration-line="initial"
+						padding="13px 29px 13px 29px"
+						border-width="2px"
+						border-style="solid"
+						border-color="--color-primary"
+						border-radius="40px"
+						transition="-webkit-transition: all .3s;  transition: all .3s"
+						hover-background="--color-primary"
+						hover-color="#ffffff"
+						text-align="center"
+						nout-padding="13px 15px 13px 15px"
+						lg-margin="0px 8px 0px 0px"
+						sm-display="none"
+					>
+						Request demo
+					</Link>
+				</StackItem>
+				<StackItem
+					width="100%"
+					nout-width="18%"
+					lg-width="10%"
+					sm-width="50%"
+					lg-display="flex"
+					display="none"
+				>
+					<Override slot="StackItemContent" justify-content="flex-end" align-items="center" />
+					<Components.MobileSide2
+						flex="1 1 auto"
+						lg-position="relative"
+						lg-z-index="5"
+						lg-display="flex"
+						lg-justify-content="flex-end"
+						lg-align-items="center"
+					>
+						<Override
+							slot="Content"
+							display="flex"
+							align-items="center"
+							lg-position="fixed"
+							lg-top={0}
+							lg-left={0}
+							lg-z-index="1"
+							lg-width="100%"
+							lg-height="100%"
+							lg-background="white"
+							lg-flex-direction="column"
+						/>
+						<Override
+							slot="Button"
+							display="none"
+							lg-display="block"
+							lg-width="44px"
+							lg-height="28px"
+							lg-position="relative"
+							lg-z-index="6"
+							lg-box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+						/>
+						<Override slot="Button Line" lg-background="black" lg-min-height="4px" lg-position="absolute" />
+						<Override slot="Button Line1" lg-width="44px" lg-top="0px" lg-right="0px" />
+						<Override slot="Button Line2" lg-top="12px" lg-right="0px" />
+						<Override slot="Button Line3" lg-top="24px" lg-right="0px" />
+						<Override slot="Button Line1 :closed" lg-width="44px" />
+						<Override slot="Button Line2 :closed" lg-width="32px" />
+						<Override slot="Button Line3 :closed" lg-width="20px" />
+						<Override slot="Button Line2 :open" lg-opacity="0" lg-width="32px" />
+						<Override slot="Button Line1 :open" lg-width="36px" lg-transform="translateY(12px) rotate(225deg)" />
+						<Override slot="Button Line3 :open" lg-width="36px" lg-transform="translateY(-12px) rotate(135deg)" />
+						<Override slot="Content :closed" lg-opacity="0" lg-transition="transform --transitionDuration-normal step-end 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut" lg-transform="translateY(-100%)" />
+						<Override
+							slot="Content :open"
+							lg-position="fixed"
+							lg-transform="translateY(0%)"
+							lg-transition="transform --transitionDuration-normal step-start 0s,opacity --transitionDuration-normal --transitionTimingFunction-easeOut"
+							lg-opacity="1"
+						/>
+						<Override slot="Button :open" lg-position="fixed" />
+						<Components.Menu2
+							md-flex-direction="column"
+							md-align-items="center"
+							md-width="100%"
+							lg-flex-direction="column"
+							lg-align-items="center"
+							lg-width="100%"
+							lg-margin="10px 0px 0px 0px"
+							collapse
+							depth="10"
+							display="none"
+							lg-display="flex"
+							lg-justify-content="center"
+							lg-padding="6px 0px 40px 0px"
+						>
+							<Override
+								slot="Item"
+								md-padding="12px 12px 12px 12px"
+								lg-padding="12px 0px 12px 0px"
+								lg-font="500 20px/24px --fontFamily-googleInter"
+								lg-width="100%"
+								lg-text-align="center"
+								lg-align-items="center"
+								lg-margin="6px 0px 6px 0px"
+							/>
+							<Override slot="Item-404" md-display="none" lg-display="none" />
+							<Override slot="Link-index">
+								Home
+							</Override>
+							<Override
+								slot="Link"
+								lg-text-decoration-line="initial"
+								lg-color="--darkL2"
+								lg-text-align="right"
+								lg-justify-content="center"
+							/>
+							<Override slot="Sub" z-index="5" lg-position="static" lg-width="100%" />
+							<Override slot="Icon" lg-padding="4px 3px 0px 3px" />
+							<Override slot="Item-request-demo" lg-display="none" />
+							<Override slot="Item-leadership" lg-display="none" />
+							<Override slot="Item-retail-and-ecommerce-cyber-security" lg-display="none" />
+							<Override slot="Item-for-financial-sector" lg-display="none" />
+							<Override slot="Item-energy-and-utilities-sector-cyber-security" lg-display="none" />
+							<Override slot="Item-iso-27001-compliance" lg-display="none" />
+							<Override slot="Item-for-legal" lg-display="none" />
+							<Override slot="Item-government-and-public-sector-cyber-security" lg-display="none" />
+							<Override slot="Item-pci-dss-compliance-and-certification" lg-display="none" />
+							<Override slot="Item-for-hipaa" lg-display="none" />
+							<Override slot="Item-gdpr-compliance" lg-display="none" />
+							<Override slot="Item-compliance-management-auditing-and-monitoring" lg-display="none" />
+							<Override slot="Item-third-party-vendor-management" lg-display="none" />
+							<Override slot="Item-productivity-optimization" lg-display="none" />
+							<Override slot="Item-privileged-user-monitoring" lg-display="none" />
+							<Override slot="Item-remote-employee-monitoring" lg-display="none" />
+							<Override slot="Item-insider-threat-detection-and-prevention" lg-display="none" />
+							<Override slot="Item-live-employee-desktop" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-e-mail-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-employee-internet-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-keystroke-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-file-activity-monitoring-software" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-printed-document-tracking" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-optical-character-recognition-ocr" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-smart-rules-and-alerts" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-productivity-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-app-usageapplication-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-network-user-activitymonitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-instant-message-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-social-media-monitoring" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-remote-desktop-control" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-active-vs-idle-time-analysis" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-employee-productivity-tracking" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-citrix-session-recording" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-employee-monitoring-software" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-nonproductive-activity-reporting" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-configurable-monitoring-profiles" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-template-based-scheduling" lg-font="500 16px/19px Inter, sans-serif" />
+							<Override slot="Item-session-recording-and-metadata" lg-font="500 16px/19px Inter, sans-serif" />
+						</Components.Menu2>
+						<Menu
+							flex="1 1 auto"
+							display="none"
+							align-items="center"
+							justify-content="center"
+							lg-flex="0 1 auto"
+							lg-flex-direction="column"
+							lg-margin="80px 0px 0px 0px"
+							lg-display="none"
+						>
+							<Override slot="item-404" display="none" />
+							<Override slot="item-index" display="none" />
+							<Override
+								slot="link"
+								lg-font="500 20px/24px --fontFamily-googleInter"
+								lg-text-decoration-line="initial"
+								lg-color="#020202"
+								lg-padding="6px 6px 6px 6px"
+							/>
+							<Override slot="link-active" lg-color="--primary" />
+							<Override slot="item" lg-padding="14px 12px 14px 12px" />
+						</Menu>
+					</Components.MobileSide2>
+					{"            "}
+				</StackItem>
+			</Stack>
+		</Section>
+		<Section padding="120px 0 40px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -896px/3610px no-repeat,linear-gradient(180deg,#F5F5F5 21.6%,rgba(251, 251, 251, 0.21) 100%)" md-padding="100px 0 40px 0" sm-padding="80px 0 40px 0">
 			<Override slot="SectionContent" max-width="1200px" />
 			<Stack margin="0px 0px 0px 0px">
 				{"    "}
 				<StackItem
-					width="50%"
+					width="100%"
 					display="flex"
 					sm-align-items="center"
 					sm-width="100%"
-					md-width="100%"
-					md-order="1"
+					lg-width="100%"
 				>
 					<Override
 						slot="StackItemContent"
 						flex-direction="column"
-						justify-content="center"
+						justify-content="flex-start"
 						align-items="flex-start"
 						sm-align-items="center"
-						position="relative"
-					/>
-					<Image width="100%" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/korobka.png?v=2020-11-27T08:42:39.604Z" md-max-height="500px" />
-					<Image
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/logoocenka2.png?v=2020-11-27T08:42:39.555Z"
-						position="absolute"
-						top="19%"
-						left="0px"
-						right="auto"
-						bottom="auto"
-						nout-height="100px"
-						hd-max-height="133px"
-						lg-max-height="80px"
-						md-max-height="100px"
-						md-left="20%"
-						sm-left="0px"
-						sm-max-height="80px"
-					/>
-					<Image
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/logoocenka3.png?v=2020-11-27T08:42:39.558Z"
-						position="absolute"
-						top="53%"
-						left="0px"
-						right="auto"
-						bottom="auto"
-						nout-height="100px"
-						nout-top="52%"
-						hd-height="133px"
-						lg-max-height="80px"
-						md-max-height="100px"
-						md-top="61%"
-						md-left="20%"
-						sm-left="0px"
-						sm-max-height="80px"
-						sm-top="57%"
-					/>
-					<Image
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/logoocenka22.png?v=2020-11-27T08:42:39.562Z"
-						position="absolute"
-						top="36%"
-						left="0px"
-						right="auto"
-						bottom="auto"
-						nout-top="36%"
-						nout-height="100px"
-						hd-max-height="133px"
-						lg-max-height="80px"
-						md-max-height="100px"
-						md-top="40%"
-						md-left="20%"
-						sm-left="0px"
-						sm-max-height="80px"
-						sm-top="38%"
-					/>
-					{"            "}
-				</StackItem>
-				<StackItem
-					width="50%"
-					display="flex"
-					sm-align-items="center"
-					sm-width="100%"
-					md-width="100%"
-					md-order="0"
-				>
-					<Override
-						slot="StackItemContent"
-						flex-direction="column"
-						justify-content="center"
-						align-items="flex-start"
-						sm-align-items="center"
-						padding="0px 30px 0px 40px"
-						md-align-items="center"
-						md-padding="0px 20px 0px 20px"
+						lg-align-items="center"
 					/>
 					{"        "}
 					<Text
-						font="--headline2"
-						margin="0px 0px 16px 0px"
+						font="normal 700 48px/58px --fontFamily-googleInter"
+						margin="0px 0px 36px 5px"
 						display="inline-block"
+						color="rgba(19, 33, 42, 1)"
+						letter-spacing="-1%"
 						md-font="normal 700 30px/40px Inter, sans-serif"
 						sm-text-align="center"
+						sm-font="normal 700 34px/30px Inter, sans-serif"
 					>
 						Purchase
 					</Text>
-					<Text
-						font="normal 400 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 30px 0px"
-						display="inline-block"
-						color="#555"
-						md-font="normal 400 16px/140% --fontFamily-googleInter"
-						sm-text-align="center"
-						md-text-align="center"
-					>
-						StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.
-					</Text>
-					<Text
-						font="normal 400 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="#555"
-						md-font="normal 400 16px/140% --fontFamily-googleInter"
-						sm-text-align="center"
-					>
-						from{" "}
-						<Span
-							font="normal 700 60px/72px --fontFamily-googleInter"
-							color="#000000"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							49$
-						</Span>
-					</Text>
+					<Components.Calculator
+						width="75%"
+						display="flex"
+						align-items="flex-start"
+						justify-content="flex-start"
+						nout-width="100%"
+						border-radius="6px"
+					/>
 					{"    "}
-					<Link
-						href="/request-demo"
-						position="relative"
-						z-index="2"
-						color="#ffffff"
-						font="600 18px/22px --fontFamily-googleInter"
-						text-decoration-line="initial"
-						padding="16px 38px 16px 38px"
-						box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-						border-radius="40px"
-						background="--color-primary"
-						border-width="1px"
-						border-style="solid"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						margin="36px 0px 0px 0px"
-						hover-background="#409EEB"
-						transition="-webkit-transition: all .3s;  transition: all .3s"
-						sm-font="600 16px/22px --fontFamily-googleInter"
-						sm-padding="16px 20px 16px 20px"
-						md-padding="16px 26px 16px 26px"
-					>
-						Buy now
-					</Link>
 				</StackItem>
 				{"    "}
 			</Stack>
 		</Section>
-		<Section padding="0px 0 40px 0" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="1200px" />
-			<Stack margin="0px 0px 0px 0px">
+		<Components.EmbedHTML />
+		<Section background="#FFFFFF" padding="24px 0 24px 0">
+			<Override
+				slot="SectionContent"
+				max-width="1170px"
+				align-items="center"
+				lg-overflow-x="scroll"
+				lg-align-items="flex-start"
+			/>
+			<Box display="flex" width="100%" flex-direction="column" lg-width="1200px">
+				<Box width="100%" display="flex">
+					<StackItem width="20%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 10px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							Users to track
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							5-25
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							26-50
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							51-100
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							101-150
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							151-250
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							251-500
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							501-1000
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 600 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 700 20px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							1001+
+						</Text>
+						{"    "}
+					</StackItem>
+				</Box>
+				<Hr width="100%" margin="24px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
+				<Box width="100%" display="flex">
+					<StackItem width="20%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 10px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							Perpetual{" "}
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 98
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 91
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 87
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 81
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 78
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 75
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 72
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 69
+						</Text>
+						{"    "}
+					</StackItem>
+				</Box>
+				<Hr width="100%" margin="24px 0px 0px 0px" border-color="rgba(237, 237, 237, 1)" padding="0px 0px 0px 0px" />
+				<Box width="100%" display="flex" background="#F9F9F9" padding="24px 0px 24px 0px">
+					<StackItem width="20%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 10px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							12-months{" "}
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 70
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 65
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 62
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 57
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 56
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 53
+							<br />
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 51
+							<br />
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 49
+						</Text>
+						{"    "}
+					</StackItem>
+				</Box>
+				<Hr width="100%" margin="0px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
+				<Box width="100%" display="flex">
+					<StackItem width="20%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="flex-start" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 10px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							3-months{" "}
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 35
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 33
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 31
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 29
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 28
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 27
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 26
+						</Text>
+						{"    "}
+					</StackItem>
+					<StackItem width="10%" display="flex" sm-width="100%" nout-width="100%">
+						<Override slot="StackItemContent" flex-direction="column" align-items="center" justify-content="center" />
+						{"        "}
+						<Text
+							font="normal 400 18px/160% --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							color="#555555"
+							letter-spacing="-1%"
+							md-font="normal 400 16px/40px Inter, sans-serif"
+							sm-text-align="center"
+						>
+							$ 25
+						</Text>
+						{"    "}
+					</StackItem>
+				</Box>
+				<Hr width="100%" margin="24px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
+			</Box>
+		</Section>
+		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
+			<Override slot="SectionContent" max-width="none" width="100%" />
+			<Components.Form />
+			<Components.Footer>
+				<Override slot="text">
+					Russia, Novosibirsk, Koptug Road 4, Sobolev Institute of Mathematics
+				</Override>
+			</Components.Footer>
+		</Section>
+		<Section
+			background="#ffffff"
+			padding="30px 0 30px 0"
+			border-width="1px 0px 0px 0px"
+			border-style="solid"
+			border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
+		>
+			<Override slot="SectionContent" max-width="1200px" align-items="center" />
+			<Stack width="100%" margin="0px 0px 0px 0px">
 				{"    "}
-				<StackItem width="50%" display="flex">
+				<StackItem width="53%" display="flex" lg-width="85%">
 					{"        "}
 					<Text
-						font="--headline2"
+						font="normal 400 15px/24px --fontFamily-googleInter"
 						margin="0px 0px 0px 0px"
 						display="inline-block"
-						color="#13212A"
-						letter-spacing="-0.01em"
-						md-font="normal 700 30px/40px Inter, sans-serif"
-						sm-font="normal 700 24px/30px Inter, sans-serif"
-						lg-font="normal 700 36px/58px Inter, sans-serif"
-						lg-margin="0px 0px 30px 0px"
+						color="#999999"
+						md-font="normal 400 13px/22px --fontFamily-googleInter"
+						sm-font="normal 400 12px/17px --fontFamily-googleInter"
 					>
-						Reviews
+						© Atom Security LLC, 2001–2020. All rights reserved. All trademarks are the property of their respective owners.{"\n\n\n\n\n        "}
 					</Text>
 					{"    "}
 				</StackItem>
 				{"    "}
-			</Stack>
-			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						border-radius="8px"
-						border-width="1px"
-						border-style="solid"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="space-between"
-						background=" linear-gradient(180deg, #FFFFFF 31.77%, #F7F7F7 47.4%, #FCFCFC 85.42%);"
-						padding="38px 36px 42px 36px"
-						lg-align-items="center"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-					/>
+				<StackItem width="47%" display="flex" lg-width="15%">
+					<Override slot="StackItemContent" align-items="center" justify-content="flex-end" md-justify-content="center" />
 					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/polkovnik.svg?v=2020-11-27T08:02:44.118Z" object-position="0% 0%" margin="0px 0px 25px 0px" lg-margin="0px 0px 47px 0px" />
-					<Text
-						font="--headline3"
-						margin="0px 0px 18px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						Very robust software but can be unwieldy
-					</Text>
-					<Text
-						font="normal 400 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 36px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						Overall: Overall it was a good experience as getting the system running was fairly straight forward if you don't mind referencing the Admin guide. Default options didn't like being changed, but once everything was setup...
-						<Span
-							color="rgba(255, 255, 255, 0)"
-							overflow-wrap="normal"
-							word-break="normal"
-							white-space="normal"
-							text-indent="0"
-							text-overflow="clip"
-							hyphens="manual"
-						>
-							.
-						</Span>
-					</Text>
 					<Link
-						href="/starter/"
-						padding="13px 29px 13px 29px"
-						border-color="--color-primary"
+						id="gobot"
+						href="#shapka"
+						color="--primary"
+						text-decoration-line="initial"
+						padding="0px 0px 0px 0px"
+						target="_blank"
+						font="normal 600 25px/1.5 --fontFamily-sans"
+						margin="0px 0px 0px 0px"
+						display="flex"
+						lg-font="normal 400 24px/1.5 --fontFamily-sans"
+						sm-width="auto"
+						sm-text-align="center"
 						border-radius="40px"
+						text-align="center"
+						transition="box-shadow .3s ease,transform .3s ease,-webkit-box-shadow .3s ease,-webkit-transform .3s ease"
+						hover-box-shadow="0 10px 10px -6px rgba(0,0,0,.24)"
+						hover-transform="translateY(-2px)"
+						cursor="pointer"
+						align-items="center"
 						border-width="2px"
 						border-style="solid"
-						text-decoration-line="initial"
-						color="--primary"
-						font="--menu"
-						hover-background="--color-primary"
-						transition="-webkit-transition: all .3s;  transition: all .3s"
-						hover-color="#fff"
+						border-color="--color-primary"
+						md-padding="0px 0px 0px 0px"
 					>
-						More reviews
+						<Image width="18px" height="18px" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Icon.svg?v=2020-10-21T00:34:26.772Z" padding="12px 13px 14px 13px" />
 					</Link>
 					{"    "}
 				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						border-radius="8px"
-						border-width="1px"
-						border-style="solid"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="space-between"
-						background=" linear-gradient(180deg, #FFFFFF 31.77%, #F7F7F7 47.4%, #FCFCFC 85.42%);"
-						padding="38px 36px 42px 36px"
-						lg-align-items="center"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-					/>
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/polkovnik.svg?v=2020-11-27T08:02:44.118Z" object-position="0% 0%" margin="0px 0px 25px 0px" lg-margin="0px 0px 47px 0px" />
-					<Text
-						font="--headline3"
-						margin="0px 0px 18px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						“Good Software, Very Versatile, Very Detailed”
-					</Text>
-					<Text
-						font="normal 400 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 36px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						Overall: Very Good.
-						<br />
-						Pros: The Software is fairly price effective and very versatile. once setup - its convenient and gives good detailed reports
-						<br />
-						Cons: Its a little tough to set up. Requires more effort to put...
-					</Text>
-					<Link
-						href="/starter/"
-						padding="13px 29px 13px 29px"
-						border-color="--color-primary"
-						border-radius="40px"
-						border-width="2px"
-						border-style="solid"
-						text-decoration-line="initial"
-						color="--primary"
-						font="--menu"
-						hover-background="--color-primary"
-						transition="-webkit-transition: all .3s;  transition: all .3s"
-						hover-color="#fff"
-					>
-						More reviews
-					</Link>
-					{"    "}
-				</StackItem>
-				<StackItem
-					width="33.3333%"
-					display="flex"
-					lg-width="50%"
-					md-width="100%"
-					nout-width="50%"
-				>
-					<Override
-						slot="StackItemContent"
-						border-image="linear-gradient(353.68deg, rgba(255, 255, 255, 0) -0.12%, rgba(255, 255, 255, 0.04) 56.34%)  3 / 1 / 0 stretch"
-						border-radius="8px"
-						border-width="1px"
-						border-style="solid"
-						flex-direction="column"
-						align-items="flex-start"
-						justify-content="space-between"
-						background=" linear-gradient(180deg, #FFFFFF 31.77%, #F7F7F7 47.4%, #FCFCFC 85.42%);"
-						padding="38px 36px 42px 36px"
-						lg-align-items="center"
-						box-shadow=" 0px 6px 12px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.14)"
-					/>
-					{"        "}
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/polkovnik.svg?v=2020-11-27T08:02:44.118Z" object-position="0% 0%" margin="0px 0px 25px 0px" lg-margin="0px 0px 47px 0px" />
-					<Text
-						font="--headline3"
-						margin="0px 0px 18px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						StaffCop
-					</Text>
-					<Text
-						font="normal 400 18px/160% --fontFamily-googleInter"
-						margin="0px 0px 36px 0px"
-						display="inline-block"
-						color="rgba(19, 33, 42, 1)"
-						lg-text-align="center"
-					>
-						Overall: very good value software.
-						<br />
-						Pros: Great monitoring software. Good value. Highly recommended.
-						<br />
-						Cons: no osx support, unable to wipe remote computer
-					</Text>
-					<Link
-						href="/starter/"
-						padding="13px 29px 13px 29px"
-						border-color="--color-primary"
-						border-radius="40px"
-						border-width="2px"
-						border-style="solid"
-						text-decoration-line="initial"
-						color="--primary"
-						font="--menu"
-						hover-background="--color-primary"
-						transition="-webkit-transition: all .3s;  transition: all .3s"
-						hover-color="#fff"
-					>
-						More reviews
-					</Link>
-					{"    "}
-				</StackItem>
-				{"        "}
 			</Stack>
 		</Section>
-		<Components.FormGa />
-		<Components.Footer>
-			<Override slot="image" />
-		</Components.Footer>
+		<Components.EmbedHTML />
+		<Section padding="0px 0 0px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/head-13.svg?v=2020-10-20T19:28:03.243Z) center -346px/3610px no-repeat">
+			<Override slot="SectionContent" max-width="none" width="100%" />
+		</Section>
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
