@@ -163,7 +163,7 @@ export default (() => {
 						display="flex"
 						flex-direction="column"
 					>
-						<Link href="/features/productivity-monitoring" padding="20px 36px 20px 36px" height="100%">
+						<Link href="/features/user-card/" padding="20px 36px 20px 36px" height="100%">
 							<Image
 								loading="lazy"
 								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icons1.svg?v=2020-11-30T14:42:32.054Z"
@@ -213,7 +213,7 @@ export default (() => {
 						display="flex"
 						flex-direction="column"
 					>
-						<Link href="/features/app-usageapplication-monitoring" padding="20px 36px 20px 36px" height="100%">
+						<Link href="/features/application-usage-monitoring" padding="20px 36px 20px 36px" height="100%">
 							<Image
 								loading="lazy"
 								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasd2.svg?v=2020-11-30T14:43:23.306Z"
@@ -262,7 +262,7 @@ export default (() => {
 						display="flex"
 						flex-direction="column"
 					>
-						<Link href="/features/employee-monitoring-software" padding="20px 36px 20px 36px" height="100%">
+						<Link href="/monitoring" padding="20px 36px 20px 36px" height="100%">
 							<Image
 								loading="lazy"
 								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icosdasd3.svg?v=2020-11-30T14:43:48.102Z"
@@ -313,7 +313,7 @@ export default (() => {
 						display="flex"
 						flex-direction="column"
 					>
-						<Link href="/privileged-user-monitoring" padding="20px 36px 20px 36px" height="100%">
+						<Link href="/security" padding="20px 36px 20px 36px" height="100%">
 							<Image
 								loading="lazy"
 								src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/icoasdas4.svg?v=2020-11-30T14:44:23.174Z"
@@ -460,7 +460,15 @@ export default (() => {
 				md-margin="0px 0px 20px 0px"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 			>
-				<Span color="--primary">
+				<Span
+					color="--primary"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
 					Advantages
 				</Span>
 				{" "}of our product
@@ -531,7 +539,9 @@ export default (() => {
 						>
 							Helps reduce the risks of data leakage and loss of reputation
 						</Override>
-						<Override slot="Before Text2 :default" transform="translateY(20px)" />
+						<Override slot="Before Text2 :default" transform="translateY(20px)">
+							Helps reduce the risks of data leakage and loss of reputationHelps reduce the risks of data leakage and loss of reputation
+						</Override>
 						<Override slot="Before Text2 :hover" transform="translateY(-25px)" />
 						<Override slot="image" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/arrowffuuu.svg?v=2020-10-30T00:58:06.309Z" width="7px" height="12px" />
 						<Override
@@ -678,7 +688,7 @@ export default (() => {
 							transition="-webkit-transition: all .5s;  transition: all .5s"
 							width="65%"
 						>
-							Allows you to see your business processes in reality 1999
+							Allows you to track employees working remotely from home
 						</Override>
 						<Override slot="Before Text2 :default" transform="translateY(20px)">
 							Allows you to see your business processes in reality 1999Allows you to see your business processes in reality 1999
@@ -1647,7 +1657,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 				hover-background="--color-primary"
 				transition="-webkit-transition: all .3s;  transition: all .3s"
 			>
-				More directions
+				More use cases
 			</Link>
 		</Section>
 		<Section padding="0px 0 0px 0" background="#020202">

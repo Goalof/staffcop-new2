@@ -72,7 +72,7 @@ export default {
 			"name": "Employee Monitoring",
 			"seo": {
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z",
-				"title": "UAM"
+				"title": "StaffCop: Employee Monitoring"
 			}
 		},
 		"5f9198c5e5a236001eeb5abf": {
@@ -80,7 +80,7 @@ export default {
 			"pageUrl": "security",
 			"name": "Information Security",
 			"seo": {
-				"title": "DLP",
+				"title": "StaffCop: Information Security",
 				"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2020-11-28T11:58:11.223Z"
 			}
 		},
@@ -294,7 +294,7 @@ export default {
 		},
 		"5f99bcd61fae5f001ff6c0bc": {
 			"id": "5f99bcd61fae5f001ff6c0bc",
-			"pageUrl": "solutions",
+			"pageUrl": "cases",
 			"name": "Cases",
 			"seo": {
 				"title": "Solutions",

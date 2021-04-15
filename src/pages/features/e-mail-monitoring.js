@@ -380,7 +380,13 @@ export default (() => {
 		</Section>
 		<Section background="#FFFFFF" padding="24px 0 24px 0">
 			<Override slot="SectionContent" max-width="1200px" align-items="center" />
-			<Stack margin="0px 0px 0px 0px" width="100%" gap="--cmp-stack-gap-default">
+			<Stack
+				margin="0px 0px 0px 0px"
+				width="100%"
+				gap="--cmp-stack-gap-default"
+				align-items="center"
+				justify-content="center"
+			>
 				{"    "}
 				<StackItem width="100%" display="flex" sm-width="100%" nout-width="100%">
 					{"        "}

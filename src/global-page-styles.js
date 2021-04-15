@@ -41,7 +41,7 @@ const pageStyles = {
     "productivity-optimization": {},
     "third-party-vendor-management": {},
     "compliance-management-auditing-and-monitoring": {},
-    "solutions": {},
+    "cases": {},
     "gdpr-compliance": {},
     "for-hipaa": {},
     "for-legal": {},

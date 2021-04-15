@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Image, Text, Icon, Span } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, Text, Button, Icon, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Section, SocialMedia } from "@quarkly/components";
@@ -953,6 +953,11 @@ analysis{"\n\n"}
 			>
 				Compliance is an increasingly complex task, requiring organizaons to manage mulple riskfactors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.{"\n\n"}
 			</Text>
+			<Components.Ticker speed="3" mode="await" move="enable">
+				<Button>
+					Button
+				</Button>
+			</Components.Ticker>
 		</Section>
 		<Section padding="70px 0 70px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />

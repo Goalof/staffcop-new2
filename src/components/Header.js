@@ -96,7 +96,7 @@ const overrides = {
 	"link2": {
 		"kind": "Link",
 		"props": {
-			"href": "/solutions/",
+			"href": "/cases/",
 			"text-decoration-line": "initial",
 			"font": "--menu",
 			"color": "#020202",

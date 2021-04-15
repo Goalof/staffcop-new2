@@ -103,15 +103,15 @@ export default (() => {
 						md-align-items="center"
 						md-justify-content="center"
 					/>
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/GB.svg?v=2020-11-04T01:56:24.794Z" margin="0px 18px 0px 0px" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/AU.svg?v=2020-11-07T22:50:21.309Z" margin="0px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%">
-						Great Britain{"\n\n"}
+						Australia
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" sm-align-items="center" sm-justify-content="center" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" sm-text-align="center">
-						BlackWall Solutions{"\n\n"}
+						i2Biz
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -124,7 +124,7 @@ export default (() => {
 						text-align="right"
 						sm-text-align="center"
 					>
-						+442079934551 / +447932900754{"\n\n"}
+						+61 (03) 9111 5657
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -134,47 +134,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com" sm-text-align="center">
-							info@blackwallsolutions.com{"\n\n"}
-						</Link>
-					</Text>
-				</StackItem>
-				{"  "}
-			</Stack>
-			<Hr width="98%" margin="26px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
-			<Stack margin="0px 0px 0px 0px">
-				<StackItem width="33.333%" md-width="100%">
-					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/AU.svg?v=2020-11-07T22:50:21.309Z" margin="4px 18px 0px 0px" />
-					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Australia{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%" md-width="100%">
-					<Override slot="StackItemContent" md-justify-content="center" />
-					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						i2Biz{"\n\n"}
-					</Text>
-				</StackItem>
-				<StackItem width="33.333%" md-width="100%">
-					<Override slot="StackItemContent" flex-direction="column" md-justify-content="center" md-align-items="center" />
-					<Text
-						font="normal 400 18px/28px --fontFamily-googleInter"
-						letter-spacing="-1%"
-						color="#555"
-						margin="0px 0px 0px 0px"
-						text-align="right"
-					>
-						+61 (03) 9111 5657{"\n\n"}
-					</Text>
-					<Text
-						font="normal 400 18px/28px --fontFamily-googleInter"
-						letter-spacing="-1%"
-						color="#555"
-						margin="0px 0px 0px 0px"
-						text-align="right"
-					>
-						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							enquiries@i2biz.com.au{"\n\n"}
+							enquiries@i2biz.com.au
 						</Link>
 					</Text>
 				</StackItem>
@@ -186,7 +146,7 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/PK.svg?v=2020-11-07T22:54:10.547Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Pakistan{"\n\n"}
+						Pakistan
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -198,7 +158,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						sm-text-align="center"
 					>
-						Enterprise Hardware Solutions Ltd.{"\n\n"}
+						Enterprise Hardware Solutions Ltd.
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -211,7 +171,7 @@ export default (() => {
 						text-align="right"
 						sm-text-align="center"
 					>
-						+924235916720 / +923231416914{"\n\n"}
+						+924235916720 / +923231416914
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -221,7 +181,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							info@ehws.biz{"\n\n"}
+							info@ehws.biz
 						</Link>
 					</Text>
 				</StackItem>
@@ -233,13 +193,13 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/AE.svg?v=2020-11-07T22:58:06.153Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						United Arab Emirates{"\n\n"}
+						United Arab Emirates
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Parasol Software{"\n\n"}
+						Parasol Software
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -251,7 +211,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+971 4 394 2238{"\n\n"}
+						+971 4 394 2238
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -269,13 +229,13 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/TR.svg?v=2020-11-07T23:00:35.096Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Turkey{"\n\n"}
+						Turkey
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Norm Yazilim{"\n\n"}
+						Norm Yazilim
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -287,7 +247,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+90 312 229 09 81{"\n\n"}
+						+90 312 229 09 81
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -297,7 +257,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							info@normyazilim.com{"\n\n"}
+							info@normyazilim.com
 						</Link>
 					</Text>
 				</StackItem>
@@ -309,13 +269,13 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/VN.svg?v=2020-11-07T23:08:28.551Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Vietnam{"\n\n"}
+						Vietnam
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Tri Thuc{"\n\n"}
+						Tri Thuc
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -327,7 +287,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+84908458515{"\n\n"}
+						+84908458515
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -337,7 +297,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							sales@staffcop.com.vn{"\n\n"}
+							sales@staffcop.com.vn
 						</Link>
 					</Text>
 				</StackItem>
@@ -349,13 +309,13 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/RS.svg?v=2020-11-07T23:11:51.392Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Serbia{"\n\n"}
+						Serbia
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Aleksandar Beker{"\n\n"}
+						Aleksandar Beker
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -367,7 +327,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+381 63 533335{"\n\n"}
+						+381 63 533335
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -377,7 +337,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							alek@beker.rs{"\n\n"}
+							alek@beker.rs
 						</Link>
 					</Text>
 				</StackItem>
@@ -389,13 +349,13 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/HU.svg?v=2020-11-07T23:15:06.967Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Hungary{"\n\n"}
+						Hungary
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
-					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="rgba(19, 33, 42, 1)" margin="0px 0px 0px 0px">
-						Mind-Info Informatikai Kft{"\n\n"}
+					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
+						Mind-Info Informatikai Kft
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -407,7 +367,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+36 20 421 8775{"\n\n"}
+						+36 20 421 8775
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -417,7 +377,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							info@mindinfo.hu{"\n\n"}
+							info@mindinfo.hu
 						</Link>
 					</Text>
 				</StackItem>
@@ -429,13 +389,15 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/EC.svg?v=2020-11-07T23:17:29.999Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Ecuador{"\n\n"}
+						Ecuador
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Erutrade{"\n\n"}
+						<Link href="http://staffcop.ec/">
+							Vocot. C. A.
+						</Link>
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -447,7 +409,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+593 98 730 1364{"\n\n"}
+						+593 98 730 1364
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -457,7 +419,10 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							erutrade@gmail.com{"\n\n"}
+							<Link href="mailto:morales.v@vokot.ec">
+								morales.v@vokot.ec
+							</Link>
+							{"\n\n"}
 						</Link>
 					</Text>
 				</StackItem>
@@ -469,15 +434,17 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/MX.svg?v=2020-11-07T23:19:24.777Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Mexico{"\n\n"}
+						Mexico
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Auditoria y seguridad{" "}
-						<br />
-						informatica sa de cv.{"\n\n"}
+						<Link href="https://auditoria.com.mx/staffcop">
+							Auditoria y seguridad{" "}
+							<br />
+							informatica sa de cv.
+						</Link>
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -489,7 +456,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+593 98 730 1364{"\n\n"}
+						+593 98 730 1364
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -499,7 +466,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							erutrade@gmail.com{"\n\n"}
+							erutrade@gmail.com
 						</Link>
 					</Text>
 				</StackItem>
@@ -511,13 +478,15 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/SG.svg?v=2020-11-07T23:23:13.342Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Singapore{"\n\n"}
+						Singapore
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Visible One{"\n\n"}
+						<Link href="https://visibleone.com/">
+							Visible One
+						</Link>
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -529,7 +498,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+65 6248 0838{"\n\n"}
+						+65 6248 0838
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -539,7 +508,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							info@visibleone.com{"\n\n"}
+							info@visibleone.com
 						</Link>
 					</Text>
 				</StackItem>
@@ -551,13 +520,15 @@ export default (() => {
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
 					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/PH.svg?v=2020-11-07T23:20:29.121Z" margin="4px 18px 0px 0px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Philippines{"\n\n"}
+						Philippines
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Secure Zone{"\n\n"}
+						<Link href="https://www.securezone.com.ph/employee-productivity">
+							Secure Zone
+						</Link>
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -569,7 +540,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						text-align="right"
 					>
-						+630283659285{"\n\n"}
+						+630283659285
 					</Text>
 					<Text
 						font="normal 400 18px/28px --fontFamily-googleInter"
@@ -579,7 +550,7 @@ export default (() => {
 						text-align="right"
 					>
 						<Link text-decoration-line="initial" color="#1465FF" href="malito:info@blackwallsolutions.com">
-							sales@securezone.com.ph{"\n\n"}
+							sales@securezone.com.ph
 						</Link>
 					</Text>
 				</StackItem>
@@ -589,15 +560,17 @@ export default (() => {
 			<Stack margin="0px 0px 0px 0px">
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
-					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/SG.svg?v=2020-11-07T23:23:13.342Z" margin="4px 18px 0px 0px" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/bangladesh_flag.png?v=2021-04-14T06:45:14.505Z" margin="4px 18px 0px 0px" width="28px" />
 					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
-						Bangladesh{"\n\n"}
+						Bangladesh
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
 					<Override slot="StackItemContent" md-align-items="baseline" md-justify-content="center" />
 					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
-						Store Rupublic{"\n\n"}
+						<Link href="https://www.storerepublic.com/">
+							Store Rupublic
+						</Link>
 					</Text>
 				</StackItem>
 				<StackItem width="33.333%" md-width="100%">
@@ -610,7 +583,97 @@ export default (() => {
 						text-align="right"
 						sm-text-align="center"
 					>
-						+8801758068531, +8801402126084{"\n\n"}
+						+8801758068531, +8801402126084
+					</Text>
+				</StackItem>
+				{"  "}
+			</Stack>
+			<Hr width="98%" margin="26px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
+			<Stack margin="0px 0px 0px 0px">
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/thailand_flag64.png?v=2021-04-14T06:42:54.283Z" margin="4px 18px 0px 0px" width="28px" />
+					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
+						Thailand
+					</Text>
+				</StackItem>
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" md-align-items="baseline" md-justify-content="center" />
+					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
+						<Link href="http://www.softdebut.com/">
+							Soft De'But
+						</Link>
+					</Text>
+				</StackItem>
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" md-align-items="center" md-justify-content="center" />
+					<Text
+						font="normal 400 18px/28px --fontFamily-googleInter"
+						letter-spacing="-1%"
+						color="#555"
+						margin="0px 0px 0px 0px"
+						text-align="right"
+						sm-text-align="center"
+					>
+						+662 8614600
+					</Text>
+					<Text
+						font="normal 400 18px/28px --fontFamily-googleInter"
+						letter-spacing="-1%"
+						color="#555"
+						margin="0px 0px 0px 0px"
+						text-align="right"
+						sm-text-align="center"
+					>
+						<Link href="#">
+							<Link href="mailto:sales@softdebut.com">
+								sales@softdebut.com
+							</Link>
+						</Link>
+					</Text>
+				</StackItem>
+				{"  "}
+			</Stack>
+			<Hr width="98%" margin="26px 0px 20px 0px" border-color="rgba(237, 237, 237, 1)" />
+			<Stack margin="0px 0px 0px 0px">
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" align-items="flex-start" md-justify-content="center" />
+					<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/indonesia_flag.png?v=2021-04-14T05:40:56.863Z" margin="4px 18px 0px 0px" width="28 px" />
+					<Text font="normal 700 24px/29px --fontFamily-googleInter" letter-spacing="-1%" margin="0px 0px 0px 0px">
+						Indonesia
+					</Text>
+				</StackItem>
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" md-align-items="baseline" md-justify-content="center" />
+					<Text font="normal 400 18px/28px --fontFamily-googleInter" letter-spacing="-1%" color="#1465FF" margin="0px 0px 0px 0px">
+						<Link href="https://www.kum.co.id/v2/pages-1014-StaffCop.html">
+							PT KREASI UTAMA MANDIRI
+						</Link>
+					</Text>
+				</StackItem>
+				<StackItem width="33.333%" md-width="100%">
+					<Override slot="StackItemContent" flex-direction="column" md-align-items="center" md-justify-content="center" />
+					<Text
+						font="normal 400 18px/28px --fontFamily-googleInter"
+						letter-spacing="-1%"
+						color="#555"
+						margin="0px 0px 0px 0px"
+						text-align="right"
+						sm-text-align="center"
+					>
+						+62-897-123-3000, +62 899-8973-000
+					</Text>
+					<Text
+						font="normal 400 18px/28px --fontFamily-googleInter"
+						letter-spacing="-1%"
+						color="#555"
+						margin="0px 0px 0px 0px"
+						text-align="right"
+						sm-text-align="center"
+					>
+						<Link href="mailto:info@kum.co.id">
+							info@kum.co.id
+						</Link>
 					</Text>
 				</StackItem>
 				{"  "}
