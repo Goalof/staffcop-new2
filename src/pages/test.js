@@ -33,6 +33,8 @@ export default (() => {
 			left="auto"
 			right="auto"
 			top="0px"
+			lg-height="1500px"
+			sm-height="1000px"
 		/>
 		<Box
 			position="absolute"
@@ -45,6 +47,7 @@ export default (() => {
 			left="auto"
 			filter="blur(154px)"
 			margin="350px 0px 0px 0px"
+			sm-height="600px"
 		/>
 		<Section
 			background="#020202 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-05T13:14:22.721Z) 0% 0% /cover no-repeat scroll padding-box"
@@ -379,7 +382,14 @@ export default (() => {
 			<Text font="--menu" color="#1767FF" margin="0px 0px 17px 0px" text-align="center">
 				StaffCop Enterprise
 			</Text>
-			<Text font="normal bold 66px/1.2 --fontFamily-googleInter" color="#ffffff" margin="0px 0px 10px 0px" text-align="center">
+			<Text
+				font="normal bold 66px/1.2 --fontFamily-googleInter"
+				color="#ffffff"
+				margin="0px 0px 10px 0px"
+				text-align="center"
+				lg-font="normal bold 52px/1.2 --fontFamily-googleInter"
+				sm-font="normal bold 32px/1.2 --fontFamily-googleInter"
+			>
 				For the banking and
 				<br />
 				{" "}financial sectors
@@ -392,7 +402,7 @@ export default (() => {
 				text-align="center"
 				width="49%"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
 			>
 				A soware package for
 monitoring informaon,
@@ -415,7 +425,15 @@ and terminal servers
 				height="auto"
 				display="none"
 			/>
-			<Text font="normal bold 66px/1.2 --fontFamily-googleInter" color="#ffffff" margin="0px 0px 10px 0px" text-align="center">
+			<Text
+				font="normal bold 66px/1.2 --fontFamily-googleInter"
+				color="#ffffff"
+				margin="0px 0px 10px 0px"
+				text-align="center"
+				lg-font="normal bold 52px/1.2 --fontFamily-googleInter"
+				md-font="normal bold 48px/1.2 --fontFamily-googleInter"
+				sm-font="normal bold 26px/1.2 --fontFamily-googleInter"
+			>
 				Monitoring. Analysis.{" "}
 				<br />
 				Notification. Blocking.
@@ -428,7 +446,8 @@ and terminal servers
 				text-align="center"
 				width="49%"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
+				sm-margin="8px 0px 23px 0px"
 			>
 				To ensure integrity of business flows and informaon
 				<br />
@@ -441,7 +460,8 @@ and terminal servers
 				margin="8px 0px 0px 0px"
 				text-align="center"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
+				lg-font="normal 700 30px/35px --fontFamily-googleInter"
 			>
 				A software package for monitoring information,{" "}
 				<br />
@@ -450,7 +470,7 @@ and terminal servers
 				computers and terminal servers
 			</Text>
 		</Section>
-		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/cover no-repeat" border-color="#161616" padding="24px 0 90px 0">
+		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/80% no-repeat" border-color="#161616" padding="48px 0 110px 0">
 			<Override slot="SectionContent" max-width="1200px" position="relative" />
 			<Stack margin="0px 0px 0px 0px" justify-content="center">
 				{"    "}
@@ -468,7 +488,7 @@ and terminal servers
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -517,7 +537,7 @@ and terminal servers
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -568,7 +588,7 @@ and terminal servers
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -617,7 +637,7 @@ and terminal servers
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -667,7 +687,7 @@ analysis
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -720,7 +740,7 @@ analysis
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -769,7 +789,7 @@ analysis
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -818,7 +838,7 @@ analysis
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -867,7 +887,7 @@ analysis
 						hover-transform="translateY(-10px)"
 						md-display="flex"
 						md-flex-direction="column"
-						sm-padding="10px 20px 20px 20px"
+						sm-padding="10px 0px 20px 0px"
 						border-color="rgba(255, 255, 255, 0.05)"
 						display="flex"
 						flex-direction="column"
@@ -919,6 +939,7 @@ analysis
 					hover-background="--color-primary"
 					margin="-90px 0px 0px 0px"
 					max-height="74px"
+					lg-display="none"
 				>
 					Show more advantages
 				</Button>
@@ -932,6 +953,7 @@ analysis
 				width="100%"
 				height="450px"
 				z-index="3"
+				lg-display="none"
 			/>
 		</Section>
 		<Section padding="70px 0 70px 0" background="#000000" md-padding="30px 0 30px 0">
@@ -945,6 +967,7 @@ analysis
 				text-align="center"
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
+				lg-font="normal 700 48px/72px --fontFamily-googleInter"
 			>
 				Compliance
 			</Text>
@@ -956,13 +979,13 @@ analysis
 				text-align="center"
 				width="55%"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
 			>
 				Compliance is an increasingly complex task, requiring organizaons to manage mulple riskfactors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.
 			</Text>
 		</Section>
-		<Section padding="70px 0 20px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+		<Section padding="70px 0 20px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0" md-background="#000,url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) center center no-repeat">
+			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Text
 				font="normal 700 72px/72px --fontFamily-googleInter"
 				margin="0px 0px 18px 0px"
@@ -972,6 +995,7 @@ analysis
 				text-align="center"
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
+				lg-font="normal 700 48px/72px --fontFamily-googleInter"
 			>
 				Information security
 			</Text>
@@ -983,14 +1007,14 @@ analysis
 				text-align="center"
 				width="49%"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
 			>
 				StaffCop is built on modern data
 				<br />
 				intercepon and analysis technologies
 			</Text>
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -999,6 +1023,9 @@ analysis
 						justify-content="space-between"
 						padding="20px 42px 42px 42px"
 						lg-align-items="center"
+						sm-padding="20px 0px 42px 0px"
+						sm-justify-content="flex-start"
+						sm-align-items="flex-start"
 					/>
 					{"        "}
 					<Text
@@ -1007,6 +1034,8 @@ analysis
 						display="inline-block"
 						color="#ffffff"
 						lg-text-align="center"
+						sm-font="normal 600 24px/30px --fontFamily-googleInter"
+						sm-width="100%"
 					>
 						Remote administration with or without notice to the user Remote PC control
 					</Text>
@@ -1018,6 +1047,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Document search by digital prints
 						</Text>
@@ -1030,6 +1060,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Content analysis of documents
 						</Text>
@@ -1042,6 +1073,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Searching through words and regular phrases
 						</Text>
@@ -1054,6 +1086,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Morphology support
 						</Text>
@@ -1066,6 +1099,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							OCR – text recognion on images
 						</Text>
@@ -1078,6 +1112,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Built-in and custom user diconaries
 						</Text>
@@ -1090,6 +1125,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Definion of encrypted archives
 						</Text>
@@ -1102,6 +1138,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Document search by digital prints
 						</Text>
@@ -1114,6 +1151,7 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Mullevel interacve reports
 						</Text>
@@ -1126,13 +1164,14 @@ analysis
 							display="inline-block"
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
+							sm-text-align="left"
 						>
 							Event Relaonship Graphs
 						</Text>
 					</Box>
 					{"    "}
 				</StackItem>
-				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="55%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1166,7 +1205,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="10px 0 70px 0" background="#000000" md-padding="30px 0 30px 0">
+		<Section padding="10px 0 70px 0" background="#000000" md-padding="30px 0 30px 0" lg-padding="70px 0 70px 0">
 			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
@@ -1237,8 +1276,9 @@ analysis
 						color="#9B9FAA"
 						letter-spacing="-0.01em"
 						margin="0px 0px 0px -18px"
-						md-width="80%"
-						sm-font="normal 300 16px/140% --fontFamily-googleInter"
+						md-width="100%"
+						sm-font="normal 400 16px/140% --fontFamily-googleInter"
+						md-text-align="center"
 					>
 						StaffCop can nofy of violaon of security policies in the
 						<br />
@@ -1266,6 +1306,7 @@ analysis
 				text-align="center"
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
+				lg-font="normal 700 48px/72px --fontFamily-googleInter"
 			>
 				interception of all
 				<br />
@@ -1278,7 +1319,7 @@ analysis
 				margin="8px 0px 60px 0px"
 				text-align="center"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
 				width="55%"
 			>
 				on workstaons and terminal servers
@@ -1732,14 +1773,15 @@ analysis
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				width="50%"
+				lg-font="normal 700 48px/73px --fontFamily-googleInter"
 			>
 				Investigation of incidents
 			</Text>
 		</Section>
 		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1748,6 +1790,7 @@ analysis
 						justify-content="center"
 						padding="20px 42px 42px 42px"
 						lg-align-items="center"
+						sm-padding="20px 0px 42px 0px"
 					/>
 					{"        "}
 					<Text
@@ -1756,6 +1799,7 @@ analysis
 						display="inline-block"
 						color="#ffffff"
 						lg-text-align="center"
+						sm-font="normal 600 32px/35px --fontFamily-googleInter"
 					>
 						StaffCop is a me machine!
 					</Text>
@@ -1779,7 +1823,7 @@ analysis
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="55%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1814,9 +1858,15 @@ analysis
 			</Stack>
 		</Section>
 		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top no-repeat,#000000" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem
+					width="55%"
+					display="flex"
+					lg-width="100%"
+					md-width="100%"
+					lg-order="1"
+				>
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1847,7 +1897,7 @@ analysis
 					/>
 					{"            "}
 				</StackItem>
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1856,6 +1906,7 @@ analysis
 						justify-content="center"
 						padding="20px 42px 42px 42px"
 						lg-align-items="center"
+						sm-padding="20px 0px 42px 0px"
 					/>
 					{"        "}
 					<Text
@@ -1891,9 +1942,9 @@ analysis
 			</Stack>
 		</Section>
 		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1902,6 +1953,7 @@ analysis
 						justify-content="center"
 						padding="20px 42px 42px 42px"
 						lg-align-items="center"
+						sm-padding="20px 0px 42px 0px"
 					/>
 					{"        "}
 					<Text
@@ -1942,7 +1994,7 @@ analysis
 					</Text>
 					{"    "}
 				</StackItem>
-				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="55%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1977,9 +2029,15 @@ analysis
 			</Stack>
 		</Section>
 		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right no-repeat,#000000" md-padding="30px 0 30px 0">
-			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
+			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem
+					width="55%"
+					display="flex"
+					lg-width="100%"
+					md-width="100%"
+					lg-order="1"
+				>
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -2010,7 +2068,7 @@ analysis
 					/>
 					{"            "}
 				</StackItem>
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -2019,6 +2077,7 @@ analysis
 						justify-content="center"
 						padding="20px 42px 42px 42px"
 						lg-align-items="center"
+						sm-padding="20px 0px 42px 0px"
 					/>
 					{"        "}
 					<Text
@@ -2092,6 +2151,7 @@ analysis
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				width="65%"
+				lg-font="normal 700 48px/52px --fontFamily-googleInter"
 			>
 				Remote administration and it audit
 			</Text>
@@ -2103,7 +2163,7 @@ analysis
 				text-align="center"
 				width="50%"
 				md-width="80%"
-				sm-font="normal 300 16px/140% --fontFamily-googleInter"
+				sm-font="normal 400 16px/140% --fontFamily-googleInter"
 			>
 				Monitoring processes and applicaons, system events and connecng to a remote desktop make StaffCopEnterprise an indispensable assistant for an IT specialist.
 			</Text>
@@ -2140,6 +2200,7 @@ analysis
 						max-height="285px"
 						max-width="768px"
 						border-radius="15px 0px 0px 0px"
+						lg-display="none"
 					/>
 					<StackItem width="100%" display="flex" padding="16px 16px 16px 16px">
 						<Override
@@ -2151,7 +2212,7 @@ analysis
 							flex-direction="column"
 							padding="60px 0px 0px 0px"
 							lg-padding="80px 0px 0px 0px"
-							sm-padding="50px 0px 0px 0px"
+							sm-padding="20px 0px 0px 0px"
 							md-padding="50px 0px 0px 0px"
 							lg-width="100%"
 							border-radius="6px"
@@ -2168,6 +2229,8 @@ analysis
 							lg-width="90%"
 							md-font="normal 700 30px/40px Inter, sans-serif"
 							sm-font="normal 700 20px/30px Inter, sans-serif"
+							lg-font="normal 700 40px/46px --fontFamily-googleInter"
+							sm-margin="0px 0px 24px 0px"
 						>
 							All data is consolidated in one place, no more wasted me with logs and proxies
 						</Text>
@@ -2177,6 +2240,7 @@ analysis
 							sm-flex-direction="column"
 							sm-align-items="center"
 							sm-justify-content="center"
+							sm-margin="0px 0px 27px 0px"
 						>
 							<Link
 								href="/request-demo/"
@@ -2233,6 +2297,7 @@ analysis
 							width="50%"
 							md-width="80%"
 							sm-font="normal 300 16px/140% --fontFamily-googleInter"
+							sm-margin="0px 0px 55px 0px"
 						>
 							Register and block the connecon of USB devices by device class. Control of fil  operaons and shadow copies of files copied to USB, read-only mode for removable
 						</Text>
@@ -2253,6 +2318,7 @@ analysis
 					text-align="center"
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
+					lg-font="normal 700 48px/73px --fontFamily-googleInter"
 				>
 					Controllingemployees on GNY/Linux
 				</Text>
@@ -2691,10 +2757,22 @@ analysis
 				<Override slot="SectionContent" max-width="1200px" background="#FAFCFF" border-radius="30px" />
 				<Stack margin="0px 0px 0px 0px" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/backborder.png?v=2021-04-07T23:35:33.024Z) right/auto no-repeat scroll padding-box">
 					{"    "}
-					<StackItem width="56%" display="flex">
-						<Override slot="StackItemContent" align-items="center" padding="0px 0px 0px 90px" />
+					<StackItem width="56%" display="flex" md-width="80%" sm-width="100%">
+						<Override
+							slot="StackItemContent"
+							align-items="center"
+							padding="0px 0px 0px 90px"
+							md-padding="0px 0px 0px 20px"
+							sm-padding="0px 0px 0px 0px"
+						/>
 						{"        "}
-						<Text font="normal 700 24px/28px --fontFamily-googleInter" margin="0px 0px 0px 0px" display="inline-block">
+						<Text
+							font="normal 700 24px/28px --fontFamily-googleInter"
+							margin="0px 0px 0px 0px"
+							display="inline-block"
+							md-font="normal 700 20px/28px --fontFamily-googleInter"
+							sm-text-align="center"
+						>
 							<Span color="#E87F1F">
 								Astra Linux Special Editon
 							</Span>
@@ -2703,7 +2781,7 @@ analysis
 						{"    "}
 					</StackItem>
 					{"    "}
-					<StackItem width="44%" display="flex">
+					<StackItem width="44%" display="flex" md-width="20%" sm-width="100%">
 						<Override slot="StackItemContent" justify-content="center" />
 						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/lunix.svg?v=2021-04-07T23:50:08.727Z" margin="0px 0px 0px -10px" />
 						{"            "}
@@ -2721,6 +2799,7 @@ analysis
 					text-align="center"
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
+					lg-font="normal 700 48px/52px --fontFamily-googleInter"
 				>
 					9 important reasons
 					<br />
@@ -2734,7 +2813,7 @@ analysis
 					text-align="center"
 					width="50%"
 					md-width="80%"
-					sm-font="normal 300 16px/140% --fontFamily-googleInter"
+					sm-font="normal 400 16px/140% --fontFamily-googleInter"
 				>
 					To ensure integrity of business flows and informaon
 					<br />
@@ -3071,6 +3150,7 @@ analysis
 					text-align="center"
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
+					lg-font="normal 700 48px/73px --fontFamily-googleInter"
 				>
 					Pilot project
 				</Text>
@@ -3222,9 +3302,10 @@ analysis
 					border-width="1px"
 					border-style="solid"
 					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow.png?v=2021-04-08T00:47:41.208Z) 0% 0% /auto repeat scroll padding-box"
+					lg-overflow-x="hidden"
 				>
 					{"    "}
-					<StackItem width="50%" display="flex" padding="16px 16px 16px 16px">
+					<StackItem width="50%" display="flex" padding="16px 16px 16px 16px" lg-width="100%">
 						<Override
 							slot="StackItemContent"
 							align-items="flex-start"
@@ -3233,12 +3314,13 @@ analysis
 							z-index="2"
 							flex-direction="column"
 							padding="108px 0px 108px 78px"
-							lg-padding="80px 0px 0px 0px"
-							sm-padding="50px 0px 0px 0px"
-							md-padding="50px 0px 0px 0px"
+							lg-padding="40px 0px 40px 40px"
+							sm-padding="30px 30px 30px 30px"
+							md-padding="40px 0px 40px 26px"
 							lg-width="100%"
 							border-radius="6px"
 							border-width="0px"
+							sm-text-align="center"
 						/>
 						{"        "}
 						<Text
@@ -3249,6 +3331,8 @@ analysis
 							lg-width="90%"
 							md-font="normal 700 30px/40px Inter, sans-serif"
 							sm-font="normal 700 20px/30px Inter, sans-serif"
+							sm-text-align="center"
+							sm-width="100%"
 						>
 							Test for free for up to 3 months on any number of stations
 						</Text>
@@ -3259,6 +3343,11 @@ analysis
 							margin="8px 0px 48px 0px"
 							md-width="80%"
 							sm-font="normal 300 16px/140% --fontFamily-googleInter"
+							lg-margin="8px 0px 98px 0px"
+							md-margin="8px 0px 55px 0px"
+							sm-text-align="center"
+							sm-width="100%"
+							sm-margin="8px 0px 24px 0px"
 						>
 							Fully funconal version. Technical support throughout the full project duraon
 						</Text>
@@ -3313,7 +3402,18 @@ analysis
 						</Box>
 						{"    "}
 					</StackItem>
-					<StackItem width="50%" display="flex" padding="16px 16px 16px 16px">
+					<StackItem
+						width="50%"
+						display="flex"
+						padding="16px 16px 16px 16px"
+						lg-width="40%"
+						lg-position="absolute"
+						lg-bottom="0px"
+						lg-right="-8px"
+						lg-left="auto"
+						lg-top="auto"
+						sm-width="60%"
+					>
 						<Override
 							slot="StackItemContent"
 							align-items="flex-end"
