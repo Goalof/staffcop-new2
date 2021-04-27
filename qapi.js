@@ -565,6 +565,14 @@ export default {
 					"data": {
 						"content": ".arrow-menu {\ncolor: #fff !important;\n}\n.menu-trigger {\ncolor: #fff !important;\n}"
 					}
+				},
+				"608468b60e18e2b62399f34c": {
+					"name": "script",
+					"place": "endOfBody",
+					"tag": "script",
+					"data": {
+						"content": ""
+					}
 				}
 			}
 		}

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Box, Image, Text, Icon, Span } from "@quarkly/widgets";
+import { Theme, Link, Box, Image, Text, Button, Icon, Span } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { RawHtml, Override, StackItem, Menu, Stack, Section, SocialMedia } from "@quarkly/components";
@@ -47,7 +47,7 @@ export default (() => {
 			margin="350px 0px 0px 0px"
 		/>
 		<Section
-			background="#020202  url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-05T13:14:22.721Z) 0% 0% /cover no-repeat scroll padding-box"
+			background="#020202 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-05T13:14:22.721Z) 0% 0% /cover no-repeat scroll padding-box"
 			padding="15px 0 10px 0"
 			sm-padding="12px 0 12px 0"
 			lg-padding="15px 0 15px 0"
@@ -363,11 +363,11 @@ export default (() => {
 		<Components.EmbedHTML />
 		<Section
 			padding="170px 0 30px 0"
-			background="linear-gradient(180deg,rgba(2, 2, 2, 0.22) 0%,rgba(02, 02, 02, 0.35) 46.88%,#020202 100%),#000000 url() center -693px/cover repeat"
-			hd-background="#020202 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/ebuchayasetka.svg?v=2020-10-21T00:06:31.897Z) center -693px/2060px repeat"
+			hd-background="#020202 url() center -693px/2060px repeat"
 			width="100%"
 			lg-padding="140px 0 70px 0"
 			md-padding="120px 0 40px 0"
+			background="#000"
 		>
 			<Override
 				slot="SectionContent"
@@ -382,7 +382,7 @@ export default (() => {
 			<Text font="normal bold 66px/1.2 --fontFamily-googleInter" color="#ffffff" margin="0px 0px 10px 0px" text-align="center">
 				For the banking and
 				<br />
-				{" "}financial sectors{"\n\n"}
+				{" "}financial sectors
 			</Text>
 			<Text
 				font="normal 300 18px/160% --fontFamily-googleInter"
@@ -397,8 +397,12 @@ export default (() => {
 				A soware package for
 monitoring informaon,
 user acons and system events on workcomputers
-and terminal servers{"\n\n\n"}
+and terminal servers
 			</Text>
+			<Components.YouTubePlayer width="100%" margin="0px 0px 141px 0px">
+				<Override slot="Button" sm-width="70px" sm-height="70px" />
+				<Override slot="Button Icon" sm-height="20px" sm-width="20px" />
+			</Components.YouTubePlayer>
 			<Image
 				loading="lazy"
 				src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/videoimg.png?v=2021-04-05T12:06:12.324Z"
@@ -409,11 +413,12 @@ and terminal servers{"\n\n\n"}
 				margin="0px 0px 141px 0px"
 				width="100%"
 				height="auto"
+				display="none"
 			/>
 			<Text font="normal bold 66px/1.2 --fontFamily-googleInter" color="#ffffff" margin="0px 0px 10px 0px" text-align="center">
 				Monitoring. Analysis.{" "}
 				<br />
-				Notification. Blocking.{"\n\n"}
+				Notification. Blocking.
 			</Text>
 			<Text
 				font="normal 300 18px/160% --fontFamily-googleInter"
@@ -425,9 +430,9 @@ and terminal servers{"\n\n\n"}
 				md-width="80%"
 				sm-font="normal 300 16px/140% --fontFamily-googleInter"
 			>
-				To ensure integrity of business flows and informaon{"\n"}
+				To ensure integrity of business flows and informaon
 				<br />
-				security for banks and financial organizaons{"\n\n"}
+				security for banks and financial organizaons
 			</Text>
 			<Text
 				font="normal 700 34px/45px --fontFamily-googleInter"
@@ -442,7 +447,7 @@ and terminal servers{"\n\n\n"}
 				<br />
 				user actions and system events on work{" "}
 				<br />
-				computers and terminal servers{"\n\n\n"}
+				computers and terminal servers
 			</Text>
 		</Section>
 		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/cover no-repeat" border-color="#161616" padding="24px 0 90px 0">
@@ -483,7 +488,7 @@ and terminal servers{"\n\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Early detection of information security threats{"\n\n"}
+								Early detection of information security threats
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -492,7 +497,7 @@ and terminal servers{"\n\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Early detection of information security threats{"\n\n"}
+								Early detection of information security threats
 							</Text>
 						</Link>
 					</Box>
@@ -532,7 +537,7 @@ and terminal servers{"\n\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Investigation of incidents{"\n\n"}
+								Investigation of incidents
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -543,7 +548,7 @@ and terminal servers{"\n\n\n"}
 							>
 								StaffCop is a me machine! At any me, you can go back and see what this or that employee was doing in the specified period
 								<br />
-								of me{"\n\n"}
+								of me
 							</Text>
 						</Link>
 					</Box>
@@ -583,7 +588,7 @@ and terminal servers{"\n\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Work time tracking Monitoring user activity on a PC{"\n\n"}
+								Work time tracking Monitoring user activity on a PC
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -592,7 +597,7 @@ and terminal servers{"\n\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
+								To ensure integrity of business flows and informaon security for banks and financial organizaons.
 							</Text>
 						</Link>
 					</Box>
@@ -633,7 +638,7 @@ and terminal servers{"\n\n\n"}
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
 								User behavior analysis Automatic
-analysis{"\n\n"}
+analysis
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -642,7 +647,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
+								To ensure integrity of business flows and informaon security for banks and financial organizaons.
 							</Text>
 						</Link>
 					</Box>
@@ -682,9 +687,9 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Remote administration with or without{"\n"}
+								Remote administration with or without
 								<br />
-								notice to the user Remote PC control{"\n\n"}
+								notice to the user Remote PC control
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -695,7 +700,7 @@ analysis{"\n\n"}
 							>
 								StaffCop is a me machine! At any me, you can go back and see what this or that employee was doing in the specified period
 								<br />
-								of me{"\n\n"}
+								of me
 							</Text>
 						</Link>
 					</Box>
@@ -735,7 +740,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Assessment of employee productivity{"\n\n"}
+								Assessment of employee productivity
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -744,7 +749,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
+								To ensure integrity of business flows and informaon security for banks and financial organizaons.
 							</Text>
 						</Link>
 					</Box>
@@ -784,7 +789,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Keylogger and registering bash commands{"\n\n"}
+								Keylogger and registering bash commands
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -793,7 +798,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.{"\n\n"}
+								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.
 							</Text>
 						</Link>
 					</Box>
@@ -833,7 +838,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Monitoring configurable log files usage{"\n\n"}
+								Monitoring configurable log files usage
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -842,7 +847,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
+								Registraon of facts and duraon of calls, intercepon of SMS-messages.
 							</Text>
 						</Link>
 					</Box>
@@ -882,7 +887,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Microphone recording{"\n\n"}
+								Microphone recording
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -891,33 +896,35 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
+								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.
 							</Text>
 						</Link>
 					</Box>
 					{"    "}
 				</StackItem>
-				<Link
-					href="/third-party-vendor-management/"
-					padding="24px 36px 24px 36px"
-					border-radius="40px"
+				{"    "}
+				<Button
+					id="hider-1"
+					position="relative"
+					z-index="9"
+					type="button"
+					background="rgba(17, 74, 202, 0)"
 					border-color="rgba(255, 255, 255, 0.1)"
 					border-width="2px"
 					border-style="solid"
-					text-decoration-line="initial"
-					color="#ffffff"
+					border-radius="40px"
 					font="--menu"
-					hover-background="--color-primary"
+					padding="24px 36px 24px 36px"
 					transition="-webkit-transition: all .3s;  transition: all .3s"
-					position="relative"
-					z-index="4"
-					margin="-30px 0px 0px 0px"
+					hover-background="--color-primary"
+					margin="-90px 0px 0px 0px"
+					max-height="74px"
 				>
-					Show more advantages{"\n\n\n\n"}
-				</Link>
-				{"    "}
+					Show more advantages
+				</Button>
 			</Stack>
 			<Box
+				id="content-1"
 				position="absolute"
 				bottom="0px"
 				left="auto"
@@ -939,7 +946,7 @@ analysis{"\n\n"}
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 			>
-				Compliance{"\n\n"}
+				Compliance
 			</Text>
 			<Text
 				font="normal 400 18px/160% --fontFamily-googleInter"
@@ -951,10 +958,10 @@ analysis{"\n\n"}
 				md-width="80%"
 				sm-font="normal 300 16px/140% --fontFamily-googleInter"
 			>
-				Compliance is an increasingly complex task, requiring organizaons to manage mulple riskfactors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.{"\n\n"}
+				Compliance is an increasingly complex task, requiring organizaons to manage mulple riskfactors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.
 			</Text>
 		</Section>
-		<Section padding="70px 0 70px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="70px 0 20px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
 			<Text
 				font="normal 700 72px/72px --fontFamily-googleInter"
@@ -966,7 +973,7 @@ analysis{"\n\n"}
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 			>
-				Information security{"\n\n"}
+				Information security
 			</Text>
 			<Text
 				font="normal 300 18px/160% --fontFamily-googleInter"
@@ -978,9 +985,9 @@ analysis{"\n\n"}
 				md-width="80%"
 				sm-font="normal 300 16px/140% --fontFamily-googleInter"
 			>
-				StaffCop is built on modern data{"\n"}
+				StaffCop is built on modern data
 				<br />
-				intercepon and analysis technologies{"\n\n\n\n"}
+				intercepon and analysis technologies
 			</Text>
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
@@ -1001,7 +1008,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Remote administration with or without notice to the user Remote PC control{"\n\n\n"}
+						Remote administration with or without notice to the user Remote PC control
 					</Text>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
 						<Icon category="go" icon={GoPrimitiveDot} color="--primary" size="16px" />
@@ -1012,7 +1019,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Document search by digital prints{"\n\n\n"}
+							Document search by digital prints
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1024,7 +1031,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Content analysis of documents{"\n\n"}
+							Content analysis of documents
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1036,7 +1043,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Searching through words and regular phrases{"\n\n\n"}
+							Searching through words and regular phrases
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1048,19 +1055,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Morphology support{"\n\n"}
-						</Text>
-					</Box>
-					<Box display="flex" align-items="center" margin="0px 0px 43px 0px">
-						<Icon category="go" icon={GoPrimitiveDot} color="--primary" size="16px" />
-						<Text
-							font="--lead"
-							margin="0px 0px 0px 12px"
-							display="inline-block"
-							color="rgba(255, 255, 255, 0.6)"
-							lg-text-align="center"
-						>
-							OCR – text recognion on images{"\n\n\n"}
+							Morphology support
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1072,7 +1067,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Built-in and custom user diconaries{"\n\n\n"}
+							OCR – text recognion on images
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1084,7 +1079,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Definion of encrypted archives{"\n\n\n"}
+							Built-in and custom user diconaries
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1096,7 +1091,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Document search by digital prints{"\n\n\n\n"}
+							Definion of encrypted archives
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1108,7 +1103,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Mullevel interacve reports{"\n\n\n"}
+							Document search by digital prints
 						</Text>
 					</Box>
 					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
@@ -1120,7 +1115,19 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							lg-text-align="center"
 						>
-							Event Relaonship Graphs{"\n\n"}
+							Mullevel interacve reports
+						</Text>
+					</Box>
+					<Box display="flex" align-items="center" margin="0px 0px 9px 0px">
+						<Icon category="go" icon={GoPrimitiveDot} color="--primary" size="16px" />
+						<Text
+							font="--lead"
+							margin="0px 0px 0px 12px"
+							display="inline-block"
+							color="rgba(255, 255, 255, 0.6)"
+							lg-text-align="center"
+						>
+							Event Relaonship Graphs
 						</Text>
 					</Box>
 					{"    "}
@@ -1147,22 +1154,22 @@ analysis{"\n\n"}
 						right="auto"
 					/>
 					<Image
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/monitor.svg?v=2021-04-24T17:21:20.895Z"
 						width="100%"
 						height="auto"
 						margin="0px 0px 0px -2px"
 						padding="0px 0px 0px 0px"
 						max-height="592px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="70px 0 70px 0" background="#000000" md-padding="30px 0 30px 0">
+		<Section padding="10px 0 70px 0" background="#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="40%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1213,9 +1220,9 @@ analysis{"\n\n"}
 							</Box>
 						</Box>
 					</Box>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
-				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
+				<StackItem width="60%" display="flex" lg-width="50%" md-width="100%">
 					<Override
 						slot="StackItemContent"
 						border-radius="8px"
@@ -1233,17 +1240,17 @@ analysis{"\n\n"}
 						md-width="80%"
 						sm-font="normal 300 16px/140% --fontFamily-googleInter"
 					>
-						StaffCop can nofy of violaon of security policies in the{"\n"}
+						StaffCop can nofy of violaon of security policies in the
 						<br />
-						admin panel and by e-mail. Analycal tables and graphs{"\n"}
+						admin panel and by e-mail. Analycal tables and graphs
 						<br />
-						Using the Filter Builder, it is easy to create a wide range{"\n"}
+						Using the Filter Builder, it is easy to create a wide range
 						<br />
-						of bespoke policies that match your organizaon’s security{"\n"}
+						of bespoke policies that match your organizaon’s security
 						<br />
-						policies and assign alerts when they are triggered.{"\n\n"}
+						policies and assign alerts when they are triggered.
 					</Text>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"        "}
 			</Stack>
@@ -1260,9 +1267,9 @@ analysis{"\n\n"}
 				md-font="normal 700 30px/40px Inter, sans-serif"
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 			>
-				interception of all{"\n"}
+				interception of all
 				<br />
-				channels and events{"\n\n"}
+				channels and events
 			</Text>
 			<Text
 				font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1274,7 +1281,7 @@ analysis{"\n\n"}
 				sm-font="normal 300 16px/140% --fontFamily-googleInter"
 				width="55%"
 			>
-				on workstaons and terminal servers{"\n\n"}
+				on workstaons and terminal servers
 			</Text>
 			<Stack margin="0px 0px 0px 0px" justify-content="center">
 				{"    "}
@@ -1312,7 +1319,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Postal protocols{"\n\n"}
+							Postal protocols
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1321,7 +1328,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							IMAP, SMTP, MAPI, POP3 and their encrypted analogues. Control the sending of messages and transferring of files through web-based e-mail services.{"\n\n"}
+							IMAP, SMTP, MAPI, POP3 and their encrypted analogues. Control the sending of messages and transferring of files through web-based e-mail services.
 						</Text>
 					</Box>
 					{"    "}
@@ -1360,7 +1367,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Messengers{"\n\n"}
+							Messengers
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1369,7 +1376,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.{"\n\n"}
+							Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.
 						</Text>
 					</Box>
 					{"    "}
@@ -1408,7 +1415,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Applications{"\n\n"}
+							Applications
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1417,7 +1424,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Facts about installing and launching applicaons, duraon of use, screenshots of the screen when changing the window focus. Blocking the launch of processes and applicaons{"\n\n"}
+							Facts about installing and launching applicaons, duraon of use, screenshots of the screen when changing the window focus. Blocking the launch of processes and applicaons
 						</Text>
 					</Box>
 					{"    "}
@@ -1456,7 +1463,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Files{"\n\n"}
+							Files
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1465,7 +1472,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Registraon of all operaons with files and folders, including network files. Creaon of shadow copies of files sent outside the organizaon.{"\n\n"}
+							Registraon of all operaons with files and folders, including network files. Creaon of shadow copies of files sent outside the organizaon.
 						</Text>
 					</Box>
 					{"    "}
@@ -1504,7 +1511,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							USB ports{"\n\n"}
+							USB ports
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1513,7 +1520,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Monitoring of operaons with removable media. Blocking USB devices by class and Hardware ID. Restricng recording on USB and CD.{"\n\n\n\n"}
+							Monitoring of operaons with removable media. Blocking USB devices by class and Hardware ID. Restricng recording on USB and CD.
 						</Text>
 					</Box>
 					{"    "}
@@ -1552,7 +1559,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Printing{"\n\n"}
+							Printing
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1561,7 +1568,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Registraon of print facts: user, me, computer, number of pages, etc. Creaon of shadow copies of printed files.{"\n\n"}
+							Registraon of print facts: user, me, computer, number of pages, etc. Creaon of shadow copies of printed files.
 						</Text>
 					</Box>
 					{"    "}
@@ -1600,7 +1607,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Network acvity{"\n\n"}
+							Network acvity
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1609,7 +1616,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Registraon of network connecons and control of encrypted traffic, website visits, and user searches.{"\n\n"}
+							Registraon of network connecons and control of encrypted traffic, website visits, and user searches.
 						</Text>
 					</Box>
 					{"    "}
@@ -1648,7 +1655,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							SIP telephony{"\n\n"}
+							SIP telephony
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1657,7 +1664,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
+							Registraon of facts and duraon of calls, intercepon of SMS-messages.
 						</Text>
 					</Box>
 					{"    "}
@@ -1696,7 +1703,7 @@ analysis{"\n\n"}
 							color="#ffffff"
 							sm-font="normal 600 20px/140% Inter, sans-serif"
 						>
-							Audio and video registraon{"\n\n"}
+							Audio and video registraon
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -1705,7 +1712,7 @@ analysis{"\n\n"}
 							color="rgba(255, 255, 255, 0.6)"
 							sm-font="normal 400 16px/140% Inter, sans-serif"
 						>
-							Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
+							Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.
 						</Text>
 					</Box>
 					{"    "}
@@ -1726,7 +1733,7 @@ analysis{"\n\n"}
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				width="50%"
 			>
-				Investigation of incidents{"\n\n"}
+				Investigation of incidents
 			</Text>
 		</Section>
 		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
@@ -1750,7 +1757,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						StaffCop is a me machine!{"\n\n"}
+						StaffCop is a me machine!
 					</Text>
 					<Text
 						font="--lead"
@@ -1759,7 +1766,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident{"\n\n"}
+						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident
 					</Text>
 					<Text
 						font="--lead"
@@ -1768,7 +1775,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						The mullevel report designer allows you to get the required data set “on the go”. Searching for keywords and regular phrases will reduce the invesgaon me from the computer microphone to a minimum and will also allow you to hear what was happening at the right moment.{"\n\n"}
+						The mullevel report designer allows you to get the required data set “on the go”. Searching for keywords and regular phrases will reduce the invesgaon me from the computer microphone to a minimum and will also allow you to hear what was happening at the right moment.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1801,12 +1808,12 @@ analysis{"\n\n"}
 						padding="0px 0px 0px 0px"
 						max-height="592px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="none" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="55%" display="flex" lg-width="50%" md-width="100%">
@@ -1838,7 +1845,7 @@ analysis{"\n\n"}
 						padding="0px 0px 0px 0px"
 						max-height="592px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -1858,7 +1865,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Quick! Even with big data{"\n\n"}
+						Quick! Even with big data
 					</Text>
 					<Text
 						font="--lead"
@@ -1867,7 +1874,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident{"\n\n"}
+						You can refer back to any point in time, to view the actions of an employee at the specified time and what events led to the possibility of an incident
 					</Text>
 					<Text
 						font="--lead"
@@ -1876,7 +1883,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						The unique combinaon of PostgreSQL and ClickHouse provides tremendous data processing speed. You don’t need to set the report generaon overnight, only to find out that there was nothing you need – invesgate here and now!{"\n\n"}
+						The unique combinaon of PostgreSQL and ClickHouse provides tremendous data processing speed. You don’t need to set the report generaon overnight, only to find out that there was nothing you need – invesgate here and now!
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1904,7 +1911,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Relaonship graphs{"\n\n\n"}
+						Relaonship graphs
 					</Text>
 					<Text
 						font="--lead"
@@ -1913,7 +1920,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						A clear view of the communicaons between employees and their nature. A scheme for migrang files within an organizaon and transferring them outside.{"\n\n"}
+						A clear view of the communicaons between employees and their nature. A scheme for migrang files within an organizaon and transferring them outside.
 					</Text>
 					<Text
 						font="normal 600 36px/45px --fontFamily-googleInter"
@@ -1922,7 +1929,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Anomaly detecon{"\n\n"}
+						Anomaly detecon
 					</Text>
 					<Text
 						font="--lead"
@@ -1931,7 +1938,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						Linear, pie, histograms and analycal tables, to help present the data in a convenient form.{"\n\n"}
+						Linear, pie, histograms and analycal tables, to help present the data in a convenient form.
 					</Text>
 					{"    "}
 				</StackItem>
@@ -1964,7 +1971,7 @@ analysis{"\n\n"}
 						padding="0px 0px 0px 0px"
 						max-height="592px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				{"        "}
 			</Stack>
@@ -2001,7 +2008,7 @@ analysis{"\n\n"}
 						padding="0px 0px 0px 0px"
 						max-height="592px"
 					/>
-					{"        "}{"    "}
+					{"            "}
 				</StackItem>
 				<StackItem width="45%" display="flex" lg-width="50%" md-width="100%">
 					<Override
@@ -2021,7 +2028,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Thermal diagrams{"\n\n\n"}
+						Thermal diagrams
 					</Text>
 					<Text
 						font="--lead"
@@ -2030,7 +2037,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						Convenient for determining the intensity of acvity and events concerning employees.{"\n\n"}
+						Convenient for determining the intensity of acvity and events concerning employees.
 					</Text>
 					<Text
 						font="normal 600 36px/45px --fontFamily-googleInter"
@@ -2039,7 +2046,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Dimension cards{"\n\n\n"}
+						Dimension cards
 					</Text>
 					<Text
 						font="--lead"
@@ -2048,7 +2055,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc{"\n\n"}
+						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc
 					</Text>
 					<Text
 						font="normal 600 36px/45px --fontFamily-googleInter"
@@ -2057,7 +2064,7 @@ analysis{"\n\n"}
 						color="#ffffff"
 						lg-text-align="center"
 					>
-						Data export and prinng{"\n\n"}
+						Data export and prinng
 					</Text>
 					<Text
 						font="--lead"
@@ -2066,7 +2073,7 @@ analysis{"\n\n"}
 						color="rgba(255, 255, 255, 0.6)"
 						lg-text-align="center"
 					>
-						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc{"\n\n"}
+						Summary reports displaying the characteriscs of the subject and the events associated with it. Employee, file, site cards, etc
 					</Text>
 					{"    "}
 				</StackItem>
@@ -2086,7 +2093,7 @@ analysis{"\n\n"}
 				sm-font="normal 700 24px/30px Inter, sans-serif"
 				width="65%"
 			>
-				Remote administration and it audit{"\n\n"}
+				Remote administration and it audit
 			</Text>
 			<Text
 				font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2098,7 +2105,7 @@ analysis{"\n\n"}
 				md-width="80%"
 				sm-font="normal 300 16px/140% --fontFamily-googleInter"
 			>
-				Monitoring processes and applicaons, system events and connecng to a remote desktop make StaffCopEnterprise an indispensable assistant for an IT specialist.{"\n\n"}
+				Monitoring processes and applicaons, system events and connecng to a remote desktop make StaffCopEnterprise an indispensable assistant for an IT specialist.
 			</Text>
 		</Section>
 		<Section padding="0px 0 0px 0" background="#020202">
@@ -2162,7 +2169,7 @@ analysis{"\n\n"}
 							md-font="normal 700 30px/40px Inter, sans-serif"
 							sm-font="normal 700 20px/30px Inter, sans-serif"
 						>
-							All data is consolidated in one place, no more wasted me with logs and proxies{"\n\n\n\n\n\n"}
+							All data is consolidated in one place, no more wasted me with logs and proxies
 						</Text>
 						<Box
 							margin="0px 0px 67px 0px"
@@ -2227,7 +2234,7 @@ analysis{"\n\n"}
 							md-width="80%"
 							sm-font="normal 300 16px/140% --fontFamily-googleInter"
 						>
-							Register and block the connecon of USB devices by device class. Control of fil  operaons and shadow copies of files copied to USB, read-only mode for removable{"\n\n\n"}
+							Register and block the connecon of USB devices by device class. Control of fil  operaons and shadow copies of files copied to USB, read-only mode for removable
 						</Text>
 						<Image loading="lazy" src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/bottomimg.png?v=2021-04-07T22:06:29.089Z" nout-width="70%" />
 						{"    "}
@@ -2236,7 +2243,7 @@ analysis{"\n\n"}
 				</Stack>
 			</Section>
 			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikgren.png?v=2021-04-07T23:17:18.914Z) center center/cover no-repeat" border-color="#161616" padding="48px 0 90px 0">
-				<Override slot="SectionContent" max-width="1200px" position="relative" />
+				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 				<Text
 					font="normal 700 72px/73px --fontFamily-googleInter"
 					margin="0px 0px 60px 0px"
@@ -2247,7 +2254,7 @@ analysis{"\n\n"}
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
 				>
-					Controllingemployees on GNY/Linux{"\n\n"}
+					Controllingemployees on GNY/Linux
 				</Text>
 				<Stack margin="0px 0px 0px 0px" justify-content="center">
 					{"    "}
@@ -2279,7 +2286,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Login registration{"\n\n"}
+								Login registration
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2288,7 +2295,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.{"\n\n"}
+								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.
 							</Text>
 						</Box>
 						{"    "}
@@ -2321,7 +2328,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Registering USB Devices{"\n\n"}
+								Registering USB Devices
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2330,7 +2337,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Flash drives, printers and any other peripheral devices are registered into the log. The administrator can analyze where and when the media was connected and track which computers the devices of interest were connected to.{"\n\n\n\n"}
+								Flash drives, printers and any other peripheral devices are registered into the log. The administrator can analyze where and when the media was connected and track which computers the devices of interest were connected to.
 							</Text>
 						</Box>
 						{"    "}
@@ -2363,7 +2370,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Screenshots{"\n\n"}
+								Screenshots
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2372,7 +2379,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								To ensure integrity of business flows and informaon security for banks and financial organizaons.{"\n\n"}
+								To ensure integrity of business flows and informaon security for banks and financial organizaons.
 							</Text>
 						</Box>
 						{"    "}
@@ -2405,7 +2412,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								History and mes of website visits{"\n\n\n\n"}
+								History and mes of website visits
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2414,7 +2421,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								The system registers website visits in tabs of Chrome, Firefox and browsers based on them. In addion, the system calculates the me spent on websites.{"\n\n"}
+								The system registers website visits in tabs of Chrome, Firefox and browsers based on them. In addion, the system calculates the me spent on websites.
 							</Text>
 						</Box>
 						{"    "}
@@ -2447,7 +2454,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								File operaons{"\n\n"}
+								File operaons
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2456,7 +2463,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								StaffCop registers file operaons: read, write, delete, create and rename. Creaon of shadow copies.{"\n\n"}
+								StaffCop registers file operaons: read, write, delete, create and rename. Creaon of shadow copies.
 							</Text>
 						</Box>
 						{"    "}
@@ -2489,7 +2496,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Applicaon Acvity Time{"\n\n"}
+								Applicaon Acvity Time
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2498,7 +2505,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								The system records the user’s upme in applicaons. From the collected data, a report on the producvity of employees is generated according to the specified criteria. The report data is compared with screenshots by me stamps...{"\n\n"}
+								The system records the user’s upme in applicaons. From the collected data, a report on the producvity of employees is generated according to the specified criteria. The report data is compared with screenshots by me stamps...
 							</Text>
 						</Box>
 						{"    "}
@@ -2537,7 +2544,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Keylogger and registering bash commands{"\n\n"}
+								Keylogger and registering bash commands
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2546,7 +2553,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.{"\n\n"}
+								StaffCop supports intercepon of keystrokes at the core level to control the terminal of servers, as well as intercepon of X-sessions keyboard.
 							</Text>
 						</Box>
 						{"    "}
@@ -2585,7 +2592,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Monitoring configurable log files usage{"\n\n"}
+								Monitoring configurable log files usage
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2594,7 +2601,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Registraon of facts and duraon of calls, intercepon of SMS-messages.{"\n\n"}
+								Registraon of facts and duraon of calls, intercepon of SMS-messages.
 							</Text>
 						</Box>
 						{"    "}
@@ -2633,7 +2640,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Microphone recording{"\n\n"}
+								Microphone recording
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2642,36 +2649,37 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.{"\n\n"}
+								Environment recording from microphones, desktop video, screenshots of screens and snapshots from webcam.
 							</Text>
 						</Box>
 						{"    "}
 					</StackItem>
-					<Link
-						href="/third-party-vendor-management/"
-						padding="24px 36px 24px 36px"
-						border-radius="40px"
-						border-color="rgba(255, 255, 255, 0.1)"
-						border-width="2px"
-						border-style="solid"
-						text-decoration-line="initial"
-						color="#ffffff"
-						font="--menu"
-						hover-background="--color-primary"
-						transition="-webkit-transition: all .3s;  transition: all .3s"
-						position="relative"
-						z-index="4"
-						margin="-30px 0px 0px 0px"
-					>
-						Show more advantages{"\n\n\n\n"}
-					</Link>
 					{"    "}
 				</Stack>
+				<Button
+					id="hider"
+					position="relative"
+					z-index="9"
+					type="button"
+					background="rgba(17, 74, 202, 0)"
+					border-color="rgba(255, 255, 255, 0.1)"
+					border-width="2px"
+					border-style="solid"
+					border-radius="40px"
+					font="--menu"
+					padding="24px 36px 24px 36px"
+					transition="-webkit-transition: all .3s;  transition: all .3s"
+					hover-background="--color-primary"
+					margin="-90px 0px 0px 0px"
+				>
+					Show more advantages
+				</Button>
 				<Box
+					id="content"
 					position="absolute"
 					bottom="0px"
 					left="auto"
-					background="linear-gradient(180deg,rgba(0, 0, 0, 0) 1.09%,rgba(0, 0, 0, 0) 16.2%,#000000 60.5%)"
+					background="linear-gradient(180deg,rgba(0, 0, 0, 0) 1.09%,rgba(0, 0, 0, 0) 16.2%,#000000 71.4%)"
 					width="100%"
 					height="750px"
 					z-index="3"
@@ -2690,7 +2698,7 @@ analysis{"\n\n"}
 							<Span color="#E87F1F">
 								Astra Linux Special Editon
 							</Span>
-							{" "}special purpose operang system compability cerficate Included in The Unified Register of Russian Soware under No. 3337{"\n\n"}
+							{" "}special purpose operang system compability cerficate Included in The Unified Register of Russian Soware under No. 3337
 						</Text>
 						{"    "}
 					</StackItem>
@@ -2698,7 +2706,7 @@ analysis{"\n\n"}
 					<StackItem width="44%" display="flex">
 						<Override slot="StackItemContent" justify-content="center" />
 						<Image src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/lunix.svg?v=2021-04-07T23:50:08.727Z" margin="0px 0px 0px -10px" />
-						{"        "}{"    "}
+						{"            "}
 					</StackItem>
 				</Stack>
 			</Section>
@@ -2714,9 +2722,9 @@ analysis{"\n\n"}
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
 				>
-					9 important reasons{"\n"}
+					9 important reasons
 					<br />
-					to choose staffcop{"\n\n\n"}
+					to choose staffcop
 				</Text>
 				<Text
 					font="normal 400 18px/160% --fontFamily-googleInter"
@@ -2728,9 +2736,9 @@ analysis{"\n\n"}
 					md-width="80%"
 					sm-font="normal 300 16px/140% --fontFamily-googleInter"
 				>
-					To ensure integrity of business flows and informaon{"\n"}
+					To ensure integrity of business flows and informaon
 					<br />
-					security for banks and financial organizaons{"\n\n"}
+					security for banks and financial organizaons
 				</Text>
 				<Stack margin="0px 0px 0px 0px" justify-content="center">
 					{"    "}
@@ -2762,7 +2770,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.{"\n\n"}
+								Users are registered by the system each me they log in and log out. The log includes users who log in locally and remotely, including SSH connecons.
 							</Text>
 						</Box>
 						{"    "}
@@ -2795,7 +2803,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Fast work on large amounts of data using modern ClickHouse and PostgreSQL databases based on OLAP cubes technology{"\n\n"}
+								Fast work on large amounts of data using modern ClickHouse and PostgreSQL databases based on OLAP cubes technology
 							</Text>
 						</Box>
 						{"    "}
@@ -2828,7 +2836,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Monitoring and managing workplaces from a single web interface, the ability to simply and safely organize access from anywhere on the Internet.{"\n\n"}
+								Monitoring and managing workplaces from a single web interface, the ability to simply and safely organize access from anywhere on the Internet.
 							</Text>
 						</Box>
 						{"    "}
@@ -2861,7 +2869,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Detailed documentaon, prompt and competent technical support. The project team provides full support from the inial tesng phase.{"\n\n\n\n"}
+								Detailed documentaon, prompt and competent technical support. The project team provides full support from the inial tesng phase.
 							</Text>
 						</Box>
 						{"    "}
@@ -2894,7 +2902,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.{"\n\n"}
+								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.
 							</Text>
 						</Box>
 						{"    "}
@@ -2927,7 +2935,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Possibility of customizaon to specific requirements, integraon with other systems and customer’s business processes.{"\n\n"}
+								Possibility of customizaon to specific requirements, integraon with other systems and customer’s business processes.
 							</Text>
 						</Box>
 						{"    "}
@@ -2966,7 +2974,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Unique monitoring funcons of workstaons and terminals of servers running MacOS, GNU/Linux systems – expands the control capabilies.{"\n\n"}
+								Unique monitoring funcons of workstaons and terminals of servers running MacOS, GNU/Linux systems – expands the control capabilies.
 							</Text>
 						</Box>
 						{"    "}
@@ -3005,7 +3013,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.{"\n\n\n\n"}
+								Work in any network infrastructure – suitable for monitoring a distributed branch network, remote offices and employees.
 							</Text>
 						</Box>
 						{"    "}
@@ -3044,7 +3052,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Minimal hardware requirements, reasonable cost, and perpetual licenses, resulng in low acquision, implementaon and operang costs.{"\n\n"}
+								Minimal hardware requirements, reasonable cost, and perpetual licenses, resulng in low acquision, implementaon and operang costs.
 							</Text>
 						</Box>
 						{"    "}
@@ -3064,7 +3072,7 @@ analysis{"\n\n"}
 					md-font="normal 700 30px/40px Inter, sans-serif"
 					sm-font="normal 700 24px/30px Inter, sans-serif"
 				>
-					Pilot project{"\n\n\n\n\n\n\n"}
+					Pilot project
 				</Text>
 				<Stack margin="0px 0px 0px 0px" justify-content="center">
 					{"    "}
@@ -3096,7 +3104,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Fast{"\n\n"}
+								Fast
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -3105,11 +3113,11 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Users are registered by the system each me they log in{"\n"}
+								Users are registered by the system each me they log in
 								<br />
-								and log out. The log includes users who log in locally and{"\n"}
+								and log out. The log includes users who log in locally and
 								<br />
-								remotely, including SSH connecons.{"\n\n\n"}
+								remotely, including SSH connecons.
 							</Text>
 						</Box>
 						{"    "}
@@ -3142,7 +3150,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Easy{"\n\n"}
+								Easy
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -3151,7 +3159,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.{"\n\n"}
+								Skype, ICQ, Jabber (XMPP), MSN and others.Using the keylogger – applicaon/site – screenshot link, you can track the correspondence of any instant messengers, chats and other communicaons over the Internet.
 							</Text>
 						</Box>
 						{"    "}
@@ -3184,7 +3192,7 @@ analysis{"\n\n"}
 								color="#ffffff"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Empowering{"\n\n\n"}
+								Empowering
 							</Text>
 							<Text
 								font="normal 400 18px/160% --fontFamily-googleInter"
@@ -3193,7 +3201,7 @@ analysis{"\n\n"}
 								color="rgba(255, 255, 255, 0.6)"
 								sm-font="normal 400 16px/140% Inter, sans-serif"
 							>
-								You will be able to immediately evaluate the whole range of tasks to be solved and make the right decision.{"\n\n"}
+								You will be able to immediately evaluate the whole range of tasks to be solved and make the right decision.
 							</Text>
 						</Box>
 						{"    "}
@@ -3242,7 +3250,7 @@ analysis{"\n\n"}
 							md-font="normal 700 30px/40px Inter, sans-serif"
 							sm-font="normal 700 20px/30px Inter, sans-serif"
 						>
-							Test for free for up to 3 months on any number of stations{"\n\n"}
+							Test for free for up to 3 months on any number of stations
 						</Text>
 						<Text
 							font="normal 400 18px/160% --fontFamily-googleInter"
@@ -3252,7 +3260,7 @@ analysis{"\n\n"}
 							md-width="80%"
 							sm-font="normal 300 16px/140% --fontFamily-googleInter"
 						>
-							Fully funconal version. Technical support throughout the full project duraon{"\n\n"}
+							Fully funconal version. Technical support throughout the full project duraon
 						</Text>
 						<Box
 							margin="0px 0px 0px 0px"
@@ -3579,6 +3587,7 @@ analysis{"\n\n"}
 				</StackItem>
 			</Stack>
 		</Section>
+		<Components.ShowBox />
 		<Components.GoogleAnalytics1 />
 		<Components.GoogleAnalytics2 />
 		<Link
@@ -3617,6 +3626,7 @@ analysis{"\n\n"}
 			<style place={"endOfHead"} rawKey={"606b01d8eaad287b684319f3"}>
 				{".arrow-menu {\ncolor: #fff !important;\n}\n.menu-trigger {\ncolor: #fff !important;\n}"}
 			</style>
+			<script place={"endOfBody"} rawKey={"608468b60e18e2b62399f34c"} />
 		</RawHtml>
 	</Theme>;
 });
