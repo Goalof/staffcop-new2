@@ -12,9 +12,12 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"test"} />
 		<Helmet>
 			<title>
-				Quarkly export
+				StaffCop Enterprise
 			</title>
-			<meta name={"description"} content={"Web site created using quarkly.io"} />
+			<meta name={"description"} content={"StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.\n\n"} />
+			<meta property={"og:title"} content={"StaffCop Enterprise"} />
+			<meta property={"og:description"} content={"StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.\n\n"} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/gfjkjkljkl.nbmbv.png?v=2020-11-04T15:35:13.162Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z"} />
@@ -50,12 +53,13 @@ export default (() => {
 			sm-height="600px"
 		/>
 		<Section
-			background="#020202 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-05T13:14:22.721Z) 0% 0% /cover no-repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0.98)"
 			padding="15px 0 10px 0"
 			sm-padding="12px 0 12px 0"
 			lg-padding="15px 0 15px 0"
 			position="fixed"
 			z-index="6"
+			opacity=".98"
 		>
 			<Override slot="SectionContent" max-width="1170px" position="relative" z-index="5" />
 			<Stack gap="0px" width="100%">
@@ -1295,7 +1299,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/cover no-repeat" border-color="#161616" padding="24px 0 90px 0">
+		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/80% no-repeat" border-color="#161616" padding="24px 0 90px 0">
 			<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 			<Text
 				font="normal 700 72px/72px --fontFamily-googleInter"
@@ -1778,7 +1782,7 @@ analysis
 				Investigation of incidents
 			</Text>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -1857,7 +1861,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
@@ -1941,7 +1945,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -2028,7 +2032,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
@@ -2168,7 +2172,7 @@ analysis
 				Monitoring processes and applicaons, system events and connecng to a remote desktop make StaffCopEnterprise an indispensable assistant for an IT specialist.
 			</Text>
 		</Section>
-		<Section padding="0px 0 0px 0" background="#020202">
+		<Section padding="0px 0 0px 0" background="#000000">
 			<Override slot="SectionContent" max-width="none" width="100%" />
 			<Section padding="30px 0 90px 0" lg-padding="70px 0 70px 0">
 				<Override slot="SectionContent" max-width="1200px" align-items="center" />
@@ -2788,7 +2792,7 @@ analysis
 					</StackItem>
 				</Stack>
 			</Section>
-			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/redbakcground.png?v=2021-04-08T00:06:55.367Z) center center/cover no-repeat" border-color="#161616" padding="70px 0 70px 0">
+			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/redbakcground.png?v=2021-04-08T00:06:55.367Z) center center/80% no-repeat" border-color="#161616" padding="70px 0 70px 0">
 				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 				<Text
 					font="normal 700 72px/73px --fontFamily-googleInter"

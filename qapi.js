@@ -585,7 +585,12 @@ export default {
 			"favicon_32px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fav.svg?v=2021-02-25T00:02:20.144Z",
-			"background_win10": "#1465FF"
+			"background_win10": "#1465FF",
+			"og:image": "https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/gfjkjkljkl.nbmbv.png?v=2020-11-04T15:35:13.162Z",
+			"title": "StaffCop Enterprise",
+			"description": "StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.\n\n",
+			"og:description": "StaffCop provides a unique, fully integrated solution that focuses on detection and response to insider threats through a combination of advanced behavioral analysis and context-rich logging of insider activity.\n\n",
+			"og:title": "StaffCop Enterprise"
 		}
 	}
 }
