@@ -1794,7 +1794,7 @@ analysis
 				Investigation of incidents
 			</Text>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -1873,7 +1873,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
@@ -1957,7 +1957,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -2044,7 +2044,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right top/40% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
