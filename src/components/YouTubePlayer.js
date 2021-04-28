@@ -5,7 +5,10 @@ import YouTube from 'react-youtube';
 import { FaPlay } from "react-icons/fa";
 const overrides = {
 	'Wrapper': {
-		kind: 'Box'
+		kind: 'Box',
+		"props": {
+			"border-radius": "12%"
+		}
 	},
 	'Button': {
 		kind: 'Box',
@@ -52,9 +55,10 @@ const YouTubePlayer = ({
 	};
 
 	return <Box
-		padding-top="56.25%"
+		padding-top="54.25%"
 		min-height="0"
 		height="0"
+		border-radius="100%"
 		position="relative"
 		transition="opacity 0s initial .5s"
 		opacity={isReady ? '1' : '0'}

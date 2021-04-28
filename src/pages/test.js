@@ -53,7 +53,7 @@ export default (() => {
 			sm-height="600px"
 		/>
 		<Section
-			background="rgba(0, 0, 0, 0.98)"
+			background="linear-gradient(180deg,rgba(0, 0, 0, 0.98) 60.5%,rgba(0, 0, 0, 0) 100%)"
 			padding="15px 0 10px 0"
 			sm-padding="12px 0 12px 0"
 			lg-padding="15px 0 15px 0"
@@ -413,8 +413,20 @@ monitoring informaon,
 user acons and system events on workcomputers
 and terminal servers
 			</Text>
-			<Components.YouTubePlayer width="100%" margin="0px 0px 141px 0px">
-				<Override slot="Button" sm-width="70px" sm-height="70px" />
+			<Components.YouTubePlayer width="100%" margin="0px 0px 140px 0px" videoId="nUZDwvQcPtk" border-radius="12px">
+				<Override
+					slot="Button"
+					sm-width="80px"
+					sm-height="80px"
+					background="linear-gradient(146.2deg,rgba(0, 79, 255, 1) 17.1%,rgba(191, 0, 255, 1) 97.71%)"
+					width="100px"
+					height="100px"
+					sm-left="39%"
+					sm-right="auto"
+					sm-top="30%"
+					sm-bottom="auto"
+					box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
+				/>
 				<Override slot="Button Icon" sm-height="20px" sm-width="20px" />
 			</Components.YouTubePlayer>
 			<Image
