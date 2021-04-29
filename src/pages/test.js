@@ -1000,7 +1000,7 @@ analysis
 				Compliance is an increasingly complex task, requiring organizaons to manage mulple riskfactors across an evolving technology landscape, while also ensuring appropriate user behavior to meet the stringent requirements of today’s widely-accepted regulatory standards, such as GDPR, HIPAA, PCI DSS, ISO 27001, NIST and others.
 			</Text>
 		</Section>
-		<Section padding="70px 0 20px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) no-repeat,#000000" md-padding="30px 0 30px 0" md-background="#000,url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) center center no-repeat">
+		<Section padding="70px 0 20px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue-min.png?v=2021-04-29T08:47:28.245Z) no-repeat,#000000" md-padding="30px 0 30px 0" md-background="#000,url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikblue.png?v=2021-04-06T00:09:01.506Z) center center no-repeat">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Text
 				font="normal 700 72px/72px --fontFamily-googleInter"
@@ -1796,7 +1796,7 @@ analysis
 				Investigation of incidents
 			</Text>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft-min.png?v=2021-04-29T08:46:33.454Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -1876,7 +1876,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright-min.png?v=2021-04-29T08:46:23.538Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
@@ -1961,7 +1961,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft.png?v=2021-04-07T21:17:48.333Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonleft-min.png?v=2021-04-29T08:46:33.454Z) left 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem width="45%" display="flex" lg-width="100%" md-width="100%">
@@ -2049,7 +2049,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright.png?v=2021-04-07T21:18:29.044Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
+		<Section padding="90px 0 90px 0" background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonright-min.png?v=2021-04-29T08:46:23.538Z) right 20%/35% no-repeat,#000000" md-padding="30px 0 30px 0">
 			<Override slot="SectionContent" max-width="1300px" align-items="center" width="90%" />
 			<Stack margin="0px 0px 0px 0px" width="100%">
 				<StackItem
@@ -2197,7 +2197,7 @@ analysis
 				<Stack
 					width="100%"
 					margin="0px 0px 0px 0px"
-					background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/greenfonm.png?v=2021-04-07T22:04:23.134Z) center/cover no-repeat,#030303"
+					background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/greenfonm-min.png?v=2021-04-29T08:46:12.583Z) center/cover no-repeat,#030303"
 					position="relative"
 					align-items="center"
 					justify-content="center"
@@ -3323,7 +3323,7 @@ analysis
 					border-color="rgba(255, 255, 255, 0.05"
 					border-width="1px"
 					border-style="solid"
-					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow.png?v=2021-04-08T00:47:41.208Z) 0% 0% /auto repeat scroll padding-box"
+					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow-min.png?v=2021-04-29T08:45:42.526Z) 0% 0% /auto repeat scroll padding-box"
 					lg-overflow-x="hidden"
 				>
 					{"    "}
