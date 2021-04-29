@@ -3310,7 +3310,7 @@ analysis
 					border-color="rgba(255, 255, 255, 0.05"
 					border-width="1px"
 					border-style="solid"
-					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow-min.png?v=2021-04-29T08:45:42.526Z) 0% 0% /auto repeat scroll padding-box"
+					background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonrainbow-min.webp?v=2021-04-29T08:55:34.005Z) 0% 0% /auto repeat scroll padding-box"
 					lg-overflow-x="hidden"
 				>
 					{"    "}
