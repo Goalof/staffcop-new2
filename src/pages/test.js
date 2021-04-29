@@ -413,22 +413,9 @@ monitoring informaon,
 user acons and system events on workcomputers
 and terminal servers
 			</Text>
-			<Components.YouTubePlayer width="100%" margin="0px 0px 140px 0px" videoId="nUZDwvQcPtk" border-radius="12px">
-				<Override
-					slot="Button"
-					sm-width="80px"
-					sm-height="80px"
-					background="linear-gradient(146.2deg,rgba(0, 79, 255, 1) 17.1%,rgba(191, 0, 255, 1) 97.71%)"
-					width="100px"
-					height="100px"
-					sm-left="39%"
-					sm-right="auto"
-					sm-top="30%"
-					sm-bottom="auto"
-					box-shadow="inset 0px 5px 17px rgba(255, 255, 255, 0.23)"
-				/>
-				<Override slot="Button Icon" sm-height="20px" sm-width="20px" />
-			</Components.YouTubePlayer>
+			<Components.Video width="100%" videoId="nUZDwvQcPtk">
+				<Override slot="YouTubePlayer" width="100%" margin="0px 0px 140px 0px" />
+			</Components.Video>
 			<Image
 				loading="lazy"
 				src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/videoimg.png?v=2021-04-05T12:06:12.324Z"
@@ -2777,7 +2764,7 @@ analysis
 			</Section>
 			<Section padding="70px 0 70px 0">
 				<Override slot="SectionContent" max-width="1200px" background="#FAFCFF" border-radius="30px" />
-				<Stack margin="0px 0px 0px 0px" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/backborder.png?v=2021-04-07T23:35:33.024Z) right/auto no-repeat scroll padding-box">
+				<Stack margin="0px 0px 0px 0px" background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/backborder-min.png?v=2021-04-29T08:55:12.041Z) right/auto no-repeat scroll padding-box">
 					{"    "}
 					<StackItem width="56%" display="flex" md-width="80%" sm-width="100%">
 						<Override
