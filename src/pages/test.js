@@ -1209,6 +1209,7 @@ analysis
 						right="auto"
 					/>
 					<Image
+						loading="lazy"
 						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/monitor.svg?v=2021-04-24T17:21:20.895Z"
 						width="100%"
 						height="auto"
@@ -1266,6 +1267,7 @@ analysis
 						>
 							<Box background="#1C63F8" border-radius="50%">
 								<Image
+									loading="lazy"
 									width="64px"
 									height="64px"
 									src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/Bell.svg?v=2021-04-07T01:09:17.281Z"
@@ -1861,6 +1863,7 @@ analysis
 						height="100%"
 					/>
 					<Image
+						loading="lazy"
 						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staticphoto.png?v=2021-04-07T21:21:27.554Z"
 						width="100%"
 						height="auto"
@@ -1904,6 +1907,7 @@ analysis
 						height="100%"
 					/>
 					<Image
+						loading="lazy"
 						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/quisc.png?v=2021-04-07T15:50:33.599Z"
 						width="100%"
 						height="auto"
@@ -2032,6 +2036,7 @@ analysis
 						height="100%"
 					/>
 					<Image
+						loading="lazy"
 						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z"
 						width="100%"
 						height="auto"
@@ -2075,6 +2080,7 @@ analysis
 						height="100%"
 					/>
 					<Image
+						loading="lazy"
 						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/diagrama.png?v=2021-04-07T21:29:57.645Z"
 						width="100%"
 						height="auto"
