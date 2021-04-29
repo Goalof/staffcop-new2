@@ -61,7 +61,9 @@ const pageStyles = {
     "leadership": {},
     "pur2": {},
     "demo-request": {},
-    "test": {}
+    "test": {
+        "background": "#000000"
+    }
 };
 
 const PageStyles = createGlobalStyle`

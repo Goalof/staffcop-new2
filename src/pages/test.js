@@ -30,7 +30,7 @@ export default (() => {
 			position="absolute"
 			width="100%"
 			height="1800px"
-			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-05T13:14:22.721Z) 0% 0% /cover no-repeat scroll padding-box"
+			background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonstar.png?v=2021-04-29T08:32:07.628Z) 0% 0% /cover no-repeat scroll padding-box"
 			z-index="3"
 			bottom="auto"
 			left="auto"
@@ -43,7 +43,7 @@ export default (() => {
 			position="absolute"
 			width="100%"
 			height="1300px"
-			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonbuble.png?v=2021-04-05T13:38:55.532Z) center center/90% no-repeat"
+			background="url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonbuble.png?v=2021-04-29T08:29:19.945Z) center center/90% no-repeat"
 			z-index="3"
 			right="0px"
 			bottom="auto"
@@ -486,7 +486,7 @@ and terminal servers
 				computers and terminal servers
 			</Text>
 		</Section>
-		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/80% no-repeat" border-color="#161616" padding="48px 0 110px 0">
+		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-29T08:30:36.568Z) center center/80% no-repeat" border-color="#161616" padding="48px 0 110px 0">
 			<Override slot="SectionContent" max-width="1200px" position="relative" />
 			<Stack margin="0px 0px 0px 0px" justify-content="center">
 				{"    "}
@@ -1210,7 +1210,7 @@ analysis
 					/>
 					<Image
 						loading="lazy"
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/monitor.svg?v=2021-04-24T17:21:20.895Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-29T08:35:58.235Z"
 						width="100%"
 						height="auto"
 						margin="0px 0px 0px -2px"
@@ -1313,7 +1313,7 @@ analysis
 				{"        "}
 			</Stack>
 		</Section>
-		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-06T20:27:06.978Z) center center/80% no-repeat" border-color="#161616" padding="24px 0 90px 0">
+		<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchik2.png?v=2021-04-29T08:30:36.568Z) center center/80% no-repeat" border-color="#161616" padding="24px 0 90px 0">
 			<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 			<Text
 				font="normal 700 72px/72px --fontFamily-googleInter"
@@ -1864,7 +1864,7 @@ analysis
 					/>
 					<Image
 						loading="lazy"
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staticphoto.png?v=2021-04-07T21:21:27.554Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/staticphoto.png?v=2021-04-29T08:36:55.625Z"
 						width="100%"
 						height="auto"
 						margin="0px 0px 0px -2px"
@@ -1908,7 +1908,7 @@ analysis
 					/>
 					<Image
 						loading="lazy"
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/quisc.png?v=2021-04-07T15:50:33.599Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/quisc.png?v=2021-04-29T08:36:44.700Z"
 						width="100%"
 						height="auto"
 						margin="0px -2px 0px 0px"
@@ -2037,7 +2037,7 @@ analysis
 					/>
 					<Image
 						loading="lazy"
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-06T00:11:43.992Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/mokap1.png?v=2021-04-29T08:35:58.235Z"
 						width="100%"
 						height="auto"
 						margin="0px 0px 0px -2px"
@@ -2081,7 +2081,7 @@ analysis
 					/>
 					<Image
 						loading="lazy"
-						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/diagrama.png?v=2021-04-07T21:29:57.645Z"
+						src="https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/diagrama.png?v=2021-04-29T08:35:43.745Z"
 						width="100%"
 						height="auto"
 						margin="0px -2px 0px 0px"
@@ -2329,7 +2329,7 @@ analysis
 					{"    "}
 				</Stack>
 			</Section>
-			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikgren.png?v=2021-04-07T23:17:18.914Z) center center/cover no-repeat" border-color="#161616" padding="48px 0 90px 0">
+			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/fonchikgren.png?v=2021-04-29T08:29:09.007Z) center center/cover no-repeat" border-color="#161616" padding="48px 0 90px 0">
 				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 				<Text
 					font="normal 700 72px/73px --fontFamily-googleInter"
@@ -2810,7 +2810,7 @@ analysis
 					</StackItem>
 				</Stack>
 			</Section>
-			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/redbakcground.png?v=2021-04-08T00:06:55.367Z) center center/80% no-repeat" border-color="#161616" padding="70px 0 70px 0">
+			<Section background="#000000 url(https://uploads.quarkly.io/5f844e532e3a2a001faf55b8/images/redbakcground.png?v=2021-04-29T08:31:38.223Z) center center/80% no-repeat" border-color="#161616" padding="70px 0 70px 0">
 				<Override slot="SectionContent" max-width="1200px" position="relative" align-items="center" />
 				<Text
 					font="normal 700 72px/73px --fontFamily-googleInter"

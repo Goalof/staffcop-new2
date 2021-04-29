@@ -574,6 +574,9 @@ export default {
 						"content": ""
 					}
 				}
+			},
+			"styles": {
+				"background": "#000000"
 			}
 		}
 	},
