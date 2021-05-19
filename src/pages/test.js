@@ -372,9 +372,8 @@ export default (() => {
 			padding="170px 0 0px 0"
 			hd-background="#020202 url() center -693px/2060px repeat"
 			width="100%"
-			lg-padding="140px 0 70px 0"
-			md-padding="120px 0 40px 0"
 			background="#000"
+			sm-padding="140px 0 0px 0"
 		>
 			<Override
 				slot="SectionContent"
@@ -426,14 +425,7 @@ and terminal servers
 				display="none"
 			/>
 		</Section>
-		<Section
-			padding="0px 0 30px 0"
-			hd-background="#020202 url() center -693px/2060px repeat"
-			width="100%"
-			lg-padding="140px 0 70px 0"
-			md-padding="120px 0 40px 0"
-			background="#000"
-		>
+		<Section padding="0px 0 30px 0" hd-background="#020202 url() center -693px/2060px repeat" width="100%" background="#000">
 			<Override
 				slot="SectionContent"
 				max-width="1200px"
@@ -442,7 +434,7 @@ and terminal servers
 				z-index="5"
 			/>
 			<Components.Video width="100%" videoId="nUZDwvQcPtk">
-				<Override slot="YouTubePlayer" width="100%" margin="0px 0px 140px 0px" />
+				<Override slot="YouTubePlayer" width="100%" margin="0px 0px 140px 0px" md-margin="0px 0px 60px 0px" />
 			</Components.Video>
 			<Image
 				loading="lazy"
