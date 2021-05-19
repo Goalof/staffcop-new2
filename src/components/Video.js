@@ -34,7 +34,7 @@ export default Object.assign(Video, {
 		}
 	},
 	defaultProps: {
-		videoId: 'Rzgdz1mbLbE'
+		videoId: 'ClICMvGh5bI'
 	},
 	overrides
 });

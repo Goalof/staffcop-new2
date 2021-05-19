@@ -109,7 +109,7 @@ export default Object.assign(YouTubePlayer, {
 		}
 	},
 	defaultProps: {
-		videoId: 'Rzgdz1mbLbE'
+		videoId: 'ClICMvGh5bI'
 	},
 	overrides
 });
