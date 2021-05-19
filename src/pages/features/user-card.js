@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Text, Icon, Box, Image, Strong } from "@quarkly/widgets";
+import { Theme, Link, Text, Icon, Box, Image, Section, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { RawHtml, Override, StackItem, Stack, Section } from "@quarkly/components";
+import { RawHtml, Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 import { BsFillCircleFill } from "react-icons/bs";
 export default (() => {
