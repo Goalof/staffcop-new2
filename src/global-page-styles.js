@@ -61,7 +61,7 @@ const pageStyles = {
     "leadership": {},
     "pur2": {},
     "demo-request": {},
-    "test": {
+    "for-banks": {
         "background": "#000000"
     }
 };

@@ -555,8 +555,8 @@ export default {
 		},
 		"60642dce36274f001fc8fea3": {
 			"id": "60642dce36274f001fc8fea3",
-			"pageUrl": "test",
-			"name": "Test",
+			"pageUrl": "for-banks",
+			"name": "For Banks",
 			"customCode": {
 				"606b01d8eaad287b684319f3": {
 					"name": "style",
