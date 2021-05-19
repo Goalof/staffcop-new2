@@ -3719,7 +3719,6 @@ analysis
 		<Components.ShowBox />
 		<Components.GoogleAnalytics1 />
 		<Components.GoogleAnalytics2 />
-		<Components.Video />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}

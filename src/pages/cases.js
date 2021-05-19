@@ -91,7 +91,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Remote employee monitoring{"\n\n"}
+								Remote employee monitoring
 							</Text>
 						</Box>
 						{"    "}
@@ -146,7 +146,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Insider threat detection{"\n\n"}
+								Insider threat detection
 							</Text>
 						</Box>
 						{"    "}
@@ -201,7 +201,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Privileged user monitoring{"\n\n"}
+								Privileged user monitoring
 							</Text>
 						</Box>
 						{"    "}
@@ -256,7 +256,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Productivity optimization{"\n\n"}
+								Productivity optimization
 							</Text>
 						</Box>
 						{"    "}
@@ -311,7 +311,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Vendor management{"\n\n"}
+								Vendor management
 							</Text>
 						</Box>
 						{"    "}
@@ -366,7 +366,7 @@ export default (() => {
 								color="--primary"
 								sm-font="normal 600 20px/140% Inter, sans-serif"
 							>
-								Compliance{"\n\n"}
+								Compliance
 							</Text>
 						</Box>
 						{"    "}
@@ -586,7 +586,7 @@ export default (() => {
 									font="600 18px --fontFamily-googleInter"
 									color="#ffffff"
 									text-decoration-line="initial"
-									href="/for-financial-sector/"
+									href="/for-banks/"
 								/>
 								<Override slot="Before Text2" font="normal 500 24px/29px --fontFamily-googleInter" margin="0px 0px 0px 0px" transition="-webkit-transition: all .5s;  transition: all .5s">
 									For financial services
