@@ -1621,7 +1621,7 @@ and remote desktop connection makes StaffCop a must-have tool for an IT speciali
 									font="600 18px --fontFamily-googleInter"
 									color="#ffffff"
 									text-decoration-line="initial"
-									href="/for-financial-sector/"
+									href="/for-banks/"
 								/>
 								<Override slot="Before Text2" font="normal 500 24px/29px --fontFamily-googleInter" margin="0px 0px 0px 0px" transition="-webkit-transition: all .5s;  transition: all .5s">
 									For financial services
